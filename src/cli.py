@@ -35,6 +35,8 @@ def cmd_scan(args):
     print(f"\n🚀 Scanning Market using Strategy: [{strategy.name}] (Timeframe: {interval})")
 
     symbols_to_scan = []
+    ticker_meta = {t["symbol"]: t for t in get_available_tickers()}
+
     if args.symbol.upper() == "ALL":
         symbols_to_scan = [t["symbol"] for t in get_available_tickers()]
     else:
@@ -48,13 +50,27 @@ def cmd_scan(args):
                 print(f"⚠️  No candle data available for {sym}")
                 continue
 
+            last_c = candles[-1]
+            prev_c = candles[-2] if len(candles) >= 2 else last_c
+            change_pct = ((last_c.close - prev_c.close) / prev_c.close * 100.0) if prev_c.close > 0 else 0.0
+            meta = ticker_meta.get(sym, {})
+            name = meta.get("name", sym)
+            sector = meta.get("sector", "Index" if "^" in sym else "Equity")
+
             sig = strategy.get_latest_signal(candles, sym)
             if sig:
+                sig.name = name
+                sig.sector = sector
+                sig.change_pct = change_pct
+                sig.high = last_c.high
+                sig.low = last_c.low
+                sig.is_index = ("^" in sym)
                 latest_signals.append(sig)
             else:
-                last_c = candles[-1]
                 latest_signals.append(Signal(
                     symbol=sym,
+                    name=name,
+                    sector=sector,
                     timestamp=last_c.timestamp,
                     signal_type=SignalType.HOLD,
                     price=last_c.close,
@@ -62,10 +78,17 @@ def cmd_scan(args):
                     target=last_c.close,
                     strategy_name=strategy.name,
                     confidence=0.5,
-                    rationale="No high-probability breakout or crossover setup on latest candle."
+                    rationale="Consolidating. No breakout or crossover setup on latest candle.",
+                    change_pct=change_pct,
+                    high=last_c.high,
+                    low=last_c.low,
+                    is_index=("^" in sym)
                 ))
         except Exception as e:
             print(f"Error scanning {sym}: {e}")
+
+    # Ensure indices (NIFTY 50, BANK NIFTY) are always at the top
+    latest_signals.sort(key=lambda s: (0 if s.is_index else 1, s.symbol))
 
     print("\n" + SignalNotifier.format_terminal_table(latest_signals) + "\n")
 

@@ -44,6 +44,12 @@ class Signal:
     confidence: float = 0.0  # 0.0 to 1.0 (or 0% to 100%)
     indicators: Dict[str, float] = field(default_factory=dict)
     rationale: str = ""
+    name: str = ""
+    sector: str = ""
+    change_pct: float = 0.0
+    high: float = 0.0
+    low: float = 0.0
+    is_index: bool = False
 
     @property
     def risk_reward_ratio(self) -> float:
@@ -54,9 +60,15 @@ class Signal:
     def to_dict(self) -> Dict[str, Any]:
         return {
             "symbol": self.symbol,
+            "name": self.name or self.symbol,
+            "sector": self.sector or ("Index" if "^" in self.symbol else "Equity"),
             "timestamp": self.timestamp,
             "signal": self.signal_type.value,
             "price": self.price,
+            "change_pct": round(self.change_pct, 2),
+            "high": round(self.high, 2) if self.high else self.price,
+            "low": round(self.low, 2) if self.low else self.price,
+            "is_index": self.is_index or ("^" in self.symbol),
             "stop_loss": self.stop_loss,
             "target": self.target,
             "risk_reward": self.risk_reward_ratio,
