@@ -1,0 +1,46 @@
+name: Daily Nifty Technical Signal Generator
+
+on:
+  schedule:
+    # Runs Monday to Friday at 10:15 UTC (15:45 IST, right after Indian market close)
+    - cron: '15 10 * * 1-5'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  generate-signals:
+    name: Scan Indian Markets & Generate Signals
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create Reports Directory
+        run: mkdir -p reports
+
+      - name: Run Multi-Factor Market Scanner
+        run: |
+          python src/cli.py scan --symbol ALL --strategy confluence --export-md reports/DAILY_SIGNALS.md --export-json reports/signals.json
+
+      - name: Run Backtest Benchmark on NIFTY 50
+        run: |
+          python src/cli.py backtest --symbol ^NSEI --strategy confluence --export-md reports/NIFTY_BACKTEST.md
+
+      - name: Upload Daily Signals Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-nifty-signals
+          path: reports/
