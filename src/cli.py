@@ -31,7 +31,8 @@ STRATEGIES = {
 def cmd_scan(args):
     """Scans symbols and generates latest buy/sell signals."""
     strategy = STRATEGIES.get(args.strategy, STRATEGIES["confluence"])
-    print(f"\n🚀 Scanning Market using Strategy: [{strategy.name}]")
+    interval = getattr(args, "interval", "1d")
+    print(f"\n🚀 Scanning Market using Strategy: [{strategy.name}] (Timeframe: {interval})")
 
     symbols_to_scan = []
     if args.symbol.upper() == "ALL":
@@ -42,7 +43,7 @@ def cmd_scan(args):
     latest_signals = []
     for sym in symbols_to_scan:
         try:
-            candles = fetch_market_data(sym)
+            candles = fetch_market_data(sym, interval=interval)
             if not candles:
                 print(f"⚠️  No candle data available for {sym}")
                 continue
@@ -155,6 +156,7 @@ def main():
     p_scan = subparsers.add_parser("scan", help="Scan symbols and generate buy/sell signals")
     p_scan.add_argument("--symbol", default="^NSEI", help="Ticker symbol (e.g. ^NSEI, ^NSEBANK, RELIANCE.NS, or ALL)")
     p_scan.add_argument("--strategy", choices=list(STRATEGIES.keys()), default="confluence", help="Strategy to use")
+    p_scan.add_argument("--interval", default="1d", choices=["1m", "5m", "15m", "30m", "1h", "1d"], help="Timeframe (e.g. 5m, 15m for intraday, 1d for daily swing)")
     p_scan.add_argument("--export-json", help="Path to export signals as JSON")
     p_scan.add_argument("--export-js", help="Path to export signals as JavaScript file for browser dashboard")
     p_scan.add_argument("--export-md", help="Path to export report as Markdown")

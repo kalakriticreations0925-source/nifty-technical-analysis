@@ -77,11 +77,20 @@ def fetch_market_data(
     # 1. Attempt yfinance if available
     try:
         import yfinance as yf
+        # Yahoo Finance requires short period for intraday intervals
+        if interval in ("1m", "2m", "5m", "15m", "30m", "60m", "90m", "1h") and period in ("1y", "2y", "max"):
+            period = "5d"
+
         ticker = yf.Ticker(symbol)
         df = ticker.history(period=period, interval=interval)
         if not df.empty:
+            is_intraday = ("m" in interval) or ("h" in interval)
             for index, row in df.iterrows():
-                ts = index.strftime("%Y-%m-%d") if hasattr(index, "strftime") else str(index)
+                if hasattr(index, "strftime"):
+                    ts = index.strftime("%Y-%m-%d %H:%M") if is_intraday else index.strftime("%Y-%m-%d")
+                else:
+                    ts = str(index)
+
                 candles.append(Candle(
                     timestamp=ts,
                     open=float(row["Open"]),
