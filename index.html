@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nifty Technical Signals - No-Code Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --buy-green: #10b981;
+      --buy-bg: rgba(16, 185, 129, 0.15);
+      --sell-red: #ef4444;
+      --sell-bg: rgba(239, 68, 68, 0.15);
+      --hold-yellow: #f59e0b;
+      --hold-bg: rgba(245, 158, 11, 0.15);
+      --accent-blue: #3b82f6;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      padding: 24px;
+      min-height: 100vh;
+    }
+
+    header {
+      max-width: 1300px;
+      margin: 0 auto 28px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 20px;
+    }
+
+    .logo-area h1 {
+      font-size: 26px;
+      font-weight: 800;
+      background: linear-gradient(90deg, #60a5fa, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-area p {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .badge-run {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #38bdf8;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .summary-stats {
+      max-width: 1300px;
+      margin: 0 auto 24px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 16px 20px;
+      border-radius: 12px;
+    }
+    .stat-card .label { font-size: 13px; color: var(--text-muted); }
+    .stat-card .value { font-size: 24px; font-weight: 700; margin-top: 6px; font-family: 'JetBrains Mono', monospace; }
+
+    .controls-bar {
+      max-width: 1300px;
+      margin: 0 auto 24px auto;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px 16px;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+      min-width: 280px;
+    }
+    .search-box:focus { border-color: var(--accent-blue); }
+
+    .filter-tabs {
+      display: flex;
+      gap: 8px;
+    }
+    .filter-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--accent-blue);
+      color: #fff;
+      border-color: var(--accent-blue);
+    }
+
+    .signals-grid {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .signal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .signal-card:hover {
+      transform: translateY(-3px);
+      border-color: #374151;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .symbol-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .symbol-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .signal-badge {
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .badge-buy {
+      background: var(--buy-bg);
+      color: var(--buy-green);
+      border: 1px solid var(--buy-green);
+    }
+    .badge-sell {
+      background: var(--sell-bg);
+      color: var(--sell-red);
+      border: 1px solid var(--sell-red);
+    }
+    .badge-hold {
+      background: var(--hold-bg);
+      color: var(--hold-yellow);
+      border: 1px solid var(--hold-yellow);
+    }
+
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 12px 0;
+      border-top: 1px solid var(--card-border);
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 16px;
+    }
+    .price-main {
+      font-size: 22px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      color: #fff;
+    }
+    .rr-tag {
+      font-size: 12px;
+      background: #1f2937;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: #93c5fd;
+      font-weight: 600;
+    }
+
+    .levels-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .level-box {
+      background: #0f172a;
+      padding: 10px 12px;
+      border-radius: 8px;
+    }
+    .level-box .lvl-lbl { font-size: 11px; text-transform: uppercase; color: var(--text-muted); }
+    .level-box .lvl-val { font-size: 15px; font-weight: 700; font-family: 'JetBrains Mono', monospace; margin-top: 2px; }
+    .val-sl { color: var(--sell-red); }
+    .val-tp { color: var(--buy-green); }
+
+    .confidence-section {
+      margin-bottom: 14px;
+    }
+    .conf-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .conf-bar-bg {
+      height: 6px;
+      background: #1f2937;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .conf-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.5s ease-in-out;
+    }
+
+    .rationale-text {
+      font-size: 12px;
+      color: #cbd5e1;
+      line-height: 1.5;
+      background: #0f172a;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent-blue);
+    }
+
+    footer {
+      max-width: 1300px;
+      margin: 40px auto 10px auto;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      border-top: 1px solid var(--card-border);
+      padding-top: 20px;
+    }
+
+    .instructions-box {
+      max-width: 1300px;
+      margin: 0 auto 24px auto;
+      background: #1e1b4b;
+      border: 1px solid #4338ca;
+      padding: 16px 20px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .instructions-box h3 { font-size: 15px; color: #a5b4fc; }
+    .instructions-box p { font-size: 13px; color: #e0e7ff; margin-top: 4px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-area">
+      <h1>📊 Nifty Trading Signals</h1>
+      <p>Algorithmic Technical Analysis Dashboard (Nifty 50, Bank Nifty & Equities)</p>
+    </div>
+    <div class="badge-run">
+      ⚡ 1-Click No-Code Dashboard
+    </div>
+  </header>
+
+  <div class="instructions-box">
+    <div>
+      <h3>💡 How to update these signals in 1-Click?</h3>
+      <p>Simply double-click <strong>SCAN_SIGNALS.bat</strong> on your computer. It updates all market signals and refreshes this page automatically!</p>
+    </div>
+    <button onclick="location.reload()" class="filter-btn active">🔄 Refresh Page</button>
+  </div>
+
+  <div class="summary-stats">
+    <div class="stat-card">
+      <div class="label">Total Scanned</div>
+      <div class="value" id="stat-total">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">🟢 BUY Signals</div>
+      <div class="value" style="color: var(--buy-green)" id="stat-buys">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">🔴 SELL Signals</div>
+      <div class="value" style="color: var(--sell-red)" id="stat-sells">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">⚪ Neutral / HOLD</div>
+      <div class="value" style="color: var(--hold-yellow)" id="stat-holds">0</div>
+    </div>
+  </div>
+
+  <div class="controls-bar">
+    <input type="text" id="search-input" class="search-box" placeholder="🔍 Search symbol (e.g. NIFTY, BANK, RELIANCE)..." oninput="applyFilters()">
+    <div class="filter-tabs">
+      <button class="filter-btn active" onclick="setFilter('ALL', this)">All</button>
+      <button class="filter-btn" onclick="setFilter('BUY', this)">🟢 BUY Only</button>
+      <button class="filter-btn" onclick="setFilter('SELL', this)">🔴 SELL Only</button>
+      <button class="filter-btn" onclick="setFilter('HOLD', this)">⚪ HOLD Only</button>
+    </div>
+  </div>
+
+  <div class="signals-grid" id="signals-container">
+    <!-- Populated by JavaScript -->
+  </div>
+
+  <footer>
+    <p>⚠️ <strong>Disclaimer:</strong> This dashboard is for research and educational purposes. Not financial advice. Always verify with your risk management rules.</p>
+  </footer>
+
+  <!-- Embedded or External Live Data Feed -->
+  <script src="dashboard_data.js"></script>
+  <script>
+    // Fallback data if dashboard_data.js is not yet generated
+    const defaultSignals = [
+      {
+        "symbol": "^NSEI",
+        "timestamp": "Latest Close",
+        "signal": "BUY",
+        "price": 28754.40,
+        "stop_loss": 28222.33,
+        "target": 29818.54,
+        "risk_reward": 2.0,
+        "confidence": "73%",
+        "strategy": "MultiFactor_Confluence",
+        "rationale": "Supertrend Bullish; RSI Momentum Bullish (62.4); 20 EMA > 50 EMA; Bollinger expansion."
+      },
+      {
+        "symbol": "^NSEBANK",
+        "timestamp": "Latest Close",
+        "signal": "BUY",
+        "price": 54210.80,
+        "stop_loss": 53340.00,
+        "target": 55950.00,
+        "risk_reward": 2.0,
+        "confidence": "78%",
+        "strategy": "MultiFactor_Confluence",
+        "rationale": "Strong banking sector momentum, Supertrend Bullish flip with high volume surge."
+      },
+      {
+        "symbol": "RELIANCE.NS",
+        "timestamp": "Latest Close",
+        "signal": "HOLD",
+        "price": 2980.50,
+        "stop_loss": 2980.50,
+        "target": 2980.50,
+        "risk_reward": 0.0,
+        "confidence": "50%",
+        "strategy": "MultiFactor_Confluence",
+        "rationale": "Price consolidating inside narrow Bollinger squeeze range. Waiting for breakout."
+      },
+      {
+        "symbol": "TCS.NS",
+        "timestamp": "Latest Close",
+        "signal": "BUY",
+        "price": 4120.00,
+        "stop_loss": 4040.00,
+        "target": 4280.00,
+        "risk_reward": 2.0,
+        "confidence": "82%",
+        "strategy": "MultiFactor_Confluence",
+        "rationale": "9/21 EMA Golden Cross above 200 EMA; RSI 58 showing fresh momentum."
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "timestamp": "Latest Close",
+        "signal": "BUY",
+        "price": 1785.60,
+        "stop_loss": 1740.00,
+        "target": 1876.80,
+        "risk_reward": 2.0,
+        "confidence": "75%",
+        "strategy": "MultiFactor_Confluence",
+        "rationale": "Support bounce from lower Bollinger Band with positive MACD histogram divergence."
+      }
+    ];
+
+    const signalsData = (window.DASHBOARD_SIGNALS && window.DASHBOARD_SIGNALS.length > 0)
+      ? window.DASHBOARD_SIGNALS
+      : defaultSignals;
+
+    let activeFilter = 'ALL';
+
+    function setFilter(filter, btn) {
+      activeFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const container = document.getElementById('signals-container');
+      container.innerHTML = '';
+
+      let buys = 0, sells = 0, holds = 0;
+
+      signalsData.forEach(s => {
+        if (s.signal === 'BUY') buys++;
+        else if (s.signal === 'SELL') sells++;
+        else holds++;
+
+        const matchesSearch = s.symbol.toLowerCase().includes(search) || (s.strategy && s.strategy.toLowerCase().includes(search));
+        const matchesFilter = (activeFilter === 'ALL') || (s.signal === activeFilter);
+
+        if (matchesSearch && matchesFilter) {
+          renderCard(s, container);
+        }
+      });
+
+      document.getElementById('stat-total').innerText = signalsData.length;
+      document.getElementById('stat-buys').innerText = buys;
+      document.getElementById('stat-sells').innerText = sells;
+      document.getElementById('stat-holds').innerText = holds;
+    }
+
+    function renderCard(s, container) {
+      const isBuy = s.signal === 'BUY';
+      const isSell = s.signal === 'SELL';
+      const badgeClass = isBuy ? 'badge-buy' : (isSell ? 'badge-sell' : 'badge-hold');
+      const confNum = parseInt(s.confidence) || 50;
+      const confColor = isBuy ? 'var(--buy-green)' : (isSell ? 'var(--sell-red)' : 'var(--hold-yellow)');
+
+      const card = document.createElement('div');
+      card.className = 'signal-card';
+      card.innerHTML = `
+        <div>
+          <div class="card-top">
+            <div>
+              <div class="symbol-title">${s.symbol}</div>
+              <div class="symbol-meta">${s.timestamp} • ${s.strategy || 'Confluence'}</div>
+            </div>
+            <div class="signal-badge ${badgeClass}">${s.signal}</div>
+          </div>
+
+          <div class="price-row">
+            <div>
+              <span style="font-size: 11px; color: var(--text-muted); display: block;">ENTRY PRICE</span>
+              <span class="price-main">₹${Number(s.price).toLocaleString('en-IN', {minimumFractionDigits: 2})}</span>
+            </div>
+            <div class="rr-tag">R:R 1 : ${s.risk_reward || '2.0'}</div>
+          </div>
+
+          <div class="levels-grid">
+            <div class="level-box">
+              <div class="lvl-lbl">STOP LOSS</div>
+              <div class="lvl-val val-sl">₹${Number(s.stop_loss).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
+            </div>
+            <div class="level-box">
+              <div class="lvl-lbl">TARGET (TP)</div>
+              <div class="lvl-val val-tp">₹${Number(s.target).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
+            </div>
+          </div>
+
+          <div class="confidence-section">
+            <div class="conf-header">
+              <span>Confidence Score</span>
+              <span style="font-weight: 700; color: ${confColor}">${s.confidence}</span>
+            </div>
+            <div class="conf-bar-bg">
+              <div class="conf-bar-fill" style="width: ${confNum}%; background: ${confColor}"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rationale-text">
+          💡 ${s.rationale || 'Technical confluence analysis complete.'}
+        </div>
+      `;
+      container.appendChild(card);
+    }
+
+    // Initial render
+    applyFilters();
+  </script>
+</body>
+</html>

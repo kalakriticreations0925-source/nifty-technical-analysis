@@ -109,6 +109,13 @@ class SignalNotifier:
             json.dump(data, f, indent=2)
 
     @staticmethod
+    def save_js(signals: List[Signal], output_path: str):
+        """Saves signals list to a JS file for direct local browser dashboard without CORS."""
+        data = [s.to_dict() for s in signals]
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write("window.DASHBOARD_SIGNALS = " + json.dumps(data, indent=2) + ";\n")
+
+    @staticmethod
     def send_webhook(webhook_url: str, content: str) -> bool:
         """Sends payload to Discord/Telegram/Slack webhook URL."""
         if not webhook_url:

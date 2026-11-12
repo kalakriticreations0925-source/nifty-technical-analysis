@@ -33,11 +33,19 @@ jobs:
 
       - name: Run Multi-Factor Market Scanner
         run: |
-          python src/cli.py scan --symbol ALL --strategy confluence --export-md reports/DAILY_SIGNALS.md --export-json reports/signals.json
+          python src/cli.py scan --symbol ALL --strategy confluence --export-md reports/DAILY_SIGNALS.md --export-json reports/signals.json --export-js dashboard_data.js
 
       - name: Run Backtest Benchmark on NIFTY 50
         run: |
           python src/cli.py backtest --symbol ^NSEI --strategy confluence --export-md reports/NIFTY_BACKTEST.md
+
+      - name: Commit Updated Signals to Dashboard
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard_data.js reports/
+          git commit -m "Auto-update daily technical signals [skip ci]" || echo "No changes to commit"
+          git push || echo "Push skipped"
 
       - name: Upload Daily Signals Artifact
         uses: actions/upload-artifact@v4

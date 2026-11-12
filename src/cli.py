@@ -72,6 +72,10 @@ def cmd_scan(args):
         SignalNotifier.save_json(latest_signals, args.export_json)
         print(f"💾 Exported signals to JSON: {args.export_json}")
 
+    if getattr(args, "export_js", None):
+        SignalNotifier.save_js(latest_signals, args.export_js)
+        print(f"🌐 Exported signals for Dashboard: {args.export_js}")
+
     if args.export_md:
         md_report = SignalNotifier.generate_markdown_report(latest_signals)
         with open(args.export_md, "w", encoding="utf-8") as f:
@@ -152,6 +156,7 @@ def main():
     p_scan.add_argument("--symbol", default="^NSEI", help="Ticker symbol (e.g. ^NSEI, ^NSEBANK, RELIANCE.NS, or ALL)")
     p_scan.add_argument("--strategy", choices=list(STRATEGIES.keys()), default="confluence", help="Strategy to use")
     p_scan.add_argument("--export-json", help="Path to export signals as JSON")
+    p_scan.add_argument("--export-js", help="Path to export signals as JavaScript file for browser dashboard")
     p_scan.add_argument("--export-md", help="Path to export report as Markdown")
 
     # backtest

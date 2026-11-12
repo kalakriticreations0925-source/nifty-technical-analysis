@@ -1,0 +1,302 @@
+window.DASHBOARD_SIGNALS = [
+  {
+    "symbol": "^NSEI",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "^NSEBANK",
+    "timestamp": "2026-12-15",
+    "signal": "SELL",
+    "price": 65102.07,
+    "stop_loss": 66592.92,
+    "target": 62120.37,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "94%",
+    "indicators": {
+      "RSI": 46.8,
+      "Supertrend_Dir": -1,
+      "MACD_Hist": -163.26,
+      "ADX": 26.3,
+      "Percent_B": 0.32,
+      "Volume_Ratio": 1.23
+    },
+    "rationale": "Confidence 94% based on: Supertrend Bearish; 20 EMA > 50 EMA; ADX Trending Bearish (26.3); RSI Bearish Momentum (46.8)"
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "TCS.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "timestamp": "2026-12-15",
+    "signal": "SELL",
+    "price": 65102.07,
+    "stop_loss": 66592.92,
+    "target": 62120.37,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "94%",
+    "indicators": {
+      "RSI": 46.8,
+      "Supertrend_Dir": -1,
+      "MACD_Hist": -163.26,
+      "ADX": 26.3,
+      "Percent_B": 0.32,
+      "Volume_Ratio": 1.23
+    },
+    "rationale": "Confidence 94% based on: Supertrend Bearish; 20 EMA > 50 EMA; ADX Trending Bearish (26.3); RSI Bearish Momentum (46.8)"
+  },
+  {
+    "symbol": "INFY.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "timestamp": "2026-12-15",
+    "signal": "SELL",
+    "price": 65102.07,
+    "stop_loss": 66592.92,
+    "target": 62120.37,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "94%",
+    "indicators": {
+      "RSI": 46.8,
+      "Supertrend_Dir": -1,
+      "MACD_Hist": -163.26,
+      "ADX": 26.3,
+      "Percent_B": 0.32,
+      "Volume_Ratio": 1.23
+    },
+    "rationale": "Confidence 94% based on: Supertrend Bearish; 20 EMA > 50 EMA; ADX Trending Bearish (26.3); RSI Bearish Momentum (46.8)"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "SBIN.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "ITC.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "LICI.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "LT.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "HINDUNILVR.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "BAJFINANCE.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  },
+  {
+    "symbol": "TATAMOTORS.NS",
+    "timestamp": "2026-12-17",
+    "signal": "BUY",
+    "price": 28754.4,
+    "stop_loss": 28222.33,
+    "target": 29818.54,
+    "risk_reward": 2.0,
+    "strategy": "MultiFactor_Confluence",
+    "confidence": "73%",
+    "indicators": {
+      "RSI": 53.0,
+      "Supertrend_Dir": 1,
+      "MACD_Hist": -76.79,
+      "ADX": 20.0,
+      "Percent_B": 0.52,
+      "Volume_Ratio": 0.67
+    },
+    "rationale": "Confidence 73% based on: Supertrend Bullish; 20 EMA > 50 EMA; RSI Bullish Momentum (53.0); Price in upper Bollinger territory (%B: 0.52)"
+  }
+];
