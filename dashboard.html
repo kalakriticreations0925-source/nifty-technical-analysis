@@ -722,7 +722,7 @@
   <!-- Load Data Feed -->
   <script src="dashboard_data.js"></script>
   <script>
-    // Accurate 2026 realistic prices & defaults
+    // Accurate 2026 realistic prices & defaults (1:1 Risk Reward)
     const defaultData = [
       {
         "symbol": "^NSEI",
@@ -735,8 +735,8 @@
         "low": 25140.00,
         "signal": "BUY",
         "stop_loss": 25050.00,
-        "target": 25530.00,
-        "risk_reward": 2.0,
+        "target": 25370.00,
+        "risk_reward": 1.0,
         "confidence": "85%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Supertrend Bullish flip on 5m candle; RSI at 61.2 showing positive momentum; 20 EMA > 50 EMA."
@@ -752,8 +752,8 @@
         "low": 61080.00,
         "signal": "HOLD",
         "stop_loss": 60750.00,
-        "target": 62250.00,
-        "risk_reward": 2.0,
+        "target": 61750.00,
+        "risk_reward": 1.0,
         "confidence": "65%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Consolidation near key 61,200 support; RSI at 49.5 neutral; Waiting for direction breakout."
@@ -767,9 +767,9 @@
         "high": 1282.00,
         "low": 1258.00,
         "signal": "BUY",
-        "stop_loss": 1245.00,
-        "target": 1321.20,
-        "risk_reward": 2.0,
+        "stop_loss": 1250.00,
+        "target": 1290.80,
+        "risk_reward": 1.0,
         "confidence": "82%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Bullish breakout above Bollinger upper band with 1.6x volume surge."
@@ -783,9 +783,9 @@
         "high": 4165.00,
         "low": 4110.00,
         "signal": "BUY",
-        "stop_loss": 4050.00,
-        "target": 4290.00,
-        "risk_reward": 2.0,
+        "stop_loss": 4070.00,
+        "target": 4190.00,
+        "risk_reward": 1.0,
         "confidence": "78%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "9/21 EMA Golden Cross above 200 EMA; RSI momentum holding above 58."
@@ -799,9 +799,9 @@
         "high": 1765.00,
         "low": 1738.00,
         "signal": "SELL",
-        "stop_loss": 1775.00,
-        "target": 1685.60,
-        "risk_reward": 2.0,
+        "stop_loss": 1765.00,
+        "target": 1725.40,
+        "risk_reward": 1.0,
         "confidence": "76%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Rejection at 1,765 resistance; MACD line crossing below signal line."
@@ -815,9 +815,9 @@
         "high": 1860.00,
         "low": 1825.00,
         "signal": "BUY",
-        "stop_loss": 1810.00,
-        "target": 1916.50,
-        "risk_reward": 2.0,
+        "stop_loss": 1815.00,
+        "target": 1876.00,
+        "risk_reward": 1.0,
         "confidence": "84%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Supertrend Bullish continuation with expanding positive MACD histogram."
@@ -831,9 +831,9 @@
         "high": 828.00,
         "low": 812.00,
         "signal": "BUY",
-        "stop_loss": 805.00,
-        "target": 851.20,
-        "risk_reward": 2.0,
+        "stop_loss": 810.00,
+        "target": 830.80,
+        "risk_reward": 1.0,
         "confidence": "75%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Rebound from 20 EMA support; RSI recovering above 56."
@@ -847,9 +847,9 @@
         "high": 808.00,
         "low": 782.00,
         "signal": "BUY",
-        "stop_loss": 775.00,
-        "target": 837.40,
-        "risk_reward": 2.0,
+        "stop_loss": 785.00,
+        "target": 806.60,
+        "risk_reward": 1.0,
         "confidence": "88%",
         "strategy": "MultiFactor_Confluence",
         "rationale": "Supertrend Bullish with volume surge above 790 resistance."
@@ -936,12 +936,12 @@
               <div class="cell-value sl">₹${Number(idx.stop_loss).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
             </div>
             <div class="trade-level-cell">
-              <div class="cell-label">TARGET (1:2 R:R)</div>
+              <div class="cell-label">TARGET (1:1 R:R)</div>
               <div class="cell-value tp">₹${Number(idx.target).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
             </div>
             <div class="trade-level-cell">
               <div class="cell-label">RISK : REWARD</div>
-              <div class="cell-value rr">1 : ${idx.risk_reward || 2.0}</div>
+              <div class="cell-value rr">1 : ${idx.risk_reward || 1.0}</div>
             </div>
           </div>
 

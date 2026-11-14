@@ -92,7 +92,7 @@ class MACDBollingerStrategy(BaseStrategy):
 
             if sig_type in (SignalType.BUY, SignalType.SELL) and sig_type != current_state:
                 current_state = sig_type
-                stop_loss, target = self.calculate_risk_levels(c.close, sig_type, atr, atr_multiplier=1.5, risk_reward_ratio=2.0)
+                stop_loss, target = self.calculate_risk_levels(c.close, sig_type, atr, atr_multiplier=1.5, risk_reward_ratio=1.0)
 
                 signals.append(Signal(
                     symbol=symbol,

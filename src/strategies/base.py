@@ -35,7 +35,7 @@ class BaseStrategy(ABC):
         side: SignalType,
         atr_value: Optional[float] = None,
         atr_multiplier: float = 1.5,
-        risk_reward_ratio: float = 2.0
+        risk_reward_ratio: float = 1.0
     ) -> Tuple[float, float]:
         """
         Calculates dynamic Stop-Loss and Target based on ATR volatility or fixed 1% default.

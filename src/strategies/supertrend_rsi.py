@@ -101,11 +101,11 @@ class SupertrendRSIStrategy(BaseStrategy):
                 if sig_type == SignalType.BUY:
                     stop_loss = round(curr_st, 2) if curr_st and curr_st < c.close else round(c.close - (curr_atr * 1.5 if curr_atr else c.close * 0.01), 2)
                     risk = c.close - stop_loss
-                    target = round(c.close + (risk * 2.0), 2)
+                    target = round(c.close + (risk * 1.0), 2)
                 else:
                     stop_loss = round(curr_st, 2) if curr_st and curr_st > c.close else round(c.close + (curr_atr * 1.5 if curr_atr else c.close * 0.01), 2)
                     risk = stop_loss - c.close
-                    target = round(c.close - (risk * 2.0), 2)
+                    target = round(c.close - (risk * 1.0), 2)
 
                 signals.append(Signal(
                     symbol=symbol,

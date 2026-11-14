@@ -173,7 +173,7 @@ class MultiFactorConfluenceStrategy(BaseStrategy):
                 current_state = sig_type
                 atr = atr_vals[i]
                 stop_loss, target = self.calculate_risk_levels(
-                    close, sig_type, atr, atr_multiplier=1.5, risk_reward_ratio=2.0
+                    close, sig_type, atr, atr_multiplier=1.5, risk_reward_ratio=1.0
                 )
 
                 rationale = f"Confidence {int(confidence * 100)}% based on: " + "; ".join(selected_reasons[:4])
