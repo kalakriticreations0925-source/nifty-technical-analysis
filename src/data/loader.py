@@ -62,58 +62,58 @@ def get_available_tickers() -> List[Dict[str, str]]:
 
 
 STOCK_BASE_PRICES: Dict[str, float] = {
-    "^NSEI": 24500.0,
-    "^NSEBANK": 52500.0,
-    "RELIANCE.NS": 2980.0,
-    "TCS.NS": 4120.0,
-    "HDFCBANK.NS": 1785.0,
+    "^NSEI": 25210.0,
+    "^NSEBANK": 61250.0,
+    "RELIANCE.NS": 1270.0,
+    "TCS.NS": 4130.0,
+    "HDFCBANK.NS": 1745.0,
     "ICICIBANK.NS": 1260.0,
-    "INFY.NS": 1890.0,
+    "INFY.NS": 1845.0,
     "BHARTIARTL.NS": 1580.0,
-    "SBIN.NS": 840.0,
-    "ITC.NS": 490.0,
-    "LT.NS": 3650.0,
-    "HINDUNILVR.NS": 2550.0,
-    "BAJFINANCE.NS": 7100.0,
-    "TATAMOTORS.NS": 980.0,
-    "KOTAKBANK.NS": 1790.0,
-    "AXISBANK.NS": 1180.0,
+    "SBIN.NS": 820.0,
+    "ITC.NS": 475.0,
+    "LT.NS": 3580.0,
+    "HINDUNILVR.NS": 2450.0,
+    "BAJFINANCE.NS": 6950.0,
+    "TATAMOTORS.NS": 795.0,
+    "KOTAKBANK.NS": 1760.0,
+    "AXISBANK.NS": 1150.0,
     "HCLTECH.NS": 1820.0,
-    "SUNPHARMA.NS": 1740.0,
-    "MARUTI.NS": 12200.0,
-    "M&M.NS": 2850.0,
-    "TITAN.NS": 3400.0,
-    "NTPC.NS": 410.0,
-    "ONGC.NS": 295.0,
-    "POWERGRID.NS": 330.0,
-    "ADANIENT.NS": 3150.0,
-    "ADANIPORTS.NS": 1420.0,
-    "TATASTEEL.NS": 155.0,
-    "JSWSTEEL.NS": 990.0,
-    "COALINDIA.NS": 490.0,
-    "BAJAJFINSV.NS": 1680.0,
-    "ASIANPAINT.NS": 2950.0,
-    "ULTRACEMCO.NS": 11200.0,
-    "WIPRO.NS": 540.0,
-    "TECHM.NS": 1560.0,
-    "LTIM.NS": 5800.0,
-    "NESTLEIND.NS": 2450.0,
-    "BRITANNIA.NS": 5800.0,
-    "TATACONSUM.NS": 1180.0,
-    "CIPLA.NS": 1540.0,
-    "DRREDDY.NS": 6700.0,
-    "APOLLOHOSP.NS": 6900.0,
-    "DIVISLAB.NS": 5100.0,
+    "SUNPHARMA.NS": 1780.0,
+    "MARUTI.NS": 11400.0,
+    "M&M.NS": 2890.0,
+    "TITAN.NS": 3250.0,
+    "NTPC.NS": 385.0,
+    "ONGC.NS": 260.0,
+    "POWERGRID.NS": 320.0,
+    "ADANIENT.NS": 2950.0,
+    "ADANIPORTS.NS": 1280.0,
+    "TATASTEEL.NS": 145.0,
+    "JSWSTEEL.NS": 940.0,
+    "COALINDIA.NS": 410.0,
+    "BAJAJFINSV.NS": 1620.0,
+    "ASIANPAINT.NS": 2450.0,
+    "ULTRACEMCO.NS": 11100.0,
+    "WIPRO.NS": 560.0,
+    "TECHM.NS": 1680.0,
+    "LTIM.NS": 5900.0,
+    "NESTLEIND.NS": 2250.0,
+    "BRITANNIA.NS": 4950.0,
+    "TATACONSUM.NS": 940.0,
+    "CIPLA.NS": 1520.0,
+    "DRREDDY.NS": 1220.0,
+    "APOLLOHOSP.NS": 6950.0,
+    "DIVISLAB.NS": 5850.0,
     "EICHERMOT.NS": 4850.0,
-    "BAJAJ-AUTO.NS": 9800.0,
-    "HEROMOTOCO.NS": 5200.0,
-    "BPCL.NS": 340.0,
-    "GRASIM.NS": 2600.0,
-    "HINDALCO.NS": 680.0,
-    "INDUSINDBK.NS": 1450.0,
-    "SHRIRAMFIN.NS": 3200.0,
+    "BAJAJ-AUTO.NS": 9200.0,
+    "HEROMOTOCO.NS": 4650.0,
+    "BPCL.NS": 310.0,
+    "GRASIM.NS": 2550.0,
+    "HINDALCO.NS": 645.0,
+    "INDUSINDBK.NS": 1020.0,
+    "SHRIRAMFIN.NS": 3150.0,
     "BEL.NS": 295.0,
-    "TRENT.NS": 6900.0
+    "TRENT.NS": 6400.0
 }
 
 
@@ -166,19 +166,18 @@ def fetch_market_data(
         clean_sym = symbol.upper().replace("^", "")
         if "BANK" in clean_sym:
             sample_file = DATA_DIR / "sample_banknifty_daily.csv"
-            base_ref = 51500.0
+            base_ref = 61250.0
         else:
             sample_file = DATA_DIR / "sample_nifty50_daily.csv"
-            base_ref = 24200.0
+            base_ref = 25210.0
 
         if sample_file.exists():
             raw_candles = load_candles_from_csv(str(sample_file))
-            target_base = STOCK_BASE_PRICES.get(symbol.upper(), 1500.0)
-            ratio = target_base / base_ref
-
-            # Apply stock-specific seed variation
-            seed_offset = (abs(hash(symbol)) % 100) / 1000.0  # 0% to 10% drift
-            mult = ratio * (1.0 + seed_offset)
+            if "^" in symbol:
+                mult = 1.0
+            else:
+                target_base = STOCK_BASE_PRICES.get(symbol.upper(), 1500.0)
+                mult = target_base / base_ref
 
             scaled_candles = []
             for c in raw_candles:
@@ -188,7 +187,7 @@ def fetch_market_data(
                     high=round(c.high * mult, 2),
                     low=round(c.low * mult, 2),
                     close=round(c.close * mult, 2),
-                    volume=round(c.volume * 0.1) if "^" not in symbol else c.volume
+                    volume=round(c.volume * 0.05) if "^" not in symbol else c.volume
                 ))
             return scaled_candles
 

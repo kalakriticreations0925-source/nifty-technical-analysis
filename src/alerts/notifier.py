@@ -109,11 +109,13 @@ class SignalNotifier:
             json.dump(data, f, indent=2)
 
     @staticmethod
-    def save_js(signals: List[Signal], output_path: str):
-        """Saves signals list to a JS file for direct local browser dashboard without CORS."""
+    def save_js(signals: List[Signal], output_path: str, charts: Optional[Dict[str, Any]] = None):
+        """Saves signals list and chart histories to a JS file for direct local browser dashboard without CORS."""
         data = [s.to_dict() for s in signals]
+        chart_data = charts or {}
         with open(output_path, "w", encoding="utf-8") as f:
-            f.write("window.DASHBOARD_SIGNALS = " + json.dumps(data, indent=2) + ";\n")
+            f.write("window.DASHBOARD_SIGNALS = " + json.dumps(data, indent=2) + ";\n\n")
+            f.write("window.DASHBOARD_CHARTS = " + json.dumps(chart_data, indent=2) + ";\n")
 
     @staticmethod
     def send_webhook(webhook_url: str, content: str) -> bool:

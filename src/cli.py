@@ -18,6 +18,8 @@ from src.strategies.ema_crossover import EMACrossoverStrategy
 from src.strategies.confluence import MultiFactorConfluenceStrategy
 from src.backtest.engine import BacktestEngine
 from src.alerts.notifier import SignalNotifier
+from src.indicators.trend import calculate_supertrend, calculate_ema
+from src.indicators.momentum import calculate_rsi
 
 
 STRATEGIES = {
@@ -43,6 +45,8 @@ def cmd_scan(args):
         symbols_to_scan = [args.symbol]
 
     latest_signals = []
+    charts_dict = {}
+
     for sym in symbols_to_scan:
         try:
             candles = fetch_market_data(sym, interval=interval)
@@ -56,6 +60,31 @@ def cmd_scan(args):
             meta = ticker_meta.get(sym, {})
             name = meta.get("name", sym)
             sector = meta.get("sector", "Index" if "^" in sym else "Equity")
+
+            # Extract chart history (last 50 candles)
+            recent_candles = candles[-50:]
+            prices_sub = [c.close for c in recent_candles]
+            st_sub = calculate_supertrend(recent_candles, period=10, multiplier=3.0)
+            ema20_sub = calculate_ema(prices_sub, 20)
+            ema50_sub = calculate_ema(prices_sub, 50)
+            rsi_sub = calculate_rsi(prices_sub, 14)
+
+            bars = []
+            for i, c in enumerate(recent_candles):
+                bars.append({
+                    "date": c.timestamp[-5:] if " " in c.timestamp else c.timestamp,
+                    "open": c.open,
+                    "high": c.high,
+                    "low": c.low,
+                    "close": c.close,
+                    "volume": c.volume,
+                    "supertrend": round(st_sub["supertrend"][i], 2) if st_sub["supertrend"][i] else None,
+                    "st_dir": st_sub["direction"][i],
+                    "ema20": round(ema20_sub[i], 2) if ema20_sub[i] else None,
+                    "ema50": round(ema50_sub[i], 2) if ema50_sub[i] else None,
+                    "rsi": round(rsi_sub[i], 1) if rsi_sub[i] else None
+                })
+            charts_dict[sym] = bars
 
             sig = strategy.get_latest_signal(candles, sym)
             if sig:
@@ -97,8 +126,8 @@ def cmd_scan(args):
         print(f"💾 Exported signals to JSON: {args.export_json}")
 
     if getattr(args, "export_js", None):
-        SignalNotifier.save_js(latest_signals, args.export_js)
-        print(f"🌐 Exported signals for Dashboard: {args.export_js}")
+        SignalNotifier.save_js(latest_signals, args.export_js, charts=charts_dict)
+        print(f"🌐 Exported signals & chart history for Dashboard: {args.export_js}")
 
     if args.export_md:
         md_report = SignalNotifier.generate_markdown_report(latest_signals)
