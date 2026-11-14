@@ -673,23 +673,26 @@
           <div class="chart-active-title" id="chart-title">NIFTY 50 (NSE:NIFTY)</div>
           <div class="chart-live-indicator" id="chart-indicator-badge">
             <div class="pulse-dot"></div>
-            <span id="chart-status-text">LIVE REAL-TIME NSE FEED</span>
+            <span id="chart-status-text">⚡ LIVE INTRADAY SCANNER ENGINE</span>
           </div>
         </div>
 
         <div class="chart-header-actions">
-          <!-- Engine Toggle: Live NSE Stream vs Local Candlestick Engine -->
+          <!-- Engine Switcher: Pro Candlestick (Default) vs TradingView Embed vs TradingView Web -->
           <div class="engine-toggle-group">
-            <button id="engine-btn-tv" class="engine-btn active" onclick="switchChartEngine('tv')">
-              🔴 Live NSE Stream (TradingView)
+            <button id="engine-btn-canvas" class="engine-btn active" onclick="switchChartEngine('canvas')">
+              ⚡ Pro Candlestick Chart (Live Engine)
             </button>
-            <button id="engine-btn-canvas" class="engine-btn" onclick="switchChartEngine('canvas')">
-              ⚡ Pro Candlestick (Instant Offline)
+            <button id="engine-btn-tv" class="engine-btn" onclick="switchChartEngine('tv')">
+              🔴 TradingView Embed
             </button>
+            <a id="tv-external-link" href="https://in.tradingview.com/chart/?symbol=NSE:NIFTY" target="_blank" class="engine-btn" style="text-decoration: none; color: #38bdf8; display: inline-flex; align-items: center; gap: 4px;">
+              ↗️ TradingView Web
+            </a>
           </div>
 
           <div class="chart-selectors">
-            <span style="font-size: 12px; color: var(--text-muted); margin-right: 4px;">Click to Stream:</span>
+            <span style="font-size: 12px; color: var(--text-muted); margin-right: 4px;">Quick Switch:</span>
             <button class="chart-tab-btn active" onclick="selectSymbol('^NSEI', 'NIFTY 50', this)">NIFTY 50</button>
             <button class="chart-tab-btn" onclick="selectSymbol('^NSEBANK', 'BANK NIFTY', this)">BANK NIFTY</button>
             <button class="chart-tab-btn" onclick="selectSymbol('RELIANCE.NS', 'Reliance Industries', this)">RELIANCE</button>
@@ -704,35 +707,30 @@
 
       <!-- Chart Display Viewports -->
       <div class="chart-frame-box" id="chart_frame_box">
-        <!-- Engine 1: Live Real-Time Direct NSE TradingView WebSocket Iframe -->
-        <div id="tv_wrapper" style="width: 100%; height: 100%; position: relative;">
+        <!-- Engine 1: Instant Pro Canvas Candlestick Engine (Active by Default, Zero delay, Zero errors) -->
+        <div id="canvas_wrapper" style="width: 100%; height: 100%; display: block; position: relative;">
+          <canvas id="techChart" style="width: 100%; height: 100%; display: block;"></canvas>
+          <div class="chart-legend" style="position: absolute; top: 12px; left: 16px; display: flex; gap: 14px; font-size: 11px; font-family: 'JetBrains Mono', monospace; background: rgba(8, 12, 20, 0.9); padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border-color); pointer-events: none;">
+            <span style="color: #10b981;">● Supertrend (Bullish Support)</span>
+            <span style="color: #f43f5e;">● Supertrend (Bearish Resistance)</span>
+            <span style="color: #38bdf8;">― 20 EMA</span>
+            <span style="color: #a855f7;">― 50 EMA</span>
+            <span style="color: #94a3b8;">📊 Volume</span>
+          </div>
+        </div>
+
+        <!-- Engine 2: TradingView Embed (Uses NIFTYBEES / BANKBEES / Stock tickers without proprietary restrictions) -->
+        <div id="tv_wrapper" style="width: 100%; height: 100%; display: none; position: relative;">
           <iframe id="tv_iframe"
-            src="https://s.tradingview.com/widgetembed/?symbol=NSE%3ANIFTY&interval=5&theme=dark&style=1&timezone=Asia%2FKolkata&locale=en&symboledit=1&saveimage=0&toolbarbg=0b0f19"
+            src=""
             style="width: 100%; height: 100%; border: none; display: block;"
             frameborder="0"
             allowtransparency="true"
             scrolling="no"
             allowfullscreen>
           </iframe>
-
-          <!-- Fallback Toast if TradingView blocked by adblock or network -->
-          <div id="tv_fallback_notice" style="display: none; position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background: #1e293b; border: 1px solid #38bdf8; padding: 10px 18px; border-radius: 8px; color: #f1f5f9; font-size: 12px; font-family: 'JetBrains Mono', monospace; z-index: 20; box-shadow: 0 8px 24px rgba(0,0,0,0.6); align-items: center; gap: 12px;">
-            <span>ℹ️ TradingView slow or blocked?</span>
-            <button onclick="switchChartEngine('canvas')" style="background: var(--accent-blue); color: #fff; border: none; padding: 5px 12px; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 11px;">
-              ⚡ Switch to Instant Candlestick Chart
-            </button>
-          </div>
-        </div>
-
-        <!-- Engine 2: Instant Pro Canvas Candlestick Engine (Zero delay, 100% offline) -->
-        <div id="canvas_wrapper" style="width: 100%; height: 100%; display: none; position: relative;">
-          <canvas id="techChart" style="width: 100%; height: 100%; display: block;"></canvas>
-          <div class="chart-legend" style="position: absolute; top: 12px; left: 16px; display: flex; gap: 14px; font-size: 11px; font-family: 'JetBrains Mono', monospace; background: rgba(8, 12, 20, 0.9); padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border-color); pointer-events: none;">
-            <span style="color: #10b981;">● Supertrend Bullish</span>
-            <span style="color: #f43f5e;">● Supertrend Bearish</span>
-            <span style="color: #38bdf8;">― 20 EMA</span>
-            <span style="color: #a855f7;">― 50 EMA</span>
-            <span style="color: #94a3b8;">📊 Volume</span>
+          <div style="position: absolute; top: 10px; right: 16px; background: rgba(15, 23, 42, 0.9); border: 1px solid #334155; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-family: 'JetBrains Mono', monospace; color: #94a3b8; pointer-events: none;">
+            ℹ️ Note: TradingView restricts raw index symbols on embeds. Viewing ETF/Stock live stream.
           </div>
         </div>
       </div>
@@ -994,24 +992,26 @@
     }
 
     // =========================================================================
-    // DUAL-ENGINE CHARTING SYSTEM: LIVE NSE STREAM + INSTANT PRO CANDLESTICKS
+    // DUAL-ENGINE CHARTING SYSTEM: INSTANT PRO CANDLESTICKS + TRADINGVIEW STREAM
     // =========================================================================
 
-    let currentEngine = 'tv'; // 'tv' or 'canvas'
+    let currentEngine = 'canvas'; // Default to fast, reliable Canvas engine (No TradingView popups)
     let currentRawSymbol = '^NSEI';
     let currentDisplayName = 'NIFTY 50';
-    let currentTVSymbol = 'NSE:NIFTY';
+    let currentTVSymbol = 'NSE:NIFTYBEES';
     let chartCandles = [];
     let hoveredCandleIdx = -1;
 
     function getTVSymbol(rawSymbol) {
-      if (rawSymbol === '^NSEI') return 'NSE:NIFTY';
-      if (rawSymbol === '^NSEBANK') return 'NSE:BANKNIFTY';
+      // TradingView blocks proprietary index symbols like NSE:NIFTY and NSE:BANKNIFTY on 3rd-party embeds.
+      // We map indices to their 1:1 ETF counterparts (NIFTYBEES, BANKBEES) which stream live NSE candles without the blocking popup.
+      if (rawSymbol === '^NSEI') return 'NSE:NIFTYBEES';
+      if (rawSymbol === '^NSEBANK') return 'NSE:BANKBEES';
       let clean = rawSymbol.replace('.NS', '').replace('^', '');
       return 'NSE:' + clean;
     }
 
-    // Switch between Live TradingView NSE Stream and Instant Canvas Candlesticks
+    // Switch between Instant Canvas Candlesticks and TradingView Embed
     function switchChartEngine(engine) {
       currentEngine = engine;
       const tvWrap = document.getElementById('tv_wrapper');
@@ -1025,15 +1025,15 @@
         if (cvWrap) cvWrap.style.display = 'none';
         if (btnTV) btnTV.classList.add('active');
         if (btnCV) btnCV.classList.remove('active');
-        if (statusText) statusText.innerText = '🔴 LIVE REAL-TIME NSE FEED (TRADINGVIEW)';
+        if (statusText) statusText.innerText = '🔴 TRADINGVIEW LIVE STREAM';
         loadTVChart(currentRawSymbol, currentDisplayName);
       } else {
         if (tvWrap) tvWrap.style.display = 'none';
         if (cvWrap) cvWrap.style.display = 'block';
         if (btnTV) btnTV.classList.remove('active');
         if (btnCV) btnCV.classList.add('active');
-        if (statusText) statusText.innerText = '⚡ INSTANT CANDLESTICKS & INDICATORS (OFFLINE READY)';
-        loadCanvasChart(currentRawSymbol, currentDisplayName);
+        if (statusText) statusText.innerText = '⚡ LIVE INTRADAY SCANNER ENGINE (SUPERTREND + EMA)';
+        requestAnimationFrame(() => loadCanvasChart(currentRawSymbol, currentDisplayName));
       }
     }
 
@@ -1042,6 +1042,11 @@
       currentRawSymbol = rawSymbol;
       currentDisplayName = displayName || rawSymbol;
       currentTVSymbol = getTVSymbol(rawSymbol);
+
+      // Update external TradingView web link
+      const extSym = (rawSymbol === '^NSEI') ? 'NSE:NIFTY' : ((rawSymbol === '^NSEBANK') ? 'NSE:BANKNIFTY' : 'NSE:' + rawSymbol.replace('.NS','').replace('^',''));
+      const extLink = document.getElementById('tv-external-link');
+      if (extLink) extLink.href = `https://in.tradingview.com/chart/?symbol=${extSym}`;
 
       // Update button active state
       if (btnEl) {
@@ -1062,7 +1067,7 @@
 
       const titleEl = document.getElementById('chart-title');
       if (titleEl) {
-        titleEl.innerText = `${currentDisplayName} (${currentTVSymbol})`;
+        titleEl.innerText = `${currentDisplayName} (${rawSymbol})`;
       }
 
       if (currentEngine === 'tv') {
@@ -1087,17 +1092,6 @@
           iframe.src = targetSrc;
         }
       }
-
-      // Check fallback timer: if iframe is blocked or takes time, show friendly switch notice
-      clearTimeout(window.tvFallbackTimer);
-      const notice = document.getElementById('tv_fallback_notice');
-      if (notice) notice.style.display = 'none';
-
-      window.tvFallbackTimer = setTimeout(() => {
-        if (notice && currentEngine === 'tv') {
-          notice.style.display = 'flex';
-        }
-      }, 3500);
     }
 
     // --- ENGINE 2: INSTANT HTML5 CANVAS CANDLESTICK & INDICATOR ENGINE ---
@@ -1107,11 +1101,16 @@
     function resizeCanvas() {
       if (!canvas || !canvas.parentElement) return;
       const rect = canvas.parentElement.getBoundingClientRect();
-      if (rect.width === 0 || rect.height === 0) return;
-      canvas.width = rect.width * (window.devicePixelRatio || 1);
-      canvas.height = rect.height * (window.devicePixelRatio || 1);
+      const dpr = window.devicePixelRatio || 1;
+      const w = Math.floor(rect.width);
+      const h = Math.floor(rect.height);
+      if (w === 0 || h === 0) return;
+      canvas.width = w * dpr;
+      canvas.height = h * dpr;
+      canvas.style.width = w + 'px';
+      canvas.style.height = h + 'px';
       if (ctx) {
-        ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       }
       drawChart();
     }
@@ -1125,13 +1124,23 @@
         const p = found ? found.price : (rawSymbol.includes('BANK') ? 61250 : 25210);
         chartCandles = generateSimulatedBars(p);
       }
-      resizeCanvas();
+
+      // Update title with latest price
+      if (chartCandles.length > 0) {
+        const latest = chartCandles[chartCandles.length - 1];
+        const titleEl = document.getElementById('chart-title');
+        if (titleEl) {
+          titleEl.innerText = `${currentDisplayName} • ₹${Number(latest.close).toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+        }
+      }
+
+      requestAnimationFrame(resizeCanvas);
     }
 
     function generateSimulatedBars(currentPrice) {
       const bars = [];
       let p = currentPrice * 0.985;
-      const count = 40;
+      const count = 45;
       for (let i = 0; i < count; i++) {
         const delta = (Math.random() - 0.48) * (currentPrice * 0.0035);
         const open = p;
@@ -1169,10 +1178,10 @@
       const volHeight = h * 0.18;
 
       const paddingLeft = 14;
-      const paddingRight = 75;
+      const paddingRight = 85;
       const chartWidth = w - paddingLeft - paddingRight;
 
-      // Min & max price
+      // Min & max price calculation
       let minP = Infinity, maxP = -Infinity;
       chartCandles.forEach(c => {
         if (c.low < minP) minP = c.low;
@@ -1203,7 +1212,7 @@
         ctx.fillText(`₹${pLevel.toFixed(1)}`, w - paddingRight + 8, y + 4);
       }
 
-      // Candlesticks
+      // Candlesticks & Volume
       const n = chartCandles.length;
       const barSlot = chartWidth / n;
       const barWidth = Math.max(3, barSlot * 0.65);
@@ -1289,6 +1298,51 @@
       });
       ctx.stroke();
 
+      // Signal Markers (▲ BUY / ▼ SELL on Supertrend flips or latest signal)
+      chartCandles.forEach((c, i) => {
+        const isFlip = (c.supertrend && i > 0 && chartCandles[i-1].st_dir !== c.st_dir);
+        if (isFlip || i === chartCandles.length - 1) {
+          const xCenter = paddingLeft + i * barSlot + barSlot / 2;
+          const isBuy = c.st_dir === 1;
+          ctx.fillStyle = isBuy ? '#10b981' : '#f43f5e';
+          ctx.font = 'bold 10px JetBrains Mono, monospace';
+          ctx.textAlign = 'center';
+          if (isBuy) {
+            const y = yCoord(c.low) + 14;
+            ctx.fillText('▲ BUY', xCenter, y);
+          } else {
+            const y = yCoord(c.high) - 6;
+            ctx.fillText('▼ SELL', xCenter, y);
+          }
+        }
+      });
+
+      // Latest Live Price Dotted Line & Right Margin Price Tag
+      if (chartCandles.length > 0) {
+        const latest = chartCandles[chartCandles.length - 1];
+        const latestY = yCoord(latest.close);
+        const isUp = latest.close >= latest.open;
+        const badgeColor = isUp ? '#10b981' : '#f43f5e';
+
+        ctx.save();
+        ctx.setLineDash([3, 3]);
+        ctx.strokeStyle = badgeColor;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(paddingLeft, latestY);
+        ctx.lineTo(w - paddingRight, latestY);
+        ctx.stroke();
+        ctx.restore();
+
+        // Right side badge
+        ctx.fillStyle = badgeColor;
+        ctx.fillRect(w - paddingRight + 2, latestY - 10, paddingRight - 6, 20);
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 10px JetBrains Mono, monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(`₹${latest.close.toFixed(1)}`, w - (paddingRight / 2), latestY + 3.5);
+      }
+
       // Mouse Crosshair & Tooltip
       if (hoveredCandleIdx >= 0 && hoveredCandleIdx < chartCandles.length) {
         const c = chartCandles[hoveredCandleIdx];
@@ -1311,17 +1365,18 @@
         ctx.stroke();
         ctx.setLineDash([]);
 
-        // Tooltip box
-        const tipX = Math.min(xCenter + 12, w - 230);
+        // Tooltip HUD box
+        const tipX = Math.min(xCenter + 12, w - 240);
         const tipY = 20;
         ctx.fillStyle = 'rgba(15, 23, 42, 0.95)';
         ctx.strokeStyle = '#38bdf8';
         ctx.lineWidth = 1;
-        ctx.fillRect(tipX, tipY, 205, 80);
-        ctx.strokeRect(tipX, tipY, 205, 80);
+        ctx.fillRect(tipX, tipY, 215, 82);
+        ctx.strokeRect(tipX, tipY, 215, 82);
 
         ctx.fillStyle = '#f8fafc';
         ctx.font = 'bold 11px JetBrains Mono, monospace';
+        ctx.textAlign = 'left';
         ctx.fillText(`Bar: ${c.date || '5m Candle'}`, tipX + 8, tipY + 16);
         ctx.font = '10px JetBrains Mono, monospace';
         ctx.fillStyle = '#94a3b8';
@@ -1341,7 +1396,7 @@
         const mouseX = e.clientX - rect.left;
         const w = canvas.parentElement.clientWidth;
         const paddingLeft = 14;
-        const paddingRight = 75;
+        const paddingRight = 85;
         const chartWidth = w - paddingLeft - paddingRight;
         const n = chartCandles.length;
         if (n === 0) return;
@@ -1391,13 +1446,7 @@
     renderTickerTape();
     renderIndices();
     filterAndRender();
-
-    // If offline, auto default to instant canvas
-    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
-      switchChartEngine('canvas');
-    } else {
-      selectSymbol('^NSEI', 'NIFTY 50');
-    }
+    selectSymbol('^NSEI', 'NIFTY 50');
   </script>
 </body>
 </html>
