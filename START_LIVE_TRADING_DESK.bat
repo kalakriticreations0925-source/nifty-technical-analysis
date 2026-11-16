@@ -7,7 +7,7 @@ echo       NIFTY 50 & BANK NIFTY - LIVE INTRADAY TRADING DESK
 echo ===================================================================
 echo.
 echo [1/3] Launching your Live Trading Terminal in Browser...
-start "" "%~dp0NIFTY_TECHNICAL_ANALYSIS_DASHBOARD.html"
+start "" "%~dp0NIFTY_TECHNICAL_ANALYSIS_DASHBOARD.html?v=%RANDOM%"
 
 echo.
 echo [2/3] Performing initial live market scan (5-Minute Candles)...
