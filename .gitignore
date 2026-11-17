@@ -49,6 +49,9 @@ htmlcov/
 .tox/
 .nox/
 
+# User Credentials
+config/dhan_credentials.json
+
 # Reports and Output logs
 reports/
 *.log

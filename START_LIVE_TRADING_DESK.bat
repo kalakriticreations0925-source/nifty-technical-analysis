@@ -1,11 +1,16 @@
 @echo off
-title NIFTY & BANK NIFTY - Live 5-Minute Trading Desk
+title NIFTY & BANK NIFTY - Live 5-Minute Trading Desk (Dhan API)
 color 0B
 
 echo ===================================================================
-echo       NIFTY 50 & BANK NIFTY - LIVE INTRADAY TRADING DESK
+echo       NIFTY 50 ^& BANK NIFTY - LIVE INTRADAY TRADING DESK
+echo       Powered by Dhan API (Real-Time NSE Market Data)
 echo ===================================================================
 echo.
+
+echo [0/3] Checking Dhan API package...
+pip install dhanhq >nul 2>&1
+
 echo [1/3] Launching your Live Trading Terminal in Browser...
 start "" "%~dp0NIFTY_TECHNICAL_ANALYSIS_DASHBOARD.html"
 
@@ -16,15 +21,16 @@ python "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m -
 echo.
 echo ===================================================================
 echo [3/3] ACTIVE: Continuous Live Scanner Running!
-echo       - NIFTY 50, BANK NIFTY & all constituent shares are tracked.
+echo       - NIFTY 50, BANK NIFTY ^& all constituent shares are tracked.
 echo       - Auto-refreshing technical indicators every 5 minutes.
+echo       - Data Source: Dhan API (Real-Time NSE Feed)
 echo       - Leave this window open in the background.
 echo       - Press Ctrl+C to stop scanning anytime.
 echo ===================================================================
 echo.
 
 :LOOP
-echo [%TIME%] Rescanning Live Market (NIFTY 50, BANK NIFTY & Top 50 Stocks)...
+echo [%TIME%] Rescanning Live Market (NIFTY 50, BANK NIFTY ^& Top 50 Stocks)...
 python "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LIVE_SIGNALS.md"
 
 echo [UPDATED] Signals refreshed at %TIME%!

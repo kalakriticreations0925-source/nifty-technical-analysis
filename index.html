@@ -655,8 +655,11 @@
           <div class="live-dot-red"></div>
           <span>LIVE TICK STREAM</span>
         </div>
+        <div class="timer-pill" style="border-color: #3b82f6;">
+          <span>Data Feed:</span> <strong style="color: #60a5fa;">Dhan API / Live NSE</strong>
+        </div>
         <div class="timer-pill">
-          <span>Signals Auto-Poll:</span> <strong>Continuous (5s)</strong>
+          <span>Auto-Poll:</span> <strong id="poll-timer">Live (5s)</strong>
         </div>
       </div>
     </header>
@@ -2759,6 +2762,11 @@
           renderTickerTape();
           if (currentEngine === 'canvas') {
             loadCanvasChart(currentRawSymbol, currentDisplayName);
+          }
+          const pt = document.getElementById('poll-timer');
+          if (pt) {
+            pt.innerText = `Updated ${new Date().toLocaleTimeString('en-US', {hour:'2-digit', minute:'2-digit', second:'2-digit'})}`;
+            pt.style.color = '#10b981';
           }
         }
       };

@@ -1,6 +1,6 @@
 """
 Data loading and market data fetching engine for Nifty and Indian Equities.
-Supports local CSV, SQLite/JSON cache, and live Yahoo Finance feed with offline fallback.
+Supports: Dhan API (primary), Yahoo Finance (fallback), local CSV (offline fallback).
 """
 import os
 import csv
@@ -25,7 +25,6 @@ def load_candles_from_csv(filepath: str) -> List[Candle]:
     candles: List[Candle] = []
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        # Normalize column names to lowercase
         for row in reader:
             normalized = {k.strip().lower(): v for k, v in row.items() if k}
             date_val = normalized.get("date") or normalized.get("timestamp") or normalized.get("datetime") or ""
@@ -44,7 +43,6 @@ def load_candles_from_csv(filepath: str) -> List[Candle]:
                 volume=vol_val
             ))
 
-    # Sort chronologically if needed
     candles.sort(key=lambda c: c.timestamp)
     return candles
 
@@ -125,15 +123,43 @@ def fetch_market_data(
 ) -> List[Candle]:
     """
     Fetches market data for a given symbol.
-    Attempts live fetch via yfinance if available.
-    If offline or yfinance not installed, gracefully falls back to bundled sample data.
+    Data source priority:
+      1. Dhan API (real-time NSE data) - PRIMARY
+      2. Yahoo Finance (fallback)
+      3. Offline bundled sample CSV (last resort)
     """
     candles: List[Candle] = []
 
-    # 1. Attempt yfinance if available
+    # ═══════════════════════════════════════════════════════
+    # 1. PRIMARY: Dhan API (Real-Time NSE Market Data)
+    # ═══════════════════════════════════════════════════════
+    try:
+        from src.data.dhan_loader import is_dhan_configured, fetch_dhan_intraday, fetch_dhan_daily
+
+        if is_dhan_configured():
+            is_intraday = interval in ("1m", "2m", "5m", "15m", "25m", "30m", "60m", "1h")
+
+            if is_intraday:
+                candles = fetch_dhan_intraday(symbol, interval)
+            else:
+                days = {"1y": 365, "2y": 730, "6mo": 180, "3mo": 90, "1mo": 30, "5d": 5}.get(period, 365)
+                candles = fetch_dhan_daily(symbol, days)
+
+            if candles:
+                print(f"  ✅ {symbol}: {len(candles)} candles from Dhan API (NSE Live)")
+                return candles
+            else:
+                print(f"  ⚠️  {symbol}: Dhan API returned empty, trying fallback...")
+    except ImportError:
+        print(f"  ℹ️  dhanhq not installed, trying Yahoo Finance fallback...")
+    except Exception as e:
+        print(f"  ⚠️  Dhan API error for {symbol}: {e}")
+
+    # ═══════════════════════════════════════════════════════
+    # 2. FALLBACK: Yahoo Finance
+    # ═══════════════════════════════════════════════════════
     try:
         import yfinance as yf
-        # Yahoo Finance requires short period for intraday intervals
         if interval in ("1m", "2m", "5m", "15m", "30m", "60m", "90m", "1h") and period in ("1y", "2y", "max"):
             period = "5d"
 
@@ -156,12 +182,14 @@ def fetch_market_data(
                     volume=float(row.get("Volume", 0.0))
                 ))
             if candles:
+                print(f"  ✅ {symbol}: {len(candles)} candles from Yahoo Finance")
                 return candles
     except Exception:
-        # Network unreachable or yfinance uninstalled
         pass
 
-    # 2. Offline fallback to bundled sample datasets
+    # ═══════════════════════════════════════════════════════
+    # 3. OFFLINE FALLBACK: Bundled sample CSV
+    # ═══════════════════════════════════════════════════════
     if use_sample_fallback:
         clean_sym = symbol.upper().replace("^", "")
         if "BANK" in clean_sym:
@@ -189,6 +217,7 @@ def fetch_market_data(
                     close=round(c.close * mult, 2),
                     volume=round(c.volume * 0.05) if "^" not in symbol else c.volume
                 ))
+            print(f"  ⚠️  {symbol}: Using offline sample data (configure Dhan API for live data)")
             return scaled_candles
 
     return candles
