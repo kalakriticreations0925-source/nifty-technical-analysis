@@ -131,8 +131,13 @@ def _get_dhan_client():
             "Get your free API key at: https://dhanhq.co/"
         )
 
-    from dhanhq import dhanhq
-    return dhanhq(creds["client_id"], creds["access_token"])
+    try:
+        from dhanhq import dhanhq, DhanContext
+        context = DhanContext(creds["client_id"], creds["access_token"])
+        return dhanhq(context)
+    except Exception:
+        from dhanhq import dhanhq
+        return dhanhq(creds["client_id"], creds["access_token"])
 
 
 def _parse_dhan_candles(response: Dict, symbol: str, is_intraday: bool = True) -> List[Candle]:
@@ -203,11 +208,23 @@ def fetch_dhan_intraday(symbol: str, interval: str = "5m") -> List[Candle]:
 
     try:
         dhan = _get_dhan_client()
-        response = dhan.intraday_minute_data(
-            security_id=mapping["security_id"],
-            exchange_segment=mapping["segment"],
-            instrument_type=mapping["instrument"]
-        )
+        to_date = datetime.now().strftime("%Y-%m-%d")
+        from_date = (datetime.now() - timedelta(days=5)).strftime("%Y-%m-%d")
+
+        try:
+            response = dhan.intraday_minute_data(
+                security_id=mapping["security_id"],
+                exchange_segment=mapping["segment"],
+                instrument_type=mapping["instrument"],
+                from_date=from_date,
+                to_date=to_date
+            )
+        except TypeError:
+            response = dhan.intraday_minute_data(
+                security_id=mapping["security_id"],
+                exchange_segment=mapping["segment"],
+                instrument_type=mapping["instrument"]
+            )
         candles = _parse_dhan_candles(response, symbol, is_intraday=True)
 
         # Filter to requested interval if not 1m
@@ -315,11 +332,23 @@ def validate_dhan_connection() -> Dict[str, Any]:
             return {"status": "error", "message": "Dhan credentials not configured"}
 
         dhan = _get_dhan_client()
-        response = dhan.intraday_minute_data(
-            security_id="13",
-            exchange_segment="IDX_I",
-            instrument_type="INDEX"
-        )
+        to_date = datetime.now().strftime("%Y-%m-%d")
+        from_date = (datetime.now() - timedelta(days=5)).strftime("%Y-%m-%d")
+
+        try:
+            response = dhan.intraday_minute_data(
+                security_id="13",
+                exchange_segment="IDX_I",
+                instrument_type="INDEX",
+                from_date=from_date,
+                to_date=to_date
+            )
+        except TypeError:
+            response = dhan.intraday_minute_data(
+                security_id="13",
+                exchange_segment="IDX_I",
+                instrument_type="INDEX"
+            )
 
         if response and response.get("status") == "success":
             data = response.get("data", {})

@@ -122,14 +122,17 @@ def cmd_scan(args):
     print("\n" + SignalNotifier.format_terminal_table(latest_signals) + "\n")
 
     if args.export_json:
+        Path(args.export_json).parent.mkdir(parents=True, exist_ok=True)
         SignalNotifier.save_json(latest_signals, args.export_json)
         print(f"💾 Exported signals to JSON: {args.export_json}")
 
     if getattr(args, "export_js", None):
+        Path(args.export_js).parent.mkdir(parents=True, exist_ok=True)
         SignalNotifier.save_js(latest_signals, args.export_js, charts=charts_dict)
         print(f"🌐 Exported signals & chart history for Dashboard: {args.export_js}")
 
     if args.export_md:
+        Path(args.export_md).parent.mkdir(parents=True, exist_ok=True)
         md_report = SignalNotifier.generate_markdown_report(latest_signals)
         with open(args.export_md, "w", encoding="utf-8") as f:
             f.write(md_report)
@@ -219,7 +222,7 @@ def main():
     p_bt.add_argument("--strategy", choices=list(STRATEGIES.keys()), default="confluence", help="Strategy to backtest")
     p_bt.add_argument("--capital", type=float, default=100000.0, help="Initial capital in INR (default: 100,000)")
     p_bt.add_argument("--brokerage", type=float, default=20.0, help="Brokerage per executed trade (default: 20)")
-    p_bt.add_argument("--slippage", type=float, default=0.05, help="Slippage percentage (default: 0.05%)")
+    p_bt.add_argument("--slippage", type=float, default=0.05, help="Slippage percentage (default: 0.05 percent)")
     p_bt.add_argument("--long-only", action="store_true", help="Disallow short selling")
     p_bt.add_argument("--export-md", help="Path to export backtest report as Markdown")
 

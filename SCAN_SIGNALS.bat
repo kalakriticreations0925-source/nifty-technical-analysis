@@ -6,11 +6,22 @@ echo ===================================================================
 echo     NIFTY 50 & INDIAN EQUITIES - AUTOMATED SIGNAL SCANNER
 echo ===================================================================
 echo.
+
+:: Detect Python executable
+set "PY_BIN="
+if exist "%LOCALAPPDATA%\Programs\Python\Python314\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python314\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python313\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python313\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
+if not defined PY_BIN if exist "%ProgramFiles%\Python314\python.exe" set "PY_BIN=%ProgramFiles%\Python314\python.exe"
+if not defined PY_BIN if exist "%ProgramFiles%\Python313\python.exe" set "PY_BIN=%ProgramFiles%\Python313\python.exe"
+if not defined PY_BIN set "PY_BIN=python"
+
 echo [1/2] Scanning NIFTY 50, BANK NIFTY & all constituent stocks...
 echo       (Supertrend, RSI, MACD, Bollinger Bands, Volume)
 echo.
 
-python "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LATEST_SIGNALS.md"
+"%PY_BIN%" "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LATEST_SIGNALS.md"
 
 echo.
 echo [2/2] Launching your Visual Dashboard in browser...

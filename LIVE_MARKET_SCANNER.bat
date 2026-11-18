@@ -1,10 +1,9 @@
 @echo off
-title Nifty Live Market Scanner - Dhan API (Auto-Refresh Every 5 Minutes)
+title Nifty Live Market Scanner (Auto-Refresh Every 5 Minutes)
 color 0B
 
 echo ===================================================================
 echo        NIFTY LIVE MARKET INTRADAY AUTO-SCANNER
-echo        Powered by Dhan API (Real-Time NSE Data)
 echo ===================================================================
 echo  This tool runs continuously in the background during market hours.
 echo  It rescans Nifty, Bank Nifty ^& stocks every 5 minutes and updates
@@ -14,11 +13,19 @@ echo  Press Ctrl+C to stop scanning anytime.
 echo ===================================================================
 echo.
 
-pip install dhanhq >nul 2>&1
+:: Detect Python executable
+set "PY_BIN="
+if exist "%LOCALAPPDATA%\Programs\Python\Python314\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python314\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python313\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python313\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
+if not defined PY_BIN if exist "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" set "PY_BIN=%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
+if not defined PY_BIN if exist "%ProgramFiles%\Python314\python.exe" set "PY_BIN=%ProgramFiles%\Python314\python.exe"
+if not defined PY_BIN if exist "%ProgramFiles%\Python313\python.exe" set "PY_BIN=%ProgramFiles%\Python313\python.exe"
+if not defined PY_BIN set "PY_BIN=python"
 
 :LOOP
 echo [%TIME%] Fetching latest live market candles (5-min timeframe)...
-python "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LIVE_SIGNALS.md"
+"%PY_BIN%" "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LIVE_SIGNALS.md"
 
 echo.
 echo [DONE] Dashboard data updated at %TIME%!
