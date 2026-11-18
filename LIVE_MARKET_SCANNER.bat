@@ -23,6 +23,8 @@ if not defined PY_BIN if exist "%ProgramFiles%\Python314\python.exe" set "PY_BIN
 if not defined PY_BIN if exist "%ProgramFiles%\Python313\python.exe" set "PY_BIN=%ProgramFiles%\Python313\python.exe"
 if not defined PY_BIN set "PY_BIN=python"
 
+"%PY_BIN%" -m pip install yfinance curl_cffi >nul 2>&1
+
 :LOOP
 echo [%TIME%] Fetching latest live market candles (5-min timeframe)...
 "%PY_BIN%" "%~dp0src\cli.py" scan --symbol ALL --strategy confluence --interval 5m --export-js "%~dp0dashboard_data.js" --export-json "%~dp0dashboard_data.json" --export-md "%~dp0reports\LIVE_SIGNALS.md"

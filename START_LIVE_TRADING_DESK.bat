@@ -19,6 +19,9 @@ if not defined PY_BIN if exist "%ProgramFiles%\Python313\python.exe" set "PY_BIN
 if not defined PY_BIN if exist "%ProgramFiles%\Python312\python.exe" set "PY_BIN=%ProgramFiles%\Python312\python.exe"
 if not defined PY_BIN set "PY_BIN=python"
 
+echo [0/3] Ensuring live market feed engine is ready...
+"%PY_BIN%" -m pip install yfinance curl_cffi >nul 2>&1
+
 echo [1/3] Launching your Live Trading Terminal in Browser...
 start "" "%~dp0NIFTY_TECHNICAL_ANALYSIS_DASHBOARD.html"
 

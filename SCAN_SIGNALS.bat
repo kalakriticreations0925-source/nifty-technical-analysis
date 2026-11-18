@@ -17,6 +17,8 @@ if not defined PY_BIN if exist "%ProgramFiles%\Python314\python.exe" set "PY_BIN
 if not defined PY_BIN if exist "%ProgramFiles%\Python313\python.exe" set "PY_BIN=%ProgramFiles%\Python313\python.exe"
 if not defined PY_BIN set "PY_BIN=python"
 
+"%PY_BIN%" -m pip install yfinance curl_cffi >nul 2>&1
+
 echo [1/2] Scanning NIFTY 50, BANK NIFTY & all constituent stocks...
 echo       (Supertrend, RSI, MACD, Bollinger Bands, Volume)
 echo.
