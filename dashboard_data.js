@@ -5,25 +5,25 @@ window.DASHBOARD_SIGNALS = [
     "sector": "Index",
     "timestamp": "2026-11-18 12:55",
     "signal": "SELL",
-    "price": 62051.15,
-    "change_pct": 0.07,
-    "high": 62069.1,
-    "low": 61994.65,
+    "price": 62036.55,
+    "change_pct": -0.04,
+    "high": 62035.5,
+    "low": 62007.05,
     "is_index": true,
-    "stop_loss": 62162.45,
-    "target": 61939.85,
+    "stop_loss": 62147.85,
+    "target": 61925.25,
     "risk_reward": 1.0,
     "strategy": "MultiFactor_Confluence",
     "confidence": "73%",
     "indicators": {
-      "RSI": 42.6,
+      "RSI": 40.9,
       "Supertrend_Dir": -1,
-      "MACD_Hist": -19.54,
+      "MACD_Hist": -20.47,
       "ADX": 17.3,
-      "Percent_B": 0.18,
+      "Percent_B": 0.14,
       "Volume_Ratio": 1.0
     },
-    "rationale": "Confidence 73% based on: Supertrend Bearish; 20 EMA < 50 EMA; RSI Bearish Momentum (42.6); Price in lower Bollinger territory (%B: 0.18)"
+    "rationale": "Confidence 73% based on: Supertrend Bearish; 20 EMA < 50 EMA; RSI Bearish Momentum (40.9); Price in lower Bollinger territory (%B: 0.14)"
   },
   {
     "symbol": "^NSEI",
@@ -32,9 +32,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:50",
     "signal": "SELL",
     "price": 25273.6,
-    "change_pct": 0.03,
-    "high": 25202.1,
-    "low": 25184.55,
+    "change_pct": -0.02,
+    "high": 25182.85,
+    "low": 25177.15,
     "is_index": true,
     "stop_loss": 25327.99,
     "target": 25219.21,
@@ -58,9 +58,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:25",
     "signal": "SELL",
     "price": 2712.3,
-    "change_pct": 0.11,
-    "high": 2679.5,
-    "low": 2675.0,
+    "change_pct": -0.16,
+    "high": 2677.4,
+    "low": 2673.1,
     "is_index": false,
     "stop_loss": 2727.84,
     "target": 2696.76,
@@ -84,9 +84,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:25",
     "signal": "SELL",
     "price": 1901.9,
-    "change_pct": 0.04,
-    "high": 1897.7,
-    "low": 1895.5,
+    "change_pct": -0.11,
+    "high": 1896.0,
+    "low": 1893.8,
     "is_index": false,
     "stop_loss": 1908.35,
     "target": 1895.45,
@@ -110,9 +110,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 10:05",
     "signal": "SELL",
     "price": 8763.0,
-    "change_pct": 0.03,
-    "high": 8734.0,
-    "low": 8721.5,
+    "change_pct": -0.05,
+    "high": 8725.5,
+    "low": 8718.0,
     "is_index": false,
     "stop_loss": 8806.37,
     "target": 8719.63,
@@ -138,7 +138,7 @@ window.DASHBOARD_SIGNALS = [
     "price": 2641.7,
     "change_pct": -0.04,
     "high": 2568.2,
-    "low": 2566.2,
+    "low": 2565.2,
     "is_index": false,
     "stop_loss": 2648.02,
     "target": 2635.38,
@@ -162,9 +162,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 10:00",
     "signal": "SELL",
     "price": 1366.8,
-    "change_pct": 0.2,
-    "high": 1366.0,
-    "low": 1362.3,
+    "change_pct": -0.09,
+    "high": 1366.3,
+    "low": 1364.7,
     "is_index": false,
     "stop_loss": 1370.86,
     "target": 1362.74,
@@ -188,9 +188,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:45",
     "signal": "SELL",
     "price": 10791.0,
-    "change_pct": 0.08,
-    "high": 10608.0,
-    "low": 10594.0,
+    "change_pct": -0.16,
+    "high": 10585.0,
+    "low": 10563.0,
     "is_index": false,
     "stop_loss": 10810.92,
     "target": 10771.08,
@@ -214,9 +214,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:45",
     "signal": "BUY",
     "price": 1849.6,
-    "change_pct": -0.01,
-    "high": 1852.9,
-    "low": 1851.3,
+    "change_pct": -0.1,
+    "high": 1850.9,
+    "low": 1848.6,
     "is_index": false,
     "stop_loss": 1844.03,
     "target": 1855.17,
@@ -240,9 +240,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:50",
     "signal": "SELL",
     "price": 1107.1,
-    "change_pct": -0.0,
-    "high": 1095.95,
-    "low": 1094.2,
+    "change_pct": -0.06,
+    "high": 1093.25,
+    "low": 1091.85,
     "is_index": false,
     "stop_loss": 1111.86,
     "target": 1102.34,
@@ -266,9 +266,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:50",
     "signal": "SELL",
     "price": 394.95,
-    "change_pct": 0.0,
-    "high": 393.45,
-    "low": 393.45,
+    "change_pct": -0.08,
+    "high": 393.4,
+    "low": 392.7,
     "is_index": false,
     "stop_loss": 396.23,
     "target": 393.67,
@@ -292,9 +292,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 13:45",
     "signal": "SELL",
     "price": 2156.2,
-    "change_pct": 0.01,
-    "high": 2127.5,
-    "low": 2126.1,
+    "change_pct": -0.02,
+    "high": 2125.6,
+    "low": 2124.8,
     "is_index": false,
     "stop_loss": 2160.59,
     "target": 2151.81,
@@ -318,9 +318,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:20",
     "signal": "BUY",
     "price": 302.9,
-    "change_pct": -0.03,
-    "high": 303.0,
-    "low": 302.85,
+    "change_pct": -0.08,
+    "high": 303.35,
+    "low": 302.95,
     "is_index": false,
     "stop_loss": 301.87,
     "target": 303.93,
@@ -345,8 +345,8 @@ window.DASHBOARD_SIGNALS = [
     "signal": "SELL",
     "price": 4693.9,
     "change_pct": -0.07,
-    "high": 4699.9,
-    "low": 4696.0,
+    "high": 4695.4,
+    "low": 4688.6,
     "is_index": false,
     "stop_loss": 4705.32,
     "target": 4682.48,
@@ -370,9 +370,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 10:50",
     "signal": "BUY",
     "price": 1390.4,
-    "change_pct": 0.17,
-    "high": 1431.9,
-    "low": 1426.9,
+    "change_pct": 0.04,
+    "high": 1429.0,
+    "low": 1427.2,
     "is_index": false,
     "stop_loss": 1385.63,
     "target": 1395.17,
@@ -396,9 +396,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:40",
     "signal": "SELL",
     "price": 389.75,
-    "change_pct": 0.09,
-    "high": 388.25,
-    "low": 387.85,
+    "change_pct": -0.09,
+    "high": 387.95,
+    "low": 387.5,
     "is_index": false,
     "stop_loss": 390.97,
     "target": 388.53,
@@ -422,9 +422,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 11:05",
     "signal": "SELL",
     "price": 11168.0,
-    "change_pct": 0.12,
-    "high": 11141.0,
-    "low": 11126.5,
+    "change_pct": -0.09,
+    "high": 11135.5,
+    "low": 11122.0,
     "is_index": false,
     "stop_loss": 11203.37,
     "target": 11132.63,
@@ -448,9 +448,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 11:10",
     "signal": "BUY",
     "price": 1388.0,
-    "change_pct": -0.04,
-    "high": 1389.5,
-    "low": 1388.5,
+    "change_pct": 0.18,
+    "high": 1390.1,
+    "low": 1387.2,
     "is_index": false,
     "stop_loss": 1384.05,
     "target": 1391.95,
@@ -474,9 +474,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:55",
     "signal": "SELL",
     "price": 7786.0,
-    "change_pct": -0.11,
-    "high": 7701.5,
-    "low": 7691.5,
+    "change_pct": -0.18,
+    "high": 7688.0,
+    "low": 7674.0,
     "is_index": false,
     "stop_loss": 7809.64,
     "target": 7762.36,
@@ -500,9 +500,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 10:35",
     "signal": "SELL",
     "price": 3075.4,
-    "change_pct": 0.08,
-    "high": 3056.5,
-    "low": 3053.7,
+    "change_pct": -0.1,
+    "high": 3051.0,
+    "low": 3043.3,
     "is_index": false,
     "stop_loss": 3086.43,
     "target": 3064.37,
@@ -526,9 +526,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 11:15",
     "signal": "BUY",
     "price": 1349.8,
-    "change_pct": 0.01,
-    "high": 1356.4,
-    "low": 1354.9,
+    "change_pct": -0.11,
+    "high": 1354.2,
+    "low": 1352.7,
     "is_index": false,
     "stop_loss": 1344.81,
     "target": 1354.79,
@@ -552,9 +552,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:50",
     "signal": "SELL",
     "price": 816.2,
-    "change_pct": 0.04,
-    "high": 810.75,
-    "low": 809.8,
+    "change_pct": -0.07,
+    "high": 810.25,
+    "low": 809.55,
     "is_index": false,
     "stop_loss": 817.97,
     "target": 814.43,
@@ -578,9 +578,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:55",
     "signal": "SELL",
     "price": 5351.0,
-    "change_pct": 0.01,
-    "high": 5290.0,
-    "low": 5285.5,
+    "change_pct": -0.1,
+    "high": 5286.5,
+    "low": 5280.5,
     "is_index": false,
     "stop_loss": 5363.64,
     "target": 5338.36,
@@ -604,9 +604,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 15:25",
     "signal": "SELL",
     "price": 927.75,
-    "change_pct": -0.17,
-    "high": 903.95,
-    "low": 902.15,
+    "change_pct": -0.06,
+    "high": 900.5,
+    "low": 898.7,
     "is_index": false,
     "stop_loss": 930.09,
     "target": 925.41,
@@ -630,9 +630,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:30",
     "signal": "SELL",
     "price": 2010.9,
-    "change_pct": 0.03,
-    "high": 1984.0,
-    "low": 1982.5,
+    "change_pct": -0.05,
+    "high": 1983.3,
+    "low": 1981.3,
     "is_index": false,
     "stop_loss": 2014.99,
     "target": 2006.81,
@@ -656,9 +656,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:10",
     "signal": "SELL",
     "price": 1601.0,
-    "change_pct": 0.05,
-    "high": 1595.3,
-    "low": 1593.2,
+    "change_pct": -0.02,
+    "high": 1594.2,
+    "low": 1593.6,
     "is_index": false,
     "stop_loss": 1603.99,
     "target": 1598.01,
@@ -682,9 +682,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 15:00",
     "signal": "SELL",
     "price": 924.8,
-    "change_pct": 0.01,
+    "change_pct": -0.08,
     "high": 914.6,
-    "low": 914.6,
+    "low": 912.7,
     "is_index": false,
     "stop_loss": 927.82,
     "target": 921.78,
@@ -708,9 +708,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 11:35",
     "signal": "SELL",
     "price": 1140.5,
-    "change_pct": -0.12,
-    "high": 1113.0,
-    "low": 1110.6,
+    "change_pct": -0.07,
+    "high": 1110.0,
+    "low": 1109.2,
     "is_index": false,
     "stop_loss": 1143.45,
     "target": 1137.55,
@@ -734,9 +734,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:20",
     "signal": "SELL",
     "price": 290.1,
-    "change_pct": 0.1,
-    "high": 289.95,
-    "low": 289.45,
+    "change_pct": 0.0,
+    "high": 290.3,
+    "low": 290.15,
     "is_index": false,
     "stop_loss": 290.79,
     "target": 289.41,
@@ -760,9 +760,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:55",
     "signal": "SELL",
     "price": 1318.9,
-    "change_pct": -0.04,
-    "high": 1315.0,
-    "low": 1313.3,
+    "change_pct": -0.15,
+    "high": 1314.4,
+    "low": 1312.2,
     "is_index": false,
     "stop_loss": 1323.84,
     "target": 1313.96,
@@ -786,9 +786,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 10:30",
     "signal": "BUY",
     "price": 497.1,
-    "change_pct": 0.09,
-    "high": 500.75,
-    "low": 499.8,
+    "change_pct": -0.07,
+    "high": 501.1,
+    "low": 500.45,
     "is_index": false,
     "stop_loss": 495.5,
     "target": 498.7,
@@ -812,9 +812,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:00",
     "signal": "SELL",
     "price": 4148.2,
-    "change_pct": 0.03,
-    "high": 4144.8,
-    "low": 4140.4,
+    "change_pct": -0.15,
+    "high": 4143.8,
+    "low": 4138.7,
     "is_index": false,
     "stop_loss": 4159.81,
     "target": 4136.59,
@@ -835,7 +835,7 @@ window.DASHBOARD_SIGNALS = [
     "symbol": "LTIM.NS",
     "name": "LTIMindtree Ltd",
     "sector": "IT",
-    "timestamp": "2026-11-18 11:39",
+    "timestamp": "2026-11-18 11:47",
     "signal": "BUY",
     "price": 5830.32,
     "change_pct": -1.58,
@@ -864,9 +864,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 09:35",
     "signal": "SELL",
     "price": 3396.0,
-    "change_pct": -0.02,
-    "high": 3345.5,
-    "low": 3340.5,
+    "change_pct": -0.15,
+    "high": 3338.4,
+    "low": 3332.0,
     "is_index": false,
     "stop_loss": 3411.48,
     "target": 3380.52,
@@ -890,9 +890,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:25",
     "signal": "SELL",
     "price": 12675.0,
-    "change_pct": 0.01,
-    "high": 12677.0,
-    "low": 12668.0,
+    "change_pct": -0.05,
+    "high": 12656.0,
+    "low": 12639.0,
     "is_index": false,
     "stop_loss": 12708.55,
     "target": 12641.45,
@@ -916,9 +916,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:40",
     "signal": "SELL",
     "price": 1282.0,
-    "change_pct": 0.0,
-    "high": 1284.7,
-    "low": 1283.1,
+    "change_pct": -0.23,
+    "high": 1282.8,
+    "low": 1278.9,
     "is_index": false,
     "stop_loss": 1285.87,
     "target": 1278.13,
@@ -942,9 +942,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:00",
     "signal": "SELL",
     "price": 318.45,
-    "change_pct": 0.03,
-    "high": 317.9,
-    "low": 317.55,
+    "change_pct": -0.11,
+    "high": 317.65,
+    "low": 317.3,
     "is_index": false,
     "stop_loss": 319.41,
     "target": 317.49,
@@ -968,8 +968,8 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:00",
     "signal": "BUY",
     "price": 224.46,
-    "change_pct": -0.02,
-    "high": 224.08,
+    "change_pct": -0.08,
+    "high": 224.14,
     "low": 223.9,
     "is_index": false,
     "stop_loss": 224.0,
@@ -994,9 +994,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:20",
     "signal": "SELL",
     "price": 257.05,
-    "change_pct": 0.04,
-    "high": 257.1,
-    "low": 256.9,
+    "change_pct": -0.17,
+    "high": 257.25,
+    "low": 256.8,
     "is_index": false,
     "stop_loss": 257.75,
     "target": 256.35,
@@ -1020,9 +1020,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:25",
     "signal": "SELL",
     "price": 1356.7,
-    "change_pct": 0.06,
-    "high": 1359.4,
-    "low": 1358.5,
+    "change_pct": -0.04,
+    "high": 1358.7,
+    "low": 1357.9,
     "is_index": false,
     "stop_loss": 1360.74,
     "target": 1352.66,
@@ -1046,8 +1046,8 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:35",
     "signal": "SELL",
     "price": 1112.8,
-    "change_pct": 0.11,
-    "high": 1113.95,
+    "change_pct": -0.08,
+    "high": 1113.2,
     "low": 1112.3,
     "is_index": false,
     "stop_loss": 1115.46,
@@ -1072,9 +1072,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:45",
     "signal": "SELL",
     "price": 987.2,
-    "change_pct": 0.03,
-    "high": 973.0,
-    "low": 973.0,
+    "change_pct": -0.09,
+    "high": 972.5,
+    "low": 971.3,
     "is_index": false,
     "stop_loss": 990.05,
     "target": 984.35,
@@ -1098,9 +1098,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:45",
     "signal": "SELL",
     "price": 1873.6,
-    "change_pct": 0.02,
-    "high": 1873.7,
-    "low": 1872.5,
+    "change_pct": -0.15,
+    "high": 1871.0,
+    "low": 1867.6,
     "is_index": false,
     "stop_loss": 1878.44,
     "target": 1868.76,
@@ -1125,8 +1125,8 @@ window.DASHBOARD_SIGNALS = [
     "signal": "BUY",
     "price": 1111.2,
     "change_pct": -0.06,
-    "high": 1120.9,
-    "low": 1119.7,
+    "high": 1120.7,
+    "low": 1119.9,
     "is_index": false,
     "stop_loss": 1106.7,
     "target": 1115.7,
@@ -1147,7 +1147,7 @@ window.DASHBOARD_SIGNALS = [
     "symbol": "TATAMOTORS.NS",
     "name": "Tata Motors Ltd",
     "sector": "Automobile",
-    "timestamp": "2026-11-18 11:39",
+    "timestamp": "2026-11-18 11:46",
     "signal": "BUY",
     "price": 785.61,
     "change_pct": -1.58,
@@ -1176,9 +1176,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:15",
     "signal": "BUY",
     "price": 179.7,
-    "change_pct": 0.01,
-    "high": 180.59,
-    "low": 180.43,
+    "change_pct": 0.02,
+    "high": 180.54,
+    "low": 179.92,
     "is_index": false,
     "stop_loss": 179.14,
     "target": 180.26,
@@ -1202,9 +1202,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 11:50",
     "signal": "SELL",
     "price": 2392.2,
-    "change_pct": -0.04,
-    "high": 2393.2,
-    "low": 2391.1,
+    "change_pct": -0.01,
+    "high": 2390.7,
+    "low": 2389.5,
     "is_index": false,
     "stop_loss": 2398.84,
     "target": 2385.56,
@@ -1228,9 +1228,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:45",
     "signal": "SELL",
     "price": 1747.7,
-    "change_pct": -0.01,
-    "high": 1747.4,
-    "low": 1746.4,
+    "change_pct": -0.1,
+    "high": 1745.6,
+    "low": 1743.3,
     "is_index": false,
     "stop_loss": 1751.79,
     "target": 1743.61,
@@ -1254,9 +1254,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:20",
     "signal": "SELL",
     "price": 4903.6,
-    "change_pct": -0.02,
-    "high": 4693.3,
-    "low": 4686.3,
+    "change_pct": -0.07,
+    "high": 4689.9,
+    "low": 4683.0,
     "is_index": false,
     "stop_loss": 4913.1,
     "target": 4894.1,
@@ -1280,9 +1280,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:45",
     "signal": "SELL",
     "price": 3205.9,
-    "change_pct": 0.07,
-    "high": 3207.1,
-    "low": 3207.1,
+    "change_pct": -0.26,
+    "high": 3205.5,
+    "low": 3196.6,
     "is_index": false,
     "stop_loss": 3223.0,
     "target": 3188.8,
@@ -1306,9 +1306,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-18 12:35",
     "signal": "SELL",
     "price": 12344.0,
-    "change_pct": 0.0,
-    "high": 12343.0,
-    "low": 12335.0,
+    "change_pct": -0.06,
+    "high": 12352.0,
+    "low": 12337.0,
     "is_index": false,
     "stop_loss": 12372.34,
     "target": 12315.66,
@@ -1332,9 +1332,9 @@ window.DASHBOARD_SIGNALS = [
     "timestamp": "2026-11-17 14:40",
     "signal": "SELL",
     "price": 190.47,
-    "change_pct": -0.02,
-    "high": 187.14,
-    "low": 186.85,
+    "change_pct": -0.09,
+    "high": 186.85,
+    "low": 186.66,
     "is_index": false,
     "stop_loss": 191.04,
     "target": 189.9,
@@ -1355,32 +1355,6 @@ window.DASHBOARD_SIGNALS = [
 
 window.DASHBOARD_CHARTS = {
   "^NSEI": [
-    {
-      "date": "15:05",
-      "open": 25406.099609375,
-      "high": 25412.55078125,
-      "low": 25390.849609375,
-      "close": 25409.69921875,
-      "volume": 0.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:10",
-      "open": 25411.0,
-      "high": 25425.150390625,
-      "low": 25396.94921875,
-      "close": 25417.80078125,
-      "volume": 0.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:15",
       "open": 25413.0,
@@ -1479,8 +1453,8 @@ window.DASHBOARD_CHARTS = {
       "low": 25267.150390625,
       "close": 25267.150390625,
       "volume": 0.0,
-      "supertrend": 25408.74,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -1492,8 +1466,8 @@ window.DASHBOARD_CHARTS = {
       "low": 25227.55078125,
       "close": 25231.5,
       "volume": 0.0,
-      "supertrend": 25365.46,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -1505,7 +1479,7 @@ window.DASHBOARD_CHARTS = {
       "low": 25206.30078125,
       "close": 25243.400390625,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -1518,7 +1492,7 @@ window.DASHBOARD_CHARTS = {
       "low": 25233.55078125,
       "close": 25273.599609375,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -1531,7 +1505,7 @@ window.DASHBOARD_CHARTS = {
       "low": 25267.75,
       "close": 25291.05078125,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -1544,11 +1518,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25280.55078125,
       "close": 25301.94921875,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 31.3
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -1557,11 +1531,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25280.80078125,
       "close": 25304.80078125,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 32.0
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -1570,11 +1544,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25285.349609375,
       "close": 25285.349609375,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 29.7
+      "rsi": 28.5
     },
     {
       "date": "10:15",
@@ -1583,11 +1557,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25256.599609375,
       "close": 25266.30078125,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 27.6
+      "rsi": 26.7
     },
     {
       "date": "10:20",
@@ -1596,11 +1570,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25242.55078125,
       "close": 25247.150390625,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 25.6
+      "rsi": 24.9
     },
     {
       "date": "10:25",
@@ -1609,11 +1583,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25244.94921875,
       "close": 25256.25,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
-      "ema20": 25316.05,
+      "ema20": null,
       "ema50": null,
-      "rsi": 28.2
+      "rsi": 27.4
     },
     {
       "date": "10:30",
@@ -1622,11 +1596,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25240.849609375,
       "close": 25246.099609375,
       "volume": 0.0,
-      "supertrend": 25351.54,
+      "supertrend": 25358.73,
       "st_dir": -1,
-      "ema20": 25309.38,
+      "ema20": null,
       "ema50": null,
-      "rsi": 27.1
+      "rsi": 26.3
     },
     {
       "date": "10:35",
@@ -1635,11 +1609,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25232.0,
       "close": 25245.30078125,
       "volume": 0.0,
-      "supertrend": 25344.82,
+      "supertrend": 25347.33,
       "st_dir": -1,
-      "ema20": 25303.28,
+      "ema20": 25299.24,
       "ema50": null,
-      "rsi": 27.0
+      "rsi": 26.3
     },
     {
       "date": "10:40",
@@ -1648,11 +1622,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25215.650390625,
       "close": 25222.55078125,
       "volume": 0.0,
-      "supertrend": 25338.84,
+      "supertrend": 25341.1,
       "st_dir": -1,
-      "ema20": 25295.59,
+      "ema20": 25291.94,
       "ema50": null,
-      "rsi": 24.5
+      "rsi": 23.9
     },
     {
       "date": "10:45",
@@ -1661,11 +1635,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25219.099609375,
       "close": 25235.099609375,
       "volume": 0.0,
-      "supertrend": 25336.08,
+      "supertrend": 25338.12,
       "st_dir": -1,
-      "ema20": 25289.83,
+      "ema20": 25286.52,
       "ema50": null,
-      "rsi": 28.5
+      "rsi": 27.7
     },
     {
       "date": "10:50",
@@ -1674,11 +1648,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25231.55078125,
       "close": 25246.19921875,
       "volume": 0.0,
-      "supertrend": 25336.08,
+      "supertrend": 25338.12,
       "st_dir": -1,
-      "ema20": 25285.68,
+      "ema20": 25282.68,
       "ema50": null,
-      "rsi": 31.9
+      "rsi": 31.0
     },
     {
       "date": "10:55",
@@ -1687,11 +1661,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25215.400390625,
       "close": 25226.0,
       "volume": 0.0,
-      "supertrend": 25333.03,
+      "supertrend": 25334.68,
       "st_dir": -1,
-      "ema20": 25279.99,
+      "ema20": 25277.28,
       "ema50": null,
-      "rsi": 29.2
+      "rsi": 28.5
     },
     {
       "date": "11:00",
@@ -1700,11 +1674,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25219.55078125,
       "close": 25219.650390625,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.91,
       "st_dir": -1,
-      "ema20": 25274.25,
+      "ema20": 25271.8,
       "ema50": null,
-      "rsi": 28.3
+      "rsi": 27.7
     },
     {
       "date": "11:05",
@@ -1713,11 +1687,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25216.650390625,
       "close": 25243.150390625,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25271.28,
+      "ema20": 25269.07,
       "ema50": null,
-      "rsi": 35.6
+      "rsi": 34.7
     },
     {
       "date": "11:10",
@@ -1726,11 +1700,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25236.44921875,
       "close": 25238.900390625,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25268.2,
+      "ema20": 25266.19,
       "ema50": null,
-      "rsi": 34.9
+      "rsi": 34.1
     },
     {
       "date": "11:15",
@@ -1739,11 +1713,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25237.69921875,
       "close": 25267.150390625,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25268.1,
+      "ema20": 25266.29,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 41.8
     },
     {
       "date": "11:20",
@@ -1752,11 +1726,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25261.05078125,
       "close": 25265.55078125,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25267.86,
+      "ema20": 25266.22,
       "ema50": null,
-      "rsi": 42.6
+      "rsi": 41.5
     },
     {
       "date": "11:25",
@@ -1765,11 +1739,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25256.19921875,
       "close": 25278.849609375,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25268.9,
+      "ema20": 25267.42,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 45.0
     },
     {
       "date": "11:30",
@@ -1778,11 +1752,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25251.099609375,
       "close": 25270.599609375,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25269.07,
+      "ema20": 25267.72,
       "ema50": null,
-      "rsi": 44.3
+      "rsi": 43.3
     },
     {
       "date": "11:35",
@@ -1791,11 +1765,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25252.900390625,
       "close": 25258.5,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25268.06,
+      "ema20": 25266.84,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 40.8
     },
     {
       "date": "11:40",
@@ -1804,11 +1778,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25249.75,
       "close": 25258.55078125,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25267.15,
+      "ema20": 25266.05,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 40.8
     },
     {
       "date": "11:45",
@@ -1817,11 +1791,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25232.75,
       "close": 25261.650390625,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25266.63,
+      "ema20": 25265.63,
       "ema50": null,
-      "rsi": 42.7
+      "rsi": 41.8
     },
     {
       "date": "11:50",
@@ -1830,11 +1804,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25235.44921875,
       "close": 25235.75,
       "volume": 0.0,
-      "supertrend": 25325.43,
+      "supertrend": 25326.76,
       "st_dir": -1,
-      "ema20": 25263.69,
+      "ema20": 25262.79,
       "ema50": null,
-      "rsi": 37.0
+      "rsi": 36.3
     },
     {
       "date": "11:55",
@@ -1843,11 +1817,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25225.25,
       "close": 25248.5,
       "volume": 0.0,
-      "supertrend": 25322.41,
+      "supertrend": 25322.87,
       "st_dir": -1,
-      "ema20": 25262.24,
+      "ema20": 25261.43,
       "ema50": null,
-      "rsi": 41.2
+      "rsi": 40.5
     },
     {
       "date": "12:00",
@@ -1856,11 +1830,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25222.69921875,
       "close": 25229.80078125,
       "volume": 0.0,
-      "supertrend": 25322.41,
+      "supertrend": 25322.87,
       "st_dir": -1,
-      "ema20": 25259.15,
+      "ema20": 25258.42,
       "ema50": null,
-      "rsi": 37.2
+      "rsi": 36.7
     },
     {
       "date": "12:05",
@@ -1869,11 +1843,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25226.80078125,
       "close": 25243.400390625,
       "volume": 0.0,
-      "supertrend": 25319.75,
+      "supertrend": 25320.13,
       "st_dir": -1,
-      "ema20": 25257.65,
+      "ema20": 25256.99,
       "ema50": null,
-      "rsi": 41.6
+      "rsi": 41.0
     },
     {
       "date": "12:10",
@@ -1882,11 +1856,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25235.44921875,
       "close": 25244.900390625,
       "volume": 0.0,
-      "supertrend": 25319.75,
+      "supertrend": 25320.13,
       "st_dir": -1,
-      "ema20": 25256.44,
+      "ema20": 25255.83,
       "ema50": null,
-      "rsi": 42.1
+      "rsi": 41.5
     },
     {
       "date": "12:15",
@@ -1895,11 +1869,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25243.55078125,
       "close": 25243.55078125,
       "volume": 0.0,
-      "supertrend": 25319.75,
+      "supertrend": 25320.13,
       "st_dir": -1,
-      "ema20": 25255.21,
+      "ema20": 25254.66,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 41.1
     },
     {
       "date": "12:20",
@@ -1908,11 +1882,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25223.05078125,
       "close": 25234.5,
       "volume": 0.0,
-      "supertrend": 25312.87,
+      "supertrend": 25313.15,
       "st_dir": -1,
-      "ema20": 25253.24,
+      "ema20": 25252.74,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 39.0
     },
     {
       "date": "12:25",
@@ -1921,11 +1895,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25215.400390625,
       "close": 25215.400390625,
       "volume": 0.0,
-      "supertrend": 25309.68,
+      "supertrend": 25309.93,
       "st_dir": -1,
-      "ema20": 25249.63,
+      "ema20": 25249.19,
       "ema50": null,
-      "rsi": 35.2
+      "rsi": 34.8
     },
     {
       "date": "12:30",
@@ -1934,11 +1908,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25194.150390625,
       "close": 25202.55078125,
       "volume": 0.0,
-      "supertrend": 25283.72,
+      "supertrend": 25283.94,
       "st_dir": -1,
-      "ema20": 25245.15,
+      "ema20": 25244.75,
       "ema50": null,
-      "rsi": 32.6
+      "rsi": 32.3
     },
     {
       "date": "12:35",
@@ -1947,11 +1921,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25186.55078125,
       "close": 25191.55078125,
       "volume": 0.0,
-      "supertrend": 25272.54,
+      "supertrend": 25272.74,
       "st_dir": -1,
-      "ema20": 25240.05,
+      "ema20": 25239.68,
       "ema50": null,
-      "rsi": 30.6
+      "rsi": 30.3
     },
     {
       "date": "12:40",
@@ -1960,11 +1934,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25176.69921875,
       "close": 25186.0,
       "volume": 0.0,
-      "supertrend": 25263.98,
+      "supertrend": 25264.16,
       "st_dir": -1,
-      "ema20": 25234.9,
+      "ema20": 25234.57,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 29.3
     },
     {
       "date": "12:45",
@@ -1973,11 +1947,11 @@ window.DASHBOARD_CHARTS = {
       "low": 25171.099609375,
       "close": 25175.099609375,
       "volume": 0.0,
-      "supertrend": 25252.38,
+      "supertrend": 25252.54,
       "st_dir": -1,
-      "ema20": 25229.2,
+      "ema20": 25228.9,
       "ema50": null,
-      "rsi": 27.6
+      "rsi": 27.4
     },
     {
       "date": "12:50",
@@ -1986,53 +1960,53 @@ window.DASHBOARD_CHARTS = {
       "low": 25169.05078125,
       "close": 25188.349609375,
       "volume": 0.0,
-      "supertrend": 25252.12,
+      "supertrend": 25252.26,
       "st_dir": -1,
-      "ema20": 25225.31,
+      "ema20": 25225.04,
       "ema50": null,
-      "rsi": 33.3
+      "rsi": 33.1
     },
     {
       "date": "12:55",
       "open": 25188.5,
       "high": 25202.099609375,
       "low": 25184.55078125,
-      "close": 25195.69921875,
+      "close": 25188.69921875,
       "volume": 0.0,
-      "supertrend": 25252.12,
+      "supertrend": 25252.26,
       "st_dir": -1,
-      "ema20": 25222.49,
-      "ema50": 25266.8,
-      "rsi": 36.3
+      "ema20": 25221.58,
+      "ema50": null,
+      "rsi": 33.2
+    },
+    {
+      "date": "13:00",
+      "open": 25188.69921875,
+      "high": 25191.900390625,
+      "low": 25171.400390625,
+      "close": 25182.19921875,
+      "volume": 0.0,
+      "supertrend": 25251.15,
+      "st_dir": -1,
+      "ema20": 25217.83,
+      "ema50": null,
+      "rsi": 31.8
+    },
+    {
+      "date": "13:05",
+      "open": 25181.849609375,
+      "high": 25182.849609375,
+      "low": 25177.150390625,
+      "close": 25177.25,
+      "volume": 0.0,
+      "supertrend": 25244.26,
+      "st_dir": -1,
+      "ema20": 25213.97,
+      "ema50": 25257.29,
+      "rsi": 30.8
     }
   ],
   "^NSEBANK": [
-    {
-      "date": "15:05",
-      "open": 62235.1484375,
-      "high": 62286.8984375,
-      "low": 62223.94921875,
-      "close": 62285.55078125,
-      "volume": 0.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:10",
-      "open": 62284.05078125,
-      "high": 62337.44921875,
-      "low": 62255.5,
-      "close": 62337.44921875,
-      "volume": 0.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:15",
       "open": 62322.8515625,
@@ -2131,8 +2105,8 @@ window.DASHBOARD_CHARTS = {
       "low": 62027.05078125,
       "close": 62027.05078125,
       "volume": 0.0,
-      "supertrend": 62391.0,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -2144,8 +2118,8 @@ window.DASHBOARD_CHARTS = {
       "low": 61845.6015625,
       "close": 61857.8984375,
       "volume": 0.0,
-      "supertrend": 62262.83,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -2157,7 +2131,7 @@ window.DASHBOARD_CHARTS = {
       "low": 61766.1484375,
       "close": 61899.30078125,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2170,7 +2144,7 @@ window.DASHBOARD_CHARTS = {
       "low": 61891.0,
       "close": 62020.1484375,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2183,7 +2157,7 @@ window.DASHBOARD_CHARTS = {
       "low": 62017.0,
       "close": 62090.05078125,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2196,11 +2170,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62060.1015625,
       "close": 62099.55078125,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -2209,11 +2183,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62040.5,
       "close": 62104.44921875,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -2222,11 +2196,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62079.8515625,
       "close": 62130.8984375,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 38.5
     },
     {
       "date": "10:15",
@@ -2235,11 +2209,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62074.30078125,
       "close": 62108.1484375,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.5
+      "rsi": 37.4
     },
     {
       "date": "10:20",
@@ -2248,11 +2222,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62081.0,
       "close": 62085.1015625,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.2
+      "rsi": 36.3
     },
     {
       "date": "10:25",
@@ -2261,11 +2235,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62073.94921875,
       "close": 62152.25,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62143.88,
+      "ema20": null,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 41.8
     },
     {
       "date": "10:30",
@@ -2274,11 +2248,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62116.0,
       "close": 62127.0,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62142.27,
+      "ema20": null,
       "ema50": null,
-      "rsi": 43.1
+      "rsi": 40.4
     },
     {
       "date": "10:35",
@@ -2287,11 +2261,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62064.8984375,
       "close": 62089.6484375,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62137.26,
+      "ema20": 62123.56,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 38.3
     },
     {
       "date": "10:40",
@@ -2300,11 +2274,11 @@ window.DASHBOARD_CHARTS = {
       "low": 61977.25,
       "close": 61977.25,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62122.02,
+      "ema20": 62109.63,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 32.9
     },
     {
       "date": "10:45",
@@ -2313,11 +2287,11 @@ window.DASHBOARD_CHARTS = {
       "low": 61975.1484375,
       "close": 62024.94921875,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62112.77,
+      "ema20": 62101.56,
       "ema50": null,
-      "rsi": 38.9
+      "rsi": 37.0
     },
     {
       "date": "10:50",
@@ -2326,11 +2300,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62021.69921875,
       "close": 62089.19921875,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62110.53,
+      "ema20": 62100.38,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 42.1
     },
     {
       "date": "10:55",
@@ -2339,11 +2313,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62026.8984375,
       "close": 62044.3515625,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62104.23,
+      "ema20": 62095.05,
       "ema50": null,
-      "rsi": 41.4
+      "rsi": 39.7
     },
     {
       "date": "11:00",
@@ -2352,11 +2326,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62038.94921875,
       "close": 62040.3984375,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62098.15,
+      "ema20": 62089.84,
       "ema50": null,
-      "rsi": 41.2
+      "rsi": 39.5
     },
     {
       "date": "11:05",
@@ -2365,11 +2339,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62037.3984375,
       "close": 62094.05078125,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62097.76,
+      "ema20": 62090.24,
       "ema50": null,
-      "rsi": 45.7
+      "rsi": 43.9
     },
     {
       "date": "11:10",
@@ -2378,11 +2352,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62071.30078125,
       "close": 62102.8515625,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62098.24,
+      "ema20": 62091.44,
       "ema50": null,
-      "rsi": 46.4
+      "rsi": 44.6
     },
     {
       "date": "11:15",
@@ -2391,11 +2365,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62096.8984375,
       "close": 62164.1015625,
       "volume": 0.0,
-      "supertrend": 62181.74,
+      "supertrend": 62196.46,
       "st_dir": -1,
-      "ema20": 62104.52,
+      "ema20": 62098.36,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 49.5
     },
     {
       "date": "11:20",
@@ -2404,11 +2378,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62156.8515625,
       "close": 62189.6484375,
       "volume": 0.0,
-      "supertrend": 61956.99,
-      "st_dir": 1,
-      "ema20": 62112.62,
+      "supertrend": 62196.46,
+      "st_dir": -1,
+      "ema20": 62107.06,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 51.4
     },
     {
       "date": "11:25",
@@ -2417,11 +2391,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62153.3515625,
       "close": 62209.80078125,
       "volume": 0.0,
-      "supertrend": 61956.99,
+      "supertrend": 61955.0,
       "st_dir": 1,
-      "ema20": 62121.88,
+      "ema20": 62116.84,
       "ema50": null,
-      "rsi": 54.6
+      "rsi": 52.9
     },
     {
       "date": "11:30",
@@ -2430,11 +2404,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62129.44921875,
       "close": 62167.44921875,
       "volume": 0.0,
-      "supertrend": 61956.99,
+      "supertrend": 61955.0,
       "st_dir": 1,
-      "ema20": 62126.22,
+      "ema20": 62121.66,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 49.4
     },
     {
       "date": "11:35",
@@ -2443,11 +2417,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62113.69921875,
       "close": 62131.1015625,
       "volume": 0.0,
-      "supertrend": 61956.99,
+      "supertrend": 61955.0,
       "st_dir": 1,
-      "ema20": 62126.68,
+      "ema20": 62122.56,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 46.6
     },
     {
       "date": "11:40",
@@ -2456,11 +2430,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62112.30078125,
       "close": 62164.05078125,
       "volume": 0.0,
-      "supertrend": 61956.99,
+      "supertrend": 61955.0,
       "st_dir": 1,
-      "ema20": 62130.24,
+      "ema20": 62126.51,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 49.4
     },
     {
       "date": "11:45",
@@ -2469,11 +2443,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62120.44921875,
       "close": 62222.75,
       "volume": 0.0,
-      "supertrend": 61956.99,
+      "supertrend": 61955.0,
       "st_dir": 1,
-      "ema20": 62139.05,
+      "ema20": 62135.68,
       "ema50": null,
-      "rsi": 55.4
+      "rsi": 54.1
     },
     {
       "date": "11:50",
@@ -2482,11 +2456,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62190.44921875,
       "close": 62192.80078125,
       "volume": 0.0,
-      "supertrend": 61984.84,
+      "supertrend": 61983.78,
       "st_dir": 1,
-      "ema20": 62144.17,
+      "ema20": 62141.12,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 51.5
     },
     {
       "date": "11:55",
@@ -2495,11 +2469,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62157.25,
       "close": 62209.0,
       "volume": 0.0,
-      "supertrend": 61984.84,
+      "supertrend": 61983.78,
       "st_dir": 1,
-      "ema20": 62150.35,
+      "ema20": 62147.58,
       "ema50": null,
-      "rsi": 54.0
+      "rsi": 52.8
     },
     {
       "date": "12:00",
@@ -2508,11 +2482,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62156.94921875,
       "close": 62175.55078125,
       "volume": 0.0,
-      "supertrend": 61984.84,
+      "supertrend": 61983.78,
       "st_dir": 1,
-      "ema20": 62152.75,
+      "ema20": 62150.25,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 49.8
     },
     {
       "date": "12:05",
@@ -2521,11 +2495,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62165.30078125,
       "close": 62217.19921875,
       "volume": 0.0,
-      "supertrend": 61984.84,
+      "supertrend": 61983.78,
       "st_dir": 1,
-      "ema20": 62158.88,
+      "ema20": 62156.62,
       "ema50": null,
-      "rsi": 54.4
+      "rsi": 53.4
     },
     {
       "date": "12:10",
@@ -2534,11 +2508,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62206.3984375,
       "close": 62235.8515625,
       "volume": 0.0,
-      "supertrend": 62008.43,
+      "supertrend": 62007.74,
       "st_dir": 1,
-      "ema20": 62166.21,
+      "ema20": 62164.17,
       "ema50": null,
-      "rsi": 56.0
+      "rsi": 54.9
     },
     {
       "date": "12:15",
@@ -2547,11 +2521,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62230.1484375,
       "close": 62244.8984375,
       "volume": 0.0,
-      "supertrend": 62048.87,
+      "supertrend": 62048.25,
       "st_dir": 1,
-      "ema20": 62173.71,
+      "ema20": 62171.86,
       "ema50": null,
-      "rsi": 56.7
+      "rsi": 55.7
     },
     {
       "date": "12:20",
@@ -2560,11 +2534,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62150.0,
       "close": 62186.30078125,
       "volume": 0.0,
-      "supertrend": 62048.87,
+      "supertrend": 62048.25,
       "st_dir": 1,
-      "ema20": 62174.91,
+      "ema20": 62173.23,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 49.8
     },
     {
       "date": "12:25",
@@ -2573,11 +2547,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62121.3515625,
       "close": 62121.3515625,
       "volume": 0.0,
-      "supertrend": 62048.87,
+      "supertrend": 62048.25,
       "st_dir": 1,
-      "ema20": 62169.81,
+      "ema20": 62168.29,
       "ema50": null,
-      "rsi": 44.8
+      "rsi": 44.1
     },
     {
       "date": "12:30",
@@ -2586,11 +2560,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62056.6015625,
       "close": 62108.94921875,
       "volume": 0.0,
-      "supertrend": 62048.87,
+      "supertrend": 62048.25,
       "st_dir": 1,
-      "ema20": 62164.01,
+      "ema20": 62162.64,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 43.1
     },
     {
       "date": "12:35",
@@ -2599,11 +2573,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62064.3515625,
       "close": 62085.94921875,
       "volume": 0.0,
-      "supertrend": 62048.87,
+      "supertrend": 62048.25,
       "st_dir": 1,
-      "ema20": 62156.58,
+      "ema20": 62155.34,
       "ema50": null,
-      "rsi": 41.9
+      "rsi": 41.3
     },
     {
       "date": "12:40",
@@ -2612,11 +2586,11 @@ window.DASHBOARD_CHARTS = {
       "low": 62006.19921875,
       "close": 62027.1015625,
       "volume": 0.0,
-      "supertrend": 62280.08,
+      "supertrend": 62280.44,
       "st_dir": -1,
-      "ema20": 62144.25,
+      "ema20": 62143.12,
       "ema50": null,
-      "rsi": 37.3
+      "rsi": 36.9
     },
     {
       "date": "12:45",
@@ -2625,11 +2599,11 @@ window.DASHBOARD_CHARTS = {
       "low": 61974.94921875,
       "close": 61994.3515625,
       "volume": 0.0,
-      "supertrend": 62226.71,
+      "supertrend": 62227.04,
       "st_dir": -1,
-      "ema20": 62129.97,
+      "ema20": 62128.95,
       "ema50": null,
-      "rsi": 35.1
+      "rsi": 34.6
     },
     {
       "date": "12:50",
@@ -2638,53 +2612,53 @@ window.DASHBOARD_CHARTS = {
       "low": 61961.8984375,
       "close": 62008.05078125,
       "volume": 0.0,
-      "supertrend": 62205.7,
+      "supertrend": 62206.0,
       "st_dir": -1,
-      "ema20": 62118.36,
+      "ema20": 62117.44,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 36.4
     },
     {
       "date": "12:55",
       "open": 62009.19921875,
       "high": 62069.1015625,
       "low": 61994.6484375,
-      "close": 62051.1484375,
+      "close": 62036.55078125,
       "volume": 0.0,
-      "supertrend": 62205.7,
+      "supertrend": 62206.0,
       "st_dir": -1,
-      "ema20": 62111.96,
-      "ema50": 62131.49,
-      "rsi": 42.0
+      "ema20": 62109.74,
+      "ema50": null,
+      "rsi": 39.9
+    },
+    {
+      "date": "13:00",
+      "open": 62039.1484375,
+      "high": 62051.5,
+      "low": 61997.0,
+      "close": 62033.0,
+      "volume": 0.0,
+      "supertrend": 62206.0,
+      "st_dir": -1,
+      "ema20": 62102.43,
+      "ema50": null,
+      "rsi": 39.6
+    },
+    {
+      "date": "13:05",
+      "open": 62034.1484375,
+      "high": 62035.5,
+      "low": 62007.05078125,
+      "close": 62007.05078125,
+      "volume": 0.0,
+      "supertrend": 62206.0,
+      "st_dir": -1,
+      "ema20": 62093.34,
+      "ema50": 62119.54,
+      "rsi": 37.4
     }
   ],
   "RELIANCE.NS": [
-    {
-      "date": "15:00",
-      "open": 1371.0999755859375,
-      "high": 1371.4000244140625,
-      "low": 1366.0999755859375,
-      "close": 1367.5999755859375,
-      "volume": 357407.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1367.5999755859375,
-      "high": 1368.5999755859375,
-      "low": 1366.0,
-      "close": 1367.5,
-      "volume": 359164.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1367.5,
@@ -2783,8 +2757,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1360.199951171875,
       "close": 1360.699951171875,
       "volume": 132370.0,
-      "supertrend": 1375.33,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -2796,8 +2770,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.0,
       "close": 1358.300048828125,
       "volume": 182678.0,
-      "supertrend": 1372.07,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -2809,7 +2783,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1355.0,
       "close": 1357.5999755859375,
       "volume": 165491.0,
-      "supertrend": 1369.25,
+      "supertrend": 1369.47,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2822,7 +2796,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.0,
       "close": 1359.5,
       "volume": 230236.0,
-      "supertrend": 1369.25,
+      "supertrend": 1369.47,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2835,7 +2809,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1359.800048828125,
       "close": 1364.300048828125,
       "volume": 200743.0,
-      "supertrend": 1369.25,
+      "supertrend": 1369.47,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -2848,11 +2822,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1363.0999755859375,
       "close": 1370.199951171875,
       "volume": 453861.0,
-      "supertrend": 1353.03,
+      "supertrend": 1352.87,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 54.1
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -2861,11 +2835,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.9000244140625,
       "close": 1367.300048828125,
       "volume": 287972.0,
-      "supertrend": 1354.37,
+      "supertrend": 1354.22,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.3
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -2874,11 +2848,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.5999755859375,
       "close": 1367.199951171875,
       "volume": 146614.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 48.1
     },
     {
       "date": "10:15",
@@ -2887,11 +2861,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.4000244140625,
       "close": 1363.199951171875,
       "volume": 165545.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.0
+      "rsi": 42.7
     },
     {
       "date": "10:20",
@@ -2900,7 +2874,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1360.0,
       "close": 1360.4000244140625,
       "volume": 129048.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
@@ -2913,11 +2887,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1360.5,
       "close": 1363.0,
       "volume": 261321.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1364.53,
+      "ema20": null,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 43.7
     },
     {
       "date": "10:30",
@@ -2926,11 +2900,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1361.5,
       "close": 1362.5,
       "volume": 374484.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1364.34,
+      "ema20": null,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": 43.1
     },
     {
       "date": "10:35",
@@ -2939,11 +2913,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.0999755859375,
       "close": 1363.5,
       "volume": 266807.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1364.26,
+      "ema20": 1364.08,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 44.8
     },
     {
       "date": "10:40",
@@ -2952,11 +2926,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1360.5,
       "close": 1360.9000244140625,
       "volume": 110765.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1363.94,
+      "ema20": 1363.77,
       "ema50": null,
-      "rsi": 41.4
+      "rsi": 41.3
     },
     {
       "date": "10:45",
@@ -2965,11 +2939,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1360.199951171875,
       "close": 1362.0999755859375,
       "volume": 197869.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1363.76,
+      "ema20": 1363.61,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 43.5
     },
     {
       "date": "10:50",
@@ -2978,11 +2952,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1361.800048828125,
       "close": 1362.300048828125,
       "volume": 221826.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1363.62,
+      "ema20": 1363.49,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 43.9
     },
     {
       "date": "10:55",
@@ -2991,11 +2965,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.0,
       "close": 1362.5,
       "volume": 114385.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1363.52,
+      "ema20": 1363.39,
       "ema50": null,
-      "rsi": 44.6
+      "rsi": 44.3
     },
     {
       "date": "11:00",
@@ -3004,9 +2978,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.0,
       "close": 1358.300048828125,
       "volume": 295196.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1363.02,
+      "ema20": 1362.91,
       "ema50": null,
       "rsi": 38.0
     },
@@ -3017,11 +2991,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.5,
       "close": 1359.300048828125,
       "volume": 186127.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1362.67,
+      "ema20": 1362.57,
       "ema50": null,
-      "rsi": 40.3
+      "rsi": 40.2
     },
     {
       "date": "11:10",
@@ -3030,11 +3004,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.5999755859375,
       "close": 1357.5999755859375,
       "volume": 174214.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1362.18,
+      "ema20": 1362.09,
       "ema50": null,
-      "rsi": 37.7
+      "rsi": 37.8
     },
     {
       "date": "11:15",
@@ -3043,9 +3017,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.4000244140625,
       "close": 1358.5,
       "volume": 140632.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1361.83,
+      "ema20": 1361.75,
       "ema50": null,
       "rsi": 39.9
     },
@@ -3056,11 +3030,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.4000244140625,
       "close": 1358.9000244140625,
       "volume": 170278.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1361.55,
+      "ema20": 1361.48,
       "ema50": null,
-      "rsi": 40.9
+      "rsi": 40.8
     },
     {
       "date": "11:25",
@@ -3069,11 +3043,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.0999755859375,
       "close": 1359.5,
       "volume": 91647.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1361.36,
+      "ema20": 1361.29,
       "ema50": null,
-      "rsi": 42.4
+      "rsi": 42.2
     },
     {
       "date": "11:30",
@@ -3082,9 +3056,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.9000244140625,
       "close": 1358.9000244140625,
       "volume": 129676.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1361.12,
+      "ema20": 1361.06,
       "ema50": null,
       "rsi": 41.2
     },
@@ -3095,11 +3069,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.9000244140625,
       "close": 1358.300048828125,
       "volume": 86482.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1360.85,
+      "ema20": 1360.8,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 40.0
     },
     {
       "date": "11:40",
@@ -3108,11 +3082,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.4000244140625,
       "close": 1356.5,
       "volume": 121524.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1360.44,
+      "ema20": 1360.39,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": 36.8
     },
     {
       "date": "11:45",
@@ -3121,11 +3095,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.0,
       "close": 1357.9000244140625,
       "volume": 290636.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1360.2,
+      "ema20": 1360.15,
       "ema50": null,
-      "rsi": 40.9
+      "rsi": 40.8
     },
     {
       "date": "11:50",
@@ -3134,11 +3108,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.300048828125,
       "close": 1358.0,
       "volume": 94236.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.99,
+      "ema20": 1359.95,
       "ema50": null,
-      "rsi": 41.2
+      "rsi": 41.1
     },
     {
       "date": "11:55",
@@ -3147,11 +3121,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.4000244140625,
       "close": 1360.9000244140625,
       "volume": 302755.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1360.08,
+      "ema20": 1360.04,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 48.8
     },
     {
       "date": "12:00",
@@ -3160,11 +3134,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.0999755859375,
       "close": 1359.0999755859375,
       "volume": 99372.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.98,
+      "ema20": 1359.95,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": 44.9
     },
     {
       "date": "12:05",
@@ -3173,11 +3147,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.800048828125,
       "close": 1358.800048828125,
       "volume": 96682.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.87,
+      "ema20": 1359.84,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 44.2
     },
     {
       "date": "12:10",
@@ -3186,11 +3160,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1358.0,
       "close": 1359.4000244140625,
       "volume": 107470.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.83,
+      "ema20": 1359.8,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 45.9
     },
     {
       "date": "12:15",
@@ -3199,11 +3173,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.800048828125,
       "close": 1358.300048828125,
       "volume": 152219.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.68,
+      "ema20": 1359.66,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 43.4
     },
     {
       "date": "12:20",
@@ -3212,9 +3186,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.0999755859375,
       "close": 1357.0,
       "volume": 157416.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.42,
+      "ema20": 1359.4,
       "ema50": null,
       "rsi": 40.5
     },
@@ -3225,11 +3199,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.5,
       "close": 1356.699951171875,
       "volume": 181086.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1359.17,
+      "ema20": 1359.14,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 39.8
     },
     {
       "date": "12:30",
@@ -3238,9 +3212,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1355.5999755859375,
       "close": 1356.5,
       "volume": 177037.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.91,
+      "ema20": 1358.89,
       "ema50": null,
       "rsi": 39.4
     },
@@ -3251,9 +3225,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.0,
       "close": 1357.0,
       "volume": 142032.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.73,
+      "ema20": 1358.71,
       "ema50": null,
       "rsi": 41.2
     },
@@ -3264,11 +3238,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.5999755859375,
       "close": 1357.5999755859375,
       "volume": 117387.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.62,
+      "ema20": 1358.61,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 43.4
     },
     {
       "date": "12:45",
@@ -3277,11 +3251,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.300048828125,
       "close": 1357.5,
       "volume": 79936.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.51,
+      "ema20": 1358.5,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 43.1
     },
     {
       "date": "12:50",
@@ -3290,53 +3264,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1357.4000244140625,
       "close": 1358.5,
       "volume": 125126.0,
-      "supertrend": 1355.13,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.51,
+      "ema20": 1358.5,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 46.9
     },
     {
       "date": "12:55",
       "open": 1358.5,
       "high": 1359.4000244140625,
       "low": 1358.5,
-      "close": 1359.300048828125,
-      "volume": 60453.0,
-      "supertrend": 1355.13,
+      "close": 1358.5,
+      "volume": 76166.0,
+      "supertrend": 1354.99,
       "st_dir": 1,
-      "ema20": 1358.59,
-      "ema50": 1361.25,
-      "rsi": 50.0
+      "ema20": 1358.5,
+      "ema50": null,
+      "rsi": 46.9
+    },
+    {
+      "date": "13:00",
+      "open": 1358.5,
+      "high": 1359.5,
+      "low": 1357.9000244140625,
+      "close": 1358.5,
+      "volume": 345468.0,
+      "supertrend": 1354.99,
+      "st_dir": 1,
+      "ema20": 1358.5,
+      "ema50": null,
+      "rsi": 46.9
+    },
+    {
+      "date": "13:05",
+      "open": 1358.4000244140625,
+      "high": 1358.699951171875,
+      "low": 1357.9000244140625,
+      "close": 1357.9000244140625,
+      "volume": 658462.0,
+      "supertrend": 1354.99,
+      "st_dir": 1,
+      "ema20": 1358.44,
+      "ema50": 1360.86,
+      "rsi": 44.7
     }
   ],
   "TCS.NS": [
-    {
-      "date": "15:00",
-      "open": 2405.0,
-      "high": 2407.199951171875,
-      "low": 2403.39990234375,
-      "close": 2406.89990234375,
-      "volume": 55830.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 2407.0,
-      "high": 2407.39990234375,
-      "low": 2405.39990234375,
-      "close": 2407.300048828125,
-      "volume": 63372.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 2406.0,
@@ -3435,8 +3409,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2395.10009765625,
       "close": 2395.699951171875,
       "volume": 21102.0,
-      "supertrend": 2418.61,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -3448,8 +3422,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.5,
       "close": 2392.0,
       "volume": 25073.0,
-      "supertrend": 2413.34,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -3461,7 +3435,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2391.60009765625,
       "close": 2397.39990234375,
       "volume": 18487.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -3474,7 +3448,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2396.199951171875,
       "close": 2400.0,
       "volume": 32197.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -3487,7 +3461,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2399.10009765625,
       "close": 2401.5,
       "volume": 29653.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -3500,11 +3474,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2401.0,
       "close": 2404.0,
       "volume": 27051.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -3513,11 +3487,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2398.699951171875,
       "close": 2400.0,
       "volume": 15244.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.3
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -3526,11 +3500,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2398.60009765625,
       "close": 2398.60009765625,
       "volume": 23530.0,
-      "supertrend": 2413.34,
+      "supertrend": 2418.9,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.9
+      "rsi": 40.0
     },
     {
       "date": "10:15",
@@ -3539,11 +3513,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.89990234375,
       "close": 2391.300048828125,
       "volume": 38064.0,
-      "supertrend": 2413.34,
+      "supertrend": 2416.29,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.5
+      "rsi": 34.3
     },
     {
       "date": "10:20",
@@ -3552,7 +3526,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2387.699951171875,
       "close": 2388.0,
       "volume": 22553.0,
-      "supertrend": 2410.5,
+      "supertrend": 2411.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -3565,11 +3539,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2388.10009765625,
       "close": 2389.0,
       "volume": 17834.0,
-      "supertrend": 2408.38,
+      "supertrend": 2409.39,
       "st_dir": -1,
-      "ema20": 2398.75,
+      "ema20": null,
       "ema50": null,
-      "rsi": 33.5
+      "rsi": 33.4
     },
     {
       "date": "10:30",
@@ -3578,11 +3552,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2388.0,
       "close": 2389.89990234375,
       "volume": 15724.0,
-      "supertrend": 2407.93,
+      "supertrend": 2408.84,
       "st_dir": -1,
-      "ema20": 2397.9,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.0
+      "rsi": 34.8
     },
     {
       "date": "10:35",
@@ -3591,11 +3565,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2389.0,
       "close": 2390.800048828125,
       "volume": 13364.0,
-      "supertrend": 2406.94,
+      "supertrend": 2407.76,
       "st_dir": -1,
-      "ema20": 2397.23,
+      "ema20": 2397.07,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": 36.1
     },
     {
       "date": "10:40",
@@ -3604,11 +3578,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2388.89990234375,
       "close": 2390.0,
       "volume": 12440.0,
-      "supertrend": 2406.7,
+      "supertrend": 2407.44,
       "st_dir": -1,
-      "ema20": 2396.54,
+      "ema20": 2396.4,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 35.4
     },
     {
       "date": "10:45",
@@ -3617,11 +3591,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2389.10009765625,
       "close": 2394.60009765625,
       "volume": 36388.0,
-      "supertrend": 2406.7,
+      "supertrend": 2407.44,
       "st_dir": -1,
-      "ema20": 2396.35,
+      "ema20": 2396.23,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 42.4
     },
     {
       "date": "10:50",
@@ -3630,11 +3604,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2392.199951171875,
       "close": 2393.60009765625,
       "volume": 6775.0,
-      "supertrend": 2406.7,
+      "supertrend": 2407.44,
       "st_dir": -1,
-      "ema20": 2396.09,
+      "ema20": 2395.98,
       "ema50": null,
-      "rsi": 42.0
+      "rsi": 41.4
     },
     {
       "date": "10:55",
@@ -3643,11 +3617,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2387.10009765625,
       "close": 2388.60009765625,
       "volume": 17350.0,
-      "supertrend": 2406.7,
+      "supertrend": 2407.34,
       "st_dir": -1,
-      "ema20": 2395.38,
+      "ema20": 2395.27,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 36.5
     },
     {
       "date": "11:00",
@@ -3656,11 +3630,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2388.0,
       "close": 2388.5,
       "volume": 10507.0,
-      "supertrend": 2405.05,
+      "supertrend": 2405.53,
       "st_dir": -1,
-      "ema20": 2394.72,
+      "ema20": 2394.63,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": 36.4
     },
     {
       "date": "11:05",
@@ -3669,11 +3643,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2387.10009765625,
       "close": 2391.199951171875,
       "volume": 8279.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.39,
+      "ema20": 2394.3,
       "ema50": null,
-      "rsi": 41.3
+      "rsi": 40.8
     },
     {
       "date": "11:10",
@@ -3682,11 +3656,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2388.89990234375,
       "close": 2388.89990234375,
       "volume": 9454.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2393.86,
+      "ema20": 2393.79,
       "ema50": null,
-      "rsi": 38.7
+      "rsi": 38.4
     },
     {
       "date": "11:15",
@@ -3695,11 +3669,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2389.199951171875,
       "close": 2393.5,
       "volume": 13704.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2393.83,
+      "ema20": 2393.76,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 45.3
     },
     {
       "date": "11:20",
@@ -3708,11 +3682,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2393.10009765625,
       "close": 2394.0,
       "volume": 12527.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2393.85,
+      "ema20": 2393.78,
       "ema50": null,
-      "rsi": 46.7
+      "rsi": 46.0
     },
     {
       "date": "11:25",
@@ -3721,11 +3695,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2393.10009765625,
       "close": 2395.39990234375,
       "volume": 6978.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2393.99,
+      "ema20": 2393.94,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 48.1
     },
     {
       "date": "11:30",
@@ -3734,11 +3708,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2394.300048828125,
       "close": 2398.39990234375,
       "volume": 11205.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.41,
+      "ema20": 2394.36,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 52.2
     },
     {
       "date": "11:35",
@@ -3747,11 +3721,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2396.199951171875,
       "close": 2398.199951171875,
       "volume": 10076.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.77,
+      "ema20": 2394.73,
       "ema50": null,
-      "rsi": 52.8
+      "rsi": 51.9
     },
     {
       "date": "11:40",
@@ -3760,11 +3734,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2395.800048828125,
       "close": 2396.10009765625,
       "volume": 10020.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.9,
+      "ema20": 2394.86,
       "ema50": null,
-      "rsi": 49.4
+      "rsi": 48.8
     },
     {
       "date": "11:45",
@@ -3773,11 +3747,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2393.0,
       "close": 2395.89990234375,
       "volume": 7549.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2395.0,
+      "ema20": 2394.96,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 48.5
     },
     {
       "date": "11:50",
@@ -3786,11 +3760,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2392.199951171875,
       "close": 2392.199951171875,
       "volume": 4978.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.73,
+      "ema20": 2394.69,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 43.1
     },
     {
       "date": "11:55",
@@ -3799,11 +3773,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.5,
       "close": 2393.60009765625,
       "volume": 9321.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.62,
+      "ema20": 2394.59,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 45.6
     },
     {
       "date": "12:00",
@@ -3812,11 +3786,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2391.800048828125,
       "close": 2392.5,
       "volume": 5961.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.42,
+      "ema20": 2394.39,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 44.0
     },
     {
       "date": "12:05",
@@ -3825,11 +3799,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2392.300048828125,
       "close": 2393.89990234375,
       "volume": 4550.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.37,
+      "ema20": 2394.34,
       "ema50": null,
-      "rsi": 47.0
+      "rsi": 46.5
     },
     {
       "date": "12:10",
@@ -3838,11 +3812,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2392.0,
       "close": 2395.300048828125,
       "volume": 5720.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.46,
+      "ema20": 2394.44,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 49.1
     },
     {
       "date": "12:15",
@@ -3851,11 +3825,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2396.0,
       "close": 2396.0,
       "volume": 25286.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.61,
+      "ema20": 2394.58,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 50.3
     },
     {
       "date": "12:20",
@@ -3864,11 +3838,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2393.10009765625,
       "close": 2394.0,
       "volume": 5826.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.55,
+      "ema20": 2394.53,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 46.8
     },
     {
       "date": "12:25",
@@ -3877,11 +3851,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2392.0,
       "close": 2392.0,
       "volume": 4059.0,
-      "supertrend": 2404.46,
+      "supertrend": 2404.9,
       "st_dir": -1,
-      "ema20": 2394.31,
+      "ema20": 2394.29,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 43.5
     },
     {
       "date": "12:30",
@@ -3890,11 +3864,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.5,
       "close": 2391.60009765625,
       "volume": 10722.0,
-      "supertrend": 2403.76,
+      "supertrend": 2403.83,
       "st_dir": -1,
-      "ema20": 2394.05,
+      "ema20": 2394.03,
       "ema50": null,
-      "rsi": 43.1
+      "rsi": 42.8
     },
     {
       "date": "12:35",
@@ -3903,11 +3877,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.60009765625,
       "close": 2391.199951171875,
       "volume": 6420.0,
-      "supertrend": 2402.17,
+      "supertrend": 2402.24,
       "st_dir": -1,
-      "ema20": 2393.78,
+      "ema20": 2393.76,
       "ema50": null,
-      "rsi": 42.4
+      "rsi": 42.1
     },
     {
       "date": "12:40",
@@ -3916,11 +3890,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2390.89990234375,
       "close": 2392.699951171875,
       "volume": 5427.0,
-      "supertrend": 2402.17,
+      "supertrend": 2402.24,
       "st_dir": -1,
-      "ema20": 2393.67,
+      "ema20": 2393.66,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 45.6
     },
     {
       "date": "12:45",
@@ -3929,11 +3903,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2391.10009765625,
       "close": 2391.60009765625,
       "volume": 4268.0,
-      "supertrend": 2402.17,
+      "supertrend": 2402.24,
       "st_dir": -1,
-      "ema20": 2393.48,
+      "ema20": 2393.46,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 43.5
     },
     {
       "date": "12:50",
@@ -3942,53 +3916,53 @@ window.DASHBOARD_CHARTS = {
       "low": 2391.0,
       "close": 2393.199951171875,
       "volume": 4563.0,
-      "supertrend": 2402.0,
+      "supertrend": 2402.05,
       "st_dir": -1,
-      "ema20": 2393.45,
+      "ema20": 2393.44,
       "ema50": null,
-      "rsi": 47.6
+      "rsi": 47.3
     },
     {
       "date": "12:55",
       "open": 2392.699951171875,
       "high": 2393.199951171875,
       "low": 2391.10009765625,
-      "close": 2392.300048828125,
-      "volume": 2614.0,
-      "supertrend": 2401.69,
+      "close": 2391.800048828125,
+      "volume": 4600.0,
+      "supertrend": 2401.74,
       "st_dir": -1,
-      "ema20": 2393.34,
-      "ema50": 2395.29,
-      "rsi": 45.7
+      "ema20": 2393.28,
+      "ema50": null,
+      "rsi": 44.5
+    },
+    {
+      "date": "13:00",
+      "open": 2391.300048828125,
+      "high": 2391.5,
+      "low": 2389.0,
+      "close": 2390.10009765625,
+      "volume": 11465.0,
+      "supertrend": 2399.72,
+      "st_dir": -1,
+      "ema20": 2392.98,
+      "ema50": null,
+      "rsi": 41.3
+    },
+    {
+      "date": "13:05",
+      "open": 2390.60009765625,
+      "high": 2390.699951171875,
+      "low": 2389.5,
+      "close": 2389.800048828125,
+      "volume": 1381.0,
+      "supertrend": 2398.98,
+      "st_dir": -1,
+      "ema20": 2392.68,
+      "ema50": 2394.6,
+      "rsi": 40.8
     }
   ],
   "HDFCBANK.NS": [
-    {
-      "date": "15:00",
-      "open": 812.75,
-      "high": 814.2000122070312,
-      "low": 812.5499877929688,
-      "close": 812.7999877929688,
-      "volume": 524289.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 812.9000244140625,
-      "high": 814.4000244140625,
-      "low": 812.7000122070312,
-      "close": 814.1500244140625,
-      "volume": 667979.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 814.0999755859375,
@@ -4087,8 +4061,8 @@ window.DASHBOARD_CHARTS = {
       "low": 809.5,
       "close": 809.5999755859375,
       "volume": 512055.0,
-      "supertrend": 817.27,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -4100,8 +4074,8 @@ window.DASHBOARD_CHARTS = {
       "low": 807.25,
       "close": 807.4500122070312,
       "volume": 677070.0,
-      "supertrend": 814.92,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -4113,7 +4087,7 @@ window.DASHBOARD_CHARTS = {
       "low": 806.7000122070312,
       "close": 807.6500244140625,
       "volume": 858267.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4126,7 +4100,7 @@ window.DASHBOARD_CHARTS = {
       "low": 807.4000244140625,
       "close": 809.8499755859375,
       "volume": 561261.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4139,7 +4113,7 @@ window.DASHBOARD_CHARTS = {
       "low": 809.2999877929688,
       "close": 810.75,
       "volume": 277887.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4152,11 +4126,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.0,
       "close": 810.5,
       "volume": 176922.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -4165,11 +4139,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.0,
       "close": 811.4000244140625,
       "volume": 277267.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.5
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -4178,11 +4152,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.75,
       "close": 812.5999755859375,
       "volume": 384846.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 46.2
     },
     {
       "date": "10:15",
@@ -4191,11 +4165,11 @@ window.DASHBOARD_CHARTS = {
       "low": 812.0,
       "close": 812.4500122070312,
       "volume": 439121.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 45.8
     },
     {
       "date": "10:20",
@@ -4204,11 +4178,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.6500244140625,
       "close": 812.4000244140625,
       "volume": 503008.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 45.7
     },
     {
       "date": "10:25",
@@ -4217,11 +4191,11 @@ window.DASHBOARD_CHARTS = {
       "low": 812.0999755859375,
       "close": 812.7000122070312,
       "volume": 237576.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 812.02,
+      "ema20": null,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 46.7
     },
     {
       "date": "10:30",
@@ -4230,11 +4204,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.7999877929688,
       "close": 811.9500122070312,
       "volume": 170782.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 812.01,
+      "ema20": null,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 44.4
     },
     {
       "date": "10:35",
@@ -4243,11 +4217,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.3499755859375,
       "close": 811.75,
       "volume": 137407.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.99,
+      "ema20": 811.86,
       "ema50": null,
-      "rsi": 47.2
+      "rsi": 43.7
     },
     {
       "date": "10:40",
@@ -4256,11 +4230,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.5,
       "close": 810.5999755859375,
       "volume": 139821.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.85,
+      "ema20": 811.74,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 40.2
     },
     {
       "date": "10:45",
@@ -4269,11 +4243,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.0499877929688,
       "close": 810.4000244140625,
       "volume": 156088.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.72,
+      "ema20": 811.61,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 39.6
     },
     {
       "date": "10:50",
@@ -4282,11 +4256,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.0,
       "close": 811.0,
       "volume": 98024.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.65,
+      "ema20": 811.55,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 42.4
     },
     {
       "date": "10:55",
@@ -4295,11 +4269,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.0,
       "close": 810.4500122070312,
       "volume": 144438.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.53,
+      "ema20": 811.45,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 40.5
     },
     {
       "date": "11:00",
@@ -4308,11 +4282,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.2999877929688,
       "close": 810.6500244140625,
       "volume": 135022.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.45,
+      "ema20": 811.37,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 41.5
     },
     {
       "date": "11:05",
@@ -4321,11 +4295,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.2000122070312,
       "close": 811.2000122070312,
       "volume": 103157.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.43,
+      "ema20": 811.35,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 44.3
     },
     {
       "date": "11:10",
@@ -4334,11 +4308,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.0499877929688,
       "close": 811.4500122070312,
       "volume": 98359.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.43,
+      "ema20": 811.36,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 45.6
     },
     {
       "date": "11:15",
@@ -4347,11 +4321,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.3499755859375,
       "close": 812.4000244140625,
       "volume": 132452.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.52,
+      "ema20": 811.46,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 50.2
     },
     {
       "date": "11:20",
@@ -4360,11 +4334,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.7000122070312,
       "close": 812.3499755859375,
       "volume": 223470.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.6,
+      "ema20": 811.55,
       "ema50": null,
-      "rsi": 52.5
+      "rsi": 49.9
     },
     {
       "date": "11:25",
@@ -4373,11 +4347,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.8499755859375,
       "close": 812.9000244140625,
       "volume": 131416.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.72,
+      "ema20": 811.68,
       "ema50": null,
-      "rsi": 55.1
+      "rsi": 52.6
     },
     {
       "date": "11:30",
@@ -4386,11 +4360,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.1500244140625,
       "close": 811.75,
       "volume": 183447.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.73,
+      "ema20": 811.68,
       "ema50": null,
-      "rsi": 49.0
+      "rsi": 46.9
     },
     {
       "date": "11:35",
@@ -4399,11 +4373,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.8499755859375,
       "close": 811.4000244140625,
       "volume": 172437.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.69,
+      "ema20": 811.66,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 45.3
     },
     {
       "date": "11:40",
@@ -4412,11 +4386,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.9000244140625,
       "close": 811.1500244140625,
       "volume": 134306.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.64,
+      "ema20": 811.61,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 44.2
     },
     {
       "date": "11:45",
@@ -4425,11 +4399,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.5999755859375,
       "close": 811.75,
       "volume": 91058.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.65,
+      "ema20": 811.62,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 47.6
     },
     {
       "date": "11:50",
@@ -4438,11 +4412,11 @@ window.DASHBOARD_CHARTS = {
       "low": 811.25,
       "close": 811.3499755859375,
       "volume": 90796.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.62,
+      "ema20": 811.6,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 45.6
     },
     {
       "date": "11:55",
@@ -4451,11 +4425,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.8499755859375,
       "close": 811.5,
       "volume": 114356.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.61,
+      "ema20": 811.59,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 46.5
     },
     {
       "date": "12:00",
@@ -4464,11 +4438,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.4500122070312,
       "close": 810.5999755859375,
       "volume": 145533.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.52,
+      "ema20": 811.49,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": 41.9
     },
     {
       "date": "12:05",
@@ -4477,11 +4451,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.7000122070312,
       "close": 810.2000122070312,
       "volume": 215469.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.39,
+      "ema20": 811.37,
       "ema50": null,
-      "rsi": 41.4
+      "rsi": 40.1
     },
     {
       "date": "12:10",
@@ -4490,11 +4464,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.1500244140625,
       "close": 810.7999877929688,
       "volume": 123696.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.33,
+      "ema20": 811.31,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": 44.1
     },
     {
       "date": "12:15",
@@ -4503,11 +4477,11 @@ window.DASHBOARD_CHARTS = {
       "low": 810.7999877929688,
       "close": 811.0499877929688,
       "volume": 253975.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.31,
+      "ema20": 811.29,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 45.8
     },
     {
       "date": "12:20",
@@ -4516,11 +4490,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.7999877929688,
       "close": 810.2999877929688,
       "volume": 139561.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.21,
+      "ema20": 811.2,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 41.8
     },
     {
       "date": "12:25",
@@ -4529,11 +4503,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.75,
       "close": 809.9000244140625,
       "volume": 186065.0,
-      "supertrend": 813.48,
+      "supertrend": 813.77,
       "st_dir": -1,
-      "ema20": 811.09,
+      "ema20": 811.07,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 39.8
     },
     {
       "date": "12:30",
@@ -4542,11 +4516,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.0,
       "close": 809.9000244140625,
       "volume": 173074.0,
-      "supertrend": 813.38,
+      "supertrend": 813.39,
       "st_dir": -1,
-      "ema20": 810.97,
+      "ema20": 810.96,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 39.8
     },
     {
       "date": "12:35",
@@ -4555,11 +4529,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.6500244140625,
       "close": 810.0,
       "volume": 102274.0,
-      "supertrend": 813.38,
+      "supertrend": 813.39,
       "st_dir": -1,
-      "ema20": 810.88,
+      "ema20": 810.87,
       "ema50": null,
-      "rsi": 41.6
+      "rsi": 40.6
     },
     {
       "date": "12:40",
@@ -4568,11 +4542,11 @@ window.DASHBOARD_CHARTS = {
       "low": 809.25,
       "close": 809.4500122070312,
       "volume": 126353.0,
-      "supertrend": 813.38,
+      "supertrend": 813.39,
       "st_dir": -1,
-      "ema20": 810.74,
+      "ema20": 810.73,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 37.6
     },
     {
       "date": "12:45",
@@ -4583,9 +4557,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 125542.0,
       "supertrend": 813.19,
       "st_dir": -1,
-      "ema20": 810.66,
+      "ema20": 810.65,
       "ema50": null,
-      "rsi": 41.9
+      "rsi": 41.0
     },
     {
       "date": "12:50",
@@ -4596,51 +4570,51 @@ window.DASHBOARD_CHARTS = {
       "volume": 141777.0,
       "supertrend": 813.19,
       "st_dir": -1,
-      "ema20": 810.61,
+      "ema20": 810.6,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 43.6
     },
     {
       "date": "12:55",
       "open": 810.1500244140625,
       "high": 810.75,
       "low": 809.7999877929688,
-      "close": 810.4500122070312,
-      "volume": 116387.0,
+      "close": 810.2000122070312,
+      "volume": 140734.0,
       "supertrend": 813.19,
       "st_dir": -1,
-      "ema20": 810.6,
-      "ema50": 811.38,
-      "rsi": 46.9
+      "ema20": 810.56,
+      "ema50": null,
+      "rsi": 44.0
+    },
+    {
+      "date": "13:00",
+      "open": 810.2000122070312,
+      "high": 810.4000244140625,
+      "low": 809.5,
+      "close": 810.1500244140625,
+      "volume": 138063.0,
+      "supertrend": 813.19,
+      "st_dir": -1,
+      "ema20": 810.52,
+      "ema50": null,
+      "rsi": 43.6
+    },
+    {
+      "date": "13:05",
+      "open": 810.25,
+      "high": 810.25,
+      "low": 809.5499877929688,
+      "close": 809.5499877929688,
+      "volume": 32652.0,
+      "supertrend": 813.12,
+      "st_dir": -1,
+      "ema20": 810.43,
+      "ema50": 811.23,
+      "rsi": 39.5
     }
   ],
   "ICICIBANK.NS": [
-    {
-      "date": "15:00",
-      "open": 1607.800048828125,
-      "high": 1607.9000244140625,
-      "low": 1606.199951171875,
-      "close": 1606.699951171875,
-      "volume": 185535.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1606.5999755859375,
-      "high": 1607.199951171875,
-      "low": 1605.4000244140625,
-      "close": 1606.9000244140625,
-      "volume": 268803.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1606.800048828125,
@@ -4739,8 +4713,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1603.0999755859375,
       "close": 1603.4000244140625,
       "volume": 217103.0,
-      "supertrend": 1615.25,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -4752,8 +4726,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.0,
       "close": 1600.9000244140625,
       "volume": 181395.0,
-      "supertrend": 1613.41,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -4765,7 +4739,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1599.0,
       "close": 1602.0999755859375,
       "volume": 179567.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4778,7 +4752,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.800048828125,
       "close": 1604.0,
       "volume": 170273.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4791,7 +4765,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1603.5,
       "close": 1605.199951171875,
       "volume": 130106.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -4804,11 +4778,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1603.300048828125,
       "close": 1604.199951171875,
       "volume": 141022.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -4817,11 +4791,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1602.699951171875,
       "close": 1604.5999755859375,
       "volume": 122281.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -4830,11 +4804,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.800048828125,
       "close": 1601.300048828125,
       "volume": 155116.0,
-      "supertrend": 1612.33,
+      "supertrend": 1613.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 44.8
     },
     {
       "date": "10:15",
@@ -4843,11 +4817,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1599.5999755859375,
       "close": 1601.699951171875,
       "volume": 189746.0,
-      "supertrend": 1611.08,
+      "supertrend": 1611.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 45.5
     },
     {
       "date": "10:20",
@@ -4856,11 +4830,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1599.4000244140625,
       "close": 1600.300048828125,
       "volume": 160449.0,
-      "supertrend": 1610.44,
+      "supertrend": 1611.06,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.4
+      "rsi": 43.3
     },
     {
       "date": "10:25",
@@ -4869,11 +4843,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1599.800048828125,
       "close": 1602.0,
       "volume": 103679.0,
-      "supertrend": 1610.44,
+      "supertrend": 1611.06,
       "st_dir": -1,
-      "ema20": 1603.56,
+      "ema20": null,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 46.6
     },
     {
       "date": "10:30",
@@ -4882,11 +4856,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.800048828125,
       "close": 1602.699951171875,
       "volume": 75140.0,
-      "supertrend": 1610.44,
+      "supertrend": 1611.06,
       "st_dir": -1,
-      "ema20": 1603.48,
+      "ema20": null,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 48.0
     },
     {
       "date": "10:35",
@@ -4895,11 +4869,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.4000244140625,
       "close": 1601.800048828125,
       "volume": 61921.0,
-      "supertrend": 1610.44,
+      "supertrend": 1611.06,
       "st_dir": -1,
-      "ema20": 1603.32,
+      "ema20": 1603.11,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 46.4
     },
     {
       "date": "10:40",
@@ -4908,11 +4882,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.199951171875,
       "close": 1600.5999755859375,
       "volume": 94966.0,
-      "supertrend": 1609.63,
+      "supertrend": 1610.03,
       "st_dir": -1,
-      "ema20": 1603.06,
+      "ema20": 1602.87,
       "ema50": null,
-      "rsi": 41.8
+      "rsi": 44.2
     },
     {
       "date": "10:45",
@@ -4921,11 +4895,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.300048828125,
       "close": 1601.0,
       "volume": 76828.0,
-      "supertrend": 1609.62,
+      "supertrend": 1609.98,
       "st_dir": -1,
-      "ema20": 1602.87,
+      "ema20": 1602.69,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 45.1
     },
     {
       "date": "10:50",
@@ -4934,11 +4908,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.800048828125,
       "close": 1602.0,
       "volume": 56759.0,
-      "supertrend": 1609.25,
+      "supertrend": 1609.57,
       "st_dir": -1,
-      "ema20": 1602.78,
+      "ema20": 1602.63,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 47.4
     },
     {
       "date": "10:55",
@@ -4947,11 +4921,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.199951171875,
       "close": 1601.0,
       "volume": 87483.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.61,
+      "ema20": 1602.47,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 45.4
     },
     {
       "date": "11:00",
@@ -4960,11 +4934,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.9000244140625,
       "close": 1601.9000244140625,
       "volume": 71282.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.55,
+      "ema20": 1602.42,
       "ema50": null,
-      "rsi": 45.6
+      "rsi": 47.6
     },
     {
       "date": "11:05",
@@ -4973,11 +4947,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.4000244140625,
       "close": 1602.5999755859375,
       "volume": 90691.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.55,
+      "ema20": 1602.43,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 49.3
     },
     {
       "date": "11:10",
@@ -4986,11 +4960,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1602.4000244140625,
       "close": 1603.0999755859375,
       "volume": 72697.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.6,
+      "ema20": 1602.5,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 50.5
     },
     {
       "date": "11:15",
@@ -4999,11 +4973,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1602.5999755859375,
       "close": 1604.0999755859375,
       "volume": 85330.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.75,
+      "ema20": 1602.65,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 53.0
     },
     {
       "date": "11:20",
@@ -5012,11 +4986,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1603.300048828125,
       "close": 1604.199951171875,
       "volume": 129968.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.88,
+      "ema20": 1602.8,
       "ema50": null,
-      "rsi": 51.7
+      "rsi": 53.2
     },
     {
       "date": "11:25",
@@ -5025,11 +4999,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1602.4000244140625,
       "close": 1604.0999755859375,
       "volume": 108206.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1603.0,
+      "ema20": 1602.92,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 52.9
     },
     {
       "date": "11:30",
@@ -5038,11 +5012,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.300048828125,
       "close": 1602.300048828125,
       "volume": 71017.0,
-      "supertrend": 1608.7,
+      "supertrend": 1609.0,
       "st_dir": -1,
-      "ema20": 1602.93,
+      "ema20": 1602.86,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 47.6
     },
     {
       "date": "11:35",
@@ -5051,11 +5025,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.5,
       "close": 1601.300048828125,
       "volume": 92986.0,
-      "supertrend": 1608.41,
+      "supertrend": 1608.54,
       "st_dir": -1,
-      "ema20": 1602.78,
+      "ema20": 1602.71,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": 45.0
     },
     {
       "date": "11:40",
@@ -5064,11 +5038,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.0,
       "close": 1602.300048828125,
       "volume": 46219.0,
-      "supertrend": 1608.16,
+      "supertrend": 1608.27,
       "st_dir": -1,
-      "ema20": 1602.73,
+      "ema20": 1602.67,
       "ema50": null,
-      "rsi": 46.7
+      "rsi": 48.1
     },
     {
       "date": "11:45",
@@ -5077,11 +5051,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.5,
       "close": 1602.9000244140625,
       "volume": 57149.0,
-      "supertrend": 1608.16,
+      "supertrend": 1608.27,
       "st_dir": -1,
-      "ema20": 1602.75,
+      "ema20": 1602.7,
       "ema50": null,
-      "rsi": 48.7
+      "rsi": 50.0
     },
     {
       "date": "11:50",
@@ -5090,11 +5064,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.800048828125,
       "close": 1602.0,
       "volume": 87966.0,
-      "supertrend": 1608.16,
+      "supertrend": 1608.27,
       "st_dir": -1,
-      "ema20": 1602.68,
+      "ema20": 1602.63,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 47.2
     },
     {
       "date": "11:55",
@@ -5103,11 +5077,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1601.5,
       "close": 1602.800048828125,
       "volume": 75111.0,
-      "supertrend": 1608.16,
+      "supertrend": 1608.27,
       "st_dir": -1,
-      "ema20": 1602.69,
+      "ema20": 1602.65,
       "ema50": null,
-      "rsi": 48.7
+      "rsi": 49.9
     },
     {
       "date": "12:00",
@@ -5116,11 +5090,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.0999755859375,
       "close": 1600.5,
       "volume": 127844.0,
-      "supertrend": 1607.76,
+      "supertrend": 1607.84,
       "st_dir": -1,
-      "ema20": 1602.48,
+      "ema20": 1602.44,
       "ema50": null,
-      "rsi": 42.1
+      "rsi": 43.2
     },
     {
       "date": "12:05",
@@ -5129,11 +5103,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.4000244140625,
       "close": 1601.0,
       "volume": 89237.0,
-      "supertrend": 1606.79,
+      "supertrend": 1606.86,
       "st_dir": -1,
-      "ema20": 1602.34,
+      "ema20": 1602.3,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 44.9
     },
     {
       "date": "12:10",
@@ -5142,11 +5116,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.5,
       "close": 1601.0,
       "volume": 69803.0,
-      "supertrend": 1606.6,
+      "supertrend": 1606.66,
       "st_dir": -1,
-      "ema20": 1602.21,
+      "ema20": 1602.18,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 44.9
     },
     {
       "date": "12:15",
@@ -5155,11 +5129,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1600.800048828125,
       "close": 1601.0999755859375,
       "volume": 74764.0,
-      "supertrend": 1606.6,
+      "supertrend": 1606.66,
       "st_dir": -1,
-      "ema20": 1602.11,
+      "ema20": 1602.08,
       "ema50": null,
-      "rsi": 44.3
+      "rsi": 45.3
     },
     {
       "date": "12:20",
@@ -5168,11 +5142,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1598.5999755859375,
       "close": 1599.4000244140625,
       "volume": 196513.0,
-      "supertrend": 1605.76,
+      "supertrend": 1605.8,
       "st_dir": -1,
-      "ema20": 1601.85,
+      "ema20": 1601.82,
       "ema50": null,
-      "rsi": 39.2
+      "rsi": 40.2
     },
     {
       "date": "12:25",
@@ -5181,11 +5155,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1598.0999755859375,
       "close": 1598.0999755859375,
       "volume": 102555.0,
-      "supertrend": 1604.68,
+      "supertrend": 1604.72,
       "st_dir": -1,
-      "ema20": 1601.49,
+      "ema20": 1601.47,
       "ema50": null,
-      "rsi": 35.8
+      "rsi": 36.8
     },
     {
       "date": "12:30",
@@ -5194,11 +5168,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1596.300048828125,
       "close": 1596.699951171875,
       "volume": 133165.0,
-      "supertrend": 1602.93,
+      "supertrend": 1602.97,
       "st_dir": -1,
-      "ema20": 1601.03,
+      "ema20": 1601.01,
       "ema50": null,
-      "rsi": 32.5
+      "rsi": 33.5
     },
     {
       "date": "12:35",
@@ -5207,11 +5181,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1595.300048828125,
       "close": 1595.4000244140625,
       "volume": 334664.0,
-      "supertrend": 1601.61,
+      "supertrend": 1601.65,
       "st_dir": -1,
-      "ema20": 1600.5,
+      "ema20": 1600.48,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 30.7
     },
     {
       "date": "12:40",
@@ -5220,11 +5194,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1593.5999755859375,
       "close": 1594.199951171875,
       "volume": 181296.0,
-      "supertrend": 1600.44,
+      "supertrend": 1600.48,
       "st_dir": -1,
-      "ema20": 1599.9,
+      "ema20": 1599.88,
       "ema50": null,
-      "rsi": 27.5
+      "rsi": 28.4
     },
     {
       "date": "12:45",
@@ -5233,11 +5207,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1592.699951171875,
       "close": 1594.699951171875,
       "volume": 232684.0,
-      "supertrend": 1600.3,
+      "supertrend": 1600.33,
       "st_dir": -1,
-      "ema20": 1599.4,
+      "ema20": 1599.39,
       "ema50": null,
-      "rsi": 29.9
+      "rsi": 30.7
     },
     {
       "date": "12:50",
@@ -5246,53 +5220,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1592.800048828125,
       "close": 1593.9000244140625,
       "volume": 336161.0,
-      "supertrend": 1599.77,
+      "supertrend": 1599.8,
       "st_dir": -1,
-      "ema20": 1598.88,
+      "ema20": 1598.86,
       "ema50": null,
-      "rsi": 28.3
+      "rsi": 29.1
     },
     {
       "date": "12:55",
       "open": 1593.800048828125,
       "high": 1595.300048828125,
       "low": 1593.199951171875,
-      "close": 1594.699951171875,
-      "volume": 72738.0,
-      "supertrend": 1599.77,
+      "close": 1594.4000244140625,
+      "volume": 91916.0,
+      "supertrend": 1599.8,
       "st_dir": -1,
-      "ema20": 1598.48,
-      "ema50": 1601.69,
-      "rsi": 32.3
+      "ema20": 1598.44,
+      "ema50": null,
+      "rsi": 31.6
+    },
+    {
+      "date": "13:00",
+      "open": 1594.4000244140625,
+      "high": 1595.0,
+      "low": 1593.0999755859375,
+      "close": 1593.9000244140625,
+      "volume": 103259.0,
+      "supertrend": 1599.8,
+      "st_dir": -1,
+      "ema20": 1598.01,
+      "ema50": null,
+      "rsi": 30.4
+    },
+    {
+      "date": "13:05",
+      "open": 1593.9000244140625,
+      "high": 1594.199951171875,
+      "low": 1593.5999755859375,
+      "close": 1593.5999755859375,
+      "volume": 13190.0,
+      "supertrend": 1599.51,
+      "st_dir": -1,
+      "ema20": 1597.59,
+      "ema50": 1601.17,
+      "rsi": 29.7
     }
   ],
   "INFY.NS": [
-    {
-      "date": "15:00",
-      "open": 1129.0,
-      "high": 1129.4000244140625,
-      "low": 1128.800048828125,
-      "close": 1129.4000244140625,
-      "volume": 128535.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1129.4000244140625,
-      "high": 1129.5,
-      "low": 1128.300048828125,
-      "close": 1129.5,
-      "volume": 159727.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1129.4000244140625,
@@ -5391,8 +5365,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1121.0,
       "close": 1121.300048828125,
       "volume": 60841.0,
-      "supertrend": 1130.17,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -5404,8 +5378,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.4000244140625,
       "close": 1117.5,
       "volume": 184819.0,
-      "supertrend": 1127.9,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -5417,7 +5391,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.4000244140625,
       "close": 1118.5,
       "volume": 182126.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -5430,7 +5404,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.0999755859375,
       "close": 1120.9000244140625,
       "volume": 49592.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -5443,7 +5417,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1120.800048828125,
       "close": 1121.300048828125,
       "volume": 44738.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -5456,11 +5430,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1121.199951171875,
       "close": 1122.0999755859375,
       "volume": 18582.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.1
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -5469,11 +5443,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1120.699951171875,
       "close": 1121.5,
       "volume": 26614.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 29.0
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -5482,11 +5456,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1120.5,
       "close": 1121.0,
       "volume": 31750.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 28.2
+      "rsi": 26.1
     },
     {
       "date": "10:15",
@@ -5495,11 +5469,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.0,
       "close": 1118.199951171875,
       "volume": 47231.0,
-      "supertrend": 1126.59,
+      "supertrend": 1127.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 23.9
+      "rsi": 22.5
     },
     {
       "date": "10:20",
@@ -5508,11 +5482,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.199951171875,
       "close": 1117.699951171875,
       "volume": 32012.0,
-      "supertrend": 1125.97,
+      "supertrend": 1126.53,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 23.2
+      "rsi": 21.9
     },
     {
       "date": "10:25",
@@ -5521,11 +5495,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.5,
       "close": 1117.5,
       "volume": 30322.0,
-      "supertrend": 1125.56,
+      "supertrend": 1126.06,
       "st_dir": -1,
-      "ema20": 1122.96,
+      "ema20": null,
       "ema50": null,
-      "rsi": 22.9
+      "rsi": 21.6
     },
     {
       "date": "10:30",
@@ -5534,11 +5508,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.0,
       "close": 1118.4000244140625,
       "volume": 21488.0,
-      "supertrend": 1125.18,
+      "supertrend": 1125.63,
       "st_dir": -1,
-      "ema20": 1122.53,
+      "ema20": null,
       "ema50": null,
-      "rsi": 27.2
+      "rsi": 25.6
     },
     {
       "date": "10:35",
@@ -5547,11 +5521,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.199951171875,
       "close": 1117.800048828125,
       "volume": 28115.0,
-      "supertrend": 1125.1,
+      "supertrend": 1125.51,
       "st_dir": -1,
-      "ema20": 1122.08,
+      "ema20": 1121.83,
       "ema50": null,
-      "rsi": 26.2
+      "rsi": 24.7
     },
     {
       "date": "10:40",
@@ -5560,11 +5534,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.800048828125,
       "close": 1116.800048828125,
       "volume": 66082.0,
-      "supertrend": 1124.54,
+      "supertrend": 1124.91,
       "st_dir": -1,
-      "ema20": 1121.57,
+      "ema20": 1121.35,
       "ema50": null,
-      "rsi": 24.5
+      "rsi": 23.2
     },
     {
       "date": "10:45",
@@ -5573,11 +5547,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.4000244140625,
       "close": 1117.199951171875,
       "volume": 32720.0,
-      "supertrend": 1123.92,
+      "supertrend": 1124.25,
       "st_dir": -1,
-      "ema20": 1121.16,
+      "ema20": 1120.95,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 25.2
     },
     {
       "date": "10:50",
@@ -5586,11 +5560,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.0999755859375,
       "close": 1117.800048828125,
       "volume": 13160.0,
-      "supertrend": 1123.74,
+      "supertrend": 1124.04,
       "st_dir": -1,
-      "ema20": 1120.84,
+      "ema20": 1120.65,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 28.1
     },
     {
       "date": "10:55",
@@ -5599,11 +5573,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.0999755859375,
       "close": 1115.300048828125,
       "volume": 62112.0,
-      "supertrend": 1122.96,
+      "supertrend": 1123.22,
       "st_dir": -1,
-      "ema20": 1120.31,
+      "ema20": 1120.14,
       "ema50": null,
-      "rsi": 24.9
+      "rsi": 23.9
     },
     {
       "date": "11:00",
@@ -5612,11 +5586,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.4000244140625,
       "close": 1116.0,
       "volume": 21779.0,
-      "supertrend": 1122.12,
+      "supertrend": 1122.36,
       "st_dir": -1,
-      "ema20": 1119.9,
+      "ema20": 1119.75,
       "ema50": null,
-      "rsi": 28.3
+      "rsi": 27.2
     },
     {
       "date": "11:05",
@@ -5625,11 +5599,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.0,
       "close": 1116.300048828125,
       "volume": 112603.0,
-      "supertrend": 1121.83,
+      "supertrend": 1122.05,
       "st_dir": -1,
-      "ema20": 1119.56,
+      "ema20": 1119.42,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 28.6
     },
     {
       "date": "11:10",
@@ -5638,11 +5612,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.199951171875,
       "close": 1115.199951171875,
       "volume": 71434.0,
-      "supertrend": 1121.83,
+      "supertrend": 1122.02,
       "st_dir": -1,
-      "ema20": 1119.14,
+      "ema20": 1119.02,
       "ema50": null,
-      "rsi": 27.6
+      "rsi": 26.5
     },
     {
       "date": "11:15",
@@ -5651,11 +5625,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.699951171875,
       "close": 1115.699951171875,
       "volume": 37875.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.81,
+      "ema20": 1118.7,
       "ema50": null,
-      "rsi": 30.1
+      "rsi": 29.0
     },
     {
       "date": "11:20",
@@ -5664,11 +5638,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.9000244140625,
       "close": 1116.9000244140625,
       "volume": 114719.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.63,
+      "ema20": 1118.53,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 34.7
     },
     {
       "date": "11:25",
@@ -5677,11 +5651,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.4000244140625,
       "close": 1116.9000244140625,
       "volume": 145004.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.47,
+      "ema20": 1118.37,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 34.7
     },
     {
       "date": "11:30",
@@ -5690,11 +5664,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.9000244140625,
       "close": 1117.5,
       "volume": 155462.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.37,
+      "ema20": 1118.29,
       "ema50": null,
-      "rsi": 38.9
+      "rsi": 37.6
     },
     {
       "date": "11:35",
@@ -5703,11 +5677,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.800048828125,
       "close": 1117.0,
       "volume": 109988.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.24,
+      "ema20": 1118.17,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 36.1
     },
     {
       "date": "11:40",
@@ -5716,11 +5690,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.0,
       "close": 1117.0,
       "volume": 117900.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.13,
+      "ema20": 1118.06,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 36.1
     },
     {
       "date": "11:45",
@@ -5729,11 +5703,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.0,
       "close": 1117.5,
       "volume": 133665.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1118.07,
+      "ema20": 1118.0,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 38.8
     },
     {
       "date": "11:50",
@@ -5742,11 +5716,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.800048828125,
       "close": 1116.800048828125,
       "volume": 77278.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.95,
+      "ema20": 1117.89,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 36.5
     },
     {
       "date": "11:55",
@@ -5755,11 +5729,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.9000244140625,
       "close": 1116.9000244140625,
       "volume": 41913.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.85,
+      "ema20": 1117.8,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 37.1
     },
     {
       "date": "12:00",
@@ -5768,11 +5742,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.300048828125,
       "close": 1117.0,
       "volume": 136018.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.77,
+      "ema20": 1117.72,
       "ema50": null,
-      "rsi": 38.9
+      "rsi": 37.7
     },
     {
       "date": "12:05",
@@ -5781,11 +5755,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.0,
       "close": 1118.0,
       "volume": 119053.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.79,
+      "ema20": 1117.75,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 43.6
     },
     {
       "date": "12:10",
@@ -5794,11 +5768,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.0,
       "close": 1119.300048828125,
       "volume": 111527.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.93,
+      "ema20": 1117.89,
       "ema50": null,
-      "rsi": 51.6
+      "rsi": 50.3
     },
     {
       "date": "12:15",
@@ -5807,11 +5781,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.300048828125,
       "close": 1117.300048828125,
       "volume": 112498.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.87,
+      "ema20": 1117.84,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 42.1
     },
     {
       "date": "12:20",
@@ -5820,11 +5794,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.699951171875,
       "close": 1116.0,
       "volume": 38146.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.69,
+      "ema20": 1117.66,
       "ema50": null,
-      "rsi": 38.4
+      "rsi": 37.8
     },
     {
       "date": "12:25",
@@ -5833,11 +5807,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.5,
       "close": 1115.5,
       "volume": 56905.0,
-      "supertrend": 1120.87,
+      "supertrend": 1121.05,
       "st_dir": -1,
-      "ema20": 1117.48,
+      "ema20": 1117.46,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 36.2
     },
     {
       "date": "12:30",
@@ -5846,11 +5820,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.5,
       "close": 1115.199951171875,
       "volume": 69938.0,
-      "supertrend": 1120.57,
+      "supertrend": 1120.6,
       "st_dir": -1,
-      "ema20": 1117.27,
+      "ema20": 1117.24,
       "ema50": null,
-      "rsi": 35.9
+      "rsi": 35.3
     },
     {
       "date": "12:35",
@@ -5859,11 +5833,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.699951171875,
       "close": 1112.800048828125,
       "volume": 105808.0,
-      "supertrend": 1119.43,
+      "supertrend": 1119.46,
       "st_dir": -1,
-      "ema20": 1116.84,
+      "ema20": 1116.82,
       "ema50": null,
-      "rsi": 29.3
+      "rsi": 28.9
     },
     {
       "date": "12:40",
@@ -5872,11 +5846,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.5,
       "close": 1113.800048828125,
       "volume": 131461.0,
-      "supertrend": 1118.96,
+      "supertrend": 1118.99,
       "st_dir": -1,
-      "ema20": 1116.55,
+      "ema20": 1116.53,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 34.2
     },
     {
       "date": "12:45",
@@ -5885,11 +5859,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.0,
       "close": 1113.199951171875,
       "volume": 62054.0,
-      "supertrend": 1118.65,
+      "supertrend": 1118.67,
       "st_dir": -1,
-      "ema20": 1116.23,
+      "ema20": 1116.21,
       "ema50": null,
-      "rsi": 33.0
+      "rsi": 32.7
     },
     {
       "date": "12:50",
@@ -5898,53 +5872,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.300048828125,
       "close": 1112.5,
       "volume": 103576.0,
-      "supertrend": 1117.98,
+      "supertrend": 1118.0,
       "st_dir": -1,
-      "ema20": 1115.88,
+      "ema20": 1115.86,
       "ema50": null,
-      "rsi": 31.2
+      "rsi": 30.9
     },
     {
       "date": "12:55",
       "open": 1112.800048828125,
       "high": 1113.0,
       "low": 1110.5999755859375,
-      "close": 1111.199951171875,
-      "volume": 90841.0,
-      "supertrend": 1117.09,
+      "close": 1111.0,
+      "volume": 104299.0,
+      "supertrend": 1117.11,
       "st_dir": -1,
-      "ema20": 1115.43,
-      "ema50": 1118.88,
-      "rsi": 28.1
+      "ema20": 1115.4,
+      "ema50": null,
+      "rsi": 27.4
+    },
+    {
+      "date": "13:00",
+      "open": 1110.9000244140625,
+      "high": 1111.0,
+      "low": 1109.4000244140625,
+      "close": 1110.0,
+      "volume": 85939.0,
+      "supertrend": 1115.46,
+      "st_dir": -1,
+      "ema20": 1114.88,
+      "ema50": null,
+      "rsi": 25.3
+    },
+    {
+      "date": "13:05",
+      "open": 1110.0,
+      "high": 1110.0,
+      "low": 1109.199951171875,
+      "close": 1109.199951171875,
+      "volume": 4454.0,
+      "supertrend": 1114.58,
+      "st_dir": -1,
+      "ema20": 1114.34,
+      "ema50": 1118.08,
+      "rsi": 23.8
     }
   ],
   "BHARTIARTL.NS": [
-    {
-      "date": "15:00",
-      "open": 2148.89990234375,
-      "high": 2151.300048828125,
-      "low": 2148.89990234375,
-      "close": 2149.89990234375,
-      "volume": 122295.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 2149.89990234375,
-      "high": 2150.800048828125,
-      "low": 2148.800048828125,
-      "close": 2150.800048828125,
-      "volume": 122742.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 2150.800048828125,
@@ -6043,8 +6017,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2141.0,
       "close": 2141.0,
       "volume": 17863.0,
-      "supertrend": 2159.97,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -6056,8 +6030,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2136.300048828125,
       "close": 2136.60009765625,
       "volume": 22960.0,
-      "supertrend": 2155.44,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -6069,7 +6043,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2135.300048828125,
       "close": 2138.0,
       "volume": 26296.0,
-      "supertrend": 2153.2,
+      "supertrend": 2155.32,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6082,7 +6056,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2136.10009765625,
       "close": 2136.10009765625,
       "volume": 80433.0,
-      "supertrend": 2152.85,
+      "supertrend": 2154.76,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6095,7 +6069,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2134.699951171875,
       "close": 2135.5,
       "volume": 23904.0,
-      "supertrend": 2151.24,
+      "supertrend": 2152.96,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6108,11 +6082,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2136.199951171875,
       "close": 2138.5,
       "volume": 20471.0,
-      "supertrend": 2151.24,
+      "supertrend": 2152.96,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.2
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -6121,11 +6095,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2137.10009765625,
       "close": 2141.300048828125,
       "volume": 15160.0,
-      "supertrend": 2151.24,
+      "supertrend": 2152.96,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -6134,11 +6108,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2135.39990234375,
       "close": 2135.39990234375,
       "volume": 65092.0,
-      "supertrend": 2151.24,
+      "supertrend": 2152.96,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.3
+      "rsi": 34.4
     },
     {
       "date": "10:15",
@@ -6147,11 +6121,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.5,
       "close": 2133.199951171875,
       "volume": 18660.0,
-      "supertrend": 2148.43,
+      "supertrend": 2149.56,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 32.4
+      "rsi": 32.7
     },
     {
       "date": "10:20",
@@ -6160,11 +6134,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2129.10009765625,
       "close": 2130.699951171875,
       "volume": 28704.0,
-      "supertrend": 2145.8,
+      "supertrend": 2146.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.4
+      "rsi": 30.8
     },
     {
       "date": "10:25",
@@ -6173,11 +6147,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2130.300048828125,
       "close": 2132.60009765625,
       "volume": 13515.0,
-      "supertrend": 2145.8,
+      "supertrend": 2146.81,
       "st_dir": -1,
-      "ema20": 2140.26,
+      "ema20": null,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 34.0
     },
     {
       "date": "10:30",
@@ -6186,11 +6160,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.199951171875,
       "close": 2132.699951171875,
       "volume": 10263.0,
-      "supertrend": 2145.64,
+      "supertrend": 2146.46,
       "st_dir": -1,
-      "ema20": 2139.54,
+      "ema20": null,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 34.1
     },
     {
       "date": "10:35",
@@ -6199,9 +6173,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2129.10009765625,
       "close": 2134.199951171875,
       "volume": 21315.0,
-      "supertrend": 2145.26,
+      "supertrend": 2146.0,
       "st_dir": -1,
-      "ema20": 2139.03,
+      "ema20": 2138.57,
       "ema50": null,
       "rsi": 36.7
     },
@@ -6212,11 +6186,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.800048828125,
       "close": 2132.39990234375,
       "volume": 16721.0,
-      "supertrend": 2145.26,
+      "supertrend": 2146.0,
       "st_dir": -1,
-      "ema20": 2138.4,
+      "ema20": 2137.98,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 34.9
     },
     {
       "date": "10:45",
@@ -6225,11 +6199,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.0,
       "close": 2133.60009765625,
       "volume": 16043.0,
-      "supertrend": 2145.26,
+      "supertrend": 2146.0,
       "st_dir": -1,
-      "ema20": 2137.94,
+      "ema20": 2137.57,
       "ema50": null,
-      "rsi": 37.2
+      "rsi": 37.1
     },
     {
       "date": "10:50",
@@ -6238,9 +6212,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.10009765625,
       "close": 2132.0,
       "volume": 24230.0,
-      "supertrend": 2145.26,
+      "supertrend": 2145.95,
       "st_dir": -1,
-      "ema20": 2137.38,
+      "ema20": 2137.04,
       "ema50": null,
       "rsi": 35.4
     },
@@ -6251,11 +6225,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.0,
       "close": 2128.0,
       "volume": 64327.0,
-      "supertrend": 2143.29,
+      "supertrend": 2143.77,
       "st_dir": -1,
-      "ema20": 2136.48,
+      "ema20": 2136.17,
       "ema50": null,
-      "rsi": 31.3
+      "rsi": 31.5
     },
     {
       "date": "11:00",
@@ -6264,11 +6238,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.89990234375,
       "close": 2128.0,
       "volume": 22966.0,
-      "supertrend": 2141.46,
+      "supertrend": 2141.9,
       "st_dir": -1,
-      "ema20": 2135.68,
+      "ema20": 2135.4,
       "ema50": null,
-      "rsi": 31.3
+      "rsi": 31.5
     },
     {
       "date": "11:05",
@@ -6277,11 +6251,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.300048828125,
       "close": 2128.199951171875,
       "volume": 45300.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.96,
+      "ema20": 2134.71,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 31.9
     },
     {
       "date": "11:10",
@@ -6290,11 +6264,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.89990234375,
       "close": 2129.0,
       "volume": 20687.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.4,
+      "ema20": 2134.17,
       "ema50": null,
-      "rsi": 33.6
+      "rsi": 33.8
     },
     {
       "date": "11:15",
@@ -6303,11 +6277,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2129.0,
       "close": 2133.10009765625,
       "volume": 22132.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.27,
+      "ema20": 2134.07,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 42.3
     },
     {
       "date": "11:20",
@@ -6316,11 +6290,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2132.699951171875,
       "close": 2134.800048828125,
       "volume": 36851.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.32,
+      "ema20": 2134.14,
       "ema50": null,
-      "rsi": 45.7
+      "rsi": 45.4
     },
     {
       "date": "11:25",
@@ -6329,11 +6303,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.0,
       "close": 2134.0,
       "volume": 24196.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.29,
+      "ema20": 2134.12,
       "ema50": null,
-      "rsi": 44.5
+      "rsi": 44.2
     },
     {
       "date": "11:30",
@@ -6342,11 +6316,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2132.699951171875,
       "close": 2133.699951171875,
       "volume": 18442.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.24,
+      "ema20": 2134.08,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 43.7
     },
     {
       "date": "11:35",
@@ -6355,11 +6329,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2132.0,
       "close": 2134.10009765625,
       "volume": 18522.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.22,
+      "ema20": 2134.08,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 44.6
     },
     {
       "date": "11:40",
@@ -6368,11 +6342,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2133.39990234375,
       "close": 2134.39990234375,
       "volume": 18688.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.24,
+      "ema20": 2134.11,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 45.2
     },
     {
       "date": "11:45",
@@ -6381,11 +6355,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.0,
       "close": 2134.10009765625,
       "volume": 24250.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2134.23,
+      "ema20": 2134.11,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 44.7
     },
     {
       "date": "11:50",
@@ -6394,11 +6368,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2131.10009765625,
       "close": 2131.10009765625,
       "volume": 17159.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2133.93,
+      "ema20": 2133.83,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 39.2
     },
     {
       "date": "11:55",
@@ -6407,11 +6381,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2130.0,
       "close": 2132.199951171875,
       "volume": 27869.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2133.76,
+      "ema20": 2133.67,
       "ema50": null,
-      "rsi": 42.2
+      "rsi": 42.0
     },
     {
       "date": "12:00",
@@ -6420,9 +6394,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2129.60009765625,
       "close": 2130.699951171875,
       "volume": 21867.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2133.47,
+      "ema20": 2133.39,
       "ema50": null,
       "rsi": 39.4
     },
@@ -6433,11 +6407,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2130.39990234375,
       "close": 2130.5,
       "volume": 25950.0,
-      "supertrend": 2140.28,
+      "supertrend": 2140.68,
       "st_dir": -1,
-      "ema20": 2133.19,
+      "ema20": 2133.11,
       "ema50": null,
-      "rsi": 39.1
+      "rsi": 39.0
     },
     {
       "date": "12:10",
@@ -6446,9 +6420,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.300048828125,
       "close": 2127.39990234375,
       "volume": 31664.0,
-      "supertrend": 2138.67,
+      "supertrend": 2138.77,
       "st_dir": -1,
-      "ema20": 2132.64,
+      "ema20": 2132.57,
       "ema50": null,
       "rsi": 33.9
     },
@@ -6459,9 +6433,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.39990234375,
       "close": 2128.39990234375,
       "volume": 45799.0,
-      "supertrend": 2138.57,
+      "supertrend": 2138.66,
       "st_dir": -1,
-      "ema20": 2132.23,
+      "ema20": 2132.17,
       "ema50": null,
       "rsi": 36.8
     },
@@ -6472,11 +6446,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2127.5,
       "close": 2130.60009765625,
       "volume": 30950.0,
-      "supertrend": 2138.57,
+      "supertrend": 2138.66,
       "st_dir": -1,
-      "ema20": 2132.08,
+      "ema20": 2132.02,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 42.7
     },
     {
       "date": "12:25",
@@ -6485,11 +6459,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2128.5,
       "close": 2129.300048828125,
       "volume": 50768.0,
-      "supertrend": 2138.57,
+      "supertrend": 2138.66,
       "st_dir": -1,
-      "ema20": 2131.81,
+      "ema20": 2131.76,
       "ema50": null,
-      "rsi": 40.4
+      "rsi": 40.3
     },
     {
       "date": "12:30",
@@ -6498,9 +6472,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2126.300048828125,
       "close": 2126.5,
       "volume": 39111.0,
-      "supertrend": 2137.87,
+      "supertrend": 2137.94,
       "st_dir": -1,
-      "ema20": 2131.31,
+      "ema20": 2131.26,
       "ema50": null,
       "rsi": 35.7
     },
@@ -6511,9 +6485,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2124.10009765625,
       "close": 2125.60009765625,
       "volume": 42533.0,
-      "supertrend": 2135.27,
+      "supertrend": 2135.33,
       "st_dir": -1,
-      "ema20": 2130.76,
+      "ema20": 2130.72,
       "ema50": null,
       "rsi": 34.3
     },
@@ -6524,9 +6498,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2123.5,
       "close": 2125.60009765625,
       "volume": 39304.0,
-      "supertrend": 2134.46,
+      "supertrend": 2134.51,
       "st_dir": -1,
-      "ema20": 2130.27,
+      "ema20": 2130.23,
       "ema50": null,
       "rsi": 34.3
     },
@@ -6537,9 +6511,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2124.699951171875,
       "close": 2126.89990234375,
       "volume": 40503.0,
-      "supertrend": 2134.46,
+      "supertrend": 2134.51,
       "st_dir": -1,
-      "ema20": 2129.95,
+      "ema20": 2129.92,
       "ema50": null,
       "rsi": 38.3
     },
@@ -6550,53 +6524,53 @@ window.DASHBOARD_CHARTS = {
       "low": 2125.89990234375,
       "close": 2126.300048828125,
       "volume": 32352.0,
-      "supertrend": 2134.46,
+      "supertrend": 2134.51,
       "st_dir": -1,
-      "ema20": 2129.6,
+      "ema20": 2129.57,
       "ema50": null,
-      "rsi": 37.2
+      "rsi": 37.1
     },
     {
       "date": "12:55",
       "open": 2126.699951171875,
       "high": 2127.5,
-      "low": 2126.10009765625,
-      "close": 2126.60009765625,
-      "volume": 26426.0,
-      "supertrend": 2134.46,
+      "low": 2125.89990234375,
+      "close": 2126.10009765625,
+      "volume": 34133.0,
+      "supertrend": 2134.51,
       "st_dir": -1,
-      "ema20": 2129.32,
-      "ema50": 2134.38,
-      "rsi": 38.1
+      "ema20": 2129.24,
+      "ema50": null,
+      "rsi": 36.8
+    },
+    {
+      "date": "13:00",
+      "open": 2126.0,
+      "high": 2126.300048828125,
+      "low": 2124.300048828125,
+      "close": 2125.199951171875,
+      "volume": 36154.0,
+      "supertrend": 2133.85,
+      "st_dir": -1,
+      "ema20": 2128.86,
+      "ema50": null,
+      "rsi": 35.0
+    },
+    {
+      "date": "13:05",
+      "open": 2125.10009765625,
+      "high": 2125.60009765625,
+      "low": 2124.800048828125,
+      "close": 2124.800048828125,
+      "volume": 5812.0,
+      "supertrend": 2133.13,
+      "st_dir": -1,
+      "ema20": 2128.47,
+      "ema50": 2133.36,
+      "rsi": 34.2
     }
   ],
   "SBIN.NS": [
-    {
-      "date": "15:00",
-      "open": 1108.4000244140625,
-      "high": 1109.0999755859375,
-      "low": 1107.199951171875,
-      "close": 1108.4000244140625,
-      "volume": 346248.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1108.6500244140625,
-      "high": 1108.949951171875,
-      "low": 1107.6500244140625,
-      "close": 1108.699951171875,
-      "volume": 464139.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1108.949951171875,
@@ -6695,8 +6669,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.199951171875,
       "close": 1110.199951171875,
       "volume": 194173.0,
-      "supertrend": 1118.82,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -6708,8 +6682,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1107.050048828125,
       "close": 1107.300048828125,
       "volume": 516646.0,
-      "supertrend": 1116.86,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -6721,7 +6695,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1105.699951171875,
       "close": 1108.25,
       "volume": 300996.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6734,7 +6708,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1108.25,
       "close": 1110.9000244140625,
       "volume": 417465.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6747,7 +6721,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.9000244140625,
       "close": 1111.949951171875,
       "volume": 289479.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -6760,11 +6734,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.550048828125,
       "close": 1112.550048828125,
       "volume": 248354.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 60.3
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -6773,11 +6747,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.0999755859375,
       "close": 1111.050048828125,
       "volume": 182084.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 55.8
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -6786,11 +6760,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.4000244140625,
       "close": 1110.699951171875,
       "volume": 206667.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 54.8
+      "rsi": 52.9
     },
     {
       "date": "10:15",
@@ -6799,11 +6773,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1108.8499755859375,
       "close": 1110.0,
       "volume": 334623.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 51.0
     },
     {
       "date": "10:20",
@@ -6812,11 +6786,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1109.0,
       "close": 1109.3499755859375,
       "volume": 165380.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 49.3
     },
     {
       "date": "10:25",
@@ -6825,11 +6799,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1109.050048828125,
       "close": 1112.0,
       "volume": 167507.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.35,
+      "ema20": null,
       "ema50": null,
-      "rsi": 57.6
+      "rsi": 55.8
     },
     {
       "date": "10:30",
@@ -6838,11 +6812,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.300048828125,
       "close": 1112.4000244140625,
       "volume": 247004.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.55,
+      "ema20": null,
       "ema50": null,
-      "rsi": 58.5
+      "rsi": 56.7
     },
     {
       "date": "10:35",
@@ -6851,11 +6825,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.1500244140625,
       "close": 1111.8499755859375,
       "volume": 166626.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.67,
+      "ema20": 1110.71,
       "ema50": null,
-      "rsi": 56.7
+      "rsi": 55.1
     },
     {
       "date": "10:40",
@@ -6864,11 +6838,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.0999755859375,
       "close": 1110.550048828125,
       "volume": 194729.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.66,
+      "ema20": 1110.69,
       "ema50": null,
-      "rsi": 52.5
+      "rsi": 51.2
     },
     {
       "date": "10:45",
@@ -6877,11 +6851,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.449951171875,
       "close": 1112.0,
       "volume": 145830.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.79,
+      "ema20": 1110.82,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 55.0
     },
     {
       "date": "10:50",
@@ -6890,11 +6864,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.4000244140625,
       "close": 1112.0,
       "volume": 144817.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.9,
+      "ema20": 1110.93,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 55.0
     },
     {
       "date": "10:55",
@@ -6903,11 +6877,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.300048828125,
       "close": 1111.800048828125,
       "volume": 167179.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1110.99,
+      "ema20": 1111.01,
       "ema50": null,
-      "rsi": 55.6
+      "rsi": 54.3
     },
     {
       "date": "11:00",
@@ -6916,11 +6890,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.4000244140625,
       "close": 1111.4000244140625,
       "volume": 104615.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1111.03,
+      "ema20": 1111.05,
       "ema50": null,
-      "rsi": 54.1
+      "rsi": 52.9
     },
     {
       "date": "11:05",
@@ -6929,11 +6903,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.25,
       "close": 1111.949951171875,
       "volume": 108152.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1111.11,
+      "ema20": 1111.14,
       "ema50": null,
-      "rsi": 55.9
+      "rsi": 54.7
     },
     {
       "date": "11:10",
@@ -6942,11 +6916,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.75,
       "close": 1113.050048828125,
       "volume": 197976.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1111.3,
+      "ema20": 1111.32,
       "ema50": null,
-      "rsi": 59.3
+      "rsi": 58.0
     },
     {
       "date": "11:15",
@@ -6955,11 +6929,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.050048828125,
       "close": 1114.949951171875,
       "volume": 220403.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1111.65,
+      "ema20": 1111.66,
       "ema50": null,
-      "rsi": 64.4
+      "rsi": 63.0
     },
     {
       "date": "11:20",
@@ -6968,11 +6942,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.75,
       "close": 1115.0,
       "volume": 229355.0,
-      "supertrend": 1115.52,
+      "supertrend": 1116.15,
       "st_dir": -1,
-      "ema20": 1111.97,
+      "ema20": 1111.98,
       "ema50": null,
-      "rsi": 64.5
+      "rsi": 63.1
     },
     {
       "date": "11:25",
@@ -6981,11 +6955,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.3499755859375,
       "close": 1116.3499755859375,
       "volume": 151053.0,
-      "supertrend": 1109.5,
+      "supertrend": 1109.43,
       "st_dir": 1,
-      "ema20": 1112.38,
+      "ema20": 1112.4,
       "ema50": null,
-      "rsi": 67.8
+      "rsi": 66.4
     },
     {
       "date": "11:30",
@@ -6994,11 +6968,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.699951171875,
       "close": 1115.699951171875,
       "volume": 110802.0,
-      "supertrend": 1109.75,
+      "supertrend": 1109.68,
       "st_dir": 1,
-      "ema20": 1112.7,
+      "ema20": 1112.71,
       "ema50": null,
-      "rsi": 64.7
+      "rsi": 63.5
     },
     {
       "date": "11:35",
@@ -7007,11 +6981,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.300048828125,
       "close": 1115.0,
       "volume": 113738.0,
-      "supertrend": 1109.75,
+      "supertrend": 1109.68,
       "st_dir": 1,
-      "ema20": 1112.92,
+      "ema20": 1112.93,
       "ema50": null,
-      "rsi": 61.4
+      "rsi": 60.4
     },
     {
       "date": "11:40",
@@ -7020,11 +6994,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1114.550048828125,
       "close": 1116.25,
       "volume": 107468.0,
-      "supertrend": 1109.81,
+      "supertrend": 1109.76,
       "st_dir": 1,
-      "ema20": 1113.24,
+      "ema20": 1113.25,
       "ema50": null,
-      "rsi": 64.8
+      "rsi": 63.8
     },
     {
       "date": "11:45",
@@ -7033,11 +7007,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.25,
       "close": 1116.9000244140625,
       "volume": 162804.0,
-      "supertrend": 1110.55,
+      "supertrend": 1110.5,
       "st_dir": 1,
-      "ema20": 1113.58,
+      "ema20": 1113.59,
       "ema50": null,
-      "rsi": 66.5
+      "rsi": 65.4
     },
     {
       "date": "11:50",
@@ -7046,11 +7020,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.5999755859375,
       "close": 1116.5999755859375,
       "volume": 180344.0,
-      "supertrend": 1111.79,
+      "supertrend": 1111.75,
       "st_dir": 1,
-      "ema20": 1113.87,
+      "ema20": 1113.88,
       "ema50": null,
-      "rsi": 65.0
+      "rsi": 64.0
     },
     {
       "date": "11:55",
@@ -7059,11 +7033,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.699951171875,
       "close": 1116.300048828125,
       "volume": 141009.0,
-      "supertrend": 1111.79,
+      "supertrend": 1111.75,
       "st_dir": 1,
-      "ema20": 1114.1,
+      "ema20": 1114.11,
       "ema50": null,
-      "rsi": 63.4
+      "rsi": 62.5
     },
     {
       "date": "12:00",
@@ -7072,11 +7046,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.550048828125,
       "close": 1115.8499755859375,
       "volume": 127200.0,
-      "supertrend": 1111.79,
+      "supertrend": 1111.75,
       "st_dir": 1,
-      "ema20": 1114.27,
+      "ema20": 1114.28,
       "ema50": null,
-      "rsi": 61.0
+      "rsi": 60.2
     },
     {
       "date": "12:05",
@@ -7085,11 +7059,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.800048828125,
       "close": 1116.300048828125,
       "volume": 205698.0,
-      "supertrend": 1111.79,
+      "supertrend": 1111.75,
       "st_dir": 1,
-      "ema20": 1114.46,
+      "ema20": 1114.47,
       "ema50": null,
-      "rsi": 62.5
+      "rsi": 61.7
     },
     {
       "date": "12:10",
@@ -7098,11 +7072,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.6500244140625,
       "close": 1116.3499755859375,
       "volume": 181782.0,
-      "supertrend": 1111.79,
+      "supertrend": 1111.75,
       "st_dir": 1,
-      "ema20": 1114.64,
+      "ema20": 1114.65,
       "ema50": null,
-      "rsi": 62.7
+      "rsi": 61.9
     },
     {
       "date": "12:15",
@@ -7111,11 +7085,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.1500244140625,
       "close": 1116.3499755859375,
       "volume": 242625.0,
-      "supertrend": 1112.32,
+      "supertrend": 1112.29,
       "st_dir": 1,
       "ema20": 1114.81,
       "ema50": null,
-      "rsi": 62.7
+      "rsi": 61.9
     },
     {
       "date": "12:20",
@@ -7124,11 +7098,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.449951171875,
       "close": 1114.800048828125,
       "volume": 273985.0,
-      "supertrend": 1112.32,
+      "supertrend": 1112.29,
       "st_dir": 1,
-      "ema20": 1114.8,
+      "ema20": 1114.81,
       "ema50": null,
-      "rsi": 53.8
+      "rsi": 53.2
     },
     {
       "date": "12:25",
@@ -7137,11 +7111,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.0,
       "close": 1113.050048828125,
       "volume": 184477.0,
-      "supertrend": 1112.32,
+      "supertrend": 1112.29,
       "st_dir": 1,
       "ema20": 1114.64,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 45.5
     },
     {
       "date": "12:30",
@@ -7150,11 +7124,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.0,
       "close": 1113.699951171875,
       "volume": 247678.0,
-      "supertrend": 1112.32,
+      "supertrend": 1112.29,
       "st_dir": 1,
       "ema20": 1114.55,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 48.5
     },
     {
       "date": "12:35",
@@ -7163,11 +7137,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.9000244140625,
       "close": 1112.800048828125,
       "volume": 317533.0,
-      "supertrend": 1112.32,
+      "supertrend": 1112.29,
       "st_dir": 1,
-      "ema20": 1114.38,
+      "ema20": 1114.39,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": 44.8
     },
     {
       "date": "12:40",
@@ -7176,11 +7150,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.550048828125,
       "close": 1112.0999755859375,
       "volume": 200179.0,
-      "supertrend": 1117.43,
+      "supertrend": 1117.45,
       "st_dir": -1,
-      "ema20": 1114.16,
+      "ema20": 1114.17,
       "ema50": null,
-      "rsi": 42.3
+      "rsi": 42.2
     },
     {
       "date": "12:45",
@@ -7189,11 +7163,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.800048828125,
       "close": 1111.5999755859375,
       "volume": 187660.0,
-      "supertrend": 1116.54,
+      "supertrend": 1116.56,
       "st_dir": -1,
       "ema20": 1113.92,
       "ema50": null,
-      "rsi": 40.5
+      "rsi": 40.3
     },
     {
       "date": "12:50",
@@ -7202,53 +7176,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.0,
       "close": 1112.550048828125,
       "volume": 161348.0,
-      "supertrend": 1116.54,
+      "supertrend": 1116.56,
       "st_dir": -1,
       "ema20": 1113.79,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": 45.2
     },
     {
       "date": "12:55",
       "open": 1112.8499755859375,
       "high": 1113.949951171875,
       "low": 1112.300048828125,
-      "close": 1113.75,
-      "volume": 118454.0,
-      "supertrend": 1116.54,
+      "close": 1113.25,
+      "volume": 142699.0,
+      "supertrend": 1116.56,
       "st_dir": -1,
-      "ema20": 1113.79,
-      "ema50": 1112.53,
-      "rsi": 51.0
+      "ema20": 1113.74,
+      "ema50": null,
+      "rsi": 48.6
+    },
+    {
+      "date": "13:00",
+      "open": 1113.199951171875,
+      "high": 1113.800048828125,
+      "low": 1112.25,
+      "close": 1113.1500244140625,
+      "volume": 175591.0,
+      "supertrend": 1116.56,
+      "st_dir": -1,
+      "ema20": 1113.68,
+      "ema50": null,
+      "rsi": 48.1
+    },
+    {
+      "date": "13:05",
+      "open": 1113.199951171875,
+      "high": 1113.199951171875,
+      "low": 1112.300048828125,
+      "close": 1112.300048828125,
+      "volume": 18406.0,
+      "supertrend": 1116.56,
+      "st_dir": -1,
+      "ema20": 1113.55,
+      "ema50": 1112.68,
+      "rsi": 44.3
     }
   ],
   "ITC.NS": [
-    {
-      "date": "15:00",
-      "open": 293.3999938964844,
-      "high": 293.6000061035156,
-      "low": 293.25,
-      "close": 293.45001220703125,
-      "volume": 257994.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 293.45001220703125,
-      "high": 293.5,
-      "low": 293.20001220703125,
-      "close": 293.5,
-      "volume": 373601.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 293.3999938964844,
@@ -7347,8 +7321,8 @@ window.DASHBOARD_CHARTS = {
       "low": 290.70001220703125,
       "close": 290.8999938964844,
       "volume": 83527.0,
-      "supertrend": 292.74,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -7360,8 +7334,8 @@ window.DASHBOARD_CHARTS = {
       "low": 290.20001220703125,
       "close": 290.3999938964844,
       "volume": 160819.0,
-      "supertrend": 292.27,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -7373,7 +7347,7 @@ window.DASHBOARD_CHARTS = {
       "low": 289.79998779296875,
       "close": 290.20001220703125,
       "volume": 192867.0,
-      "supertrend": 292.01,
+      "supertrend": 292.17,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -7386,7 +7360,7 @@ window.DASHBOARD_CHARTS = {
       "low": 289.75,
       "close": 290.3500061035156,
       "volume": 108292.0,
-      "supertrend": 292.01,
+      "supertrend": 292.16,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -7399,7 +7373,7 @@ window.DASHBOARD_CHARTS = {
       "low": 290.25,
       "close": 290.5,
       "volume": 58618.0,
-      "supertrend": 292.01,
+      "supertrend": 292.16,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -7412,11 +7386,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.20001220703125,
       "close": 290.54998779296875,
       "volume": 81638.0,
-      "supertrend": 292.01,
+      "supertrend": 292.16,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 10.8
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -7425,11 +7399,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.29998779296875,
       "close": 291.1000061035156,
       "volume": 108222.0,
-      "supertrend": 292.01,
+      "supertrend": 292.16,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 23.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -7438,11 +7412,11 @@ window.DASHBOARD_CHARTS = {
       "low": 291.1000061035156,
       "close": 292.0,
       "volume": 472581.0,
-      "supertrend": 292.01,
+      "supertrend": 292.16,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 36.4
     },
     {
       "date": "10:15",
@@ -7451,11 +7425,11 @@ window.DASHBOARD_CHARTS = {
       "low": 291.70001220703125,
       "close": 292.29998779296875,
       "volume": 395574.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.2
+      "rsi": 40.3
     },
     {
       "date": "10:20",
@@ -7464,11 +7438,11 @@ window.DASHBOARD_CHARTS = {
       "low": 291.8999938964844,
       "close": 291.8999938964844,
       "volume": 99608.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
       "ema20": null,
       "ema50": null,
-      "rsi": 38.6
+      "rsi": 37.0
     },
     {
       "date": "10:25",
@@ -7477,11 +7451,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.8500061035156,
       "close": 291.1499938964844,
       "volume": 145573.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.69,
+      "ema20": null,
       "ema50": null,
-      "rsi": 32.9
+      "rsi": 31.8
     },
     {
       "date": "10:30",
@@ -7490,11 +7464,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.54998779296875,
       "close": 290.54998779296875,
       "volume": 87404.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.58,
+      "ema20": null,
       "ema50": null,
-      "rsi": 29.1
+      "rsi": 28.4
     },
     {
       "date": "10:35",
@@ -7503,11 +7477,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.45001220703125,
       "close": 290.75,
       "volume": 127396.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.5,
+      "ema20": 291.41,
       "ema50": null,
-      "rsi": 31.9
+      "rsi": 31.1
     },
     {
       "date": "10:40",
@@ -7516,11 +7490,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.79998779296875,
       "close": 290.8999938964844,
       "volume": 56683.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.45,
+      "ema20": 291.36,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 33.1
     },
     {
       "date": "10:45",
@@ -7529,11 +7503,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.8500061035156,
       "close": 291.0,
       "volume": 27831.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.4,
+      "ema20": 291.33,
       "ema50": null,
-      "rsi": 35.4
+      "rsi": 34.4
     },
     {
       "date": "10:50",
@@ -7542,11 +7516,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.75,
       "close": 291.1000061035156,
       "volume": 41570.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.38,
+      "ema20": 291.31,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 35.9
     },
     {
       "date": "10:55",
@@ -7555,11 +7529,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.3500061035156,
       "close": 290.6000061035156,
       "volume": 63689.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.3,
+      "ema20": 291.24,
       "ema50": null,
-      "rsi": 32.9
+      "rsi": 32.1
     },
     {
       "date": "11:00",
@@ -7568,11 +7542,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.29998779296875,
       "close": 290.3999938964844,
       "volume": 56158.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.22,
+      "ema20": 291.16,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 30.7
     },
     {
       "date": "11:05",
@@ -7581,11 +7555,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.25,
       "close": 290.70001220703125,
       "volume": 99423.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.17,
+      "ema20": 291.11,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 35.2
     },
     {
       "date": "11:10",
@@ -7594,11 +7568,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.70001220703125,
       "close": 290.8999938964844,
       "volume": 35448.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.14,
+      "ema20": 291.09,
       "ema50": null,
-      "rsi": 39.0
+      "rsi": 38.1
     },
     {
       "date": "11:15",
@@ -7607,11 +7581,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.6499938964844,
       "close": 290.79998779296875,
       "volume": 34093.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.11,
+      "ema20": 291.07,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 37.2
     },
     {
       "date": "11:20",
@@ -7620,11 +7594,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.45001220703125,
       "close": 290.45001220703125,
       "volume": 68770.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.05,
+      "ema20": 291.01,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 34.2
     },
     {
       "date": "11:25",
@@ -7633,11 +7607,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.45001220703125,
       "close": 290.70001220703125,
       "volume": 28103.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 291.01,
+      "ema20": 290.98,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 38.1
     },
     {
       "date": "11:30",
@@ -7646,11 +7620,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.45001220703125,
       "close": 290.75,
       "volume": 37088.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.99,
+      "ema20": 290.96,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 38.9
     },
     {
       "date": "11:35",
@@ -7659,11 +7633,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.54998779296875,
       "close": 290.6499938964844,
       "volume": 42377.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.96,
+      "ema20": 290.93,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 37.8
     },
     {
       "date": "11:40",
@@ -7672,11 +7646,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.3999938964844,
       "close": 290.5,
       "volume": 51725.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.91,
+      "ema20": 290.89,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 36.3
     },
     {
       "date": "11:45",
@@ -7685,11 +7659,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.29998779296875,
       "close": 290.54998779296875,
       "volume": 38709.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.88,
+      "ema20": 290.85,
       "ema50": null,
-      "rsi": 37.8
+      "rsi": 37.2
     },
     {
       "date": "11:50",
@@ -7698,11 +7672,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.04998779296875,
       "close": 290.1499938964844,
       "volume": 627333.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.81,
+      "ema20": 290.79,
       "ema50": null,
-      "rsi": 33.6
+      "rsi": 33.1
     },
     {
       "date": "11:55",
@@ -7711,11 +7685,11 @@ window.DASHBOARD_CHARTS = {
       "low": 289.95001220703125,
       "close": 290.3500061035156,
       "volume": 63152.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.76,
+      "ema20": 290.75,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 36.9
     },
     {
       "date": "12:00",
@@ -7724,11 +7698,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.0,
       "close": 290.20001220703125,
       "volume": 61169.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.71,
+      "ema20": 290.69,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 35.3
     },
     {
       "date": "12:05",
@@ -7737,11 +7711,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.1000061035156,
       "close": 290.20001220703125,
       "volume": 44483.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.66,
+      "ema20": 290.65,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 35.3
     },
     {
       "date": "12:10",
@@ -7750,11 +7724,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.20001220703125,
       "close": 290.29998779296875,
       "volume": 23531.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.63,
+      "ema20": 290.61,
       "ema50": null,
-      "rsi": 37.8
+      "rsi": 37.4
     },
     {
       "date": "12:15",
@@ -7763,11 +7737,11 @@ window.DASHBOARD_CHARTS = {
       "low": 290.20001220703125,
       "close": 290.29998779296875,
       "volume": 37017.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.6,
+      "ema20": 290.58,
       "ema50": null,
-      "rsi": 37.8
+      "rsi": 37.4
     },
     {
       "date": "12:20",
@@ -7776,11 +7750,11 @@ window.DASHBOARD_CHARTS = {
       "low": 289.8999938964844,
       "close": 290.1000061035156,
       "volume": 54738.0,
-      "supertrend": 290.07,
+      "supertrend": 289.99,
       "st_dir": 1,
-      "ema20": 290.55,
+      "ema20": 290.54,
       "ema50": null,
-      "rsi": 35.1
+      "rsi": 34.7
     },
     {
       "date": "12:25",
@@ -7791,9 +7765,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 216201.0,
       "supertrend": 291.29,
       "st_dir": -1,
-      "ema20": 290.48,
+      "ema20": 290.47,
       "ema50": null,
-      "rsi": 31.5
+      "rsi": 31.2
     },
     {
       "date": "12:30",
@@ -7802,11 +7776,11 @@ window.DASHBOARD_CHARTS = {
       "low": 289.1499938964844,
       "close": 289.1499938964844,
       "volume": 59502.0,
-      "supertrend": 290.89,
+      "supertrend": 290.9,
       "st_dir": -1,
-      "ema20": 290.35,
+      "ema20": 290.34,
       "ema50": null,
-      "rsi": 25.4
+      "rsi": 25.2
     },
     {
       "date": "12:35",
@@ -7815,11 +7789,11 @@ window.DASHBOARD_CHARTS = {
       "low": 289.04998779296875,
       "close": 289.04998779296875,
       "volume": 115009.0,
-      "supertrend": 290.54,
+      "supertrend": 290.55,
       "st_dir": -1,
-      "ema20": 290.23,
+      "ema20": 290.22,
       "ema50": null,
-      "rsi": 24.6
+      "rsi": 24.5
     },
     {
       "date": "12:40",
@@ -7830,9 +7804,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 64174.0,
       "supertrend": 290.5,
       "st_dir": -1,
-      "ema20": 290.13,
+      "ema20": 290.12,
       "ema50": null,
-      "rsi": 28.2
+      "rsi": 28.0
     },
     {
       "date": "12:45",
@@ -7843,9 +7817,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 75565.0,
       "supertrend": 290.36,
       "st_dir": -1,
-      "ema20": 290.05,
+      "ema20": 290.04,
       "ema50": null,
-      "rsi": 29.4
+      "rsi": 29.2
     },
     {
       "date": "12:50",
@@ -7858,49 +7832,49 @@ window.DASHBOARD_CHARTS = {
       "st_dir": -1,
       "ema20": 290.0,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 37.2
     },
     {
       "date": "12:55",
       "open": 289.70001220703125,
       "high": 289.95001220703125,
       "low": 289.45001220703125,
-      "close": 289.8999938964844,
-      "volume": 34600.0,
+      "close": 289.54998779296875,
+      "volume": 46294.0,
       "supertrend": 290.36,
       "st_dir": -1,
-      "ema20": 289.99,
-      "ema50": 290.85,
-      "rsi": 43.3
+      "ema20": 289.95,
+      "ema50": null,
+      "rsi": 36.5
+    },
+    {
+      "date": "13:00",
+      "open": 289.5,
+      "high": 290.20001220703125,
+      "low": 289.29998779296875,
+      "close": 290.20001220703125,
+      "volume": 380614.0,
+      "supertrend": 290.36,
+      "st_dir": -1,
+      "ema20": 289.98,
+      "ema50": null,
+      "rsi": 48.7
+    },
+    {
+      "date": "13:05",
+      "open": 290.1499938964844,
+      "high": 290.29998779296875,
+      "low": 290.1499938964844,
+      "close": 290.20001220703125,
+      "volume": 39846.0,
+      "supertrend": 290.36,
+      "st_dir": -1,
+      "ema20": 290.0,
+      "ema50": 290.72,
+      "rsi": 48.7
     }
   ],
   "LT.NS": [
-    {
-      "date": "15:00",
-      "open": 4175.2001953125,
-      "high": 4175.5,
-      "low": 4165.10009765625,
-      "close": 4167.5,
-      "volume": 37325.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 4167.2998046875,
-      "high": 4167.39990234375,
-      "low": 4160.10009765625,
-      "close": 4163.2001953125,
-      "volume": 64145.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 4162.0,
@@ -7999,8 +7973,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4163.10009765625,
       "close": 4164.0,
       "volume": 9061.0,
-      "supertrend": 4195.08,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -8012,8 +7986,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4160.7998046875,
       "close": 4160.7998046875,
       "volume": 7552.0,
-      "supertrend": 4190.8,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -8025,7 +7999,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4158.2001953125,
       "close": 4172.0,
       "volume": 19862.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8038,7 +8012,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4168.60009765625,
       "close": 4172.0,
       "volume": 17442.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8051,7 +8025,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4170.89990234375,
       "close": 4178.7001953125,
       "volume": 7182.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8064,11 +8038,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4179.0,
       "close": 4180.2998046875,
       "volume": 26338.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -8077,11 +8051,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4177.0,
       "close": 4180.0,
       "volume": 8332.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -8090,11 +8064,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4175.2998046875,
       "close": 4177.89990234375,
       "volume": 6698.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 56.2
+      "rsi": 57.4
     },
     {
       "date": "10:15",
@@ -8103,11 +8077,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4170.10009765625,
       "close": 4170.2001953125,
       "volume": 13266.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.15,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 51.5
     },
     {
       "date": "10:20",
@@ -8116,11 +8090,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4167.0,
       "close": 4169.7998046875,
       "volume": 6507.0,
-      "supertrend": 4190.8,
+      "supertrend": 4195.04,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.9
+      "rsi": 51.2
     },
     {
       "date": "10:25",
@@ -8129,11 +8103,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4167.0,
       "close": 4170.0,
       "volume": 11285.0,
-      "supertrend": 4190.8,
+      "supertrend": 4194.37,
       "st_dir": -1,
-      "ema20": 4169.38,
+      "ema20": null,
       "ema50": null,
-      "rsi": 50.1
+      "rsi": 51.3
     },
     {
       "date": "10:30",
@@ -8142,11 +8116,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4165.7998046875,
       "close": 4170.0,
       "volume": 6198.0,
-      "supertrend": 4190.8,
+      "supertrend": 4192.33,
       "st_dir": -1,
-      "ema20": 4169.44,
+      "ema20": null,
       "ema50": null,
-      "rsi": 50.1
+      "rsi": 51.3
     },
     {
       "date": "10:35",
@@ -8155,11 +8129,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4167.89990234375,
       "close": 4171.5,
       "volume": 6238.0,
-      "supertrend": 4190.8,
+      "supertrend": 4192.33,
       "st_dir": -1,
-      "ema20": 4169.64,
+      "ema20": 4169.92,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 52.6
     },
     {
       "date": "10:40",
@@ -8168,11 +8142,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4166.89990234375,
       "close": 4170.2998046875,
       "volume": 6437.0,
-      "supertrend": 4190.8,
+      "supertrend": 4192.03,
       "st_dir": -1,
-      "ema20": 4169.7,
+      "ema20": 4169.96,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 51.5
     },
     {
       "date": "10:45",
@@ -8181,11 +8155,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4169.7001953125,
       "close": 4173.2001953125,
       "volume": 4852.0,
-      "supertrend": 4190.8,
+      "supertrend": 4192.03,
       "st_dir": -1,
-      "ema20": 4170.03,
+      "ema20": 4170.27,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": 54.1
     },
     {
       "date": "10:50",
@@ -8194,11 +8168,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4171.39990234375,
       "close": 4173.5,
       "volume": 4309.0,
-      "supertrend": 4190.8,
+      "supertrend": 4192.03,
       "st_dir": -1,
-      "ema20": 4170.36,
+      "ema20": 4170.57,
       "ema50": null,
-      "rsi": 53.3
+      "rsi": 54.4
     },
     {
       "date": "10:55",
@@ -8207,11 +8181,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4159.0,
       "close": 4168.60009765625,
       "volume": 38883.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4170.19,
+      "ema20": 4170.39,
       "ema50": null,
-      "rsi": 48.1
+      "rsi": 49.2
     },
     {
       "date": "11:00",
@@ -8220,11 +8194,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4167.7001953125,
       "close": 4173.89990234375,
       "volume": 21734.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4170.55,
+      "ema20": 4170.72,
       "ema50": null,
-      "rsi": 53.4
+      "rsi": 54.3
     },
     {
       "date": "11:05",
@@ -8233,11 +8207,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4170.39990234375,
       "close": 4178.39990234375,
       "volume": 14666.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4171.3,
+      "ema20": 4171.45,
       "ema50": null,
-      "rsi": 57.4
+      "rsi": 58.1
     },
     {
       "date": "11:10",
@@ -8246,11 +8220,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4176.89990234375,
       "close": 4178.2998046875,
       "volume": 7438.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4171.96,
+      "ema20": 4172.1,
       "ema50": null,
-      "rsi": 57.3
+      "rsi": 58.0
     },
     {
       "date": "11:15",
@@ -8259,11 +8233,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4178.0,
       "close": 4184.2001953125,
       "volume": 16981.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4173.13,
+      "ema20": 4173.26,
       "ema50": null,
-      "rsi": 62.2
+      "rsi": 62.7
     },
     {
       "date": "11:20",
@@ -8272,11 +8246,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4183.39990234375,
       "close": 4184.7998046875,
       "volume": 12959.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4174.24,
+      "ema20": 4174.36,
       "ema50": null,
-      "rsi": 62.6
+      "rsi": 63.2
     },
     {
       "date": "11:25",
@@ -8285,11 +8259,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4179.60009765625,
       "close": 4182.7001953125,
       "volume": 16394.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4175.05,
+      "ema20": 4175.15,
       "ema50": null,
-      "rsi": 59.8
+      "rsi": 60.4
     },
     {
       "date": "11:30",
@@ -8298,11 +8272,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4175.60009765625,
       "close": 4178.2001953125,
       "volume": 6656.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4175.35,
+      "ema20": 4175.44,
       "ema50": null,
-      "rsi": 54.3
+      "rsi": 54.8
     },
     {
       "date": "11:35",
@@ -8311,11 +8285,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4174.10009765625,
       "close": 4175.0,
       "volume": 5242.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4175.31,
+      "ema20": 4175.4,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 51.2
     },
     {
       "date": "11:40",
@@ -8324,11 +8298,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4173.7001953125,
       "close": 4176.7001953125,
       "volume": 10494.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4175.44,
+      "ema20": 4175.52,
       "ema50": null,
-      "rsi": 52.4
+      "rsi": 53.0
     },
     {
       "date": "11:45",
@@ -8337,11 +8311,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4161.0,
       "close": 4165.7001953125,
       "volume": 15102.0,
-      "supertrend": 4189.84,
+      "supertrend": 4189.92,
       "st_dir": -1,
-      "ema20": 4174.52,
+      "ema20": 4174.59,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 42.3
     },
     {
       "date": "11:50",
@@ -8350,11 +8324,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4156.5,
       "close": 4157.89990234375,
       "volume": 9686.0,
-      "supertrend": 4185.59,
+      "supertrend": 4185.61,
       "st_dir": -1,
-      "ema20": 4172.93,
+      "ema20": 4173.0,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 36.6
     },
     {
       "date": "11:55",
@@ -8363,11 +8337,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4153.2998046875,
       "close": 4158.39990234375,
       "volume": 8776.0,
-      "supertrend": 4179.24,
+      "supertrend": 4179.26,
       "st_dir": -1,
-      "ema20": 4171.55,
+      "ema20": 4171.61,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": 37.2
     },
     {
       "date": "12:00",
@@ -8376,11 +8350,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4147.39990234375,
       "close": 4148.2001953125,
       "volume": 23556.0,
-      "supertrend": 4177.09,
+      "supertrend": 4177.11,
       "st_dir": -1,
-      "ema20": 4169.33,
+      "ema20": 4169.38,
       "ema50": null,
-      "rsi": 30.5
+      "rsi": 31.0
     },
     {
       "date": "12:05",
@@ -8389,11 +8363,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4148.60009765625,
       "close": 4151.0,
       "volume": 7428.0,
-      "supertrend": 4173.55,
+      "supertrend": 4173.57,
       "st_dir": -1,
-      "ema20": 4167.58,
+      "ema20": 4167.63,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 34.3
     },
     {
       "date": "12:10",
@@ -8402,11 +8376,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4150.0,
       "close": 4151.7998046875,
       "volume": 6202.0,
-      "supertrend": 4172.58,
+      "supertrend": 4172.59,
       "st_dir": -1,
-      "ema20": 4166.08,
+      "ema20": 4166.12,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 35.2
     },
     {
       "date": "12:15",
@@ -8415,11 +8389,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4150.7001953125,
       "close": 4150.7001953125,
       "volume": 6578.0,
-      "supertrend": 4172.58,
+      "supertrend": 4172.59,
       "st_dir": -1,
-      "ema20": 4164.61,
+      "ema20": 4164.65,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 34.5
     },
     {
       "date": "12:20",
@@ -8428,11 +8402,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4148.0,
       "close": 4151.10009765625,
       "volume": 6158.0,
-      "supertrend": 4170.06,
+      "supertrend": 4170.07,
       "st_dir": -1,
-      "ema20": 4163.33,
+      "ema20": 4163.36,
       "ema50": null,
-      "rsi": 34.6
+      "rsi": 35.0
     },
     {
       "date": "12:25",
@@ -8441,11 +8415,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4147.10009765625,
       "close": 4147.10009765625,
       "volume": 5200.0,
-      "supertrend": 4170.06,
+      "supertrend": 4170.07,
       "st_dir": -1,
-      "ema20": 4161.78,
+      "ema20": 4161.81,
       "ema50": null,
-      "rsi": 31.8
+      "rsi": 32.2
     },
     {
       "date": "12:30",
@@ -8454,11 +8428,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4145.0,
       "close": 4150.39990234375,
       "volume": 10307.0,
-      "supertrend": 4168.3,
+      "supertrend": 4168.31,
       "st_dir": -1,
-      "ema20": 4160.7,
+      "ema20": 4160.73,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 36.7
     },
     {
       "date": "12:35",
@@ -8467,11 +8441,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4142.0,
       "close": 4142.0,
       "volume": 9105.0,
-      "supertrend": 4166.65,
+      "supertrend": 4166.66,
       "st_dir": -1,
-      "ema20": 4158.92,
+      "ema20": 4158.94,
       "ema50": null,
-      "rsi": 30.7
+      "rsi": 31.1
     },
     {
       "date": "12:40",
@@ -8480,11 +8454,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4138.39990234375,
       "close": 4142.0,
       "volume": 14925.0,
-      "supertrend": 4162.27,
+      "supertrend": 4162.28,
       "st_dir": -1,
-      "ema20": 4157.31,
+      "ema20": 4157.33,
       "ema50": null,
-      "rsi": 30.7
+      "rsi": 31.1
     },
     {
       "date": "12:45",
@@ -8493,11 +8467,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4139.10009765625,
       "close": 4140.89990234375,
       "volume": 7718.0,
-      "supertrend": 4161.45,
+      "supertrend": 4161.46,
       "st_dir": -1,
-      "ema20": 4155.74,
+      "ema20": 4155.76,
       "ema50": null,
-      "rsi": 30.0
+      "rsi": 30.3
     },
     {
       "date": "12:50",
@@ -8508,51 +8482,51 @@ window.DASHBOARD_CHARTS = {
       "volume": 5633.0,
       "supertrend": 4159.76,
       "st_dir": -1,
-      "ema20": 4154.32,
+      "ema20": 4154.34,
       "ema50": null,
-      "rsi": 30.0
+      "rsi": 30.3
     },
     {
       "date": "12:55",
       "open": 4141.2001953125,
       "high": 4144.7998046875,
-      "low": 4140.39990234375,
-      "close": 4142.0,
-      "volume": 3837.0,
+      "low": 4138.60009765625,
+      "close": 4140.39990234375,
+      "volume": 6353.0,
       "supertrend": 4159.76,
       "st_dir": -1,
-      "ema20": 4153.15,
-      "ema50": 4165.34,
-      "rsi": 31.9
+      "ema20": 4153.01,
+      "ema50": null,
+      "rsi": 30.0
+    },
+    {
+      "date": "13:00",
+      "open": 4141.60009765625,
+      "high": 4145.0,
+      "low": 4141.5,
+      "close": 4144.7998046875,
+      "volume": 10809.0,
+      "supertrend": 4159.76,
+      "st_dir": -1,
+      "ema20": 4152.23,
+      "ema50": null,
+      "rsi": 37.1
+    },
+    {
+      "date": "13:05",
+      "open": 4143.5,
+      "high": 4143.7998046875,
+      "low": 4138.7001953125,
+      "close": 4138.7001953125,
+      "volume": 4408.0,
+      "supertrend": 4159.76,
+      "st_dir": -1,
+      "ema20": 4150.94,
+      "ema50": 4164.36,
+      "rsi": 32.2
     }
   ],
   "HINDUNILVR.NS": [
-    {
-      "date": "14:55",
-      "open": 2008.699951171875,
-      "high": 2009.199951171875,
-      "low": 2006.0,
-      "close": 2006.699951171875,
-      "volume": 22702.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 2006.699951171875,
-      "high": 2007.300048828125,
-      "low": 2005.199951171875,
-      "close": 2005.699951171875,
-      "volume": 23638.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 2005.199951171875,
@@ -8651,8 +8625,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1987.0999755859375,
       "close": 1990.0,
       "volume": 4881.0,
-      "supertrend": 2007.84,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -8664,8 +8638,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1986.199951171875,
       "close": 1986.199951171875,
       "volume": 4428.0,
-      "supertrend": 2005.76,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -8677,7 +8651,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.0999755859375,
       "close": 1987.300048828125,
       "volume": 8789.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8690,7 +8664,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1984.0999755859375,
       "close": 1986.699951171875,
       "volume": 6664.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8703,7 +8677,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1986.699951171875,
       "close": 1989.0,
       "volume": 5064.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -8716,11 +8690,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1988.699951171875,
       "close": 1990.9000244140625,
       "volume": 2546.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 32.3
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -8729,11 +8703,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1988.9000244140625,
       "close": 1992.699951171875,
       "volume": 9491.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -8742,11 +8716,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1988.199951171875,
       "close": 1988.9000244140625,
       "volume": 4584.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 32.1
+      "rsi": 34.5
     },
     {
       "date": "10:15",
@@ -8755,11 +8729,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1987.0999755859375,
       "close": 1988.199951171875,
       "volume": 2296.0,
-      "supertrend": 2001.95,
+      "supertrend": 2003.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 31.5
+      "rsi": 33.9
     },
     {
       "date": "10:20",
@@ -8768,11 +8742,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1986.5,
       "close": 1987.5999755859375,
       "volume": 2839.0,
-      "supertrend": 2001.81,
+      "supertrend": 2002.72,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 31.0
+      "rsi": 33.4
     },
     {
       "date": "10:25",
@@ -8781,11 +8755,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1985.0,
       "close": 1985.0,
       "volume": 3543.0,
-      "supertrend": 2000.69,
+      "supertrend": 2001.51,
       "st_dir": -1,
-      "ema20": 1993.49,
+      "ema20": null,
       "ema50": null,
-      "rsi": 29.0
+      "rsi": 31.3
     },
     {
       "date": "10:30",
@@ -8794,11 +8768,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5999755859375,
       "close": 1983.0999755859375,
       "volume": 5682.0,
-      "supertrend": 1997.73,
+      "supertrend": 1998.47,
       "st_dir": -1,
-      "ema20": 1992.5,
+      "ema20": null,
       "ema50": null,
-      "rsi": 27.5
+      "rsi": 29.9
     },
     {
       "date": "10:35",
@@ -8807,11 +8781,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.300048828125,
       "close": 1985.0999755859375,
       "volume": 4976.0,
-      "supertrend": 1996.63,
+      "supertrend": 1997.29,
       "st_dir": -1,
-      "ema20": 1991.8,
+      "ema20": 1991.28,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 33.4
     },
     {
       "date": "10:40",
@@ -8820,11 +8794,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5999755859375,
       "close": 1986.9000244140625,
       "volume": 8466.0,
-      "supertrend": 1996.63,
+      "supertrend": 1997.29,
       "st_dir": -1,
-      "ema20": 1991.33,
+      "ema20": 1990.87,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 36.5
     },
     {
       "date": "10:45",
@@ -8833,11 +8807,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1986.0999755859375,
       "close": 1987.800048828125,
       "volume": 2314.0,
-      "supertrend": 1996.63,
+      "supertrend": 1997.29,
       "st_dir": -1,
-      "ema20": 1991.0,
+      "ema20": 1990.58,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": 38.1
     },
     {
       "date": "10:50",
@@ -8846,11 +8820,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1987.300048828125,
       "close": 1988.199951171875,
       "volume": 1459.0,
-      "supertrend": 1996.63,
+      "supertrend": 1997.29,
       "st_dir": -1,
-      "ema20": 1990.73,
+      "ema20": 1990.35,
       "ema50": null,
-      "rsi": 37.3
+      "rsi": 38.8
     },
     {
       "date": "10:55",
@@ -8859,11 +8833,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1983.300048828125,
       "close": 1984.5999755859375,
       "volume": 16457.0,
-      "supertrend": 1996.63,
+      "supertrend": 1997.29,
       "st_dir": -1,
-      "ema20": 1990.15,
+      "ema20": 1989.8,
       "ema50": null,
-      "rsi": 33.3
+      "rsi": 34.9
     },
     {
       "date": "11:00",
@@ -8872,11 +8846,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.300048828125,
       "close": 1982.800048828125,
       "volume": 19483.0,
-      "supertrend": 1995.4,
+      "supertrend": 1995.79,
       "st_dir": -1,
-      "ema20": 1989.45,
+      "ema20": 1989.13,
       "ema50": null,
-      "rsi": 31.5
+      "rsi": 33.1
     },
     {
       "date": "11:05",
@@ -8885,11 +8859,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.699951171875,
       "close": 1985.0,
       "volume": 10805.0,
-      "supertrend": 1995.4,
+      "supertrend": 1995.79,
       "st_dir": -1,
-      "ema20": 1989.02,
+      "ema20": 1988.74,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 37.3
     },
     {
       "date": "11:10",
@@ -8898,11 +8872,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.0999755859375,
       "close": 1982.9000244140625,
       "volume": 6962.0,
-      "supertrend": 1995.4,
+      "supertrend": 1995.79,
       "st_dir": -1,
-      "ema20": 1988.44,
+      "ema20": 1988.18,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 35.0
     },
     {
       "date": "11:15",
@@ -8911,11 +8885,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.0,
       "close": 1983.0,
       "volume": 8885.0,
-      "supertrend": 1994.0,
+      "supertrend": 1994.29,
       "st_dir": -1,
-      "ema20": 1987.92,
+      "ema20": 1987.69,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 35.3
     },
     {
       "date": "11:20",
@@ -8924,11 +8898,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.0,
       "close": 1981.0,
       "volume": 12343.0,
-      "supertrend": 1994.0,
+      "supertrend": 1994.29,
       "st_dir": -1,
-      "ema20": 1987.26,
+      "ema20": 1987.05,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 33.0
     },
     {
       "date": "11:25",
@@ -8937,11 +8911,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.0,
       "close": 1984.300048828125,
       "volume": 6726.0,
-      "supertrend": 1993.69,
+      "supertrend": 1993.92,
       "st_dir": -1,
-      "ema20": 1986.98,
+      "ema20": 1986.79,
       "ema50": null,
-      "rsi": 38.9
+      "rsi": 39.8
     },
     {
       "date": "11:30",
@@ -8950,11 +8924,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.0999755859375,
       "close": 1984.5,
       "volume": 3875.0,
-      "supertrend": 1993.69,
+      "supertrend": 1993.92,
       "st_dir": -1,
-      "ema20": 1986.74,
+      "ema20": 1986.57,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 40.2
     },
     {
       "date": "11:35",
@@ -8963,11 +8937,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1983.9000244140625,
       "close": 1984.5999755859375,
       "volume": 2474.0,
-      "supertrend": 1993.69,
+      "supertrend": 1993.92,
       "st_dir": -1,
-      "ema20": 1986.54,
+      "ema20": 1986.39,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 40.4
     },
     {
       "date": "11:40",
@@ -8976,11 +8950,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.800048828125,
       "close": 1984.0,
       "volume": 2835.0,
-      "supertrend": 1993.69,
+      "supertrend": 1993.92,
       "st_dir": -1,
-      "ema20": 1986.3,
+      "ema20": 1986.16,
       "ema50": null,
-      "rsi": 38.6
+      "rsi": 39.5
     },
     {
       "date": "11:45",
@@ -8989,11 +8963,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5999755859375,
       "close": 1985.0,
       "volume": 2762.0,
-      "supertrend": 1993.42,
+      "supertrend": 1993.57,
       "st_dir": -1,
-      "ema20": 1986.17,
+      "ema20": 1986.05,
       "ema50": null,
-      "rsi": 41.0
+      "rsi": 41.8
     },
     {
       "date": "11:50",
@@ -9002,11 +8976,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5999755859375,
       "close": 1983.300048828125,
       "volume": 1843.0,
-      "supertrend": 1993.18,
+      "supertrend": 1993.31,
       "st_dir": -1,
-      "ema20": 1985.9,
+      "ema20": 1985.79,
       "ema50": null,
-      "rsi": 38.3
+      "rsi": 39.1
     },
     {
       "date": "11:55",
@@ -9015,11 +8989,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5,
       "close": 1984.0999755859375,
       "volume": 3461.0,
-      "supertrend": 1992.54,
+      "supertrend": 1992.66,
       "st_dir": -1,
-      "ema20": 1985.73,
+      "ema20": 1985.63,
       "ema50": null,
-      "rsi": 40.3
+      "rsi": 41.0
     },
     {
       "date": "12:00",
@@ -9028,11 +9002,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1980.0,
       "close": 1981.4000244140625,
       "volume": 11631.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1985.32,
+      "ema20": 1985.22,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 36.7
     },
     {
       "date": "12:05",
@@ -9041,11 +9015,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.5,
       "close": 1983.300048828125,
       "volume": 4947.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1985.12,
+      "ema20": 1985.04,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 41.4
     },
     {
       "date": "12:10",
@@ -9054,11 +9028,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1982.5,
       "close": 1983.699951171875,
       "volume": 9620.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1984.99,
+      "ema20": 1984.91,
       "ema50": null,
-      "rsi": 41.8
+      "rsi": 42.4
     },
     {
       "date": "12:15",
@@ -9067,11 +9041,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1983.4000244140625,
       "close": 1984.0999755859375,
       "volume": 2620.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1984.9,
+      "ema20": 1984.83,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 43.4
     },
     {
       "date": "12:20",
@@ -9080,11 +9054,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1983.5999755859375,
       "close": 1984.699951171875,
       "volume": 13889.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1984.89,
+      "ema20": 1984.82,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 44.9
     },
     {
       "date": "12:25",
@@ -9093,11 +9067,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1983.0999755859375,
       "close": 1983.0999755859375,
       "volume": 2043.0,
-      "supertrend": 1991.41,
+      "supertrend": 1991.52,
       "st_dir": -1,
-      "ema20": 1984.72,
+      "ema20": 1984.66,
       "ema50": null,
-      "rsi": 41.1
+      "rsi": 41.6
     },
     {
       "date": "12:30",
@@ -9106,11 +9080,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.4000244140625,
       "close": 1982.9000244140625,
       "volume": 4734.0,
-      "supertrend": 1990.92,
+      "supertrend": 1990.98,
       "st_dir": -1,
-      "ema20": 1984.54,
+      "ema20": 1984.49,
       "ema50": null,
-      "rsi": 40.7
+      "rsi": 41.2
     },
     {
       "date": "12:35",
@@ -9119,11 +9093,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.5,
       "close": 1982.4000244140625,
       "volume": 2457.0,
-      "supertrend": 1990.1,
+      "supertrend": 1990.15,
       "st_dir": -1,
-      "ema20": 1984.34,
+      "ema20": 1984.29,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": 40.2
     },
     {
       "date": "12:40",
@@ -9132,11 +9106,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.0,
       "close": 1982.0,
       "volume": 2116.0,
-      "supertrend": 1989.42,
+      "supertrend": 1989.47,
       "st_dir": -1,
-      "ema20": 1984.12,
+      "ema20": 1984.07,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 39.3
     },
     {
       "date": "12:45",
@@ -9145,11 +9119,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1980.800048828125,
       "close": 1981.800048828125,
       "volume": 2863.0,
-      "supertrend": 1988.73,
+      "supertrend": 1988.78,
       "st_dir": -1,
-      "ema20": 1983.89,
+      "ema20": 1983.86,
       "ema50": null,
-      "rsi": 38.3
+      "rsi": 38.9
     },
     {
       "date": "12:50",
@@ -9158,53 +9132,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1981.4000244140625,
       "close": 1983.0999755859375,
       "volume": 3415.0,
-      "supertrend": 1988.73,
+      "supertrend": 1988.78,
       "st_dir": -1,
-      "ema20": 1983.82,
+      "ema20": 1983.78,
       "ema50": null,
-      "rsi": 43.0
+      "rsi": 43.4
     },
     {
       "date": "12:55",
       "open": 1983.5999755859375,
-      "high": 1984.0,
+      "high": 1984.0999755859375,
       "low": 1982.5,
-      "close": 1983.699951171875,
-      "volume": 3628.0,
-      "supertrend": 1988.73,
+      "close": 1983.5,
+      "volume": 5332.0,
+      "supertrend": 1988.78,
       "st_dir": -1,
-      "ema20": 1983.81,
-      "ema50": 1987.73,
-      "rsi": 45.0
+      "ema20": 1983.76,
+      "ema50": null,
+      "rsi": 44.8
+    },
+    {
+      "date": "13:00",
+      "open": 1983.4000244140625,
+      "high": 1983.4000244140625,
+      "low": 1982.0999755859375,
+      "close": 1982.9000244140625,
+      "volume": 1565.0,
+      "supertrend": 1988.78,
+      "st_dir": -1,
+      "ema20": 1983.68,
+      "ema50": null,
+      "rsi": 43.1
+    },
+    {
+      "date": "13:05",
+      "open": 1983.300048828125,
+      "high": 1983.300048828125,
+      "low": 1981.300048828125,
+      "close": 1982.0,
+      "volume": 5845.0,
+      "supertrend": 1988.78,
+      "st_dir": -1,
+      "ema20": 1983.52,
+      "ema50": 1986.77,
+      "rsi": 40.6
     }
   ],
   "BAJFINANCE.NS": [
-    {
-      "date": "15:00",
-      "open": 1123.300048828125,
-      "high": 1125.0999755859375,
-      "low": 1121.6500244140625,
-      "close": 1125.0999755859375,
-      "volume": 182461.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1125.0,
-      "high": 1125.0999755859375,
-      "low": 1121.949951171875,
-      "close": 1123.1500244140625,
-      "volume": 220312.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1123.0,
@@ -9303,8 +9277,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.949951171875,
       "close": 1104.75,
       "volume": 100574.0,
-      "supertrend": 1118.36,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -9316,8 +9290,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.0999755859375,
       "close": 1104.8499755859375,
       "volume": 128324.0,
-      "supertrend": 1117.22,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -9329,7 +9303,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.0,
       "close": 1104.25,
       "volume": 232492.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -9342,7 +9316,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.050048828125,
       "close": 1107.0999755859375,
       "volume": 225025.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -9355,7 +9329,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1105.9000244140625,
       "close": 1107.199951171875,
       "volume": 50436.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -9368,11 +9342,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1106.050048828125,
       "close": 1106.5999755859375,
       "volume": 43771.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 14.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -9381,11 +9355,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1105.449951171875,
       "close": 1108.25,
       "volume": 57971.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -9394,11 +9368,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.75,
       "close": 1104.75,
       "volume": 85639.0,
-      "supertrend": 1117.22,
+      "supertrend": 1117.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 17.4
+      "rsi": 16.9
     },
     {
       "date": "10:15",
@@ -9407,11 +9381,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1102.199951171875,
       "close": 1103.0,
       "volume": 314507.0,
-      "supertrend": 1114.94,
+      "supertrend": 1115.23,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 16.2
+      "rsi": 15.9
     },
     {
       "date": "10:20",
@@ -9420,11 +9394,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1102.25,
       "close": 1103.5,
       "volume": 40998.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 17.9
+      "rsi": 17.5
     },
     {
       "date": "10:25",
@@ -9433,11 +9407,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.0999755859375,
       "close": 1104.5,
       "volume": 56479.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1110.32,
+      "ema20": null,
       "ema50": null,
-      "rsi": 21.2
+      "rsi": 20.6
     },
     {
       "date": "10:30",
@@ -9446,11 +9420,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.5999755859375,
       "close": 1104.6500244140625,
       "volume": 23262.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1109.78,
+      "ema20": null,
       "ema50": null,
-      "rsi": 21.7
+      "rsi": 21.1
     },
     {
       "date": "10:35",
@@ -9459,11 +9433,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.050048828125,
       "close": 1106.0,
       "volume": 60515.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1109.42,
+      "ema20": 1108.44,
       "ema50": null,
-      "rsi": 26.3
+      "rsi": 25.6
     },
     {
       "date": "10:40",
@@ -9472,11 +9446,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.5,
       "close": 1105.1500244140625,
       "volume": 46122.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1109.01,
+      "ema20": 1108.12,
       "ema50": null,
-      "rsi": 25.3
+      "rsi": 24.6
     },
     {
       "date": "10:45",
@@ -9485,11 +9459,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.6500244140625,
       "close": 1105.3499755859375,
       "volume": 46550.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1108.66,
+      "ema20": 1107.86,
       "ema50": null,
-      "rsi": 26.0
+      "rsi": 25.3
     },
     {
       "date": "10:50",
@@ -9498,11 +9472,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.5999755859375,
       "close": 1105.550048828125,
       "volume": 35091.0,
-      "supertrend": 1113.56,
+      "supertrend": 1113.83,
       "st_dir": -1,
-      "ema20": 1108.37,
+      "ema20": 1107.64,
       "ema50": null,
-      "rsi": 26.7
+      "rsi": 26.1
     },
     {
       "date": "10:55",
@@ -9511,11 +9485,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.6500244140625,
       "close": 1104.8499755859375,
       "volume": 63388.0,
-      "supertrend": 1113.11,
+      "supertrend": 1113.24,
       "st_dir": -1,
-      "ema20": 1108.03,
+      "ema20": 1107.37,
       "ema50": null,
-      "rsi": 25.7
+      "rsi": 25.1
     },
     {
       "date": "11:00",
@@ -9524,11 +9498,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.199951171875,
       "close": 1104.25,
       "volume": 30892.0,
-      "supertrend": 1112.58,
+      "supertrend": 1112.69,
       "st_dir": -1,
-      "ema20": 1107.67,
+      "ema20": 1107.08,
       "ema50": null,
-      "rsi": 24.9
+      "rsi": 24.3
     },
     {
       "date": "11:05",
@@ -9537,11 +9511,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1103.0,
       "close": 1103.4000244140625,
       "volume": 55750.0,
-      "supertrend": 1111.18,
+      "supertrend": 1111.28,
       "st_dir": -1,
-      "ema20": 1107.26,
+      "ema20": 1106.73,
       "ema50": null,
-      "rsi": 23.7
+      "rsi": 23.2
     },
     {
       "date": "11:10",
@@ -9550,11 +9524,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1100.5999755859375,
       "close": 1101.8499755859375,
       "volume": 133827.0,
-      "supertrend": 1110.03,
+      "supertrend": 1110.12,
       "st_dir": -1,
-      "ema20": 1106.75,
+      "ema20": 1106.26,
       "ema50": null,
-      "rsi": 21.6
+      "rsi": 21.3
     },
     {
       "date": "11:15",
@@ -9563,11 +9537,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1100.8499755859375,
       "close": 1103.0999755859375,
       "volume": 46128.0,
-      "supertrend": 1109.85,
+      "supertrend": 1109.93,
       "st_dir": -1,
-      "ema20": 1106.4,
+      "ema20": 1105.96,
       "ema50": null,
-      "rsi": 27.1
+      "rsi": 26.6
     },
     {
       "date": "11:20",
@@ -9576,11 +9550,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1102.0,
       "close": 1102.0,
       "volume": 38835.0,
-      "supertrend": 1109.85,
+      "supertrend": 1109.93,
       "st_dir": -1,
-      "ema20": 1105.98,
+      "ema20": 1105.58,
       "ema50": null,
-      "rsi": 25.4
+      "rsi": 25.0
     },
     {
       "date": "11:25",
@@ -9589,11 +9563,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1101.1500244140625,
       "close": 1102.300048828125,
       "volume": 29745.0,
-      "supertrend": 1109.14,
+      "supertrend": 1109.21,
       "st_dir": -1,
-      "ema20": 1105.63,
+      "ema20": 1105.27,
       "ema50": null,
-      "rsi": 26.8
+      "rsi": 26.3
     },
     {
       "date": "11:30",
@@ -9602,11 +9576,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1099.0999755859375,
       "close": 1100.3499755859375,
       "volume": 92405.0,
-      "supertrend": 1108.13,
+      "supertrend": 1108.19,
       "st_dir": -1,
-      "ema20": 1105.13,
+      "ema20": 1104.8,
       "ema50": null,
-      "rsi": 23.8
+      "rsi": 23.4
     },
     {
       "date": "11:35",
@@ -9615,11 +9589,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1099.949951171875,
       "close": 1101.6500244140625,
       "volume": 82806.0,
-      "supertrend": 1108.13,
+      "supertrend": 1108.19,
       "st_dir": -1,
-      "ema20": 1104.8,
+      "ema20": 1104.5,
       "ema50": null,
-      "rsi": 29.4
+      "rsi": 29.0
     },
     {
       "date": "11:40",
@@ -9628,11 +9602,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1101.0999755859375,
       "close": 1101.550048828125,
       "volume": 37522.0,
-      "supertrend": 1108.13,
+      "supertrend": 1108.19,
       "st_dir": -1,
-      "ema20": 1104.49,
+      "ema20": 1104.22,
       "ema50": null,
-      "rsi": 29.2
+      "rsi": 28.8
     },
     {
       "date": "11:45",
@@ -9641,11 +9615,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1100.050048828125,
       "close": 1101.4000244140625,
       "volume": 67972.0,
-      "supertrend": 1107.73,
+      "supertrend": 1107.77,
       "st_dir": -1,
-      "ema20": 1104.19,
+      "ema20": 1103.95,
       "ema50": null,
-      "rsi": 29.0
+      "rsi": 28.6
     },
     {
       "date": "11:50",
@@ -9654,11 +9628,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1100.300048828125,
       "close": 1100.3499755859375,
       "volume": 40444.0,
-      "supertrend": 1107.7,
+      "supertrend": 1107.74,
       "st_dir": -1,
-      "ema20": 1103.83,
+      "ema20": 1103.61,
       "ema50": null,
-      "rsi": 27.0
+      "rsi": 26.6
     },
     {
       "date": "11:55",
@@ -9667,11 +9641,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1099.1500244140625,
       "close": 1100.5,
       "volume": 73696.0,
-      "supertrend": 1106.7,
+      "supertrend": 1106.74,
       "st_dir": -1,
-      "ema20": 1103.51,
+      "ema20": 1103.31,
       "ema50": null,
-      "rsi": 27.7
+      "rsi": 27.4
     },
     {
       "date": "12:00",
@@ -9680,11 +9654,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1099.300048828125,
       "close": 1099.800048828125,
       "volume": 34330.0,
-      "supertrend": 1106.3,
+      "supertrend": 1106.33,
       "st_dir": -1,
-      "ema20": 1103.16,
+      "ema20": 1102.98,
       "ema50": null,
-      "rsi": 26.4
+      "rsi": 26.0
     },
     {
       "date": "12:05",
@@ -9693,11 +9667,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1098.75,
       "close": 1099.8499755859375,
       "volume": 55823.0,
-      "supertrend": 1105.38,
+      "supertrend": 1105.41,
       "st_dir": -1,
-      "ema20": 1102.84,
+      "ema20": 1102.68,
       "ema50": null,
-      "rsi": 26.6
+      "rsi": 26.3
     },
     {
       "date": "12:10",
@@ -9706,11 +9680,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1098.5,
       "close": 1099.050048828125,
       "volume": 95797.0,
-      "supertrend": 1105.0,
+      "supertrend": 1105.03,
       "st_dir": -1,
-      "ema20": 1102.48,
+      "ema20": 1102.33,
       "ema50": null,
-      "rsi": 25.0
+      "rsi": 24.7
     },
     {
       "date": "12:15",
@@ -9719,11 +9693,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1098.949951171875,
       "close": 1099.25,
       "volume": 100609.0,
-      "supertrend": 1105.0,
+      "supertrend": 1105.03,
       "st_dir": -1,
-      "ema20": 1102.17,
+      "ema20": 1102.04,
       "ema50": null,
-      "rsi": 26.2
+      "rsi": 25.9
     },
     {
       "date": "12:20",
@@ -9732,11 +9706,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1099.0,
       "close": 1099.8499755859375,
       "volume": 63652.0,
-      "supertrend": 1104.98,
+      "supertrend": 1105.0,
       "st_dir": -1,
-      "ema20": 1101.95,
+      "ema20": 1101.83,
       "ema50": null,
-      "rsi": 29.9
+      "rsi": 29.6
     },
     {
       "date": "12:25",
@@ -9745,11 +9719,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1098.75,
       "close": 1098.75,
       "volume": 56565.0,
-      "supertrend": 1104.68,
+      "supertrend": 1104.7,
       "st_dir": -1,
-      "ema20": 1101.65,
+      "ema20": 1101.54,
       "ema50": null,
-      "rsi": 27.2
+      "rsi": 27.0
     },
     {
       "date": "12:30",
@@ -9758,11 +9732,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1097.300048828125,
       "close": 1098.0999755859375,
       "volume": 125575.0,
-      "supertrend": 1103.44,
+      "supertrend": 1103.45,
       "st_dir": -1,
-      "ema20": 1101.31,
+      "ema20": 1101.21,
       "ema50": null,
-      "rsi": 25.8
+      "rsi": 25.5
     },
     {
       "date": "12:35",
@@ -9771,11 +9745,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1096.25,
       "close": 1097.0,
       "volume": 93807.0,
-      "supertrend": 1102.85,
+      "supertrend": 1102.86,
       "st_dir": -1,
-      "ema20": 1100.9,
+      "ema20": 1100.81,
       "ema50": null,
-      "rsi": 23.4
+      "rsi": 23.3
     },
     {
       "date": "12:40",
@@ -9784,11 +9758,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1095.0,
       "close": 1095.449951171875,
       "volume": 380958.0,
-      "supertrend": 1102.06,
+      "supertrend": 1102.08,
       "st_dir": -1,
-      "ema20": 1100.38,
+      "ema20": 1100.3,
       "ema50": null,
-      "rsi": 20.6
+      "rsi": 20.5
     },
     {
       "date": "12:45",
@@ -9797,11 +9771,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1094.800048828125,
       "close": 1095.5,
       "volume": 141436.0,
-      "supertrend": 1101.22,
+      "supertrend": 1101.23,
       "st_dir": -1,
-      "ema20": 1099.92,
+      "ema20": 1099.84,
       "ema50": null,
-      "rsi": 21.0
+      "rsi": 20.8
     },
     {
       "date": "12:50",
@@ -9810,29 +9784,55 @@ window.DASHBOARD_CHARTS = {
       "low": 1093.4000244140625,
       "close": 1094.6500244140625,
       "volume": 125141.0,
-      "supertrend": 1100.22,
+      "supertrend": 1100.23,
       "st_dir": -1,
-      "ema20": 1099.41,
+      "ema20": 1099.35,
       "ema50": null,
-      "rsi": 19.5
+      "rsi": 19.4
     },
     {
       "date": "12:55",
       "open": 1094.550048828125,
       "high": 1095.949951171875,
       "low": 1094.199951171875,
-      "close": 1094.5999755859375,
-      "volume": 329744.0,
-      "supertrend": 1100.22,
+      "close": 1094.199951171875,
+      "volume": 342582.0,
+      "supertrend": 1100.23,
       "st_dir": -1,
-      "ema20": 1098.96,
-      "ema50": 1104.65,
-      "rsi": 19.4
+      "ema20": 1098.86,
+      "ema50": null,
+      "rsi": 18.6
+    },
+    {
+      "date": "13:00",
+      "open": 1094.25,
+      "high": 1094.4000244140625,
+      "low": 1091.0,
+      "close": 1092.5,
+      "volume": 112040.0,
+      "supertrend": 1098.83,
+      "st_dir": -1,
+      "ema20": 1098.25,
+      "ema50": null,
+      "rsi": 16.1
+    },
+    {
+      "date": "13:05",
+      "open": 1092.699951171875,
+      "high": 1093.25,
+      "low": 1091.8499755859375,
+      "close": 1091.8499755859375,
+      "volume": 19997.0,
+      "supertrend": 1098.49,
+      "st_dir": -1,
+      "ema20": 1097.64,
+      "ema50": 1103.36,
+      "rsi": 15.3
     }
   ],
   "TATAMOTORS.NS": [
     {
-      "date": "08:54",
+      "date": "09:01",
       "open": 721.54,
       "high": 722.23,
       "low": 718.22,
@@ -9845,7 +9845,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "08:59",
+      "date": "09:06",
       "open": 718.67,
       "high": 722.24,
       "low": 714.35,
@@ -9858,7 +9858,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:04",
+      "date": "09:11",
       "open": 714.34,
       "high": 715.45,
       "low": 713.52,
@@ -9871,7 +9871,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:09",
+      "date": "09:16",
       "open": 709.46,
       "high": 712.13,
       "low": 707.3,
@@ -9884,7 +9884,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:14",
+      "date": "09:21",
       "open": 716.48,
       "high": 716.72,
       "low": 713.75,
@@ -9897,7 +9897,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:19",
+      "date": "09:26",
       "open": 716.43,
       "high": 719.01,
       "low": 711.65,
@@ -9910,7 +9910,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:24",
+      "date": "09:31",
       "open": 719.52,
       "high": 721.38,
       "low": 716.53,
@@ -9923,7 +9923,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:29",
+      "date": "09:36",
       "open": 720.08,
       "high": 721.44,
       "low": 719.13,
@@ -9936,7 +9936,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:34",
+      "date": "09:41",
       "open": 720.86,
       "high": 724.32,
       "low": 719.86,
@@ -9949,7 +9949,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:39",
+      "date": "09:46",
       "open": 725.05,
       "high": 730.19,
       "low": 720.32,
@@ -9962,7 +9962,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:44",
+      "date": "09:51",
       "open": 722.19,
       "high": 723.01,
       "low": 722.08,
@@ -9975,7 +9975,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:49",
+      "date": "09:56",
       "open": 729.72,
       "high": 732.2,
       "low": 727.49,
@@ -9988,7 +9988,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:54",
+      "date": "10:01",
       "open": 732.02,
       "high": 734.49,
       "low": 730.81,
@@ -10001,7 +10001,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:59",
+      "date": "10:06",
       "open": 733.66,
       "high": 736.3,
       "low": 732.15,
@@ -10014,7 +10014,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "10:04",
+      "date": "10:11",
       "open": 730.88,
       "high": 734.74,
       "low": 729.6,
@@ -10027,7 +10027,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 67.3
     },
     {
-      "date": "10:09",
+      "date": "10:16",
       "open": 742.59,
       "high": 746.16,
       "low": 741.44,
@@ -10040,7 +10040,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.2
     },
     {
-      "date": "10:14",
+      "date": "10:21",
       "open": 736.86,
       "high": 737.02,
       "low": 734.11,
@@ -10053,7 +10053,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 65.5
     },
     {
-      "date": "10:19",
+      "date": "10:26",
       "open": 739.36,
       "high": 741.91,
       "low": 738.0,
@@ -10066,7 +10066,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 68.6
     },
     {
-      "date": "10:24",
+      "date": "10:31",
       "open": 746.58,
       "high": 747.72,
       "low": 740.88,
@@ -10079,7 +10079,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 72.3
     },
     {
-      "date": "10:29",
+      "date": "10:36",
       "open": 755.91,
       "high": 757.73,
       "low": 753.43,
@@ -10092,7 +10092,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.5
     },
     {
-      "date": "10:34",
+      "date": "10:41",
       "open": 762.33,
       "high": 768.7,
       "low": 757.84,
@@ -10105,7 +10105,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 79.6
     },
     {
-      "date": "10:39",
+      "date": "10:46",
       "open": 760.25,
       "high": 762.89,
       "low": 755.99,
@@ -10118,7 +10118,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.9
     },
     {
-      "date": "10:44",
+      "date": "10:51",
       "open": 762.28,
       "high": 765.52,
       "low": 757.41,
@@ -10131,7 +10131,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.8
     },
     {
-      "date": "10:49",
+      "date": "10:56",
       "open": 762.78,
       "high": 765.11,
       "low": 759.81,
@@ -10144,7 +10144,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.4
     },
     {
-      "date": "10:54",
+      "date": "11:01",
       "open": 766.6,
       "high": 767.94,
       "low": 764.95,
@@ -10157,7 +10157,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.5
     },
     {
-      "date": "10:59",
+      "date": "11:06",
       "open": 766.31,
       "high": 773.22,
       "low": 764.78,
@@ -10170,7 +10170,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.0
     },
     {
-      "date": "11:04",
+      "date": "11:11",
       "open": 772.56,
       "high": 775.96,
       "low": 768.39,
@@ -10183,7 +10183,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.1
     },
     {
-      "date": "11:09",
+      "date": "11:16",
       "open": 769.46,
       "high": 773.41,
       "low": 767.33,
@@ -10196,7 +10196,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.0
     },
     {
-      "date": "11:14",
+      "date": "11:21",
       "open": 770.94,
       "high": 773.09,
       "low": 767.35,
@@ -10209,7 +10209,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.6
     },
     {
-      "date": "11:19",
+      "date": "11:26",
       "open": 771.89,
       "high": 776.41,
       "low": 771.83,
@@ -10222,7 +10222,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.1
     },
     {
-      "date": "11:24",
+      "date": "11:31",
       "open": 774.92,
       "high": 777.47,
       "low": 770.34,
@@ -10235,7 +10235,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.6
     },
     {
-      "date": "11:29",
+      "date": "11:36",
       "open": 780.98,
       "high": 782.06,
       "low": 779.43,
@@ -10248,7 +10248,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.9
     },
     {
-      "date": "11:34",
+      "date": "11:41",
       "open": 790.91,
       "high": 792.61,
       "low": 789.72,
@@ -10261,7 +10261,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 82.5
     },
     {
-      "date": "11:39",
+      "date": "11:46",
       "open": 782.8,
       "high": 786.54,
       "low": 781.13,
@@ -10274,7 +10274,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.5
     },
     {
-      "date": "11:44",
+      "date": "11:51",
       "open": 783.93,
       "high": 787.53,
       "low": 780.9,
@@ -10287,7 +10287,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.7
     },
     {
-      "date": "11:49",
+      "date": "11:56",
       "open": 778.21,
       "high": 779.68,
       "low": 776.85,
@@ -10300,7 +10300,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 64.4
     },
     {
-      "date": "11:54",
+      "date": "12:01",
       "open": 781.65,
       "high": 782.21,
       "low": 774.92,
@@ -10313,7 +10313,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 66.5
     },
     {
-      "date": "11:59",
+      "date": "12:06",
       "open": 786.8,
       "high": 791.4,
       "low": 785.14,
@@ -10326,7 +10326,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 71.1
     },
     {
-      "date": "12:04",
+      "date": "12:11",
       "open": 790.66,
       "high": 792.47,
       "low": 790.35,
@@ -10339,7 +10339,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 71.6
     },
     {
-      "date": "12:09",
+      "date": "12:16",
       "open": 798.01,
       "high": 798.5,
       "low": 796.23,
@@ -10352,7 +10352,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 74.6
     },
     {
-      "date": "12:14",
+      "date": "12:21",
       "open": 806.03,
       "high": 812.76,
       "low": 805.31,
@@ -10365,7 +10365,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.8
     },
     {
-      "date": "12:19",
+      "date": "12:26",
       "open": 810.66,
       "high": 816.76,
       "low": 806.83,
@@ -10378,7 +10378,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 79.6
     },
     {
-      "date": "12:24",
+      "date": "12:31",
       "open": 816.74,
       "high": 818.35,
       "low": 814.82,
@@ -10391,7 +10391,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 81.2
     },
     {
-      "date": "12:29",
+      "date": "12:36",
       "open": 822.98,
       "high": 823.55,
       "low": 820.45,
@@ -10404,7 +10404,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 82.7
     },
     {
-      "date": "12:34",
+      "date": "12:41",
       "open": 817.07,
       "high": 820.85,
       "low": 816.03,
@@ -10417,7 +10417,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 77.6
     },
     {
-      "date": "12:39",
+      "date": "12:46",
       "open": 812.31,
       "high": 815.08,
       "low": 809.73,
@@ -10430,7 +10430,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 70.0
     },
     {
-      "date": "12:44",
+      "date": "12:51",
       "open": 809.05,
       "high": 809.3,
       "low": 809.04,
@@ -10443,7 +10443,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 67.8
     },
     {
-      "date": "12:49",
+      "date": "12:56",
       "open": 801.9,
       "high": 804.67,
       "low": 798.75,
@@ -10456,7 +10456,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 62.9
     },
     {
-      "date": "12:54",
+      "date": "13:01",
       "open": 806.42,
       "high": 810.57,
       "low": 804.47,
@@ -10469,7 +10469,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 64.9
     },
     {
-      "date": "12:59",
+      "date": "13:06",
       "open": 793.91,
       "high": 795.3,
       "low": 792.89,
@@ -10483,32 +10483,6 @@ window.DASHBOARD_CHARTS = {
     }
   ],
   "KOTAKBANK.NS": [
-    {
-      "date": "15:00",
-      "open": 496.1499938964844,
-      "high": 496.3999938964844,
-      "low": 495.6499938964844,
-      "close": 495.6499938964844,
-      "volume": 822100.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 495.8999938964844,
-      "high": 497.5,
-      "low": 495.75,
-      "close": 497.5,
-      "volume": 732147.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 497.3999938964844,
@@ -10607,8 +10581,8 @@ window.DASHBOARD_CHARTS = {
       "low": 493.70001220703125,
       "close": 493.70001220703125,
       "volume": 173439.0,
-      "supertrend": 498.63,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -10620,8 +10594,8 @@ window.DASHBOARD_CHARTS = {
       "low": 492.70001220703125,
       "close": 492.75,
       "volume": 123359.0,
-      "supertrend": 497.34,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -10633,7 +10607,7 @@ window.DASHBOARD_CHARTS = {
       "low": 492.45001220703125,
       "close": 494.1000061035156,
       "volume": 101156.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -10646,7 +10620,7 @@ window.DASHBOARD_CHARTS = {
       "low": 494.0,
       "close": 495.8500061035156,
       "volume": 164468.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -10659,7 +10633,7 @@ window.DASHBOARD_CHARTS = {
       "low": 495.75,
       "close": 496.29998779296875,
       "volume": 185876.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -10672,11 +10646,11 @@ window.DASHBOARD_CHARTS = {
       "low": 495.95001220703125,
       "close": 496.04998779296875,
       "volume": 84873.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 51.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -10685,11 +10659,11 @@ window.DASHBOARD_CHARTS = {
       "low": 495.3999938964844,
       "close": 496.29998779296875,
       "volume": 71189.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 52.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -10698,11 +10672,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.1000061035156,
       "close": 496.45001220703125,
       "volume": 105952.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.2
+      "rsi": 43.3
     },
     {
       "date": "10:15",
@@ -10711,11 +10685,11 @@ window.DASHBOARD_CHARTS = {
       "low": 495.6000061035156,
       "close": 495.8999938964844,
       "volume": 204195.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 41.0
     },
     {
       "date": "10:20",
@@ -10724,11 +10698,11 @@ window.DASHBOARD_CHARTS = {
       "low": 495.8500061035156,
       "close": 496.45001220703125,
       "volume": 47988.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 44.1
     },
     {
       "date": "10:25",
@@ -10737,11 +10711,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.25,
       "close": 496.70001220703125,
       "volume": 227609.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.03,
+      "ema20": null,
       "ema50": null,
-      "rsi": 54.2
+      "rsi": 45.6
     },
     {
       "date": "10:30",
@@ -10750,11 +10724,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.54998779296875,
       "close": 497.1000061035156,
       "volume": 196203.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.13,
+      "ema20": null,
       "ema50": null,
-      "rsi": 56.1
+      "rsi": 47.8
     },
     {
       "date": "10:35",
@@ -10763,11 +10737,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.3500061035156,
       "close": 496.45001220703125,
       "volume": 363870.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.16,
+      "ema20": 496.05,
       "ema50": null,
-      "rsi": 52.4
+      "rsi": 44.6
     },
     {
       "date": "10:40",
@@ -10776,11 +10750,11 @@ window.DASHBOARD_CHARTS = {
       "low": 494.79998779296875,
       "close": 495.0,
       "volume": 326500.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.05,
+      "ema20": 495.95,
       "ema50": null,
-      "rsi": 45.2
+      "rsi": 38.3
     },
     {
       "date": "10:45",
@@ -10789,11 +10763,11 @@ window.DASHBOARD_CHARTS = {
       "low": 494.8500061035156,
       "close": 495.75,
       "volume": 253933.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.02,
+      "ema20": 495.93,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 42.8
     },
     {
       "date": "10:50",
@@ -10802,11 +10776,11 @@ window.DASHBOARD_CHARTS = {
       "low": 495.6000061035156,
       "close": 496.5,
       "volume": 114951.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.07,
+      "ema20": 495.98,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 46.9
     },
     {
       "date": "10:55",
@@ -10815,11 +10789,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.25,
       "close": 496.5,
       "volume": 70297.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.11,
+      "ema20": 496.03,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 46.9
     },
     {
       "date": "11:00",
@@ -10828,11 +10802,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.5,
       "close": 496.75,
       "volume": 188142.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.17,
+      "ema20": 496.1,
       "ema50": null,
-      "rsi": 54.0
+      "rsi": 48.4
     },
     {
       "date": "11:05",
@@ -10841,11 +10815,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.1000061035156,
       "close": 496.79998779296875,
       "volume": 160099.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.23,
+      "ema20": 496.17,
       "ema50": null,
-      "rsi": 54.2
+      "rsi": 48.7
     },
     {
       "date": "11:10",
@@ -10854,11 +10828,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.29998779296875,
       "close": 496.29998779296875,
       "volume": 243874.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.24,
+      "ema20": 496.18,
       "ema50": null,
-      "rsi": 51.1
+      "rsi": 45.8
     },
     {
       "date": "11:15",
@@ -10867,11 +10841,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.45001220703125,
       "close": 496.8999938964844,
       "volume": 615858.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.3,
+      "ema20": 496.25,
       "ema50": null,
-      "rsi": 54.5
+      "rsi": 49.7
     },
     {
       "date": "11:20",
@@ -10880,11 +10854,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.1000061035156,
       "close": 496.54998779296875,
       "volume": 542318.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.32,
+      "ema20": 496.28,
       "ema50": null,
-      "rsi": 52.2
+      "rsi": 47.5
     },
     {
       "date": "11:25",
@@ -10893,11 +10867,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.3500061035156,
       "close": 496.95001220703125,
       "volume": 168206.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.38,
+      "ema20": 496.34,
       "ema50": null,
-      "rsi": 54.6
+      "rsi": 50.2
     },
     {
       "date": "11:30",
@@ -10906,11 +10880,11 @@ window.DASHBOARD_CHARTS = {
       "low": 496.75,
       "close": 497.25,
       "volume": 837722.0,
-      "supertrend": 497.34,
+      "supertrend": 497.35,
       "st_dir": -1,
-      "ema20": 496.47,
+      "ema20": 496.43,
       "ema50": null,
-      "rsi": 56.3
+      "rsi": 52.1
     },
     {
       "date": "11:35",
@@ -10921,9 +10895,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 454731.0,
       "supertrend": 494.82,
       "st_dir": 1,
-      "ema20": 496.56,
+      "ema20": 496.53,
       "ema50": null,
-      "rsi": 57.7
+      "rsi": 53.7
     },
     {
       "date": "11:40",
@@ -10932,11 +10906,11 @@ window.DASHBOARD_CHARTS = {
       "low": 497.29998779296875,
       "close": 497.6000061035156,
       "volume": 191861.0,
-      "supertrend": 494.97,
+      "supertrend": 494.96,
       "st_dir": 1,
-      "ema20": 496.66,
+      "ema20": 496.63,
       "ema50": null,
-      "rsi": 58.3
+      "rsi": 54.4
     },
     {
       "date": "11:45",
@@ -10947,9 +10921,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 254697.0,
       "supertrend": 494.99,
       "st_dir": 1,
-      "ema20": 496.77,
+      "ema20": 496.74,
       "ema50": null,
-      "rsi": 59.6
+      "rsi": 55.7
     },
     {
       "date": "11:50",
@@ -10960,9 +10934,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 202729.0,
       "supertrend": 495.26,
       "st_dir": 1,
-      "ema20": 496.84,
+      "ema20": 496.81,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 52.8
     },
     {
       "date": "11:55",
@@ -10973,9 +10947,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 285639.0,
       "supertrend": 495.26,
       "st_dir": 1,
-      "ema20": 496.93,
+      "ema20": 496.9,
       "ema50": null,
-      "rsi": 58.8
+      "rsi": 55.3
     },
     {
       "date": "12:00",
@@ -10986,9 +10960,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 492734.0,
       "supertrend": 495.62,
       "st_dir": 1,
-      "ema20": 497.06,
+      "ema20": 497.04,
       "ema50": null,
-      "rsi": 62.2
+      "rsi": 59.1
     },
     {
       "date": "12:05",
@@ -10999,9 +10973,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 291198.0,
       "supertrend": 496.19,
       "st_dir": 1,
-      "ema20": 497.31,
+      "ema20": 497.29,
       "ema50": null,
-      "rsi": 68.8
+      "rsi": 66.3
     },
     {
       "date": "12:10",
@@ -11012,9 +10986,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 330750.0,
       "supertrend": 497.1,
       "st_dir": 1,
-      "ema20": 497.58,
+      "ema20": 497.57,
       "ema50": null,
-      "rsi": 71.1
+      "rsi": 68.8
     },
     {
       "date": "12:15",
@@ -11025,9 +10999,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 195645.0,
       "supertrend": 497.83,
       "st_dir": 1,
-      "ema20": 497.86,
+      "ema20": 497.85,
       "ema50": null,
-      "rsi": 72.3
+      "rsi": 70.1
     },
     {
       "date": "12:20",
@@ -11038,9 +11012,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 309789.0,
       "supertrend": 497.86,
       "st_dir": 1,
-      "ema20": 498.18,
+      "ema20": 498.17,
       "ema50": null,
-      "rsi": 75.1
+      "rsi": 73.2
     },
     {
       "date": "12:25",
@@ -11051,9 +11025,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 544378.0,
       "supertrend": 498.92,
       "st_dir": 1,
-      "ema20": 498.51,
+      "ema20": 498.5,
       "ema50": null,
-      "rsi": 76.4
+      "rsi": 74.6
     },
     {
       "date": "12:30",
@@ -11064,9 +11038,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 330783.0,
       "supertrend": 498.92,
       "st_dir": 1,
-      "ema20": 498.86,
+      "ema20": 498.85,
       "ema50": null,
-      "rsi": 77.9
+      "rsi": 76.2
     },
     {
       "date": "12:35",
@@ -11077,9 +11051,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 534376.0,
       "supertrend": 499.18,
       "st_dir": 1,
-      "ema20": 499.18,
+      "ema20": 499.17,
       "ema50": null,
-      "rsi": 78.5
+      "rsi": 76.9
     },
     {
       "date": "12:40",
@@ -11090,9 +11064,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 271921.0,
       "supertrend": 499.18,
       "st_dir": 1,
-      "ema20": 499.35,
+      "ema20": 499.34,
       "ema50": null,
-      "rsi": 64.5
+      "rsi": 63.1
     },
     {
       "date": "12:45",
@@ -11103,9 +11077,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 255274.0,
       "supertrend": 499.18,
       "st_dir": 1,
-      "ema20": 499.47,
+      "ema20": 499.46,
       "ema50": null,
-      "rsi": 62.4
+      "rsi": 61.0
     },
     {
       "date": "12:50",
@@ -11116,51 +11090,51 @@ window.DASHBOARD_CHARTS = {
       "volume": 549133.0,
       "supertrend": 499.18,
       "st_dir": 1,
-      "ema20": 499.54,
+      "ema20": 499.53,
       "ema50": null,
-      "rsi": 58.6
+      "rsi": 57.3
     },
     {
       "date": "12:55",
       "open": 500.20001220703125,
-      "high": 500.75,
+      "high": 500.79998779296875,
       "low": 499.79998779296875,
-      "close": 500.6499938964844,
-      "volume": 242532.0,
+      "close": 500.45001220703125,
+      "volume": 290053.0,
       "supertrend": 499.18,
       "st_dir": 1,
-      "ema20": 499.65,
-      "ema50": 497.44,
-      "rsi": 61.1
+      "ema20": 499.62,
+      "ema50": null,
+      "rsi": 58.8
+    },
+    {
+      "date": "13:00",
+      "open": 500.45001220703125,
+      "high": 501.0,
+      "low": 500.1000061035156,
+      "close": 501.0,
+      "volume": 255510.0,
+      "supertrend": 499.18,
+      "st_dir": 1,
+      "ema20": 499.75,
+      "ema50": null,
+      "rsi": 61.9
+    },
+    {
+      "date": "13:05",
+      "open": 501.0,
+      "high": 501.1000061035156,
+      "low": 500.45001220703125,
+      "close": 500.6499938964844,
+      "volume": 58933.0,
+      "supertrend": 499.18,
+      "st_dir": 1,
+      "ema20": 499.84,
+      "ema50": 497.6,
+      "rsi": 58.9
     }
   ],
   "AXISBANK.NS": [
-    {
-      "date": "15:00",
-      "open": 1372.300048828125,
-      "high": 1372.5999755859375,
-      "low": 1370.800048828125,
-      "close": 1371.5,
-      "volume": 124497.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1371.5999755859375,
-      "high": 1372.300048828125,
-      "low": 1371.5999755859375,
-      "close": 1372.300048828125,
-      "volume": 222115.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1372.199951171875,
@@ -11259,8 +11233,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.9000244140625,
       "close": 1367.9000244140625,
       "volume": 111474.0,
-      "supertrend": 1377.16,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -11272,8 +11246,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.0,
       "close": 1365.0,
       "volume": 190169.0,
-      "supertrend": 1375.52,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -11285,7 +11259,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1363.699951171875,
       "close": 1367.300048828125,
       "volume": 202310.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11298,7 +11272,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.4000244140625,
       "close": 1368.9000244140625,
       "volume": 178850.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11311,7 +11285,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.9000244140625,
       "close": 1369.800048828125,
       "volume": 45083.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11324,11 +11298,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.699951171875,
       "close": 1366.800048828125,
       "volume": 52585.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -11337,11 +11311,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.9000244140625,
       "close": 1370.4000244140625,
       "volume": 62145.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 48.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -11350,11 +11324,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.699951171875,
       "close": 1368.300048828125,
       "volume": 67148.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 44.8
+      "rsi": 41.6
     },
     {
       "date": "10:15",
@@ -11363,11 +11337,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.9000244140625,
       "close": 1367.0999755859375,
       "volume": 137171.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 39.8
     },
     {
       "date": "10:20",
@@ -11376,11 +11350,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.0999755859375,
       "close": 1365.0999755859375,
       "volume": 64724.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 37.0
     },
     {
       "date": "10:25",
@@ -11389,11 +11363,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.0999755859375,
       "close": 1368.0,
       "volume": 36398.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
-      "ema20": 1369.4,
+      "ema20": null,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 43.3
     },
     {
       "date": "10:30",
@@ -11402,11 +11376,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.699951171875,
       "close": 1366.9000244140625,
       "volume": 31983.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.41,
       "st_dir": -1,
-      "ema20": 1369.16,
+      "ema20": null,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 41.6
     },
     {
       "date": "10:35",
@@ -11415,11 +11389,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.800048828125,
       "close": 1366.199951171875,
       "volume": 32684.0,
-      "supertrend": 1374.5,
+      "supertrend": 1375.34,
       "st_dir": -1,
-      "ema20": 1368.88,
+      "ema20": 1368.86,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 40.5
     },
     {
       "date": "10:40",
@@ -11428,11 +11402,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.199951171875,
       "close": 1363.199951171875,
       "volume": 62427.0,
-      "supertrend": 1373.11,
+      "supertrend": 1373.39,
       "st_dir": -1,
-      "ema20": 1368.34,
+      "ema20": 1368.32,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 36.1
     },
     {
       "date": "10:45",
@@ -11441,11 +11415,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.0,
       "close": 1363.300048828125,
       "volume": 62426.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.86,
+      "ema20": 1367.84,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 36.4
     },
     {
       "date": "10:50",
@@ -11454,11 +11428,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1363.0,
       "close": 1365.199951171875,
       "volume": 22041.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.6,
+      "ema20": 1367.59,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 41.0
     },
     {
       "date": "10:55",
@@ -11467,11 +11441,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1364.699951171875,
       "close": 1365.199951171875,
       "volume": 71963.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.37,
+      "ema20": 1367.36,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 41.0
     },
     {
       "date": "11:00",
@@ -11480,11 +11454,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.0,
       "close": 1366.9000244140625,
       "volume": 59034.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.33,
+      "ema20": 1367.32,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 45.2
     },
     {
       "date": "11:05",
@@ -11493,11 +11467,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.800048828125,
       "close": 1367.5999755859375,
       "volume": 65775.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.35,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 46.8
     },
     {
       "date": "11:10",
@@ -11506,11 +11480,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.0,
       "close": 1368.800048828125,
       "volume": 80283.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.49,
+      "ema20": 1367.48,
       "ema50": null,
-      "rsi": 51.6
+      "rsi": 49.6
     },
     {
       "date": "11:15",
@@ -11519,11 +11493,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1368.4000244140625,
       "close": 1369.699951171875,
       "volume": 82302.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.7,
       "ema50": null,
-      "rsi": 53.7
+      "rsi": 51.7
     },
     {
       "date": "11:20",
@@ -11532,11 +11506,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1369.199951171875,
       "close": 1369.5999755859375,
       "volume": 177248.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.88,
       "ema50": null,
-      "rsi": 53.4
+      "rsi": 51.5
     },
     {
       "date": "11:25",
@@ -11545,11 +11519,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1368.5,
       "close": 1370.0,
       "volume": 69209.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1368.08,
       "ema50": null,
-      "rsi": 54.4
+      "rsi": 52.5
     },
     {
       "date": "11:30",
@@ -11558,11 +11532,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1368.4000244140625,
       "close": 1368.699951171875,
       "volume": 35405.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1368.14,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 48.9
     },
     {
       "date": "11:35",
@@ -11571,11 +11545,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.9000244140625,
       "close": 1367.0,
       "volume": 66331.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1368.03,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 44.7
     },
     {
       "date": "11:40",
@@ -11584,11 +11558,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.9000244140625,
       "close": 1367.5999755859375,
       "volume": 29499.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.99,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 46.5
     },
     {
       "date": "11:45",
@@ -11597,11 +11571,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.4000244140625,
       "close": 1368.0,
       "volume": 22546.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.99,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 47.7
     },
     {
       "date": "11:50",
@@ -11610,11 +11584,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.0,
       "close": 1367.199951171875,
       "volume": 28651.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.92,
+      "ema20": 1367.91,
       "ema50": null,
-      "rsi": 46.7
+      "rsi": 45.5
     },
     {
       "date": "11:55",
@@ -11623,11 +11597,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.0,
       "close": 1367.800048828125,
       "volume": 54351.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.91,
+      "ema20": 1367.9,
       "ema50": null,
-      "rsi": 48.7
+      "rsi": 47.4
     },
     {
       "date": "12:00",
@@ -11636,11 +11610,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.0999755859375,
       "close": 1367.800048828125,
       "volume": 41233.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.9,
+      "ema20": 1367.89,
       "ema50": null,
-      "rsi": 48.7
+      "rsi": 47.4
     },
     {
       "date": "12:05",
@@ -11649,11 +11623,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.0,
       "close": 1368.300048828125,
       "volume": 82228.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
-      "ema20": 1367.94,
+      "ema20": 1367.93,
       "ema50": null,
-      "rsi": 50.5
+      "rsi": 49.2
     },
     {
       "date": "12:10",
@@ -11662,11 +11636,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1367.699951171875,
       "close": 1368.0999755859375,
       "volume": 53402.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.95,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 48.5
     },
     {
       "date": "12:15",
@@ -11675,11 +11649,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1368.0,
       "close": 1368.5,
       "volume": 65198.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1368.0,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 50.0
     },
     {
       "date": "12:20",
@@ -11688,11 +11662,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1366.5,
       "close": 1367.0,
       "volume": 80329.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.91,
       "ema50": null,
-      "rsi": 45.7
+      "rsi": 44.7
     },
     {
       "date": "12:25",
@@ -11701,11 +11675,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1365.0999755859375,
       "close": 1365.0999755859375,
       "volume": 70808.0,
-      "supertrend": 1371.65,
+      "supertrend": 1371.91,
       "st_dir": -1,
       "ema20": 1367.64,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": 39.0
     },
     {
       "date": "12:30",
@@ -11714,11 +11688,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1363.699951171875,
       "close": 1365.0,
       "volume": 174482.0,
-      "supertrend": 1370.7,
+      "supertrend": 1370.73,
       "st_dir": -1,
       "ema20": 1367.39,
       "ema50": null,
-      "rsi": 39.4
+      "rsi": 38.7
     },
     {
       "date": "12:35",
@@ -11727,11 +11701,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.9000244140625,
       "close": 1363.0999755859375,
       "volume": 61179.0,
-      "supertrend": 1370.07,
+      "supertrend": 1370.09,
       "st_dir": -1,
       "ema20": 1366.98,
       "ema50": null,
-      "rsi": 34.3
+      "rsi": 33.7
     },
     {
       "date": "12:40",
@@ -11740,11 +11714,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1361.5999755859375,
       "close": 1362.9000244140625,
       "volume": 72488.0,
-      "supertrend": 1368.87,
+      "supertrend": 1368.89,
       "st_dir": -1,
       "ema20": 1366.59,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 33.3
     },
     {
       "date": "12:45",
@@ -11753,11 +11727,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.199951171875,
       "close": 1362.5999755859375,
       "volume": 52984.0,
-      "supertrend": 1368.87,
+      "supertrend": 1368.89,
       "st_dir": -1,
       "ema20": 1366.21,
       "ema50": null,
-      "rsi": 33.0
+      "rsi": 32.5
     },
     {
       "date": "12:50",
@@ -11766,53 +11740,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1362.0999755859375,
       "close": 1363.300048828125,
       "volume": 54024.0,
-      "supertrend": 1368.83,
+      "supertrend": 1368.85,
       "st_dir": -1,
       "ema20": 1365.93,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": 36.1
     },
     {
       "date": "12:55",
       "open": 1363.0,
-      "high": 1366.0,
+      "high": 1366.199951171875,
       "low": 1362.300048828125,
-      "close": 1366.0,
-      "volume": 71067.0,
-      "supertrend": 1368.83,
+      "close": 1365.4000244140625,
+      "volume": 78979.0,
+      "supertrend": 1368.85,
       "st_dir": -1,
-      "ema20": 1365.94,
-      "ema50": 1367.69,
-      "rsi": 48.4
+      "ema20": 1365.88,
+      "ema50": null,
+      "rsi": 45.6
+    },
+    {
+      "date": "13:00",
+      "open": 1365.5,
+      "high": 1366.300048828125,
+      "low": 1364.5,
+      "close": 1365.9000244140625,
+      "volume": 106014.0,
+      "supertrend": 1368.85,
+      "st_dir": -1,
+      "ema20": 1365.88,
+      "ema50": null,
+      "rsi": 47.6
+    },
+    {
+      "date": "13:05",
+      "open": 1366.300048828125,
+      "high": 1366.300048828125,
+      "low": 1364.699951171875,
+      "close": 1364.699951171875,
+      "volume": 11754.0,
+      "supertrend": 1368.85,
+      "st_dir": -1,
+      "ema20": 1365.77,
+      "ema50": 1367.41,
+      "rsi": 43.5
     }
   ],
   "HCLTECH.NS": [
-    {
-      "date": "15:00",
-      "open": 1358.800048828125,
-      "high": 1359.199951171875,
-      "low": 1358.0,
-      "close": 1359.0999755859375,
-      "volume": 43188.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1359.300048828125,
-      "high": 1359.699951171875,
-      "low": 1358.300048828125,
-      "close": 1359.0,
-      "volume": 52755.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1358.9000244140625,
@@ -11911,8 +11885,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1347.800048828125,
       "close": 1347.800048828125,
       "volume": 23221.0,
-      "supertrend": 1363.93,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -11924,8 +11898,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1344.199951171875,
       "close": 1344.5,
       "volume": 27236.0,
-      "supertrend": 1359.8,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -11937,7 +11911,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1343.4000244140625,
       "close": 1344.199951171875,
       "volume": 25518.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11950,7 +11924,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1342.4000244140625,
       "close": 1346.699951171875,
       "volume": 21691.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11963,7 +11937,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1346.699951171875,
       "close": 1348.300048828125,
       "volume": 16729.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -11976,11 +11950,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1347.800048828125,
       "close": 1350.300048828125,
       "volume": 21450.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -11989,11 +11963,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1349.5999755859375,
       "close": 1351.199951171875,
       "volume": 11166.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -12002,11 +11976,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1350.5999755859375,
       "close": 1351.800048828125,
       "volume": 17952.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 39.2
     },
     {
       "date": "10:15",
@@ -12015,11 +11989,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1347.5999755859375,
       "close": 1347.800048828125,
       "volume": 19227.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.1
+      "rsi": 34.7
     },
     {
       "date": "10:20",
@@ -12028,11 +12002,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1346.5,
       "close": 1347.0,
       "volume": 11508.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": 33.8
     },
     {
       "date": "10:25",
@@ -12041,11 +12015,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1346.199951171875,
       "close": 1347.199951171875,
       "volume": 13110.0,
-      "supertrend": 1357.26,
+      "supertrend": 1359.27,
       "st_dir": -1,
-      "ema20": 1350.66,
+      "ema20": null,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": 34.3
     },
     {
       "date": "10:30",
@@ -12054,11 +12028,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1346.0999755859375,
       "close": 1346.199951171875,
       "volume": 13083.0,
-      "supertrend": 1357.26,
+      "supertrend": 1358.82,
       "st_dir": -1,
-      "ema20": 1350.24,
+      "ema20": null,
       "ema50": null,
-      "rsi": 32.4
+      "rsi": 33.1
     },
     {
       "date": "10:35",
@@ -12067,11 +12041,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1344.0,
       "close": 1345.0,
       "volume": 23921.0,
-      "supertrend": 1356.25,
+      "supertrend": 1356.96,
       "st_dir": -1,
-      "ema20": 1349.74,
+      "ema20": 1349.31,
       "ema50": null,
-      "rsi": 30.9
+      "rsi": 31.7
     },
     {
       "date": "10:40",
@@ -12080,11 +12054,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1340.9000244140625,
       "close": 1340.9000244140625,
       "volume": 32499.0,
-      "supertrend": 1354.78,
+      "supertrend": 1355.42,
       "st_dir": -1,
-      "ema20": 1348.9,
+      "ema20": 1348.51,
       "ema50": null,
-      "rsi": 26.4
+      "rsi": 27.5
     },
     {
       "date": "10:45",
@@ -12093,11 +12067,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1340.5999755859375,
       "close": 1342.5999755859375,
       "volume": 9155.0,
-      "supertrend": 1353.48,
+      "supertrend": 1354.04,
       "st_dir": -1,
-      "ema20": 1348.3,
+      "ema20": 1347.95,
       "ema50": null,
-      "rsi": 30.9
+      "rsi": 31.6
     },
     {
       "date": "10:50",
@@ -12106,11 +12080,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1342.300048828125,
       "close": 1343.0,
       "volume": 7829.0,
-      "supertrend": 1353.32,
+      "supertrend": 1353.83,
       "st_dir": -1,
-      "ema20": 1347.79,
+      "ema20": 1347.48,
       "ema50": null,
-      "rsi": 32.0
+      "rsi": 32.5
     },
     {
       "date": "10:55",
@@ -12119,11 +12093,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1341.300048828125,
       "close": 1342.0,
       "volume": 19643.0,
-      "supertrend": 1352.6,
+      "supertrend": 1353.06,
       "st_dir": -1,
-      "ema20": 1347.24,
+      "ema20": 1346.96,
       "ema50": null,
-      "rsi": 30.7
+      "rsi": 31.3
     },
     {
       "date": "11:00",
@@ -12132,11 +12106,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1342.0,
       "close": 1342.5999755859375,
       "volume": 23645.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1346.8,
+      "ema20": 1346.54,
       "ema50": null,
-      "rsi": 32.4
+      "rsi": 32.9
     },
     {
       "date": "11:05",
@@ -12145,9 +12119,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1340.5,
       "close": 1344.800048828125,
       "volume": 22583.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1346.61,
+      "ema20": 1346.38,
       "ema50": null,
       "rsi": 38.5
     },
@@ -12158,11 +12132,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1344.4000244140625,
       "close": 1344.4000244140625,
       "volume": 19595.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1346.4,
+      "ema20": 1346.19,
       "ema50": null,
-      "rsi": 37.8
+      "rsi": 37.9
     },
     {
       "date": "11:15",
@@ -12171,11 +12145,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1344.0999755859375,
       "close": 1349.800048828125,
       "volume": 39184.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1346.72,
+      "ema20": 1346.53,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 49.6
     },
     {
       "date": "11:20",
@@ -12184,11 +12158,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1349.800048828125,
       "close": 1350.0,
       "volume": 9876.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1347.03,
+      "ema20": 1346.86,
       "ema50": null,
-      "rsi": 50.7
+      "rsi": 50.0
     },
     {
       "date": "11:25",
@@ -12197,11 +12171,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1349.300048828125,
       "close": 1351.699951171875,
       "volume": 8991.0,
-      "supertrend": 1352.53,
+      "supertrend": 1352.94,
       "st_dir": -1,
-      "ema20": 1347.48,
+      "ema20": 1347.32,
       "ema50": null,
-      "rsi": 54.0
+      "rsi": 53.2
     },
     {
       "date": "11:30",
@@ -12210,11 +12184,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1350.5999755859375,
       "close": 1352.800048828125,
       "volume": 8599.0,
-      "supertrend": 1342.19,
-      "st_dir": 1,
-      "ema20": 1347.98,
+      "supertrend": 1352.94,
+      "st_dir": -1,
+      "ema20": 1347.84,
       "ema50": null,
-      "rsi": 56.1
+      "rsi": 55.2
     },
     {
       "date": "11:35",
@@ -12223,11 +12197,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1351.699951171875,
       "close": 1353.5,
       "volume": 10116.0,
-      "supertrend": 1343.53,
+      "supertrend": 1343.34,
       "st_dir": 1,
-      "ema20": 1348.51,
+      "ema20": 1348.38,
       "ema50": null,
-      "rsi": 57.4
+      "rsi": 56.5
     },
     {
       "date": "11:40",
@@ -12236,11 +12210,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1352.0,
       "close": 1353.4000244140625,
       "volume": 7239.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.82,
       "st_dir": 1,
-      "ema20": 1348.98,
+      "ema20": 1348.86,
       "ema50": null,
-      "rsi": 57.2
+      "rsi": 56.3
     },
     {
       "date": "11:45",
@@ -12249,11 +12223,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1351.4000244140625,
       "close": 1352.5999755859375,
       "volume": 15596.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.82,
       "st_dir": 1,
-      "ema20": 1349.32,
+      "ema20": 1349.22,
       "ema50": null,
-      "rsi": 55.0
+      "rsi": 54.2
     },
     {
       "date": "11:50",
@@ -12262,11 +12236,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1349.4000244140625,
       "close": 1349.5999755859375,
       "volume": 13630.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.82,
       "st_dir": 1,
-      "ema20": 1349.35,
+      "ema20": 1349.25,
       "ema50": null,
-      "rsi": 47.7
+      "rsi": 47.3
     },
     {
       "date": "11:55",
@@ -12275,11 +12249,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1348.4000244140625,
       "close": 1352.300048828125,
       "volume": 19279.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.82,
       "st_dir": 1,
-      "ema20": 1349.63,
+      "ema20": 1349.54,
       "ema50": null,
-      "rsi": 53.6
+      "rsi": 53.1
     },
     {
       "date": "12:00",
@@ -12288,11 +12262,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1350.699951171875,
       "close": 1350.9000244140625,
       "volume": 14370.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.82,
       "st_dir": 1,
-      "ema20": 1349.75,
+      "ema20": 1349.67,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 50.0
     },
     {
       "date": "12:05",
@@ -12301,11 +12275,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1350.699951171875,
       "close": 1356.5999755859375,
       "volume": 56758.0,
-      "supertrend": 1344.0,
+      "supertrend": 1343.89,
       "st_dir": 1,
-      "ema20": 1350.4,
+      "ema20": 1350.33,
       "ema50": null,
-      "rsi": 60.8
+      "rsi": 60.2
     },
     {
       "date": "12:10",
@@ -12314,11 +12288,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1355.9000244140625,
       "close": 1356.9000244140625,
       "volume": 9681.0,
-      "supertrend": 1347.33,
+      "supertrend": 1347.23,
       "st_dir": 1,
-      "ema20": 1351.02,
+      "ema20": 1350.96,
       "ema50": null,
-      "rsi": 61.2
+      "rsi": 60.6
     },
     {
       "date": "12:15",
@@ -12327,11 +12301,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1356.9000244140625,
       "close": 1356.9000244140625,
       "volume": 50073.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1351.58,
+      "ema20": 1351.52,
       "ema50": null,
-      "rsi": 61.2
+      "rsi": 60.6
     },
     {
       "date": "12:20",
@@ -12340,11 +12314,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.699951171875,
       "close": 1355.5,
       "volume": 10872.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1351.95,
+      "ema20": 1351.9,
       "ema50": null,
-      "rsi": 57.6
+      "rsi": 57.1
     },
     {
       "date": "12:25",
@@ -12353,11 +12327,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1355.0,
       "close": 1355.5999755859375,
       "volume": 17544.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1352.3,
+      "ema20": 1352.25,
       "ema50": null,
-      "rsi": 57.8
+      "rsi": 57.3
     },
     {
       "date": "12:30",
@@ -12366,11 +12340,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.800048828125,
       "close": 1356.199951171875,
       "volume": 7145.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1352.67,
+      "ema20": 1352.63,
       "ema50": null,
-      "rsi": 59.0
+      "rsi": 58.5
     },
     {
       "date": "12:35",
@@ -12379,11 +12353,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.0,
       "close": 1354.0999755859375,
       "volume": 7012.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1352.81,
+      "ema20": 1352.77,
       "ema50": null,
-      "rsi": 53.2
+      "rsi": 52.9
     },
     {
       "date": "12:40",
@@ -12392,11 +12366,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.0999755859375,
       "close": 1355.699951171875,
       "volume": 8667.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1353.08,
+      "ema20": 1353.05,
       "ema50": null,
-      "rsi": 56.7
+      "rsi": 56.3
     },
     {
       "date": "12:45",
@@ -12405,11 +12379,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1355.0,
       "close": 1355.9000244140625,
       "volume": 7806.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1353.35,
+      "ema20": 1353.32,
       "ema50": null,
-      "rsi": 57.1
+      "rsi": 56.7
     },
     {
       "date": "12:50",
@@ -12418,53 +12392,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1354.5,
       "close": 1355.5,
       "volume": 9442.0,
-      "supertrend": 1349.53,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1353.56,
+      "ema20": 1353.53,
       "ema50": null,
-      "rsi": 55.9
+      "rsi": 55.6
     },
     {
       "date": "12:55",
       "open": 1356.4000244140625,
       "high": 1356.4000244140625,
       "low": 1354.9000244140625,
-      "close": 1355.699951171875,
-      "volume": 11339.0,
-      "supertrend": 1349.53,
+      "close": 1355.0999755859375,
+      "volume": 13830.0,
+      "supertrend": 1349.45,
       "st_dir": 1,
-      "ema20": 1353.76,
-      "ema50": 1350.72,
-      "rsi": 56.4
+      "ema20": 1353.68,
+      "ema50": null,
+      "rsi": 54.4
+    },
+    {
+      "date": "13:00",
+      "open": 1355.0,
+      "high": 1355.199951171875,
+      "low": 1353.0999755859375,
+      "close": 1354.199951171875,
+      "volume": 21563.0,
+      "supertrend": 1349.45,
+      "st_dir": 1,
+      "ema20": 1353.73,
+      "ema50": null,
+      "rsi": 51.7
+    },
+    {
+      "date": "13:05",
+      "open": 1353.800048828125,
+      "high": 1354.199951171875,
+      "low": 1352.699951171875,
+      "close": 1352.699951171875,
+      "volume": 1384.0,
+      "supertrend": 1349.45,
+      "st_dir": 1,
+      "ema20": 1353.63,
+      "ema50": 1350.48,
+      "rsi": 47.5
     }
   ],
   "SUNPHARMA.NS": [
-    {
-      "date": "15:00",
-      "open": 1871.5999755859375,
-      "high": 1874.5,
-      "low": 1870.800048828125,
-      "close": 1873.0999755859375,
-      "volume": 41497.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1873.5,
-      "high": 1873.5999755859375,
-      "low": 1870.800048828125,
-      "close": 1871.9000244140625,
-      "volume": 44998.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1872.800048828125,
@@ -12563,8 +12537,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1870.0999755859375,
       "close": 1870.800048828125,
       "volume": 12706.0,
-      "supertrend": 1883.32,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -12576,8 +12550,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1866.9000244140625,
       "close": 1868.5,
       "volume": 9123.0,
-      "supertrend": 1881.03,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -12589,7 +12563,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1868.0,
       "close": 1870.5,
       "volume": 6377.0,
-      "supertrend": 1881.03,
+      "supertrend": 1881.84,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -12602,7 +12576,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1869.0999755859375,
       "close": 1869.0999755859375,
       "volume": 14686.0,
-      "supertrend": 1881.03,
+      "supertrend": 1881.84,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -12615,7 +12589,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1869.0,
       "close": 1871.0,
       "volume": 7090.0,
-      "supertrend": 1881.03,
+      "supertrend": 1881.84,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -12628,11 +12602,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1870.0,
       "close": 1871.0,
       "volume": 6251.0,
-      "supertrend": 1881.03,
+      "supertrend": 1881.84,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -12641,11 +12615,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1870.0,
       "close": 1870.699951171875,
       "volume": 9705.0,
-      "supertrend": 1881.03,
+      "supertrend": 1881.84,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 44.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -12654,11 +12628,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1869.199951171875,
       "close": 1869.199951171875,
       "volume": 5246.0,
-      "supertrend": 1880.99,
+      "supertrend": 1881.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.5
+      "rsi": 37.6
     },
     {
       "date": "10:15",
@@ -12667,11 +12641,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1869.199951171875,
       "close": 1869.5,
       "volume": 6456.0,
-      "supertrend": 1880.21,
+      "supertrend": 1880.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.3
+      "rsi": 38.5
     },
     {
       "date": "10:20",
@@ -12680,11 +12654,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1867.800048828125,
       "close": 1868.0999755859375,
       "volume": 7748.0,
-      "supertrend": 1879.17,
+      "supertrend": 1879.39,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 35.7
     },
     {
       "date": "10:25",
@@ -12693,11 +12667,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1866.699951171875,
       "close": 1866.9000244140625,
       "volume": 6048.0,
-      "supertrend": 1877.63,
+      "supertrend": 1877.82,
       "st_dir": -1,
-      "ema20": 1870.65,
+      "ema20": null,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 33.5
     },
     {
       "date": "10:30",
@@ -12706,11 +12680,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1863.4000244140625,
       "close": 1863.9000244140625,
       "volume": 9746.0,
-      "supertrend": 1875.71,
+      "supertrend": 1875.89,
       "st_dir": -1,
-      "ema20": 1870.0,
+      "ema20": null,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 28.7
     },
     {
       "date": "10:35",
@@ -12719,11 +12693,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1861.300048828125,
       "close": 1863.0,
       "volume": 11639.0,
-      "supertrend": 1873.32,
+      "supertrend": 1873.47,
       "st_dir": -1,
-      "ema20": 1869.34,
+      "ema20": 1869.74,
       "ema50": null,
-      "rsi": 30.3
+      "rsi": 27.4
     },
     {
       "date": "10:40",
@@ -12732,11 +12706,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1861.4000244140625,
       "close": 1862.199951171875,
       "volume": 9345.0,
-      "supertrend": 1872.71,
+      "supertrend": 1872.85,
       "st_dir": -1,
-      "ema20": 1868.66,
+      "ema20": 1869.02,
       "ema50": null,
-      "rsi": 29.1
+      "rsi": 26.3
     },
     {
       "date": "10:45",
@@ -12745,11 +12719,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1862.199951171875,
       "close": 1864.9000244140625,
       "volume": 5126.0,
-      "supertrend": 1872.71,
+      "supertrend": 1872.85,
       "st_dir": -1,
-      "ema20": 1868.3,
+      "ema20": 1868.63,
       "ema50": null,
-      "rsi": 38.1
+      "rsi": 35.8
     },
     {
       "date": "10:50",
@@ -12758,11 +12732,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1862.9000244140625,
       "close": 1863.800048828125,
       "volume": 3861.0,
-      "supertrend": 1872.71,
+      "supertrend": 1872.85,
       "st_dir": -1,
-      "ema20": 1867.87,
+      "ema20": 1868.17,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 33.9
     },
     {
       "date": "10:55",
@@ -12771,11 +12745,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1863.4000244140625,
       "close": 1865.5999755859375,
       "volume": 9421.0,
-      "supertrend": 1872.71,
+      "supertrend": 1872.85,
       "st_dir": -1,
-      "ema20": 1867.65,
+      "ema20": 1867.92,
       "ema50": null,
-      "rsi": 41.6
+      "rsi": 39.6
     },
     {
       "date": "11:00",
@@ -12784,11 +12758,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1865.9000244140625,
       "close": 1867.699951171875,
       "volume": 7117.0,
-      "supertrend": 1872.71,
+      "supertrend": 1872.85,
       "st_dir": -1,
-      "ema20": 1867.66,
+      "ema20": 1867.9,
       "ema50": null,
-      "rsi": 47.2
+      "rsi": 45.5
     },
     {
       "date": "11:05",
@@ -12797,11 +12771,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1866.4000244140625,
       "close": 1873.0,
       "volume": 24252.0,
-      "supertrend": 1860.09,
+      "supertrend": 1859.85,
       "st_dir": 1,
-      "ema20": 1868.17,
+      "ema20": 1868.39,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": 57.0
     },
     {
       "date": "11:10",
@@ -12810,11 +12784,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1873.0,
       "close": 1876.0,
       "volume": 21009.0,
-      "supertrend": 1864.14,
+      "supertrend": 1864.06,
       "st_dir": 1,
-      "ema20": 1868.91,
+      "ema20": 1869.11,
       "ema50": null,
-      "rsi": 62.9
+      "rsi": 61.9
     },
     {
       "date": "11:15",
@@ -12823,11 +12797,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1875.0999755859375,
       "close": 1880.0,
       "volume": 49685.0,
-      "supertrend": 1866.47,
+      "supertrend": 1866.41,
       "st_dir": 1,
-      "ema20": 1869.97,
+      "ema20": 1870.15,
       "ema50": null,
-      "rsi": 68.1
+      "rsi": 67.2
     },
     {
       "date": "11:20",
@@ -12836,11 +12810,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1878.300048828125,
       "close": 1881.699951171875,
       "volume": 46758.0,
-      "supertrend": 1868.89,
+      "supertrend": 1868.83,
       "st_dir": 1,
-      "ema20": 1871.09,
+      "ema20": 1871.25,
       "ema50": null,
-      "rsi": 70.0
+      "rsi": 69.2
     },
     {
       "date": "11:25",
@@ -12849,11 +12823,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.0999755859375,
       "close": 1884.0,
       "volume": 59278.0,
-      "supertrend": 1870.1,
+      "supertrend": 1870.05,
       "st_dir": 1,
-      "ema20": 1872.32,
+      "ema20": 1872.46,
       "ema50": null,
-      "rsi": 72.4
+      "rsi": 71.7
     },
     {
       "date": "11:30",
@@ -12862,11 +12836,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0999755859375,
       "close": 1885.300048828125,
       "volume": 37921.0,
-      "supertrend": 1871.48,
+      "supertrend": 1871.43,
       "st_dir": 1,
-      "ema20": 1873.55,
+      "ema20": 1873.69,
       "ema50": null,
-      "rsi": 73.7
+      "rsi": 73.0
     },
     {
       "date": "11:35",
@@ -12875,11 +12849,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0,
       "close": 1883.0,
       "volume": 16438.0,
-      "supertrend": 1871.62,
+      "supertrend": 1871.58,
       "st_dir": 1,
-      "ema20": 1874.45,
+      "ema20": 1874.57,
       "ema50": null,
-      "rsi": 67.7
+      "rsi": 67.0
     },
     {
       "date": "11:40",
@@ -12888,11 +12862,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0,
       "close": 1883.199951171875,
       "volume": 8294.0,
-      "supertrend": 1871.62,
+      "supertrend": 1871.58,
       "st_dir": 1,
-      "ema20": 1875.29,
+      "ema20": 1875.4,
       "ema50": null,
-      "rsi": 67.9
+      "rsi": 67.3
     },
     {
       "date": "11:45",
@@ -12901,11 +12875,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.300048828125,
       "close": 1882.9000244140625,
       "volume": 6921.0,
-      "supertrend": 1872.01,
+      "supertrend": 1871.97,
       "st_dir": 1,
-      "ema20": 1876.01,
+      "ema20": 1876.11,
       "ema50": null,
-      "rsi": 67.1
+      "rsi": 66.5
     },
     {
       "date": "11:50",
@@ -12914,11 +12888,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0,
       "close": 1882.4000244140625,
       "volume": 11312.0,
-      "supertrend": 1872.16,
+      "supertrend": 1872.13,
       "st_dir": 1,
-      "ema20": 1876.62,
+      "ema20": 1876.71,
       "ema50": null,
-      "rsi": 65.7
+      "rsi": 65.0
     },
     {
       "date": "11:55",
@@ -12927,11 +12901,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.699951171875,
       "close": 1882.199951171875,
       "volume": 40476.0,
-      "supertrend": 1872.16,
+      "supertrend": 1872.13,
       "st_dir": 1,
-      "ema20": 1877.15,
+      "ema20": 1877.23,
       "ema50": null,
-      "rsi": 65.1
+      "rsi": 64.4
     },
     {
       "date": "12:00",
@@ -12940,11 +12914,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.0999755859375,
       "close": 1880.9000244140625,
       "volume": 33619.0,
-      "supertrend": 1872.16,
+      "supertrend": 1872.13,
       "st_dir": 1,
-      "ema20": 1877.51,
+      "ema20": 1877.58,
       "ema50": null,
-      "rsi": 61.2
+      "rsi": 60.6
     },
     {
       "date": "12:05",
@@ -12953,11 +12927,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.9000244140625,
       "close": 1883.300048828125,
       "volume": 50263.0,
-      "supertrend": 1872.69,
+      "supertrend": 1872.66,
       "st_dir": 1,
-      "ema20": 1878.06,
+      "ema20": 1878.13,
       "ema50": null,
-      "rsi": 65.3
+      "rsi": 64.8
     },
     {
       "date": "12:10",
@@ -12966,11 +12940,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0999755859375,
       "close": 1883.0999755859375,
       "volume": 9296.0,
-      "supertrend": 1873.79,
+      "supertrend": 1873.77,
       "st_dir": 1,
-      "ema20": 1878.54,
+      "ema20": 1878.6,
       "ema50": null,
-      "rsi": 64.7
+      "rsi": 64.2
     },
     {
       "date": "12:15",
@@ -12979,11 +12953,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.699951171875,
       "close": 1885.0,
       "volume": 12083.0,
-      "supertrend": 1874.7,
+      "supertrend": 1874.68,
       "st_dir": 1,
-      "ema20": 1879.15,
+      "ema20": 1879.21,
       "ema50": null,
-      "rsi": 67.8
+      "rsi": 67.3
     },
     {
       "date": "12:20",
@@ -12992,11 +12966,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1884.0,
       "close": 1884.0,
       "volume": 5679.0,
-      "supertrend": 1875.74,
+      "supertrend": 1875.72,
       "st_dir": 1,
-      "ema20": 1879.62,
+      "ema20": 1879.67,
       "ema50": null,
-      "rsi": 64.6
+      "rsi": 64.1
     },
     {
       "date": "12:25",
@@ -13005,11 +12979,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.300048828125,
       "close": 1884.0,
       "volume": 25238.0,
-      "supertrend": 1875.74,
+      "supertrend": 1875.72,
       "st_dir": 1,
-      "ema20": 1880.03,
+      "ema20": 1880.08,
       "ema50": null,
-      "rsi": 64.6
+      "rsi": 64.1
     },
     {
       "date": "12:30",
@@ -13018,11 +12992,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1882.0,
       "close": 1882.0,
       "volume": 14728.0,
-      "supertrend": 1875.74,
+      "supertrend": 1875.72,
       "st_dir": 1,
-      "ema20": 1880.22,
+      "ema20": 1880.26,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": 57.7
     },
     {
       "date": "12:35",
@@ -13031,11 +13005,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.699951171875,
       "close": 1882.300048828125,
       "volume": 24525.0,
-      "supertrend": 1875.74,
+      "supertrend": 1875.72,
       "st_dir": 1,
-      "ema20": 1880.42,
+      "ema20": 1880.46,
       "ema50": null,
-      "rsi": 58.8
+      "rsi": 58.4
     },
     {
       "date": "12:40",
@@ -13044,11 +13018,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1880.0,
       "close": 1880.5999755859375,
       "volume": 58985.0,
-      "supertrend": 1875.74,
+      "supertrend": 1875.72,
       "st_dir": 1,
-      "ema20": 1880.44,
+      "ema20": 1880.47,
       "ema50": null,
-      "rsi": 53.7
+      "rsi": 53.3
     },
     {
       "date": "12:45",
@@ -13057,11 +13031,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1872.5,
       "close": 1873.5999755859375,
       "volume": 53304.0,
-      "supertrend": 1886.06,
+      "supertrend": 1886.14,
       "st_dir": -1,
-      "ema20": 1879.79,
+      "ema20": 1879.82,
       "ema50": null,
-      "rsi": 38.6
+      "rsi": 38.3
     },
     {
       "date": "12:50",
@@ -13070,53 +13044,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1872.199951171875,
       "close": 1872.5999755859375,
       "volume": 13170.0,
-      "supertrend": 1882.84,
+      "supertrend": 1882.85,
       "st_dir": -1,
-      "ema20": 1879.1,
+      "ema20": 1879.13,
       "ema50": null,
-      "rsi": 37.0
+      "rsi": 36.7
     },
     {
       "date": "12:55",
       "open": 1872.5999755859375,
       "high": 1873.699951171875,
-      "low": 1872.5,
-      "close": 1873.0,
-      "volume": 9071.0,
-      "supertrend": 1882.0,
+      "low": 1872.0,
+      "close": 1872.0,
+      "volume": 11631.0,
+      "supertrend": 1881.91,
       "st_dir": -1,
-      "ema20": 1878.52,
-      "ema50": 1874.44,
-      "rsi": 38.1
+      "ema20": 1878.45,
+      "ema50": null,
+      "rsi": 35.8
+    },
+    {
+      "date": "13:00",
+      "open": 1872.0,
+      "high": 1872.300048828125,
+      "low": 1870.300048828125,
+      "close": 1870.4000244140625,
+      "volume": 14976.0,
+      "supertrend": 1880.05,
+      "st_dir": -1,
+      "ema20": 1877.68,
+      "ema50": null,
+      "rsi": 33.3
+    },
+    {
+      "date": "13:05",
+      "open": 1870.5,
+      "high": 1871.0,
+      "low": 1867.5999755859375,
+      "close": 1867.5999755859375,
+      "volume": 7376.0,
+      "supertrend": 1878.2,
+      "st_dir": -1,
+      "ema20": 1876.72,
+      "ema50": 1874.28,
+      "rsi": 29.4
     }
   ],
   "MARUTI.NS": [
-    {
-      "date": "14:55",
-      "open": 12632.0,
-      "high": 12643.0,
-      "low": 12630.0,
-      "close": 12635.0,
-      "volume": 3489.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 12639.0,
-      "high": 12639.0,
-      "low": 12630.0,
-      "close": 12638.0,
-      "volume": 5932.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 12640.0,
@@ -13215,8 +13189,8 @@ window.DASHBOARD_CHARTS = {
       "low": 12697.0,
       "close": 12719.0,
       "volume": 18299.0,
-      "supertrend": 12877.7,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -13228,8 +13202,8 @@ window.DASHBOARD_CHARTS = {
       "low": 12710.0,
       "close": 12720.0,
       "volume": 10555.0,
-      "supertrend": 12865.53,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -13241,7 +13215,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12705.0,
       "close": 12715.0,
       "volume": 7547.0,
-      "supertrend": 12856.48,
+      "supertrend": 12879.1,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13254,7 +13228,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12711.0,
       "close": 12732.0,
       "volume": 9194.0,
-      "supertrend": 12856.48,
+      "supertrend": 12879.1,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13267,7 +13241,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12710.0,
       "close": 12727.0,
       "volume": 6157.0,
-      "supertrend": 12852.28,
+      "supertrend": 12870.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13280,11 +13254,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12691.0,
       "close": 12693.0,
       "volume": 17947.0,
-      "supertrend": 12841.75,
+      "supertrend": 12858.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -13293,11 +13267,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12672.0,
       "close": 12696.0,
       "volume": 12911.0,
-      "supertrend": 12814.73,
+      "supertrend": 12829.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.8
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -13306,11 +13280,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12685.0,
       "close": 12699.0,
       "volume": 10311.0,
-      "supertrend": 12814.73,
+      "supertrend": 12829.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": 57.4
     },
     {
       "date": "10:15",
@@ -13319,11 +13293,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12687.0,
       "close": 12688.0,
       "volume": 11557.0,
-      "supertrend": 12814.73,
+      "supertrend": 12828.82,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 56.2
+      "rsi": 55.7
     },
     {
       "date": "10:20",
@@ -13332,11 +13306,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12678.0,
       "close": 12683.0,
       "volume": 5123.0,
-      "supertrend": 12799.12,
+      "supertrend": 12809.94,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 55.3
+      "rsi": 54.9
     },
     {
       "date": "10:25",
@@ -13345,11 +13319,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12658.0,
       "close": 12659.0,
       "volume": 8146.0,
-      "supertrend": 12788.4,
+      "supertrend": 12798.14,
       "st_dir": -1,
-      "ema20": 12697.0,
+      "ema20": null,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 51.2
     },
     {
       "date": "10:30",
@@ -13358,11 +13332,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12631.0,
       "close": 12637.0,
       "volume": 22392.0,
-      "supertrend": 12758.46,
+      "supertrend": 12767.23,
       "st_dir": -1,
-      "ema20": 12691.29,
+      "ema20": null,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 47.9
     },
     {
       "date": "10:35",
@@ -13371,11 +13345,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12637.0,
       "close": 12650.0,
       "volume": 6833.0,
-      "supertrend": 12750.02,
+      "supertrend": 12757.91,
       "st_dir": -1,
-      "ema20": 12687.35,
+      "ema20": 12697.7,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 50.0
     },
     {
       "date": "10:40",
@@ -13384,11 +13358,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12628.0,
       "close": 12650.0,
       "volume": 10686.0,
-      "supertrend": 12742.87,
+      "supertrend": 12749.96,
       "st_dir": -1,
-      "ema20": 12683.8,
+      "ema20": 12693.16,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 50.0
     },
     {
       "date": "10:45",
@@ -13397,11 +13371,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12649.0,
       "close": 12658.0,
       "volume": 6689.0,
-      "supertrend": 12742.87,
+      "supertrend": 12749.96,
       "st_dir": -1,
-      "ema20": 12681.34,
+      "ema20": 12689.81,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 51.3
     },
     {
       "date": "10:50",
@@ -13410,11 +13384,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12651.0,
       "close": 12671.0,
       "volume": 2688.0,
-      "supertrend": 12742.87,
+      "supertrend": 12749.96,
       "st_dir": -1,
-      "ema20": 12680.35,
+      "ema20": 12688.02,
       "ema50": null,
-      "rsi": 53.6
+      "rsi": 53.5
     },
     {
       "date": "10:55",
@@ -13423,11 +13397,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12643.0,
       "close": 12650.0,
       "volume": 6340.0,
-      "supertrend": 12742.87,
+      "supertrend": 12749.96,
       "st_dir": -1,
-      "ema20": 12677.46,
+      "ema20": 12684.4,
       "ema50": null,
-      "rsi": 49.4
+      "rsi": 49.6
     },
     {
       "date": "11:00",
@@ -13436,11 +13410,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12634.0,
       "close": 12635.0,
       "volume": 6494.0,
-      "supertrend": 12735.14,
+      "supertrend": 12739.8,
       "st_dir": -1,
-      "ema20": 12673.42,
+      "ema20": 12679.69,
       "ema50": null,
-      "rsi": 46.5
+      "rsi": 47.0
     },
     {
       "date": "11:05",
@@ -13449,11 +13423,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12632.0,
       "close": 12654.0,
       "volume": 6414.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12671.57,
+      "ema20": 12677.25,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 50.6
     },
     {
       "date": "11:10",
@@ -13462,11 +13436,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12646.0,
       "close": 12657.0,
       "volume": 3343.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12670.18,
+      "ema20": 12675.32,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 51.1
     },
     {
       "date": "11:15",
@@ -13475,11 +13449,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12654.0,
       "close": 12672.0,
       "volume": 4262.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12670.36,
+      "ema20": 12675.0,
       "ema50": null,
-      "rsi": 54.0
+      "rsi": 53.9
     },
     {
       "date": "11:20",
@@ -13488,11 +13462,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12667.0,
       "close": 12680.0,
       "volume": 6280.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12671.27,
+      "ema20": 12675.48,
       "ema50": null,
-      "rsi": 55.6
+      "rsi": 55.4
     },
     {
       "date": "11:25",
@@ -13501,11 +13475,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12672.0,
       "close": 12700.0,
       "volume": 3239.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12674.01,
+      "ema20": 12677.81,
       "ema50": null,
-      "rsi": 59.4
+      "rsi": 58.9
     },
     {
       "date": "11:30",
@@ -13514,11 +13488,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12689.0,
       "close": 12725.0,
       "volume": 5572.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12678.87,
+      "ema20": 12682.31,
       "ema50": null,
-      "rsi": 63.5
+      "rsi": 62.9
     },
     {
       "date": "11:35",
@@ -13527,11 +13501,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12711.0,
       "close": 12712.0,
       "volume": 3734.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12682.02,
+      "ema20": 12685.13,
       "ema50": null,
-      "rsi": 60.1
+      "rsi": 59.7
     },
     {
       "date": "11:40",
@@ -13540,11 +13514,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12704.0,
       "close": 12708.0,
       "volume": 3305.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12684.5,
+      "ema20": 12687.31,
       "ema50": null,
-      "rsi": 59.0
+      "rsi": 58.7
     },
     {
       "date": "11:45",
@@ -13553,11 +13527,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12689.0,
       "close": 12699.0,
       "volume": 3702.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12685.88,
+      "ema20": 12688.43,
       "ema50": null,
-      "rsi": 56.6
+      "rsi": 56.4
     },
     {
       "date": "11:50",
@@ -13566,9 +13540,9 @@ window.DASHBOARD_CHARTS = {
       "low": 12674.0,
       "close": 12682.0,
       "volume": 6650.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12685.51,
+      "ema20": 12687.81,
       "ema50": null,
       "rsi": 52.3
     },
@@ -13579,11 +13553,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12676.0,
       "close": 12697.0,
       "volume": 4246.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12686.6,
+      "ema20": 12688.69,
       "ema50": null,
-      "rsi": 55.5
+      "rsi": 55.4
     },
     {
       "date": "12:00",
@@ -13592,9 +13566,9 @@ window.DASHBOARD_CHARTS = {
       "low": 12689.0,
       "close": 12689.0,
       "volume": 4653.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12686.83,
+      "ema20": 12688.72,
       "ema50": null,
       "rsi": 53.4
     },
@@ -13605,11 +13579,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12689.0,
       "close": 12697.0,
       "volume": 4081.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12687.8,
+      "ema20": 12689.51,
       "ema50": null,
-      "rsi": 55.2
+      "rsi": 55.1
     },
     {
       "date": "12:10",
@@ -13618,11 +13592,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12686.0,
       "close": 12695.0,
       "volume": 5424.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12688.49,
+      "ema20": 12690.03,
       "ema50": null,
-      "rsi": 54.7
+      "rsi": 54.6
     },
     {
       "date": "12:15",
@@ -13631,11 +13605,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12695.0,
       "close": 12695.0,
       "volume": 5686.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12689.11,
+      "ema20": 12690.5,
       "ema50": null,
-      "rsi": 54.7
+      "rsi": 54.6
     },
     {
       "date": "12:20",
@@ -13644,11 +13618,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12683.0,
       "close": 12695.0,
       "volume": 7237.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12689.67,
+      "ema20": 12690.93,
       "ema50": null,
-      "rsi": 54.7
+      "rsi": 54.6
     },
     {
       "date": "12:25",
@@ -13657,11 +13631,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12669.0,
       "close": 12675.0,
       "volume": 6243.0,
-      "supertrend": 12730.28,
+      "supertrend": 12734.47,
       "st_dir": -1,
-      "ema20": 12688.27,
+      "ema20": 12689.41,
       "ema50": null,
-      "rsi": 48.4
+      "rsi": 48.5
     },
     {
       "date": "12:30",
@@ -13670,11 +13644,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12658.0,
       "close": 12658.0,
       "volume": 5562.0,
-      "supertrend": 12726.78,
+      "supertrend": 12727.48,
       "st_dir": -1,
-      "ema20": 12685.39,
+      "ema20": 12686.42,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 44.1
     },
     {
       "date": "12:35",
@@ -13683,11 +13657,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12651.0,
       "close": 12653.0,
       "volume": 5655.0,
-      "supertrend": 12721.0,
+      "supertrend": 12721.63,
       "st_dir": -1,
-      "ema20": 12682.3,
+      "ema20": 12683.24,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 42.8
     },
     {
       "date": "12:40",
@@ -13696,11 +13670,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12651.0,
       "close": 12663.0,
       "volume": 7885.0,
-      "supertrend": 12720.3,
+      "supertrend": 12720.87,
       "st_dir": -1,
-      "ema20": 12680.46,
+      "ema20": 12681.31,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 46.1
     },
     {
       "date": "12:45",
@@ -13709,11 +13683,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12650.0,
       "close": 12653.0,
       "volume": 4403.0,
-      "supertrend": 12714.67,
+      "supertrend": 12715.18,
       "st_dir": -1,
-      "ema20": 12677.85,
+      "ema20": 12678.62,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 43.4
     },
     {
       "date": "12:50",
@@ -13722,9 +13696,9 @@ window.DASHBOARD_CHARTS = {
       "low": 12653.0,
       "close": 12672.0,
       "volume": 3848.0,
-      "supertrend": 12714.67,
+      "supertrend": 12715.18,
       "st_dir": -1,
-      "ema20": 12677.29,
+      "ema20": 12677.99,
       "ema50": null,
       "rsi": 49.4
     },
@@ -13732,43 +13706,43 @@ window.DASHBOARD_CHARTS = {
       "date": "12:55",
       "open": 12675.0,
       "high": 12677.0,
-      "low": 12668.0,
-      "close": 12673.0,
-      "volume": 2273.0,
-      "supertrend": 12714.67,
+      "low": 12658.0,
+      "close": 12658.0,
+      "volume": 3423.0,
+      "supertrend": 12715.18,
       "st_dir": -1,
-      "ema20": 12676.88,
-      "ema50": 12683.9,
-      "rsi": 49.7
+      "ema20": 12676.08,
+      "ema50": null,
+      "rsi": 45.6
+    },
+    {
+      "date": "13:00",
+      "open": 12658.0,
+      "high": 12663.0,
+      "low": 12641.0,
+      "close": 12645.0,
+      "volume": 6852.0,
+      "supertrend": 12711.12,
+      "st_dir": -1,
+      "ema20": 12673.12,
+      "ema50": null,
+      "rsi": 42.3
+    },
+    {
+      "date": "13:05",
+      "open": 12647.0,
+      "high": 12656.0,
+      "low": 12639.0,
+      "close": 12639.0,
+      "volume": 5575.0,
+      "supertrend": 12705.81,
+      "st_dir": -1,
+      "ema20": 12669.87,
+      "ema50": 12683.82,
+      "rsi": 40.8
     }
   ],
   "M&M.NS": [
-    {
-      "date": "15:00",
-      "open": 3404.0,
-      "high": 3408.89990234375,
-      "low": 3403.39990234375,
-      "close": 3407.5,
-      "volume": 45520.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 3408.0,
-      "high": 3410.5,
-      "low": 3401.39990234375,
-      "close": 3405.0,
-      "volume": 85928.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 3404.89990234375,
@@ -13867,8 +13841,8 @@ window.DASHBOARD_CHARTS = {
       "low": 3395.60009765625,
       "close": 3396.0,
       "volume": 40533.0,
-      "supertrend": 3448.08,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -13880,8 +13854,8 @@ window.DASHBOARD_CHARTS = {
       "low": 3392.0,
       "close": 3396.199951171875,
       "volume": 22637.0,
-      "supertrend": 3434.77,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -13893,7 +13867,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3388.800048828125,
       "close": 3392.5,
       "volume": 16750.0,
-      "supertrend": 3430.16,
+      "supertrend": 3433.67,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13906,7 +13880,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3390.0,
       "close": 3396.10009765625,
       "volume": 14026.0,
-      "supertrend": 3430.16,
+      "supertrend": 3433.67,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13919,7 +13893,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3386.0,
       "close": 3388.0,
       "volume": 19920.0,
-      "supertrend": 3428.35,
+      "supertrend": 3431.19,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -13932,11 +13906,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3382.89990234375,
       "close": 3385.10009765625,
       "volume": 16592.0,
-      "supertrend": 3423.21,
+      "supertrend": 3425.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -13945,11 +13919,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3380.0,
       "close": 3382.10009765625,
       "volume": 40054.0,
-      "supertrend": 3418.25,
+      "supertrend": 3420.55,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -13958,11 +13932,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3378.0,
       "close": 3378.199951171875,
       "volume": 13940.0,
-      "supertrend": 3412.91,
+      "supertrend": 3414.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.1
+      "rsi": 34.9
     },
     {
       "date": "10:15",
@@ -13971,11 +13945,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3375.89990234375,
       "close": 3377.89990234375,
       "volume": 16737.0,
-      "supertrend": 3410.75,
+      "supertrend": 3412.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.9
+      "rsi": 34.8
     },
     {
       "date": "10:20",
@@ -13984,11 +13958,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3375.0,
       "close": 3380.5,
       "volume": 9526.0,
-      "supertrend": 3407.57,
+      "supertrend": 3409.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 36.8
     },
     {
       "date": "10:25",
@@ -13997,11 +13971,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3376.89990234375,
       "close": 3378.199951171875,
       "volume": 14459.0,
-      "supertrend": 3407.57,
+      "supertrend": 3409.25,
       "st_dir": -1,
-      "ema20": 3395.91,
+      "ema20": null,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 35.8
     },
     {
       "date": "10:30",
@@ -14010,11 +13984,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3376.0,
       "close": 3377.800048828125,
       "volume": 8481.0,
-      "supertrend": 3404.95,
+      "supertrend": 3406.31,
       "st_dir": -1,
-      "ema20": 3394.18,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.8
+      "rsi": 35.6
     },
     {
       "date": "10:35",
@@ -14023,11 +13997,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3375.0,
       "close": 3380.300048828125,
       "volume": 6703.0,
-      "supertrend": 3404.24,
+      "supertrend": 3405.46,
       "st_dir": -1,
-      "ema20": 3392.86,
+      "ema20": 3393.19,
       "ema50": null,
-      "rsi": 38.1
+      "rsi": 37.8
     },
     {
       "date": "10:40",
@@ -14036,11 +14010,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3366.39990234375,
       "close": 3367.800048828125,
       "volume": 24582.0,
-      "supertrend": 3402.49,
+      "supertrend": 3403.59,
       "st_dir": -1,
-      "ema20": 3390.47,
+      "ema20": 3390.77,
       "ema50": null,
-      "rsi": 31.8
+      "rsi": 31.9
     },
     {
       "date": "10:45",
@@ -14049,11 +14023,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3362.0,
       "close": 3362.60009765625,
       "volume": 29651.0,
-      "supertrend": 3396.34,
+      "supertrend": 3397.33,
       "st_dir": -1,
-      "ema20": 3387.82,
+      "ema20": 3388.08,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 29.8
     },
     {
       "date": "10:50",
@@ -14062,11 +14036,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3359.10009765625,
       "close": 3365.300048828125,
       "volume": 39866.0,
-      "supertrend": 3390.61,
+      "supertrend": 3391.51,
       "st_dir": -1,
-      "ema20": 3385.67,
+      "ema20": 3385.91,
       "ema50": null,
-      "rsi": 32.2
+      "rsi": 32.3
     },
     {
       "date": "10:55",
@@ -14075,11 +14049,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3358.5,
       "close": 3361.300048828125,
       "volume": 29604.0,
-      "supertrend": 3390.61,
+      "supertrend": 3391.51,
       "st_dir": -1,
-      "ema20": 3383.35,
+      "ema20": 3383.57,
       "ema50": null,
-      "rsi": 30.4
+      "rsi": 30.6
     },
     {
       "date": "11:00",
@@ -14088,11 +14062,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3356.199951171875,
       "close": 3359.89990234375,
       "volume": 12410.0,
-      "supertrend": 3387.41,
+      "supertrend": 3388.13,
       "st_dir": -1,
-      "ema20": 3381.12,
+      "ema20": 3381.32,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 30.0
     },
     {
       "date": "11:05",
@@ -14101,11 +14075,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3359.0,
       "close": 3366.0,
       "volume": 12899.0,
-      "supertrend": 3387.41,
+      "supertrend": 3388.13,
       "st_dir": -1,
-      "ema20": 3379.68,
+      "ema20": 3379.86,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 35.9
     },
     {
       "date": "11:10",
@@ -14114,9 +14088,9 @@ window.DASHBOARD_CHARTS = {
       "low": 3361.0,
       "close": 3361.10009765625,
       "volume": 10310.0,
-      "supertrend": 3387.41,
+      "supertrend": 3388.13,
       "st_dir": -1,
-      "ema20": 3377.91,
+      "ema20": 3378.07,
       "ema50": null,
       "rsi": 33.4
     },
@@ -14127,11 +14101,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3360.0,
       "close": 3364.0,
       "volume": 12789.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3376.58,
+      "ema20": 3376.73,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 36.2
     },
     {
       "date": "11:20",
@@ -14140,11 +14114,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3362.0,
       "close": 3362.39990234375,
       "volume": 10284.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3375.23,
+      "ema20": 3375.37,
       "ema50": null,
-      "rsi": 35.4
+      "rsi": 35.3
     },
     {
       "date": "11:25",
@@ -14153,11 +14127,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3360.0,
       "close": 3367.0,
       "volume": 6263.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3374.45,
+      "ema20": 3374.57,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 39.8
     },
     {
       "date": "11:30",
@@ -14166,11 +14140,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3364.39990234375,
       "close": 3369.0,
       "volume": 7306.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3373.93,
+      "ema20": 3374.04,
       "ema50": null,
-      "rsi": 42.1
+      "rsi": 41.7
     },
     {
       "date": "11:35",
@@ -14179,11 +14153,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3363.199951171875,
       "close": 3365.0,
       "volume": 9533.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3373.08,
+      "ema20": 3373.18,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 39.1
     },
     {
       "date": "11:40",
@@ -14192,11 +14166,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3362.5,
       "close": 3365.60009765625,
       "volume": 6657.0,
-      "supertrend": 3387.24,
+      "supertrend": 3387.77,
       "st_dir": -1,
-      "ema20": 3372.37,
+      "ema20": 3372.46,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 39.7
     },
     {
       "date": "11:45",
@@ -14205,11 +14179,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3362.300048828125,
       "close": 3367.0,
       "volume": 5472.0,
-      "supertrend": 3386.51,
+      "supertrend": 3386.79,
       "st_dir": -1,
-      "ema20": 3371.86,
+      "ema20": 3371.94,
       "ema50": null,
-      "rsi": 41.5
+      "rsi": 41.2
     },
     {
       "date": "11:50",
@@ -14218,11 +14192,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3361.0,
       "close": 3361.10009765625,
       "volume": 8079.0,
-      "supertrend": 3385.05,
+      "supertrend": 3385.3,
       "st_dir": -1,
-      "ema20": 3370.83,
+      "ema20": 3370.9,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 37.0
     },
     {
       "date": "11:55",
@@ -14231,11 +14205,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3357.0,
       "close": 3359.60009765625,
       "volume": 10119.0,
-      "supertrend": 3380.04,
+      "supertrend": 3380.27,
       "st_dir": -1,
-      "ema20": 3369.76,
+      "ema20": 3369.83,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 36.0
     },
     {
       "date": "12:00",
@@ -14244,9 +14218,9 @@ window.DASHBOARD_CHARTS = {
       "low": 3356.0,
       "close": 3357.60009765625,
       "volume": 7998.0,
-      "supertrend": 3378.94,
+      "supertrend": 3379.14,
       "st_dir": -1,
-      "ema20": 3368.6,
+      "ema20": 3368.66,
       "ema50": null,
       "rsi": 34.7
     },
@@ -14257,11 +14231,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3357.10009765625,
       "close": 3359.300048828125,
       "volume": 5825.0,
-      "supertrend": 3378.39,
+      "supertrend": 3378.57,
       "st_dir": -1,
-      "ema20": 3367.72,
+      "ema20": 3367.77,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 36.8
     },
     {
       "date": "12:10",
@@ -14270,11 +14244,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3355.0,
       "close": 3358.0,
       "volume": 11086.0,
-      "supertrend": 3376.4,
+      "supertrend": 3376.57,
       "st_dir": -1,
-      "ema20": 3366.79,
+      "ema20": 3366.84,
       "ema50": null,
-      "rsi": 35.9
+      "rsi": 35.8
     },
     {
       "date": "12:15",
@@ -14283,9 +14257,9 @@ window.DASHBOARD_CHARTS = {
       "low": 3354.10009765625,
       "close": 3354.10009765625,
       "volume": 10238.0,
-      "supertrend": 3376.4,
+      "supertrend": 3376.57,
       "st_dir": -1,
-      "ema20": 3365.58,
+      "ema20": 3365.63,
       "ema50": null,
       "rsi": 33.0
     },
@@ -14296,9 +14270,9 @@ window.DASHBOARD_CHARTS = {
       "low": 3350.699951171875,
       "close": 3352.5,
       "volume": 17703.0,
-      "supertrend": 3371.47,
+      "supertrend": 3371.61,
       "st_dir": -1,
-      "ema20": 3364.34,
+      "ema20": 3364.38,
       "ema50": null,
       "rsi": 31.9
     },
@@ -14309,11 +14283,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3345.0,
       "close": 3345.0,
       "volume": 17470.0,
-      "supertrend": 3369.27,
+      "supertrend": 3369.39,
       "st_dir": -1,
-      "ema20": 3362.5,
+      "ema20": 3362.53,
       "ema50": null,
-      "rsi": 27.1
+      "rsi": 27.3
     },
     {
       "date": "12:30",
@@ -14322,11 +14296,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3341.800048828125,
       "close": 3344.39990234375,
       "volume": 30394.0,
-      "supertrend": 3364.01,
+      "supertrend": 3364.12,
       "st_dir": -1,
-      "ema20": 3360.77,
+      "ema20": 3360.81,
       "ema50": null,
-      "rsi": 26.8
+      "rsi": 26.9
     },
     {
       "date": "12:35",
@@ -14335,11 +14309,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3342.0,
       "close": 3344.0,
       "volume": 28281.0,
-      "supertrend": 3363.3,
+      "supertrend": 3363.4,
       "st_dir": -1,
-      "ema20": 3359.18,
+      "ema20": 3359.2,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 26.7
     },
     {
       "date": "12:40",
@@ -14348,11 +14322,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3340.199951171875,
       "close": 3342.60009765625,
       "volume": 13737.0,
-      "supertrend": 3361.8,
+      "supertrend": 3361.89,
       "st_dir": -1,
-      "ema20": 3357.6,
+      "ema20": 3357.62,
       "ema50": null,
-      "rsi": 25.7
+      "rsi": 25.8
     },
     {
       "date": "12:45",
@@ -14361,11 +14335,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3340.0,
       "close": 3341.199951171875,
       "volume": 13038.0,
-      "supertrend": 3360.03,
+      "supertrend": 3360.11,
       "st_dir": -1,
-      "ema20": 3356.03,
+      "ema20": 3356.06,
       "ema50": null,
-      "rsi": 24.8
+      "rsi": 25.0
     },
     {
       "date": "12:50",
@@ -14374,53 +14348,53 @@ window.DASHBOARD_CHARTS = {
       "low": 3338.60009765625,
       "close": 3343.5,
       "volume": 22704.0,
-      "supertrend": 3358.75,
+      "supertrend": 3358.82,
       "st_dir": -1,
-      "ema20": 3354.84,
+      "ema20": 3354.86,
       "ema50": null,
-      "rsi": 29.1
+      "rsi": 29.2
     },
     {
       "date": "12:55",
       "open": 3343.0,
       "high": 3345.5,
       "low": 3340.5,
-      "close": 3342.800048828125,
-      "volume": 9941.0,
-      "supertrend": 3358.75,
+      "close": 3342.0,
+      "volume": 11869.0,
+      "supertrend": 3358.82,
       "st_dir": -1,
-      "ema20": 3353.69,
-      "ema50": 3373.72,
-      "rsi": 28.5
+      "ema20": 3353.64,
+      "ema50": null,
+      "rsi": 28.1
+    },
+    {
+      "date": "13:00",
+      "open": 3342.0,
+      "high": 3343.199951171875,
+      "low": 3335.199951171875,
+      "close": 3337.10009765625,
+      "volume": 24961.0,
+      "supertrend": 3357.34,
+      "st_dir": -1,
+      "ema20": 3352.06,
+      "ema50": null,
+      "rsi": 24.8
+    },
+    {
+      "date": "13:05",
+      "open": 3338.300048828125,
+      "high": 3338.39990234375,
+      "low": 3332.0,
+      "close": 3332.0,
+      "volume": 6634.0,
+      "supertrend": 3353.45,
+      "st_dir": -1,
+      "ema20": 3350.15,
+      "ema50": 3370.83,
+      "rsi": 21.9
     }
   ],
   "TITAN.NS": [
-    {
-      "date": "14:55",
-      "open": 4902.5,
-      "high": 4902.5,
-      "low": 4894.7001953125,
-      "close": 4895.39990234375,
-      "volume": 7783.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 4895.7001953125,
-      "high": 4895.7001953125,
-      "low": 4889.7998046875,
-      "close": 4892.7998046875,
-      "volume": 13494.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 4891.7998046875,
@@ -14519,8 +14493,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4807.0,
       "close": 4807.0,
       "volume": 10262.0,
-      "supertrend": 4866.63,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -14532,8 +14506,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4792.60009765625,
       "close": 4799.10009765625,
       "volume": 18435.0,
-      "supertrend": 4852.74,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -14545,7 +14519,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4788.7998046875,
       "close": 4794.7998046875,
       "volume": 24601.0,
-      "supertrend": 4848.78,
+      "supertrend": 4855.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -14558,7 +14532,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4785.0,
       "close": 4785.0,
       "volume": 21560.0,
-      "supertrend": 4840.11,
+      "supertrend": 4846.14,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -14571,7 +14545,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4785.0,
       "close": 4790.0,
       "volume": 18243.0,
-      "supertrend": 4840.11,
+      "supertrend": 4846.06,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -14584,11 +14558,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4782.0,
       "close": 4788.60009765625,
       "volume": 11952.0,
-      "supertrend": 4834.78,
+      "supertrend": 4839.67,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 13.8
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -14597,11 +14571,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4776.89990234375,
       "close": 4779.2001953125,
       "volume": 15437.0,
-      "supertrend": 4828.9,
+      "supertrend": 4833.3,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 12.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -14610,11 +14584,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4759.2001953125,
       "close": 4759.2998046875,
       "volume": 27692.0,
-      "supertrend": 4819.42,
+      "supertrend": 4823.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 11.2
+      "rsi": 10.3
     },
     {
       "date": "10:15",
@@ -14623,11 +14597,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4744.5,
       "close": 4746.5,
       "volume": 41264.0,
-      "supertrend": 4804.05,
+      "supertrend": 4807.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 10.3
+      "rsi": 9.5
     },
     {
       "date": "10:20",
@@ -14636,11 +14610,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4743.10009765625,
       "close": 4749.7001953125,
       "volume": 34351.0,
-      "supertrend": 4804.05,
+      "supertrend": 4807.61,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 12.2
+      "rsi": 11.3
     },
     {
       "date": "10:25",
@@ -14649,11 +14623,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4747.10009765625,
       "close": 4751.10009765625,
       "volume": 27911.0,
-      "supertrend": 4801.82,
+      "supertrend": 4804.71,
       "st_dir": -1,
-      "ema20": 4818.31,
+      "ema20": null,
       "ema50": null,
-      "rsi": 13.1
+      "rsi": 12.1
     },
     {
       "date": "10:30",
@@ -14662,11 +14636,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4737.0,
       "close": 4738.0,
       "volume": 15642.0,
-      "supertrend": 4794.53,
+      "supertrend": 4797.12,
       "st_dir": -1,
-      "ema20": 4810.67,
+      "ema20": null,
       "ema50": null,
-      "rsi": 11.9
+      "rsi": 11.1
     },
     {
       "date": "10:35",
@@ -14675,11 +14649,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4731.2001953125,
       "close": 4742.0,
       "volume": 18586.0,
-      "supertrend": 4786.65,
+      "supertrend": 4788.98,
       "st_dir": -1,
-      "ema20": 4804.13,
+      "ema20": 4802.91,
       "ema50": null,
-      "rsi": 14.5
+      "rsi": 13.5
     },
     {
       "date": "10:40",
@@ -14688,11 +14662,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4736.0,
       "close": 4740.60009765625,
       "volume": 11899.0,
-      "supertrend": 4786.46,
+      "supertrend": 4788.56,
       "st_dir": -1,
-      "ema20": 4798.08,
+      "ema20": 4796.97,
       "ema50": null,
-      "rsi": 14.3
+      "rsi": 13.3
     },
     {
       "date": "10:45",
@@ -14701,11 +14675,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4737.2998046875,
       "close": 4743.10009765625,
       "volume": 10450.0,
-      "supertrend": 4786.46,
+      "supertrend": 4788.56,
       "st_dir": -1,
-      "ema20": 4792.84,
+      "ema20": 4791.84,
       "ema50": null,
-      "rsi": 16.1
+      "rsi": 15.0
     },
     {
       "date": "10:50",
@@ -14714,11 +14688,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4738.7998046875,
       "close": 4752.89990234375,
       "volume": 11910.0,
-      "supertrend": 4786.46,
+      "supertrend": 4788.56,
       "st_dir": -1,
-      "ema20": 4789.04,
+      "ema20": 4788.13,
       "ema50": null,
-      "rsi": 22.8
+      "rsi": 21.3
     },
     {
       "date": "10:55",
@@ -14727,11 +14701,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4743.0,
       "close": 4746.60009765625,
       "volume": 9262.0,
-      "supertrend": 4786.46,
+      "supertrend": 4788.56,
       "st_dir": -1,
-      "ema20": 4784.99,
+      "ema20": 4784.18,
       "ema50": null,
-      "rsi": 21.6
+      "rsi": 20.3
     },
     {
       "date": "11:00",
@@ -14740,11 +14714,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4731.0,
       "close": 4731.0,
       "volume": 20124.0,
-      "supertrend": 4786.46,
+      "supertrend": 4788.13,
       "st_dir": -1,
-      "ema20": 4779.85,
+      "ema20": 4779.11,
       "ema50": null,
-      "rsi": 18.9
+      "rsi": 17.9
     },
     {
       "date": "11:05",
@@ -14753,11 +14727,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4726.0,
       "close": 4733.39990234375,
       "volume": 18061.0,
-      "supertrend": 4773.89,
+      "supertrend": 4775.13,
       "st_dir": -1,
-      "ema20": 4775.43,
+      "ema20": 4774.76,
       "ema50": null,
-      "rsi": 20.6
+      "rsi": 19.5
     },
     {
       "date": "11:10",
@@ -14766,11 +14740,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4730.0,
       "close": 4730.0,
       "volume": 23119.0,
-      "supertrend": 4773.89,
+      "supertrend": 4775.13,
       "st_dir": -1,
-      "ema20": 4771.1,
+      "ema20": 4770.5,
       "ema50": null,
-      "rsi": 20.0
+      "rsi": 18.9
     },
     {
       "date": "11:15",
@@ -14779,11 +14753,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4730.0,
       "close": 4732.2998046875,
       "volume": 10019.0,
-      "supertrend": 4773.58,
+      "supertrend": 4774.58,
       "st_dir": -1,
-      "ema20": 4767.41,
+      "ema20": 4766.86,
       "ema50": null,
-      "rsi": 21.6
+      "rsi": 20.5
     },
     {
       "date": "11:20",
@@ -14792,11 +14766,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4725.0,
       "close": 4725.0,
       "volume": 19583.0,
-      "supertrend": 4772.77,
+      "supertrend": 4773.68,
       "st_dir": -1,
-      "ema20": 4763.37,
+      "ema20": 4762.87,
       "ema50": null,
-      "rsi": 20.2
+      "rsi": 19.2
     },
     {
       "date": "11:25",
@@ -14805,11 +14779,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4722.0,
       "close": 4731.60009765625,
       "volume": 13941.0,
-      "supertrend": 4767.14,
+      "supertrend": 4767.95,
       "st_dir": -1,
-      "ema20": 4760.34,
+      "ema20": 4759.89,
       "ema50": null,
-      "rsi": 25.1
+      "rsi": 24.0
     },
     {
       "date": "11:30",
@@ -14818,11 +14792,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4725.60009765625,
       "close": 4731.2998046875,
       "volume": 7641.0,
-      "supertrend": 4766.55,
+      "supertrend": 4767.29,
       "st_dir": -1,
-      "ema20": 4757.58,
+      "ema20": 4757.17,
       "ema50": null,
-      "rsi": 25.0
+      "rsi": 23.9
     },
     {
       "date": "11:35",
@@ -14831,11 +14805,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4720.0,
       "close": 4722.60009765625,
       "volume": 13232.0,
-      "supertrend": 4762.93,
+      "supertrend": 4763.59,
       "st_dir": -1,
-      "ema20": 4754.25,
+      "ema20": 4753.88,
       "ema50": null,
-      "rsi": 22.9
+      "rsi": 21.9
     },
     {
       "date": "11:40",
@@ -14844,11 +14818,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4712.0,
       "close": 4715.7001953125,
       "volume": 20889.0,
-      "supertrend": 4754.19,
+      "supertrend": 4754.78,
       "st_dir": -1,
-      "ema20": 4750.57,
+      "ema20": 4750.24,
       "ema50": null,
-      "rsi": 21.3
+      "rsi": 20.5
     },
     {
       "date": "11:45",
@@ -14857,11 +14831,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4709.60009765625,
       "close": 4715.2001953125,
       "volume": 16529.0,
-      "supertrend": 4748.47,
+      "supertrend": 4749.0,
       "st_dir": -1,
-      "ema20": 4747.21,
+      "ema20": 4746.9,
       "ema50": null,
-      "rsi": 21.2
+      "rsi": 20.4
     },
     {
       "date": "11:50",
@@ -14870,11 +14844,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4705.0,
       "close": 4706.0,
       "volume": 18898.0,
-      "supertrend": 4746.18,
+      "supertrend": 4746.66,
       "st_dir": -1,
-      "ema20": 4743.28,
+      "ema20": 4743.01,
       "ema50": null,
-      "rsi": 19.2
+      "rsi": 18.5
     },
     {
       "date": "11:55",
@@ -14883,11 +14857,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4702.2998046875,
       "close": 4706.10009765625,
       "volume": 10500.0,
-      "supertrend": 4739.25,
+      "supertrend": 4739.69,
       "st_dir": -1,
-      "ema20": 4739.74,
+      "ema20": 4739.49,
       "ema50": null,
-      "rsi": 19.3
+      "rsi": 18.6
     },
     {
       "date": "12:00",
@@ -14896,11 +14870,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4700.0,
       "close": 4700.60009765625,
       "volume": 14760.0,
-      "supertrend": 4736.57,
+      "supertrend": 4736.96,
       "st_dir": -1,
-      "ema20": 4736.01,
+      "ema20": 4735.79,
       "ema50": null,
-      "rsi": 18.1
+      "rsi": 17.5
     },
     {
       "date": "12:05",
@@ -14909,11 +14883,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4700.5,
       "close": 4705.39990234375,
       "volume": 9041.0,
-      "supertrend": 4733.91,
+      "supertrend": 4734.26,
       "st_dir": -1,
-      "ema20": 4733.1,
+      "ema20": 4732.9,
       "ema50": null,
-      "rsi": 22.6
+      "rsi": 21.9
     },
     {
       "date": "12:10",
@@ -14922,11 +14896,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4692.0,
       "close": 4697.0,
       "volume": 24776.0,
-      "supertrend": 4730.54,
+      "supertrend": 4730.85,
       "st_dir": -1,
-      "ema20": 4729.66,
+      "ema20": 4729.48,
       "ema50": null,
-      "rsi": 20.5
+      "rsi": 19.9
     },
     {
       "date": "12:15",
@@ -14935,11 +14909,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4683.89990234375,
       "close": 4683.89990234375,
       "volume": 20713.0,
-      "supertrend": 4726.55,
+      "supertrend": 4726.84,
       "st_dir": -1,
-      "ema20": 4725.3,
+      "ema20": 4725.14,
       "ema50": null,
-      "rsi": 17.7
+      "rsi": 17.3
     },
     {
       "date": "12:20",
@@ -14948,11 +14922,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4681.39990234375,
       "close": 4690.10009765625,
       "volume": 12894.0,
-      "supertrend": 4719.59,
+      "supertrend": 4719.85,
       "st_dir": -1,
-      "ema20": 4721.95,
+      "ema20": 4721.8,
       "ema50": null,
-      "rsi": 23.0
+      "rsi": 22.5
     },
     {
       "date": "12:25",
@@ -14961,11 +14935,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.0,
       "close": 4684.10009765625,
       "volume": 8781.0,
-      "supertrend": 4719.59,
+      "supertrend": 4719.85,
       "st_dir": -1,
-      "ema20": 4718.34,
+      "ema20": 4718.21,
       "ema50": null,
-      "rsi": 21.6
+      "rsi": 21.1
     },
     {
       "date": "12:30",
@@ -14974,11 +14948,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4675.39990234375,
       "close": 4676.7001953125,
       "volume": 17983.0,
-      "supertrend": 4713.78,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4714.38,
+      "ema20": 4714.26,
       "ema50": null,
-      "rsi": 19.9
+      "rsi": 19.5
     },
     {
       "date": "12:35",
@@ -14987,11 +14961,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4675.39990234375,
       "close": 4684.7001953125,
       "volume": 11958.0,
-      "supertrend": 4713.78,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4711.55,
+      "ema20": 4711.44,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 26.0
     },
     {
       "date": "12:40",
@@ -15000,11 +14974,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.0,
       "close": 4697.0,
       "volume": 49558.0,
-      "supertrend": 4713.78,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4710.17,
+      "ema20": 4710.07,
       "ema50": null,
-      "rsi": 35.3
+      "rsi": 34.8
     },
     {
       "date": "12:45",
@@ -15013,11 +14987,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4685.0,
       "close": 4685.0,
       "volume": 9091.0,
-      "supertrend": 4713.78,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4707.77,
+      "ema20": 4707.68,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 30.9
     },
     {
       "date": "12:50",
@@ -15026,53 +15000,53 @@ window.DASHBOARD_CHARTS = {
       "low": 4683.2001953125,
       "close": 4689.60009765625,
       "volume": 8269.0,
-      "supertrend": 4713.78,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4706.04,
+      "ema20": 4705.96,
       "ema50": null,
-      "rsi": 34.4
+      "rsi": 33.9
     },
     {
       "date": "12:55",
       "open": 4689.7001953125,
       "high": 4693.2998046875,
-      "low": 4686.2998046875,
-      "close": 4688.7998046875,
-      "volume": 4849.0,
-      "supertrend": 4713.78,
+      "low": 4686.2001953125,
+      "close": 4687.7998046875,
+      "volume": 6037.0,
+      "supertrend": 4713.99,
       "st_dir": -1,
-      "ema20": 4704.4,
-      "ema50": 4755.85,
-      "rsi": 34.1
+      "ema20": 4704.23,
+      "ema50": null,
+      "rsi": 33.3
+    },
+    {
+      "date": "13:00",
+      "open": 4687.7998046875,
+      "high": 4688.0,
+      "low": 4683.0,
+      "close": 4686.10009765625,
+      "volume": 7079.0,
+      "supertrend": 4713.99,
+      "st_dir": -1,
+      "ema20": 4702.5,
+      "ema50": null,
+      "rsi": 32.7
+    },
+    {
+      "date": "13:05",
+      "open": 4686.10009765625,
+      "high": 4689.89990234375,
+      "low": 4683.0,
+      "close": 4683.0,
+      "volume": 1997.0,
+      "supertrend": 4713.99,
+      "st_dir": -1,
+      "ema20": 4700.64,
+      "ema50": 4747.45,
+      "rsi": 31.6
     }
   ],
   "NTPC.NS": [
-    {
-      "date": "14:55",
-      "open": 321.20001220703125,
-      "high": 321.29998779296875,
-      "low": 321.04998779296875,
-      "close": 321.04998779296875,
-      "volume": 118299.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 321.20001220703125,
-      "high": 321.20001220703125,
-      "low": 320.5,
-      "close": 320.6000061035156,
-      "volume": 280721.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 320.6000061035156,
@@ -15171,8 +15145,8 @@ window.DASHBOARD_CHARTS = {
       "low": 318.04998779296875,
       "close": 318.29998779296875,
       "volume": 57014.0,
-      "supertrend": 320.97,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -15184,8 +15158,8 @@ window.DASHBOARD_CHARTS = {
       "low": 317.8999938964844,
       "close": 318.3999938964844,
       "volume": 94458.0,
-      "supertrend": 320.72,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -15197,7 +15171,7 @@ window.DASHBOARD_CHARTS = {
       "low": 318.1000061035156,
       "close": 318.45001220703125,
       "volume": 26167.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15210,7 +15184,7 @@ window.DASHBOARD_CHARTS = {
       "low": 318.3999938964844,
       "close": 318.79998779296875,
       "volume": 61271.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15223,7 +15197,7 @@ window.DASHBOARD_CHARTS = {
       "low": 318.79998779296875,
       "close": 319.1000061035156,
       "volume": 35071.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15236,11 +15210,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.0,
       "close": 320.25,
       "volume": 65425.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -15249,11 +15223,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.45001220703125,
       "close": 319.5,
       "volume": 38610.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -15262,11 +15236,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.25,
       "close": 319.25,
       "volume": 36528.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.1
+      "rsi": 40.3
     },
     {
       "date": "10:15",
@@ -15275,11 +15249,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.54998779296875,
       "close": 318.75,
       "volume": 35359.0,
-      "supertrend": 320.72,
+      "supertrend": 321.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": 37.7
     },
     {
       "date": "10:20",
@@ -15288,11 +15262,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.3500061035156,
       "close": 318.54998779296875,
       "volume": 185213.0,
-      "supertrend": 320.72,
+      "supertrend": 321.23,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.4
+      "rsi": 36.7
     },
     {
       "date": "10:25",
@@ -15301,11 +15275,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.79998779296875,
       "close": 317.8999938964844,
       "volume": 60107.0,
-      "supertrend": 320.57,
+      "supertrend": 320.67,
       "st_dir": -1,
-      "ema20": 319.4,
+      "ema20": null,
       "ema50": null,
-      "rsi": 32.3
+      "rsi": 33.6
     },
     {
       "date": "10:30",
@@ -15314,11 +15288,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.79998779296875,
       "close": 318.0,
       "volume": 38712.0,
-      "supertrend": 320.38,
+      "supertrend": 320.47,
       "st_dir": -1,
-      "ema20": 319.27,
+      "ema20": null,
       "ema50": null,
-      "rsi": 33.3
+      "rsi": 34.5
     },
     {
       "date": "10:35",
@@ -15327,11 +15301,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.5,
       "close": 318.1499938964844,
       "volume": 281115.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 319.16,
+      "ema20": 319.13,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 35.9
     },
     {
       "date": "10:40",
@@ -15340,11 +15314,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.95001220703125,
       "close": 319.1000061035156,
       "volume": 498114.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 319.16,
+      "ema20": 319.12,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 44.3
     },
     {
       "date": "10:45",
@@ -15353,11 +15327,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.70001220703125,
       "close": 319.3999938964844,
       "volume": 126829.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 319.18,
+      "ema20": 319.15,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 46.7
     },
     {
       "date": "10:50",
@@ -15366,11 +15340,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.0,
       "close": 319.20001220703125,
       "volume": 56310.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 319.18,
+      "ema20": 319.16,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 45.3
     },
     {
       "date": "10:55",
@@ -15379,11 +15353,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.70001220703125,
       "close": 317.95001220703125,
       "volume": 139547.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 319.06,
+      "ema20": 319.04,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 37.8
     },
     {
       "date": "11:00",
@@ -15392,11 +15366,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.70001220703125,
       "close": 317.70001220703125,
       "volume": 272165.0,
-      "supertrend": 320.24,
+      "supertrend": 320.32,
       "st_dir": -1,
-      "ema20": 318.93,
+      "ema20": 318.91,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 36.5
     },
     {
       "date": "11:05",
@@ -15405,11 +15379,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.1499938964844,
       "close": 317.5,
       "volume": 231136.0,
-      "supertrend": 319.9,
+      "supertrend": 319.95,
       "st_dir": -1,
-      "ema20": 318.8,
+      "ema20": 318.78,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 35.4
     },
     {
       "date": "11:10",
@@ -15418,11 +15392,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.25,
       "close": 317.3999938964844,
       "volume": 44093.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.66,
+      "ema20": 318.65,
       "ema50": null,
-      "rsi": 34.1
+      "rsi": 34.9
     },
     {
       "date": "11:15",
@@ -15431,11 +15405,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.29998779296875,
       "close": 317.8999938964844,
       "volume": 256163.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.59,
+      "ema20": 318.58,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 39.8
     },
     {
       "date": "11:20",
@@ -15444,11 +15418,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.8999938964844,
       "close": 318.54998779296875,
       "volume": 219240.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.59,
+      "ema20": 318.57,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 45.6
     },
     {
       "date": "11:25",
@@ -15457,11 +15431,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.3500061035156,
       "close": 319.04998779296875,
       "volume": 190584.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.63,
+      "ema20": 318.62,
       "ema50": null,
-      "rsi": 49.4
+      "rsi": 49.6
     },
     {
       "date": "11:30",
@@ -15470,11 +15444,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.5,
       "close": 319.1000061035156,
       "volume": 121580.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.68,
+      "ema20": 318.66,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 50.0
     },
     {
       "date": "11:35",
@@ -15483,11 +15457,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.8500061035156,
       "close": 319.0,
       "volume": 150396.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.71,
+      "ema20": 318.7,
       "ema50": null,
-      "rsi": 49.0
+      "rsi": 49.2
     },
     {
       "date": "11:40",
@@ -15496,11 +15470,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.0,
       "close": 319.04998779296875,
       "volume": 56093.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.74,
+      "ema20": 318.73,
       "ema50": null,
-      "rsi": 49.4
+      "rsi": 49.7
     },
     {
       "date": "11:45",
@@ -15509,11 +15483,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.70001220703125,
       "close": 319.20001220703125,
       "volume": 244428.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
       "ema20": 318.78,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 51.1
     },
     {
       "date": "11:50",
@@ -15522,11 +15496,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.0,
       "close": 319.20001220703125,
       "volume": 74829.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
       "ema20": 318.82,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 51.1
     },
     {
       "date": "11:55",
@@ -15535,11 +15509,11 @@ window.DASHBOARD_CHARTS = {
       "low": 319.1000061035156,
       "close": 319.29998779296875,
       "volume": 42536.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.87,
+      "ema20": 318.86,
       "ema50": null,
-      "rsi": 52.0
+      "rsi": 52.1
     },
     {
       "date": "12:00",
@@ -15548,11 +15522,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.29998779296875,
       "close": 318.45001220703125,
       "volume": 139171.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.83,
+      "ema20": 318.82,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": 43.6
     },
     {
       "date": "12:05",
@@ -15561,11 +15535,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.29998779296875,
       "close": 318.70001220703125,
       "volume": 88273.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.82,
+      "ema20": 318.81,
       "ema50": null,
-      "rsi": 46.2
+      "rsi": 46.4
     },
     {
       "date": "12:10",
@@ -15574,11 +15548,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.54998779296875,
       "close": 318.70001220703125,
       "volume": 29808.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.81,
+      "ema20": 318.8,
       "ema50": null,
-      "rsi": 46.2
+      "rsi": 46.4
     },
     {
       "date": "12:15",
@@ -15587,11 +15561,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.5,
       "close": 318.5,
       "volume": 38691.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.78,
+      "ema20": 318.77,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 44.4
     },
     {
       "date": "12:20",
@@ -15600,11 +15574,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.29998779296875,
       "close": 318.45001220703125,
       "volume": 30447.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.75,
+      "ema20": 318.74,
       "ema50": null,
-      "rsi": 43.6
+      "rsi": 43.9
     },
     {
       "date": "12:25",
@@ -15613,11 +15587,11 @@ window.DASHBOARD_CHARTS = {
       "low": 318.20001220703125,
       "close": 318.3500061035156,
       "volume": 38675.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
-      "ema20": 318.71,
+      "ema20": 318.7,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 42.8
     },
     {
       "date": "12:30",
@@ -15626,11 +15600,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.8500061035156,
       "close": 318.1000061035156,
       "volume": 259379.0,
-      "supertrend": 319.78,
+      "supertrend": 319.82,
       "st_dir": -1,
       "ema20": 318.65,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 40.2
     },
     {
       "date": "12:35",
@@ -15639,11 +15613,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.75,
       "close": 317.8999938964844,
       "volume": 44015.0,
-      "supertrend": 319.46,
+      "supertrend": 319.47,
       "st_dir": -1,
       "ema20": 318.58,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 38.1
     },
     {
       "date": "12:40",
@@ -15652,11 +15626,11 @@ window.DASHBOARD_CHARTS = {
       "low": 317.75,
       "close": 317.8500061035156,
       "volume": 107789.0,
-      "supertrend": 319.37,
+      "supertrend": 319.38,
       "st_dir": -1,
       "ema20": 318.51,
       "ema50": null,
-      "rsi": 37.3
+      "rsi": 37.6
     },
     {
       "date": "12:45",
@@ -15669,7 +15643,7 @@ window.DASHBOARD_CHARTS = {
       "st_dir": -1,
       "ema20": 318.44,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 37.1
     },
     {
       "date": "12:50",
@@ -15678,53 +15652,53 @@ window.DASHBOARD_CHARTS = {
       "low": 317.6000061035156,
       "close": 317.75,
       "volume": 24921.0,
-      "supertrend": 319.03,
+      "supertrend": 319.04,
       "st_dir": -1,
-      "ema20": 318.38,
+      "ema20": 318.37,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 36.5
     },
     {
       "date": "12:55",
       "open": 317.75,
       "high": 317.8999938964844,
       "low": 317.54998779296875,
-      "close": 317.8500061035156,
-      "volume": 22816.0,
+      "close": 317.75,
+      "volume": 30823.0,
       "supertrend": 319.03,
       "st_dir": -1,
-      "ema20": 318.33,
-      "ema50": 318.82,
-      "rsi": 38.3
+      "ema20": 318.31,
+      "ema50": null,
+      "rsi": 36.5
+    },
+    {
+      "date": "13:00",
+      "open": 317.75,
+      "high": 317.79998779296875,
+      "low": 317.5,
+      "close": 317.6499938964844,
+      "volume": 26601.0,
+      "supertrend": 318.92,
+      "st_dir": -1,
+      "ema20": 318.25,
+      "ema50": null,
+      "rsi": 35.3
+    },
+    {
+      "date": "13:05",
+      "open": 317.6499938964844,
+      "high": 317.6499938964844,
+      "low": 317.29998779296875,
+      "close": 317.29998779296875,
+      "volume": 9535.0,
+      "supertrend": 318.72,
+      "st_dir": -1,
+      "ema20": 318.16,
+      "ema50": 318.69,
+      "rsi": 31.3
     }
   ],
   "ONGC.NS": [
-    {
-      "date": "15:00",
-      "open": 224.55999755859375,
-      "high": 224.63999938964844,
-      "low": 224.41000366210938,
-      "close": 224.49000549316406,
-      "volume": 263230.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 224.52999877929688,
-      "high": 224.60000610351562,
-      "low": 224.3300018310547,
-      "close": 224.52000427246094,
-      "volume": 430320.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 224.5500030517578,
@@ -15823,8 +15797,8 @@ window.DASHBOARD_CHARTS = {
       "low": 223.69000244140625,
       "close": 223.69000244140625,
       "volume": 90647.0,
-      "supertrend": 225.42,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -15836,8 +15810,8 @@ window.DASHBOARD_CHARTS = {
       "low": 223.4499969482422,
       "close": 223.49000549316406,
       "volume": 61253.0,
-      "supertrend": 225.02,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -15849,7 +15823,7 @@ window.DASHBOARD_CHARTS = {
       "low": 223.25,
       "close": 223.57000732421875,
       "volume": 123265.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15862,7 +15836,7 @@ window.DASHBOARD_CHARTS = {
       "low": 223.44000244140625,
       "close": 223.52999877929688,
       "volume": 91694.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15875,7 +15849,7 @@ window.DASHBOARD_CHARTS = {
       "low": 223.44000244140625,
       "close": 223.89999389648438,
       "volume": 80135.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -15888,11 +15862,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.97999572753906,
       "close": 224.16000366210938,
       "volume": 128374.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -15901,11 +15875,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.66000366210938,
       "close": 223.7899932861328,
       "volume": 79139.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.5
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -15914,11 +15888,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.60000610351562,
       "close": 223.60000610351562,
       "volume": 98016.0,
-      "supertrend": 224.81,
+      "supertrend": 224.95,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.4
+      "rsi": 37.4
     },
     {
       "date": "10:15",
@@ -15927,11 +15901,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.1999969482422,
       "close": 223.22999572753906,
       "volume": 188850.0,
-      "supertrend": 224.72,
+      "supertrend": 224.79,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.8
+      "rsi": 34.2
     },
     {
       "date": "10:20",
@@ -15940,11 +15914,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.2100067138672,
       "close": 223.25999450683594,
       "volume": 88133.0,
-      "supertrend": 224.59,
+      "supertrend": 224.65,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 34.7
     },
     {
       "date": "10:25",
@@ -15953,11 +15927,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.14999389648438,
       "close": 223.2899932861328,
       "volume": 63137.0,
-      "supertrend": 224.47,
+      "supertrend": 224.53,
       "st_dir": -1,
-      "ema20": 223.83,
+      "ema20": null,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 35.2
     },
     {
       "date": "10:30",
@@ -15966,11 +15940,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.14999389648438,
       "close": 223.2100067138672,
       "volume": 49270.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.77,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.9
+      "rsi": 34.4
     },
     {
       "date": "10:35",
@@ -15979,11 +15953,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.1999969482422,
       "close": 223.4600067138672,
       "volume": 38884.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.74,
+      "ema20": 223.72,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 39.0
     },
     {
       "date": "10:40",
@@ -15992,11 +15966,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.3300018310547,
       "close": 223.3699951171875,
       "volume": 62495.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.71,
+      "ema20": 223.68,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 38.0
     },
     {
       "date": "10:45",
@@ -16005,11 +15979,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.2100067138672,
       "close": 223.30999755859375,
       "volume": 501151.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.67,
+      "ema20": 223.65,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 37.3
     },
     {
       "date": "10:50",
@@ -16018,11 +15992,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.32000732421875,
       "close": 223.42999267578125,
       "volume": 82948.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.65,
+      "ema20": 223.63,
       "ema50": null,
-      "rsi": 41.3
+      "rsi": 39.7
     },
     {
       "date": "10:55",
@@ -16031,11 +16005,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.3300018310547,
       "close": 223.3300018310547,
       "volume": 66038.0,
-      "supertrend": 224.38,
+      "supertrend": 224.43,
       "st_dir": -1,
-      "ema20": 223.62,
+      "ema20": 223.6,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 38.4
     },
     {
       "date": "11:00",
@@ -16044,11 +16018,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.2100067138672,
       "close": 223.27000427246094,
       "volume": 38708.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.58,
+      "ema20": 223.57,
       "ema50": null,
-      "rsi": 39.0
+      "rsi": 37.5
     },
     {
       "date": "11:05",
@@ -16057,11 +16031,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.25999450683594,
       "close": 223.66000366210938,
       "volume": 269056.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.59,
+      "ema20": 223.58,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 45.6
     },
     {
       "date": "11:10",
@@ -16070,11 +16044,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.4600067138672,
       "close": 223.52000427246094,
       "volume": 41729.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.58,
+      "ema20": 223.57,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 43.4
     },
     {
       "date": "11:15",
@@ -16083,11 +16057,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.47999572753906,
       "close": 223.69000244140625,
       "volume": 28617.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.59,
+      "ema20": 223.58,
       "ema50": null,
-      "rsi": 48.3
+      "rsi": 46.7
     },
     {
       "date": "11:20",
@@ -16096,11 +16070,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.69000244140625,
       "close": 223.86000061035156,
       "volume": 71775.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.62,
+      "ema20": 223.61,
       "ema50": null,
-      "rsi": 51.5
+      "rsi": 49.9
     },
     {
       "date": "11:25",
@@ -16109,11 +16083,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.83999633789062,
       "close": 224.1699981689453,
       "volume": 200617.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.67,
+      "ema20": 223.66,
       "ema50": null,
-      "rsi": 56.8
+      "rsi": 55.1
     },
     {
       "date": "11:30",
@@ -16122,11 +16096,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.9600067138672,
       "close": 224.14999389648438,
       "volume": 56609.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
-      "ema20": 223.72,
+      "ema20": 223.71,
       "ema50": null,
-      "rsi": 56.3
+      "rsi": 54.7
     },
     {
       "date": "11:35",
@@ -16135,11 +16109,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.9600067138672,
       "close": 224.0,
       "volume": 35608.0,
-      "supertrend": 224.27,
+      "supertrend": 224.3,
       "st_dir": -1,
       "ema20": 223.74,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 51.7
     },
     {
       "date": "11:40",
@@ -16148,11 +16122,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.99000549316406,
       "close": 224.3699951171875,
       "volume": 106913.0,
-      "supertrend": 223.28,
+      "supertrend": 223.27,
       "st_dir": 1,
       "ema20": 223.8,
       "ema50": null,
-      "rsi": 59.3
+      "rsi": 57.8
     },
     {
       "date": "11:45",
@@ -16161,11 +16135,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.0399932861328,
       "close": 224.5,
       "volume": 137498.0,
-      "supertrend": 223.31,
+      "supertrend": 223.3,
       "st_dir": 1,
-      "ema20": 223.87,
+      "ema20": 223.86,
       "ema50": null,
-      "rsi": 61.2
+      "rsi": 59.8
     },
     {
       "date": "11:50",
@@ -16174,11 +16148,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.41000366210938,
       "close": 224.47999572753906,
       "volume": 128046.0,
-      "supertrend": 223.6,
+      "supertrend": 223.59,
       "st_dir": 1,
-      "ema20": 223.93,
+      "ema20": 223.92,
       "ema50": null,
-      "rsi": 60.7
+      "rsi": 59.3
     },
     {
       "date": "11:55",
@@ -16187,11 +16161,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.2899932861328,
       "close": 224.3699951171875,
       "volume": 71126.0,
-      "supertrend": 223.6,
+      "supertrend": 223.59,
       "st_dir": 1,
       "ema20": 223.97,
       "ema50": null,
-      "rsi": 58.1
+      "rsi": 56.8
     },
     {
       "date": "12:00",
@@ -16200,11 +16174,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.39999389648438,
       "close": 224.4600067138672,
       "volume": 108002.0,
-      "supertrend": 223.64,
+      "supertrend": 223.63,
       "st_dir": 1,
-      "ema20": 224.02,
+      "ema20": 224.01,
       "ema50": null,
-      "rsi": 59.6
+      "rsi": 58.3
     },
     {
       "date": "12:05",
@@ -16213,11 +16187,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.4600067138672,
       "close": 224.72000122070312,
       "volume": 124077.0,
-      "supertrend": 223.71,
+      "supertrend": 223.7,
       "st_dir": 1,
       "ema20": 224.08,
       "ema50": null,
-      "rsi": 63.8
+      "rsi": 62.6
     },
     {
       "date": "12:10",
@@ -16226,11 +16200,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.5500030517578,
       "close": 224.64999389648438,
       "volume": 77753.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
-      "ema20": 224.14,
+      "ema20": 224.13,
       "ema50": null,
-      "rsi": 62.0
+      "rsi": 60.8
     },
     {
       "date": "12:15",
@@ -16239,11 +16213,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.4600067138672,
       "close": 224.4600067138672,
       "volume": 41778.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.17,
       "ema50": null,
-      "rsi": 57.1
+      "rsi": 56.1
     },
     {
       "date": "12:20",
@@ -16252,11 +16226,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.22999572753906,
       "close": 224.22999572753906,
       "volume": 59053.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.17,
       "ema50": null,
-      "rsi": 51.7
+      "rsi": 51.0
     },
     {
       "date": "12:25",
@@ -16265,11 +16239,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.17999267578125,
       "close": 224.27000427246094,
       "volume": 40600.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.18,
       "ema50": null,
-      "rsi": 52.6
+      "rsi": 51.8
     },
     {
       "date": "12:30",
@@ -16278,11 +16252,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.0500030517578,
       "close": 224.1699981689453,
       "volume": 51495.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.18,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 49.6
     },
     {
       "date": "12:35",
@@ -16291,11 +16265,11 @@ window.DASHBOARD_CHARTS = {
       "low": 224.13999938964844,
       "close": 224.14999389648438,
       "volume": 37340.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.18,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 49.1
     },
     {
       "date": "12:40",
@@ -16304,11 +16278,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.8300018310547,
       "close": 223.89999389648438,
       "volume": 94369.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.15,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 43.7
     },
     {
       "date": "12:45",
@@ -16317,11 +16291,11 @@ window.DASHBOARD_CHARTS = {
       "low": 223.8300018310547,
       "close": 223.97000122070312,
       "volume": 47084.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
-      "ema20": 224.14,
+      "ema20": 224.13,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 45.5
     },
     {
       "date": "12:50",
@@ -16330,53 +16304,53 @@ window.DASHBOARD_CHARTS = {
       "low": 223.8800048828125,
       "close": 224.02000427246094,
       "volume": 33938.0,
-      "supertrend": 223.76,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.12,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 46.8
     },
     {
       "date": "12:55",
       "open": 223.97000122070312,
       "high": 224.0800018310547,
       "low": 223.89999389648438,
-      "close": 223.97999572753906,
-      "volume": 34666.0,
-      "supertrend": 223.76,
+      "close": 223.97000122070312,
+      "volume": 40410.0,
+      "supertrend": 223.75,
       "st_dir": 1,
       "ema20": 224.11,
-      "ema50": 223.92,
-      "rsi": 46.3
+      "ema50": null,
+      "rsi": 45.6
+    },
+    {
+      "date": "13:00",
+      "open": 224.0,
+      "high": 224.0800018310547,
+      "low": 223.92999267578125,
+      "close": 224.07000732421875,
+      "volume": 59151.0,
+      "supertrend": 223.75,
+      "st_dir": 1,
+      "ema20": 224.1,
+      "ema50": null,
+      "rsi": 48.4
+    },
+    {
+      "date": "13:05",
+      "open": 224.0800018310547,
+      "high": 224.13999938964844,
+      "low": 223.89999389648438,
+      "close": 223.89999389648438,
+      "volume": 13037.0,
+      "supertrend": 223.75,
+      "st_dir": 1,
+      "ema20": 224.08,
+      "ema50": 223.9,
+      "rsi": 44.2
     }
   ],
   "POWERGRID.NS": [
-    {
-      "date": "15:00",
-      "open": 258.54998779296875,
-      "high": 258.6499938964844,
-      "low": 258.3999938964844,
-      "close": 258.6000061035156,
-      "volume": 240036.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 258.6000061035156,
-      "high": 258.95001220703125,
-      "low": 258.6000061035156,
-      "close": 258.95001220703125,
-      "volume": 500339.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 258.8999938964844,
@@ -16475,8 +16449,8 @@ window.DASHBOARD_CHARTS = {
       "low": 256.54998779296875,
       "close": 256.75,
       "volume": 100366.0,
-      "supertrend": 258.73,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -16488,8 +16462,8 @@ window.DASHBOARD_CHARTS = {
       "low": 256.25,
       "close": 256.3500061035156,
       "volume": 117283.0,
-      "supertrend": 258.43,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -16501,7 +16475,7 @@ window.DASHBOARD_CHARTS = {
       "low": 256.1000061035156,
       "close": 256.25,
       "volume": 110475.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -16514,7 +16488,7 @@ window.DASHBOARD_CHARTS = {
       "low": 255.8000030517578,
       "close": 256.29998779296875,
       "volume": 182813.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -16527,7 +16501,7 @@ window.DASHBOARD_CHARTS = {
       "low": 256.29998779296875,
       "close": 256.6499938964844,
       "volume": 100474.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -16540,11 +16514,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.6000061035156,
       "close": 257.0,
       "volume": 104936.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -16553,11 +16527,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.95001220703125,
       "close": 257.0,
       "volume": 129675.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -16566,11 +16540,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.8999938964844,
       "close": 257.0,
       "volume": 44249.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": 22.6
     },
     {
       "date": "10:15",
@@ -16579,11 +16553,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.6000061035156,
       "close": 256.6499938964844,
       "volume": 70553.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.9
+      "rsi": 20.8
     },
     {
       "date": "10:20",
@@ -16592,11 +16566,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.6000061035156,
       "close": 256.79998779296875,
       "volume": 92591.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.4
+      "rsi": 23.7
     },
     {
       "date": "10:25",
@@ -16605,11 +16579,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.45001220703125,
       "close": 256.54998779296875,
       "volume": 75326.0,
-      "supertrend": 258.04,
+      "supertrend": 258.25,
       "st_dir": -1,
-      "ema20": 257.29,
+      "ema20": null,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 22.2
     },
     {
       "date": "10:30",
@@ -16618,11 +16592,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.3999938964844,
       "close": 256.70001220703125,
       "volume": 53172.0,
-      "supertrend": 258.04,
+      "supertrend": 258.12,
       "st_dir": -1,
-      "ema20": 257.23,
+      "ema20": null,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 25.2
     },
     {
       "date": "10:35",
@@ -16631,11 +16605,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.6000061035156,
       "close": 256.8500061035156,
       "volume": 46605.0,
-      "supertrend": 258.04,
+      "supertrend": 258.12,
       "st_dir": -1,
-      "ema20": 257.2,
+      "ema20": 257.09,
       "ema50": null,
-      "rsi": 36.6
+      "rsi": 28.1
     },
     {
       "date": "10:40",
@@ -16644,11 +16618,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.54998779296875,
       "close": 256.8500061035156,
       "volume": 69050.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.16,
+      "ema20": 257.07,
       "ema50": null,
-      "rsi": 36.6
+      "rsi": 28.1
     },
     {
       "date": "10:45",
@@ -16657,11 +16631,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.8500061035156,
       "close": 257.20001220703125,
       "volume": 50262.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.17,
+      "ema20": 257.08,
       "ema50": null,
-      "rsi": 42.7
+      "rsi": 35.1
     },
     {
       "date": "10:50",
@@ -16670,11 +16644,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.0,
       "close": 257.3999938964844,
       "volume": 192216.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.19,
+      "ema20": 257.11,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 38.8
     },
     {
       "date": "10:55",
@@ -16683,11 +16657,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.04998779296875,
       "close": 257.1000061035156,
       "volume": 404086.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.18,
+      "ema20": 257.11,
       "ema50": null,
-      "rsi": 42.1
+      "rsi": 35.5
     },
     {
       "date": "11:00",
@@ -16696,11 +16670,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.8500061035156,
       "close": 256.8500061035156,
       "volume": 38117.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.15,
+      "ema20": 257.08,
       "ema50": null,
-      "rsi": 39.2
+      "rsi": 33.1
     },
     {
       "date": "11:05",
@@ -16709,11 +16683,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.6499938964844,
       "close": 257.1499938964844,
       "volume": 147956.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.15,
+      "ema20": 257.09,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 38.6
     },
     {
       "date": "11:10",
@@ -16722,11 +16696,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.3999938964844,
       "close": 256.45001220703125,
       "volume": 72247.0,
-      "supertrend": 258.04,
+      "supertrend": 258.11,
       "st_dir": -1,
-      "ema20": 257.08,
+      "ema20": 257.03,
       "ema50": null,
-      "rsi": 36.6
+      "rsi": 32.0
     },
     {
       "date": "11:15",
@@ -16735,11 +16709,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.29998779296875,
       "close": 256.70001220703125,
       "volume": 238859.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.05,
+      "ema20": 257.0,
       "ema50": null,
-      "rsi": 40.5
+      "rsi": 36.2
     },
     {
       "date": "11:20",
@@ -16748,11 +16722,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.54998779296875,
       "close": 257.04998779296875,
       "volume": 114052.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.05,
+      "ema20": 257.0,
       "ema50": null,
-      "rsi": 45.6
+      "rsi": 41.6
     },
     {
       "date": "11:25",
@@ -16761,11 +16735,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.95001220703125,
       "close": 257.1000061035156,
       "volume": 145052.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.05,
+      "ema20": 257.01,
       "ema50": null,
-      "rsi": 46.3
+      "rsi": 42.4
     },
     {
       "date": "11:30",
@@ -16774,11 +16748,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.8999938964844,
       "close": 257.75,
       "volume": 133019.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.12,
+      "ema20": 257.08,
       "ema50": null,
-      "rsi": 54.5
+      "rsi": 51.2
     },
     {
       "date": "11:35",
@@ -16787,11 +16761,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.3500061035156,
       "close": 257.54998779296875,
       "volume": 208965.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.16,
+      "ema20": 257.13,
       "ema50": null,
-      "rsi": 51.9
+      "rsi": 48.8
     },
     {
       "date": "11:40",
@@ -16800,11 +16774,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.5,
       "close": 257.8999938964844,
       "volume": 216586.0,
-      "supertrend": 257.93,
+      "supertrend": 257.97,
       "st_dir": -1,
-      "ema20": 257.23,
+      "ema20": 257.2,
       "ema50": null,
-      "rsi": 55.9
+      "rsi": 53.0
     },
     {
       "date": "11:45",
@@ -16813,11 +16787,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.54998779296875,
       "close": 258.0,
       "volume": 182966.0,
-      "supertrend": 256.28,
+      "supertrend": 256.26,
       "st_dir": 1,
-      "ema20": 257.3,
+      "ema20": 257.28,
       "ema50": null,
-      "rsi": 57.0
+      "rsi": 54.2
     },
     {
       "date": "11:50",
@@ -16826,11 +16800,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.5,
       "close": 257.5,
       "volume": 34863.0,
-      "supertrend": 256.28,
+      "supertrend": 256.26,
       "st_dir": 1,
-      "ema20": 257.32,
+      "ema20": 257.3,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 47.8
     },
     {
       "date": "11:55",
@@ -16839,11 +16813,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.20001220703125,
       "close": 257.29998779296875,
       "volume": 49501.0,
-      "supertrend": 256.28,
+      "supertrend": 256.26,
       "st_dir": 1,
-      "ema20": 257.32,
+      "ema20": 257.3,
       "ema50": null,
-      "rsi": 47.8
+      "rsi": 45.4
     },
     {
       "date": "12:00",
@@ -16852,11 +16826,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.25,
       "close": 257.54998779296875,
       "volume": 120955.0,
-      "supertrend": 256.28,
+      "supertrend": 256.26,
       "st_dir": 1,
-      "ema20": 257.34,
+      "ema20": 257.32,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 48.8
     },
     {
       "date": "12:05",
@@ -16865,11 +16839,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.3999938964844,
       "close": 257.5,
       "volume": 65126.0,
-      "supertrend": 256.28,
+      "supertrend": 256.26,
       "st_dir": 1,
-      "ema20": 257.36,
+      "ema20": 257.34,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 48.2
     },
     {
       "date": "12:10",
@@ -16878,11 +16852,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.5,
       "close": 257.5,
       "volume": 124450.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.37,
+      "ema20": 257.35,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 48.2
     },
     {
       "date": "12:15",
@@ -16891,11 +16865,11 @@ window.DASHBOARD_CHARTS = {
       "low": 257.25,
       "close": 257.3500061035156,
       "volume": 35975.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.37,
+      "ema20": 257.35,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 46.1
     },
     {
       "date": "12:20",
@@ -16904,11 +16878,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.8999938964844,
       "close": 257.04998779296875,
       "volume": 47760.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.34,
+      "ema20": 257.33,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 42.1
     },
     {
       "date": "12:25",
@@ -16917,11 +16891,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.95001220703125,
       "close": 257.04998779296875,
       "volume": 131087.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.31,
+      "ema20": 257.3,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 42.1
     },
     {
       "date": "12:30",
@@ -16930,11 +16904,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.3999938964844,
       "close": 256.6000061035156,
       "volume": 61999.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.24,
+      "ema20": 257.23,
       "ema50": null,
-      "rsi": 38.3
+      "rsi": 36.6
     },
     {
       "date": "12:35",
@@ -16943,11 +16917,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.3500061035156,
       "close": 256.6499938964844,
       "volume": 119797.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.19,
+      "ema20": 257.18,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 37.6
     },
     {
       "date": "12:40",
@@ -16956,11 +16930,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.3500061035156,
       "close": 256.6499938964844,
       "volume": 157552.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.14,
+      "ema20": 257.13,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 37.6
     },
     {
       "date": "12:45",
@@ -16969,11 +16943,11 @@ window.DASHBOARD_CHARTS = {
       "low": 256.5,
       "close": 256.54998779296875,
       "volume": 35136.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
-      "ema20": 257.08,
+      "ema20": 257.07,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 36.3
     },
     {
       "date": "12:50",
@@ -16982,53 +16956,53 @@ window.DASHBOARD_CHARTS = {
       "low": 256.5,
       "close": 256.8999938964844,
       "volume": 171856.0,
-      "supertrend": 256.29,
+      "supertrend": 256.28,
       "st_dir": 1,
       "ema20": 257.06,
       "ema50": null,
-      "rsi": 45.0
+      "rsi": 43.6
     },
     {
       "date": "12:55",
       "open": 256.95001220703125,
-      "high": 257.1000061035156,
+      "high": 257.1499938964844,
       "low": 256.8999938964844,
-      "close": 257.0,
-      "volume": 29727.0,
-      "supertrend": 256.29,
+      "close": 257.1499938964844,
+      "volume": 78579.0,
+      "supertrend": 256.28,
       "st_dir": 1,
       "ema20": 257.06,
-      "ema50": 257.19,
-      "rsi": 46.9
+      "ema50": null,
+      "rsi": 48.2
+    },
+    {
+      "date": "13:00",
+      "open": 257.25,
+      "high": 257.25,
+      "low": 257.0,
+      "close": 257.25,
+      "volume": 40678.0,
+      "supertrend": 256.28,
+      "st_dir": 1,
+      "ema20": 257.08,
+      "ema50": null,
+      "rsi": 49.9
+    },
+    {
+      "date": "13:05",
+      "open": 257.25,
+      "high": 257.25,
+      "low": 256.79998779296875,
+      "close": 256.79998779296875,
+      "volume": 88134.0,
+      "supertrend": 256.28,
+      "st_dir": 1,
+      "ema20": 257.06,
+      "ema50": 257.12,
+      "rsi": 42.9
     }
   ],
   "ADANIENT.NS": [
-    {
-      "date": "15:00",
-      "open": 2742.199951171875,
-      "high": 2746.199951171875,
-      "low": 2740.0,
-      "close": 2744.199951171875,
-      "volume": 55909.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 2744.300048828125,
-      "high": 2744.89990234375,
-      "low": 2736.60009765625,
-      "close": 2738.0,
-      "volume": 57946.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 2737.0,
@@ -17127,8 +17101,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2697.800048828125,
       "close": 2700.0,
       "volume": 40782.0,
-      "supertrend": 2743.28,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -17140,8 +17114,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2694.39990234375,
       "close": 2697.300048828125,
       "volume": 26509.0,
-      "supertrend": 2733.72,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -17153,7 +17127,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2691.0,
       "close": 2694.10009765625,
       "volume": 25219.0,
-      "supertrend": 2733.72,
+      "supertrend": 2737.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17166,7 +17140,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2692.300048828125,
       "close": 2703.10009765625,
       "volume": 59323.0,
-      "supertrend": 2733.72,
+      "supertrend": 2737.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17179,7 +17153,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2700.10009765625,
       "close": 2701.300048828125,
       "volume": 18624.0,
-      "supertrend": 2733.72,
+      "supertrend": 2737.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17192,11 +17166,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2700.10009765625,
       "close": 2704.5,
       "volume": 16876.0,
-      "supertrend": 2733.72,
+      "supertrend": 2737.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 25.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -17205,11 +17179,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2699.5,
       "close": 2702.60009765625,
       "volume": 9389.0,
-      "supertrend": 2733.72,
+      "supertrend": 2737.38,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 25.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -17218,11 +17192,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2698.89990234375,
       "close": 2699.89990234375,
       "volume": 42061.0,
-      "supertrend": 2733.72,
+      "supertrend": 2736.69,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 24.2
+      "rsi": 26.2
     },
     {
       "date": "10:15",
@@ -17231,11 +17205,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2693.0,
       "close": 2696.0,
       "volume": 26147.0,
-      "supertrend": 2728.05,
+      "supertrend": 2729.59,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 22.9
+      "rsi": 24.9
     },
     {
       "date": "10:20",
@@ -17244,11 +17218,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2689.199951171875,
       "close": 2693.5,
       "volume": 38884.0,
-      "supertrend": 2723.36,
+      "supertrend": 2724.74,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 22.1
+      "rsi": 24.1
     },
     {
       "date": "10:25",
@@ -17257,11 +17231,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2685.0,
       "close": 2688.800048828125,
       "volume": 46346.0,
-      "supertrend": 2721.3,
+      "supertrend": 2722.55,
       "st_dir": -1,
-      "ema20": 2712.88,
+      "ema20": null,
       "ema50": null,
-      "rsi": 20.6
+      "rsi": 22.6
     },
     {
       "date": "10:30",
@@ -17270,11 +17244,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2685.800048828125,
       "close": 2688.39990234375,
       "volume": 13668.0,
-      "supertrend": 2718.4,
+      "supertrend": 2719.52,
       "st_dir": -1,
-      "ema20": 2710.54,
+      "ema20": null,
       "ema50": null,
-      "rsi": 20.5
+      "rsi": 22.4
     },
     {
       "date": "10:35",
@@ -17283,11 +17257,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2686.5,
       "close": 2686.5,
       "volume": 23879.0,
-      "supertrend": 2716.7,
+      "supertrend": 2717.71,
       "st_dir": -1,
-      "ema20": 2708.25,
+      "ema20": 2707.51,
       "ema50": null,
-      "rsi": 19.9
+      "rsi": 21.8
     },
     {
       "date": "10:40",
@@ -17296,11 +17270,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2680.0,
       "close": 2683.5,
       "volume": 25634.0,
-      "supertrend": 2711.55,
+      "supertrend": 2712.46,
       "st_dir": -1,
-      "ema20": 2705.9,
+      "ema20": 2705.22,
       "ema50": null,
-      "rsi": 18.9
+      "rsi": 20.8
     },
     {
       "date": "10:45",
@@ -17309,11 +17283,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2683.0,
       "close": 2689.0,
       "volume": 11452.0,
-      "supertrend": 2711.55,
+      "supertrend": 2712.46,
       "st_dir": -1,
-      "ema20": 2704.29,
+      "ema20": 2703.68,
       "ema50": null,
-      "rsi": 26.0
+      "rsi": 27.4
     },
     {
       "date": "10:50",
@@ -17322,11 +17296,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2683.0,
       "close": 2689.39990234375,
       "volume": 11633.0,
-      "supertrend": 2711.55,
+      "supertrend": 2712.46,
       "st_dir": -1,
-      "ema20": 2702.87,
+      "ema20": 2702.32,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 27.9
     },
     {
       "date": "10:55",
@@ -17335,11 +17309,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2682.0,
       "close": 2683.199951171875,
       "volume": 9822.0,
-      "supertrend": 2711.55,
+      "supertrend": 2712.46,
       "st_dir": -1,
-      "ema20": 2701.0,
+      "ema20": 2700.5,
       "ema50": null,
-      "rsi": 23.8
+      "rsi": 25.2
     },
     {
       "date": "11:00",
@@ -17348,11 +17322,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2682.199951171875,
       "close": 2683.39990234375,
       "volume": 8509.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2699.32,
+      "ema20": 2698.87,
       "ema50": null,
-      "rsi": 24.1
+      "rsi": 25.4
     },
     {
       "date": "11:05",
@@ -17361,11 +17335,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2683.0,
       "close": 2689.0,
       "volume": 10355.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2698.34,
+      "ema20": 2697.93,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 32.3
     },
     {
       "date": "11:10",
@@ -17374,11 +17348,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2686.10009765625,
       "close": 2686.199951171875,
       "volume": 10128.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2697.18,
+      "ema20": 2696.81,
       "ema50": null,
-      "rsi": 29.9
+      "rsi": 30.8
     },
     {
       "date": "11:15",
@@ -17387,11 +17361,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2685.0,
       "close": 2691.199951171875,
       "volume": 8095.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2696.61,
+      "ema20": 2696.28,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 36.6
     },
     {
       "date": "11:20",
@@ -17400,11 +17374,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2688.10009765625,
       "close": 2689.39990234375,
       "volume": 10461.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2695.93,
+      "ema20": 2695.62,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 35.5
     },
     {
       "date": "11:25",
@@ -17413,11 +17387,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2686.10009765625,
       "close": 2688.199951171875,
       "volume": 10816.0,
-      "supertrend": 2709.51,
+      "supertrend": 2710.11,
       "st_dir": -1,
-      "ema20": 2695.19,
+      "ema20": 2694.92,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 34.7
     },
     {
       "date": "11:30",
@@ -17426,11 +17400,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2681.0,
       "close": 2686.0,
       "volume": 12227.0,
-      "supertrend": 2706.29,
+      "supertrend": 2706.6,
       "st_dir": -1,
-      "ema20": 2694.31,
+      "ema20": 2694.07,
       "ema50": null,
-      "rsi": 32.5
+      "rsi": 33.2
     },
     {
       "date": "11:35",
@@ -17439,11 +17413,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2683.300048828125,
       "close": 2684.800048828125,
       "volume": 4093.0,
-      "supertrend": 2705.47,
+      "supertrend": 2705.75,
       "st_dir": -1,
-      "ema20": 2693.41,
+      "ema20": 2693.18,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 32.4
     },
     {
       "date": "11:40",
@@ -17452,11 +17426,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2681.199951171875,
       "close": 2681.39990234375,
       "volume": 11947.0,
-      "supertrend": 2702.67,
+      "supertrend": 2702.93,
       "st_dir": -1,
-      "ema20": 2692.26,
+      "ema20": 2692.06,
       "ema50": null,
-      "rsi": 29.5
+      "rsi": 30.2
     },
     {
       "date": "11:45",
@@ -17465,11 +17439,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2666.39990234375,
       "close": 2676.699951171875,
       "volume": 51380.0,
-      "supertrend": 2696.3,
+      "supertrend": 2696.53,
       "st_dir": -1,
-      "ema20": 2690.78,
+      "ema20": 2690.6,
       "ema50": null,
-      "rsi": 26.7
+      "rsi": 27.4
     },
     {
       "date": "11:50",
@@ -17478,11 +17452,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2672.300048828125,
       "close": 2672.800048828125,
       "volume": 15184.0,
-      "supertrend": 2696.3,
+      "supertrend": 2696.53,
       "st_dir": -1,
-      "ema20": 2689.07,
+      "ema20": 2688.9,
       "ema50": null,
-      "rsi": 24.6
+      "rsi": 25.3
     },
     {
       "date": "11:55",
@@ -17491,11 +17465,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2670.10009765625,
       "close": 2672.0,
       "volume": 14835.0,
-      "supertrend": 2693.1,
+      "supertrend": 2693.29,
       "st_dir": -1,
-      "ema20": 2687.44,
+      "ema20": 2687.29,
       "ema50": null,
-      "rsi": 24.2
+      "rsi": 24.9
     },
     {
       "date": "12:00",
@@ -17504,11 +17478,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2667.699951171875,
       "close": 2670.800048828125,
       "volume": 20769.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2685.86,
+      "ema20": 2685.72,
       "ema50": null,
-      "rsi": 23.6
+      "rsi": 24.3
     },
     {
       "date": "12:05",
@@ -17517,11 +17491,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2669.0,
       "close": 2675.699951171875,
       "volume": 14602.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2684.89,
+      "ema20": 2684.77,
       "ema50": null,
-      "rsi": 31.6
+      "rsi": 32.0
     },
     {
       "date": "12:10",
@@ -17530,11 +17504,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2673.89990234375,
       "close": 2679.0,
       "volume": 9853.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2684.33,
+      "ema20": 2684.22,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 36.8
     },
     {
       "date": "12:15",
@@ -17543,11 +17517,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2677.89990234375,
       "close": 2679.0,
       "volume": 9803.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2683.82,
+      "ema20": 2683.72,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 36.8
     },
     {
       "date": "12:20",
@@ -17556,11 +17530,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2674.800048828125,
       "close": 2677.699951171875,
       "volume": 10704.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2683.24,
+      "ema20": 2683.15,
       "ema50": null,
-      "rsi": 35.3
+      "rsi": 35.6
     },
     {
       "date": "12:25",
@@ -17569,11 +17543,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2673.800048828125,
       "close": 2674.800048828125,
       "volume": 10355.0,
-      "supertrend": 2691.46,
+      "supertrend": 2691.63,
       "st_dir": -1,
-      "ema20": 2682.44,
+      "ema20": 2682.35,
       "ema50": null,
-      "rsi": 32.8
+      "rsi": 33.2
     },
     {
       "date": "12:30",
@@ -17582,11 +17556,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2670.5,
       "close": 2673.39990234375,
       "volume": 9913.0,
-      "supertrend": 2691.35,
+      "supertrend": 2691.44,
       "st_dir": -1,
-      "ema20": 2681.58,
+      "ema20": 2681.5,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 32.0
     },
     {
       "date": "12:35",
@@ -17595,11 +17569,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2670.699951171875,
       "close": 2672.60009765625,
       "volume": 5234.0,
-      "supertrend": 2691.05,
+      "supertrend": 2691.13,
       "st_dir": -1,
-      "ema20": 2680.72,
+      "ema20": 2680.65,
       "ema50": null,
-      "rsi": 31.0
+      "rsi": 31.4
     },
     {
       "date": "12:40",
@@ -17608,11 +17582,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2671.60009765625,
       "close": 2675.89990234375,
       "volume": 7677.0,
-      "supertrend": 2691.05,
+      "supertrend": 2691.13,
       "st_dir": -1,
-      "ema20": 2680.26,
+      "ema20": 2680.2,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 37.2
     },
     {
       "date": "12:45",
@@ -17621,11 +17595,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2672.10009765625,
       "close": 2672.89990234375,
       "volume": 8171.0,
-      "supertrend": 2690.95,
+      "supertrend": 2691.01,
       "st_dir": -1,
-      "ema20": 2679.56,
+      "ema20": 2679.51,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 34.3
     },
     {
       "date": "12:50",
@@ -17634,53 +17608,53 @@ window.DASHBOARD_CHARTS = {
       "low": 2671.0,
       "close": 2675.5,
       "volume": 7749.0,
-      "supertrend": 2689.81,
+      "supertrend": 2689.87,
       "st_dir": -1,
-      "ema20": 2679.17,
+      "ema20": 2679.12,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 38.7
     },
     {
       "date": "12:55",
       "open": 2675.0,
       "high": 2679.5,
       "low": 2675.0,
-      "close": 2678.39990234375,
-      "volume": 3434.0,
-      "supertrend": 2689.81,
+      "close": 2678.199951171875,
+      "volume": 4305.0,
+      "supertrend": 2689.87,
       "st_dir": -1,
-      "ema20": 2679.1,
-      "ema50": 2693.69,
-      "rsi": 43.1
+      "ema20": 2679.04,
+      "ema50": null,
+      "rsi": 42.9
+    },
+    {
+      "date": "13:00",
+      "open": 2678.0,
+      "high": 2678.300048828125,
+      "low": 2675.0,
+      "close": 2677.39990234375,
+      "volume": 2210.0,
+      "supertrend": 2689.87,
+      "st_dir": -1,
+      "ema20": 2678.88,
+      "ema50": null,
+      "rsi": 42.0
+    },
+    {
+      "date": "13:05",
+      "open": 2677.0,
+      "high": 2677.39990234375,
+      "low": 2673.10009765625,
+      "close": 2673.10009765625,
+      "volume": 2365.0,
+      "supertrend": 2689.87,
+      "st_dir": -1,
+      "ema20": 2678.33,
+      "ema50": 2691.05,
+      "rsi": 37.3
     }
   ],
   "ADANIPORTS.NS": [
-    {
-      "date": "15:00",
-      "open": 1915.800048828125,
-      "high": 1916.0,
-      "low": 1911.5,
-      "close": 1913.300048828125,
-      "volume": 65509.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1913.300048828125,
-      "high": 1913.5,
-      "low": 1912.199951171875,
-      "close": 1912.699951171875,
-      "volume": 51129.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1912.300048828125,
@@ -17779,8 +17753,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1897.0,
       "close": 1897.5999755859375,
       "volume": 13866.0,
-      "supertrend": 1915.94,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -17792,8 +17766,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1897.4000244140625,
       "close": 1898.9000244140625,
       "volume": 7191.0,
-      "supertrend": 1913.96,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -17805,7 +17779,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1898.5,
       "close": 1900.0,
       "volume": 7706.0,
-      "supertrend": 1913.96,
+      "supertrend": 1917.46,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17818,7 +17792,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1898.699951171875,
       "close": 1900.699951171875,
       "volume": 8899.0,
-      "supertrend": 1913.96,
+      "supertrend": 1916.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17831,7 +17805,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1899.699951171875,
       "close": 1902.4000244140625,
       "volume": 6131.0,
-      "supertrend": 1913.96,
+      "supertrend": 1916.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -17844,11 +17818,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1901.699951171875,
       "close": 1903.5999755859375,
       "volume": 10498.0,
-      "supertrend": 1913.96,
+      "supertrend": 1916.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -17857,11 +17831,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1901.699951171875,
       "close": 1903.9000244140625,
       "volume": 5947.0,
-      "supertrend": 1913.96,
+      "supertrend": 1916.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -17870,11 +17844,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1898.699951171875,
       "close": 1899.5999755859375,
       "volume": 4171.0,
-      "supertrend": 1913.96,
+      "supertrend": 1916.1,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 32.6
+      "rsi": 25.8
     },
     {
       "date": "10:15",
@@ -17883,11 +17857,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1895.4000244140625,
       "close": 1897.0,
       "volume": 10037.0,
-      "supertrend": 1912.15,
+      "supertrend": 1912.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.2
+      "rsi": 23.9
     },
     {
       "date": "10:20",
@@ -17896,11 +17870,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1894.5999755859375,
       "close": 1896.300048828125,
       "volume": 11689.0,
-      "supertrend": 1910.06,
+      "supertrend": 1910.75,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 23.4
     },
     {
       "date": "10:25",
@@ -17909,11 +17883,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.800048828125,
       "close": 1892.0,
       "volume": 11045.0,
-      "supertrend": 1907.94,
+      "supertrend": 1908.56,
       "st_dir": -1,
-      "ema20": 1903.98,
+      "ema20": null,
       "ema50": null,
-      "rsi": 26.0
+      "rsi": 20.6
     },
     {
       "date": "10:30",
@@ -17922,11 +17896,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.300048828125,
       "close": 1893.0,
       "volume": 8585.0,
-      "supertrend": 1905.95,
+      "supertrend": 1906.51,
       "st_dir": -1,
-      "ema20": 1902.93,
+      "ema20": null,
       "ema50": null,
-      "rsi": 28.2
+      "rsi": 22.9
     },
     {
       "date": "10:35",
@@ -17935,11 +17909,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.0,
       "close": 1893.0,
       "volume": 7544.0,
-      "supertrend": 1904.85,
+      "supertrend": 1905.35,
       "st_dir": -1,
       "ema20": 1901.98,
       "ema50": null,
-      "rsi": 28.2
+      "rsi": 22.9
     },
     {
       "date": "10:40",
@@ -17948,11 +17922,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1890.0999755859375,
       "close": 1892.199951171875,
       "volume": 21139.0,
-      "supertrend": 1904.6,
+      "supertrend": 1905.06,
       "st_dir": -1,
-      "ema20": 1901.05,
+      "ema20": 1901.04,
       "ema50": null,
-      "rsi": 27.4
+      "rsi": 22.3
     },
     {
       "date": "10:45",
@@ -17961,11 +17935,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1892.199951171875,
       "close": 1895.0,
       "volume": 8311.0,
-      "supertrend": 1904.6,
+      "supertrend": 1905.06,
       "st_dir": -1,
-      "ema20": 1900.48,
+      "ema20": 1900.47,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 29.3
     },
     {
       "date": "10:50",
@@ -17974,11 +17948,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1893.0,
       "close": 1893.5999755859375,
       "volume": 2847.0,
-      "supertrend": 1904.6,
+      "supertrend": 1905.06,
       "st_dir": -1,
-      "ema20": 1899.82,
+      "ema20": 1899.81,
       "ema50": null,
-      "rsi": 32.4
+      "rsi": 28.0
     },
     {
       "date": "10:55",
@@ -17987,11 +17961,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.199951171875,
       "close": 1892.4000244140625,
       "volume": 4786.0,
-      "supertrend": 1904.13,
+      "supertrend": 1904.46,
       "st_dir": -1,
       "ema20": 1899.11,
       "ema50": null,
-      "rsi": 31.1
+      "rsi": 26.8
     },
     {
       "date": "11:00",
@@ -18000,11 +17974,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.4000244140625,
       "close": 1892.0,
       "volume": 2838.0,
-      "supertrend": 1903.68,
+      "supertrend": 1903.98,
       "st_dir": -1,
-      "ema20": 1898.44,
+      "ema20": 1898.43,
       "ema50": null,
-      "rsi": 30.6
+      "rsi": 26.4
     },
     {
       "date": "11:05",
@@ -18013,11 +17987,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.0,
       "close": 1893.9000244140625,
       "volume": 2389.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1898.0,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 31.5
     },
     {
       "date": "11:10",
@@ -18026,11 +18000,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1892.5999755859375,
       "close": 1892.699951171875,
       "volume": 3545.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
-      "ema20": 1897.5,
+      "ema20": 1897.49,
       "ema50": null,
-      "rsi": 33.9
+      "rsi": 30.1
     },
     {
       "date": "11:15",
@@ -18039,11 +18013,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1892.0,
       "close": 1896.300048828125,
       "volume": 6838.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
-      "ema20": 1897.39,
+      "ema20": 1897.38,
       "ema50": null,
-      "rsi": 42.3
+      "rsi": 39.0
     },
     {
       "date": "11:20",
@@ -18052,11 +18026,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1896.199951171875,
       "close": 1896.699951171875,
       "volume": 8936.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1897.32,
       "ema50": null,
-      "rsi": 43.1
+      "rsi": 39.9
     },
     {
       "date": "11:25",
@@ -18065,11 +18039,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1895.0999755859375,
       "close": 1897.5,
       "volume": 4350.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
-      "ema20": 1897.34,
+      "ema20": 1897.33,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 41.8
     },
     {
       "date": "11:30",
@@ -18078,11 +18052,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1894.800048828125,
       "close": 1897.300048828125,
       "volume": 2506.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1897.33,
       "ema50": null,
-      "rsi": 44.5
+      "rsi": 41.4
     },
     {
       "date": "11:35",
@@ -18091,11 +18065,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1895.9000244140625,
       "close": 1897.0999755859375,
       "volume": 2756.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1897.31,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 41.1
     },
     {
       "date": "11:40",
@@ -18104,11 +18078,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1895.699951171875,
       "close": 1896.699951171875,
       "volume": 7494.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1897.25,
       "ema50": null,
-      "rsi": 43.3
+      "rsi": 40.3
     },
     {
       "date": "11:45",
@@ -18117,11 +18091,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1890.5,
       "close": 1894.4000244140625,
       "volume": 5681.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1896.98,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 36.1
     },
     {
       "date": "11:50",
@@ -18130,11 +18104,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1893.0,
       "close": 1893.5,
       "volume": 4218.0,
-      "supertrend": 1903.28,
+      "supertrend": 1903.55,
       "st_dir": -1,
       "ema20": 1896.65,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 34.6
     },
     {
       "date": "11:55",
@@ -18143,11 +18117,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.5,
       "close": 1893.5,
       "volume": 3169.0,
-      "supertrend": 1902.14,
+      "supertrend": 1902.24,
       "st_dir": -1,
       "ema20": 1896.35,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 34.6
     },
     {
       "date": "12:00",
@@ -18156,11 +18130,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1890.0,
       "close": 1891.5,
       "volume": 8835.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.89,
       "ema50": null,
-      "rsi": 33.5
+      "rsi": 31.2
     },
     {
       "date": "12:05",
@@ -18169,11 +18143,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1891.4000244140625,
       "close": 1896.0,
       "volume": 10502.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.9,
       "ema50": null,
-      "rsi": 46.3
+      "rsi": 44.4
     },
     {
       "date": "12:10",
@@ -18182,11 +18156,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1895.4000244140625,
       "close": 1896.9000244140625,
       "volume": 5886.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.99,
       "ema50": null,
-      "rsi": 48.4
+      "rsi": 46.6
     },
     {
       "date": "12:15",
@@ -18195,11 +18169,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1896.199951171875,
       "close": 1896.199951171875,
       "volume": 10999.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1896.01,
       "ema50": null,
-      "rsi": 46.8
+      "rsi": 45.1
     },
     {
       "date": "12:20",
@@ -18208,11 +18182,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1894.800048828125,
       "close": 1895.5999755859375,
       "volume": 6300.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.97,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 43.8
     },
     {
       "date": "12:25",
@@ -18221,11 +18195,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1894.800048828125,
       "close": 1895.0,
       "volume": 6327.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.88,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 42.5
     },
     {
       "date": "12:30",
@@ -18234,11 +18208,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1893.5,
       "close": 1894.0,
       "volume": 11288.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.7,
       "ema50": null,
-      "rsi": 41.9
+      "rsi": 40.3
     },
     {
       "date": "12:35",
@@ -18247,11 +18221,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1892.9000244140625,
       "close": 1895.0,
       "volume": 10515.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
-      "ema20": 1895.64,
+      "ema20": 1895.63,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 43.4
     },
     {
       "date": "12:40",
@@ -18260,11 +18234,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1894.5,
       "close": 1895.0,
       "volume": 4122.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.57,
       "ema50": null,
-      "rsi": 44.9
+      "rsi": 43.4
     },
     {
       "date": "12:45",
@@ -18273,11 +18247,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1893.699951171875,
       "close": 1894.5999755859375,
       "volume": 12212.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
       "ema20": 1895.48,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 42.4
     },
     {
       "date": "12:50",
@@ -18286,53 +18260,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1893.5999755859375,
       "close": 1895.199951171875,
       "volume": 4923.0,
-      "supertrend": 1901.25,
+      "supertrend": 1901.34,
       "st_dir": -1,
-      "ema20": 1895.46,
+      "ema20": 1895.45,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 44.5
     },
     {
       "date": "12:55",
       "open": 1895.5999755859375,
       "high": 1897.699951171875,
       "low": 1895.5,
-      "close": 1895.9000244140625,
-      "volume": 3682.0,
-      "supertrend": 1901.25,
+      "close": 1896.4000244140625,
+      "volume": 6580.0,
+      "supertrend": 1901.34,
       "st_dir": -1,
-      "ema20": 1895.5,
-      "ema50": 1898.42,
-      "rsi": 48.3
+      "ema20": 1895.54,
+      "ema50": null,
+      "rsi": 48.6
+    },
+    {
+      "date": "13:00",
+      "open": 1896.4000244140625,
+      "high": 1896.9000244140625,
+      "low": 1895.300048828125,
+      "close": 1895.9000244140625,
+      "volume": 1781.0,
+      "supertrend": 1901.34,
+      "st_dir": -1,
+      "ema20": 1895.58,
+      "ema50": null,
+      "rsi": 47.0
+    },
+    {
+      "date": "13:05",
+      "open": 1895.9000244140625,
+      "high": 1896.0,
+      "low": 1893.800048828125,
+      "close": 1893.800048828125,
+      "volume": 3730.0,
+      "supertrend": 1901.34,
+      "st_dir": -1,
+      "ema20": 1895.41,
+      "ema50": 1897.71,
+      "rsi": 41.1
     }
   ],
   "TATASTEEL.NS": [
-    {
-      "date": "15:00",
-      "open": 181.91000366210938,
-      "high": 181.9600067138672,
-      "low": 181.74000549316406,
-      "close": 181.91000366210938,
-      "volume": 498640.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 181.89999389648438,
-      "high": 181.97000122070312,
-      "low": 181.85000610351562,
-      "close": 181.91000366210938,
-      "volume": 391698.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 181.91000366210938,
@@ -18431,8 +18405,8 @@ window.DASHBOARD_CHARTS = {
       "low": 179.10000610351562,
       "close": 179.13999938964844,
       "volume": 104329.0,
-      "supertrend": 180.98,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -18444,8 +18418,8 @@ window.DASHBOARD_CHARTS = {
       "low": 178.4199981689453,
       "close": 178.9199981689453,
       "volume": 323483.0,
-      "supertrend": 180.51,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -18457,7 +18431,7 @@ window.DASHBOARD_CHARTS = {
       "low": 178.77999877929688,
       "close": 178.92999267578125,
       "volume": 190798.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -18470,7 +18444,7 @@ window.DASHBOARD_CHARTS = {
       "low": 178.86000061035156,
       "close": 179.1699981689453,
       "volume": 108268.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -18483,7 +18457,7 @@ window.DASHBOARD_CHARTS = {
       "low": 179.10000610351562,
       "close": 179.16000366210938,
       "volume": 244533.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -18496,11 +18470,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.0399932861328,
       "close": 179.4499969482422,
       "volume": 165410.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -18509,11 +18483,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.0399932861328,
       "close": 179.22999572753906,
       "volume": 127140.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.3
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -18522,11 +18496,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.14999389648438,
       "close": 179.22000122070312,
       "volume": 84494.0,
-      "supertrend": 180.51,
+      "supertrend": 180.92,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.3
+      "rsi": 16.7
     },
     {
       "date": "10:15",
@@ -18535,11 +18509,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.6999969482422,
       "close": 178.6999969482422,
       "volume": 222304.0,
-      "supertrend": 180.45,
+      "supertrend": 180.58,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 16.8
+      "rsi": 14.8
     },
     {
       "date": "10:20",
@@ -18548,11 +18522,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.85000610351562,
       "close": 178.86000061035156,
       "volume": 143722.0,
-      "supertrend": 180.38,
+      "supertrend": 180.5,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.2
+      "rsi": 17.9
     },
     {
       "date": "10:25",
@@ -18561,11 +18535,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.7899932861328,
       "close": 178.85000610351562,
       "volume": 80507.0,
-      "supertrend": 180.32,
+      "supertrend": 180.42,
       "st_dir": -1,
-      "ema20": 179.84,
+      "ema20": null,
       "ema50": null,
-      "rsi": 20.1
+      "rsi": 17.9
     },
     {
       "date": "10:30",
@@ -18574,11 +18548,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.72000122070312,
       "close": 178.88999938964844,
       "volume": 102054.0,
-      "supertrend": 180.2,
+      "supertrend": 180.3,
       "st_dir": -1,
-      "ema20": 179.75,
+      "ema20": null,
       "ema50": null,
-      "rsi": 21.1
+      "rsi": 18.8
     },
     {
       "date": "10:35",
@@ -18587,11 +18561,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.85000610351562,
       "close": 178.9199981689453,
       "volume": 61453.0,
-      "supertrend": 180.2,
+      "supertrend": 180.28,
       "st_dir": -1,
-      "ema20": 179.67,
+      "ema20": 179.54,
       "ema50": null,
-      "rsi": 21.8
+      "rsi": 19.4
     },
     {
       "date": "10:40",
@@ -18600,11 +18574,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.86000061035156,
       "close": 178.8699951171875,
       "volume": 43923.0,
-      "supertrend": 180.19,
+      "supertrend": 180.26,
       "st_dir": -1,
-      "ema20": 179.6,
+      "ema20": 179.48,
       "ema50": null,
-      "rsi": 21.5
+      "rsi": 19.2
     },
     {
       "date": "10:45",
@@ -18613,11 +18587,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.85000610351562,
       "close": 179.07000732421875,
       "volume": 52746.0,
-      "supertrend": 180.18,
+      "supertrend": 180.25,
       "st_dir": -1,
-      "ema20": 179.55,
+      "ema20": 179.44,
       "ema50": null,
-      "rsi": 26.7
+      "rsi": 24.1
     },
     {
       "date": "10:50",
@@ -18626,11 +18600,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.85000610351562,
       "close": 179.0500030517578,
       "volume": 95114.0,
-      "supertrend": 180.1,
+      "supertrend": 180.16,
       "st_dir": -1,
-      "ema20": 179.5,
+      "ema20": 179.4,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 23.9
     },
     {
       "date": "10:55",
@@ -18639,11 +18613,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.72000122070312,
       "close": 178.77999877929688,
       "volume": 88571.0,
-      "supertrend": 180.01,
+      "supertrend": 180.07,
       "st_dir": -1,
-      "ema20": 179.43,
+      "ema20": 179.34,
       "ema50": null,
-      "rsi": 24.0
+      "rsi": 21.8
     },
     {
       "date": "11:00",
@@ -18652,11 +18626,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.75,
       "close": 178.82000732421875,
       "volume": 100750.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.37,
+      "ema20": 179.29,
       "ema50": null,
-      "rsi": 25.1
+      "rsi": 22.9
     },
     {
       "date": "11:05",
@@ -18665,11 +18639,11 @@ window.DASHBOARD_CHARTS = {
       "low": 178.80999755859375,
       "close": 179.02999877929688,
       "volume": 166046.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.34,
+      "ema20": 179.27,
       "ema50": null,
-      "rsi": 30.9
+      "rsi": 28.4
     },
     {
       "date": "11:10",
@@ -18678,11 +18652,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.0,
       "close": 179.17999267578125,
       "volume": 427617.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.32,
+      "ema20": 179.26,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 32.2
     },
     {
       "date": "11:15",
@@ -18691,11 +18665,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.10000610351562,
       "close": 179.58999633789062,
       "volume": 280420.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.35,
+      "ema20": 179.29,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 41.2
     },
     {
       "date": "11:20",
@@ -18704,11 +18678,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.39999389648438,
       "close": 179.4499969482422,
       "volume": 132091.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.36,
+      "ema20": 179.31,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 39.3
     },
     {
       "date": "11:25",
@@ -18717,11 +18691,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.35000610351562,
       "close": 179.55999755859375,
       "volume": 372349.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.38,
+      "ema20": 179.33,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 41.6
     },
     {
       "date": "11:30",
@@ -18730,11 +18704,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.25999450683594,
       "close": 179.6999969482422,
       "volume": 70229.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.41,
+      "ema20": 179.37,
       "ema50": null,
-      "rsi": 47.0
+      "rsi": 44.5
     },
     {
       "date": "11:35",
@@ -18743,11 +18717,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.47999572753906,
       "close": 179.5800018310547,
       "volume": 105359.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.42,
+      "ema20": 179.39,
       "ema50": null,
-      "rsi": 44.8
+      "rsi": 42.5
     },
     {
       "date": "11:40",
@@ -18756,11 +18730,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.4199981689453,
       "close": 179.52000427246094,
       "volume": 31809.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.43,
+      "ema20": 179.4,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 41.5
     },
     {
       "date": "11:45",
@@ -18769,11 +18743,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.1999969482422,
       "close": 179.4600067138672,
       "volume": 481284.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.44,
+      "ema20": 179.4,
       "ema50": null,
-      "rsi": 42.6
+      "rsi": 40.5
     },
     {
       "date": "11:50",
@@ -18782,11 +18756,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.25999450683594,
       "close": 179.25999450683594,
       "volume": 262031.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.42,
+      "ema20": 179.39,
       "ema50": null,
-      "rsi": 39.1
+      "rsi": 37.3
     },
     {
       "date": "11:55",
@@ -18795,11 +18769,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.25999450683594,
       "close": 179.58999633789062,
       "volume": 160979.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.44,
+      "ema20": 179.41,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 45.1
     },
     {
       "date": "12:00",
@@ -18808,11 +18782,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.10000610351562,
       "close": 179.1999969482422,
       "volume": 175058.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.41,
+      "ema20": 179.39,
       "ema50": null,
-      "rsi": 40.3
+      "rsi": 38.9
     },
     {
       "date": "12:05",
@@ -18821,11 +18795,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.0500030517578,
       "close": 179.24000549316406,
       "volume": 178639.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.4,
+      "ema20": 179.38,
       "ema50": null,
-      "rsi": 41.2
+      "rsi": 39.8
     },
     {
       "date": "12:10",
@@ -18834,11 +18808,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.02000427246094,
       "close": 179.27000427246094,
       "volume": 57146.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.38,
+      "ema20": 179.37,
       "ema50": null,
-      "rsi": 42.0
+      "rsi": 40.6
     },
     {
       "date": "12:15",
@@ -18847,11 +18821,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.24000549316406,
       "close": 179.6999969482422,
       "volume": 143378.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.41,
+      "ema20": 179.4,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 49.7
     },
     {
       "date": "12:20",
@@ -18860,11 +18834,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.6199951171875,
       "close": 179.7899932861328,
       "volume": 184848.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.45,
+      "ema20": 179.43,
       "ema50": null,
-      "rsi": 52.8
+      "rsi": 51.4
     },
     {
       "date": "12:25",
@@ -18873,11 +18847,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.57000732421875,
       "close": 179.8000030517578,
       "volume": 337014.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.48,
+      "ema20": 179.47,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": 51.6
     },
     {
       "date": "12:30",
@@ -18886,11 +18860,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.5500030517578,
       "close": 179.8300018310547,
       "volume": 90160.0,
-      "supertrend": 179.92,
+      "supertrend": 179.97,
       "st_dir": -1,
-      "ema20": 179.52,
+      "ema20": 179.5,
       "ema50": null,
-      "rsi": 53.7
+      "rsi": 52.2
     },
     {
       "date": "12:35",
@@ -18899,11 +18873,11 @@ window.DASHBOARD_CHARTS = {
       "low": 179.75,
       "close": 180.11000061035156,
       "volume": 390832.0,
-      "supertrend": 178.82,
+      "supertrend": 178.81,
       "st_dir": 1,
-      "ema20": 179.57,
+      "ema20": 179.56,
       "ema50": null,
-      "rsi": 59.1
+      "rsi": 57.7
     },
     {
       "date": "12:40",
@@ -18912,11 +18886,11 @@ window.DASHBOARD_CHARTS = {
       "low": 180.0399932861328,
       "close": 180.2899932861328,
       "volume": 282263.0,
-      "supertrend": 179.12,
+      "supertrend": 179.11,
       "st_dir": 1,
-      "ema20": 179.64,
+      "ema20": 179.63,
       "ema50": null,
-      "rsi": 62.1
+      "rsi": 60.8
     },
     {
       "date": "12:45",
@@ -18925,11 +18899,11 @@ window.DASHBOARD_CHARTS = {
       "low": 180.0500030517578,
       "close": 180.10000610351562,
       "volume": 143172.0,
-      "supertrend": 179.12,
+      "supertrend": 179.11,
       "st_dir": 1,
-      "ema20": 179.69,
+      "ema20": 179.68,
       "ema50": null,
-      "rsi": 57.3
+      "rsi": 56.1
     },
     {
       "date": "12:50",
@@ -18938,11 +18912,11 @@ window.DASHBOARD_CHARTS = {
       "low": 180.0399932861328,
       "close": 180.4600067138672,
       "volume": 323167.0,
-      "supertrend": 179.16,
+      "supertrend": 179.15,
       "st_dir": 1,
-      "ema20": 179.76,
+      "ema20": 179.75,
       "ema50": null,
-      "rsi": 63.1
+      "rsi": 62.1
     },
     {
       "date": "12:55",
@@ -18950,41 +18924,41 @@ window.DASHBOARD_CHARTS = {
       "high": 180.58999633789062,
       "low": 180.42999267578125,
       "close": 180.47000122070312,
-      "volume": 138500.0,
-      "supertrend": 179.46,
+      "volume": 151862.0,
+      "supertrend": 179.45,
       "st_dir": 1,
-      "ema20": 179.83,
-      "ema50": 179.63,
-      "rsi": 63.3
+      "ema20": 179.82,
+      "ema50": null,
+      "rsi": 62.2
+    },
+    {
+      "date": "13:00",
+      "open": 180.39999389648438,
+      "high": 180.4499969482422,
+      "low": 179.9199981689453,
+      "close": 180.0399932861328,
+      "volume": 287132.0,
+      "supertrend": 179.45,
+      "st_dir": 1,
+      "ema20": 179.84,
+      "ema50": null,
+      "rsi": 52.4
+    },
+    {
+      "date": "13:05",
+      "open": 180.02999877929688,
+      "high": 180.5399932861328,
+      "low": 179.9199981689453,
+      "close": 180.0800018310547,
+      "volume": 97267.0,
+      "supertrend": 179.45,
+      "st_dir": 1,
+      "ema20": 179.86,
+      "ema50": 179.55,
+      "rsi": 53.2
     }
   ],
   "JSWSTEEL.NS": [
-    {
-      "date": "15:00",
-      "open": 1332.4000244140625,
-      "high": 1333.0999755859375,
-      "low": 1332.0,
-      "close": 1333.0999755859375,
-      "volume": 30260.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1332.699951171875,
-      "high": 1333.5999755859375,
-      "low": 1332.0,
-      "close": 1333.300048828125,
-      "volume": 45169.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1333.5,
@@ -19083,8 +19057,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.0,
       "close": 1316.0,
       "volume": 17258.0,
-      "supertrend": 1327.57,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -19096,8 +19070,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.5,
       "close": 1316.699951171875,
       "volume": 12740.0,
-      "supertrend": 1327.57,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -19109,7 +19083,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1313.0999755859375,
       "close": 1314.800048828125,
       "volume": 23688.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19122,7 +19096,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1313.300048828125,
       "close": 1315.4000244140625,
       "volume": 13189.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19135,7 +19109,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.0999755859375,
       "close": 1318.9000244140625,
       "volume": 24706.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19148,11 +19122,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1318.5999755859375,
       "close": 1322.0,
       "volume": 24427.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -19161,11 +19135,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1320.0999755859375,
       "close": 1322.0,
       "volume": 8783.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -19174,11 +19148,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1320.0,
       "close": 1320.699951171875,
       "volume": 11374.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 31.8
+      "rsi": 25.7
     },
     {
       "date": "10:15",
@@ -19187,11 +19161,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1316.5,
       "close": 1317.5,
       "volume": 20103.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 28.5
+      "rsi": 23.2
     },
     {
       "date": "10:20",
@@ -19200,11 +19174,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1318.0999755859375,
       "close": 1320.0999755859375,
       "volume": 10728.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.4
+      "rsi": 29.3
     },
     {
       "date": "10:25",
@@ -19213,11 +19187,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.800048828125,
       "close": 1315.800048828125,
       "volume": 23014.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
-      "ema20": 1322.52,
+      "ema20": null,
       "ema50": null,
-      "rsi": 30.0
+      "rsi": 25.7
     },
     {
       "date": "10:30",
@@ -19226,11 +19200,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.800048828125,
       "close": 1315.199951171875,
       "volume": 17754.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.57,
       "st_dir": -1,
-      "ema20": 1321.82,
+      "ema20": null,
       "ema50": null,
-      "rsi": 29.4
+      "rsi": 25.2
     },
     {
       "date": "10:35",
@@ -19239,11 +19213,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.0,
       "close": 1317.0999755859375,
       "volume": 8304.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.49,
       "st_dir": -1,
-      "ema20": 1321.37,
+      "ema20": 1320.81,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": 29.6
     },
     {
       "date": "10:40",
@@ -19252,11 +19226,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.199951171875,
       "close": 1315.5999755859375,
       "volume": 8139.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.04,
       "st_dir": -1,
-      "ema20": 1320.82,
+      "ema20": 1320.31,
       "ema50": null,
-      "rsi": 32.1
+      "rsi": 28.2
     },
     {
       "date": "10:45",
@@ -19265,11 +19239,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.0,
       "close": 1315.800048828125,
       "volume": 16049.0,
-      "supertrend": 1326.04,
+      "supertrend": 1327.03,
       "st_dir": -1,
-      "ema20": 1320.34,
+      "ema20": 1319.88,
       "ema50": null,
-      "rsi": 32.5
+      "rsi": 28.7
     },
     {
       "date": "10:50",
@@ -19278,11 +19252,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.300048828125,
       "close": 1313.5,
       "volume": 33501.0,
-      "supertrend": 1324.87,
+      "supertrend": 1325.26,
       "st_dir": -1,
-      "ema20": 1319.69,
+      "ema20": 1319.28,
       "ema50": null,
-      "rsi": 29.9
+      "rsi": 26.4
     },
     {
       "date": "10:55",
@@ -19291,11 +19265,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.199951171875,
       "close": 1313.300048828125,
       "volume": 9168.0,
-      "supertrend": 1323.5,
+      "supertrend": 1323.85,
       "st_dir": -1,
-      "ema20": 1319.08,
+      "ema20": 1318.71,
       "ema50": null,
-      "rsi": 29.7
+      "rsi": 26.2
     },
     {
       "date": "11:00",
@@ -19304,11 +19278,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.300048828125,
       "close": 1312.4000244140625,
       "volume": 5590.0,
-      "supertrend": 1322.99,
+      "supertrend": 1323.31,
       "st_dir": -1,
-      "ema20": 1318.45,
+      "ema20": 1318.11,
       "ema50": null,
-      "rsi": 28.7
+      "rsi": 25.4
     },
     {
       "date": "11:05",
@@ -19317,11 +19291,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.0999755859375,
       "close": 1313.699951171875,
       "volume": 10507.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.94,
       "st_dir": -1,
-      "ema20": 1317.99,
+      "ema20": 1317.69,
       "ema50": null,
-      "rsi": 32.3
+      "rsi": 29.1
     },
     {
       "date": "11:10",
@@ -19330,11 +19304,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1313.0,
       "close": 1313.800048828125,
       "volume": 7443.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.93,
       "st_dir": -1,
-      "ema20": 1317.59,
+      "ema20": 1317.32,
       "ema50": null,
-      "rsi": 32.6
+      "rsi": 29.4
     },
     {
       "date": "11:15",
@@ -19343,11 +19317,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1313.4000244140625,
       "close": 1315.0,
       "volume": 6060.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.93,
       "st_dir": -1,
-      "ema20": 1317.35,
+      "ema20": 1317.1,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 32.9
     },
     {
       "date": "11:20",
@@ -19356,11 +19330,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.5999755859375,
       "close": 1315.800048828125,
       "volume": 9108.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.93,
       "st_dir": -1,
-      "ema20": 1317.2,
+      "ema20": 1316.97,
       "ema50": null,
-      "rsi": 38.4
+      "rsi": 35.3
     },
     {
       "date": "11:25",
@@ -19369,11 +19343,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.5999755859375,
       "close": 1315.5,
       "volume": 11143.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.93,
       "st_dir": -1,
-      "ema20": 1317.04,
+      "ema20": 1316.83,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 34.8
     },
     {
       "date": "11:30",
@@ -19382,11 +19356,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.5999755859375,
       "close": 1313.699951171875,
       "volume": 8317.0,
-      "supertrend": 1322.66,
+      "supertrend": 1322.93,
       "st_dir": -1,
-      "ema20": 1316.72,
+      "ema20": 1316.53,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 31.9
     },
     {
       "date": "11:35",
@@ -19395,11 +19369,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.4000244140625,
       "close": 1312.699951171875,
       "volume": 4825.0,
-      "supertrend": 1321.59,
+      "supertrend": 1321.74,
       "st_dir": -1,
-      "ema20": 1316.34,
+      "ema20": 1316.17,
       "ema50": null,
-      "rsi": 33.0
+      "rsi": 30.4
     },
     {
       "date": "11:40",
@@ -19408,11 +19382,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.199951171875,
       "close": 1312.9000244140625,
       "volume": 5136.0,
-      "supertrend": 1320.61,
+      "supertrend": 1320.75,
       "st_dir": -1,
-      "ema20": 1316.01,
+      "ema20": 1315.86,
       "ema50": null,
-      "rsi": 33.7
+      "rsi": 31.1
     },
     {
       "date": "11:45",
@@ -19421,11 +19395,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.5,
       "close": 1315.4000244140625,
       "volume": 28653.0,
-      "supertrend": 1320.61,
+      "supertrend": 1320.75,
       "st_dir": -1,
-      "ema20": 1315.95,
+      "ema20": 1315.81,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 39.3
     },
     {
       "date": "11:50",
@@ -19434,11 +19408,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1313.0999755859375,
       "close": 1313.199951171875,
       "volume": 5597.0,
-      "supertrend": 1320.61,
+      "supertrend": 1320.75,
       "st_dir": -1,
-      "ema20": 1315.69,
+      "ema20": 1315.56,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 35.3
     },
     {
       "date": "11:55",
@@ -19447,11 +19421,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.9000244140625,
       "close": 1313.5999755859375,
       "volume": 4926.0,
-      "supertrend": 1320.61,
+      "supertrend": 1320.75,
       "st_dir": -1,
-      "ema20": 1315.49,
+      "ema20": 1315.38,
       "ema50": null,
-      "rsi": 38.7
+      "rsi": 36.6
     },
     {
       "date": "12:00",
@@ -19460,11 +19434,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.699951171875,
       "close": 1313.5,
       "volume": 5022.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.3,
+      "ema20": 1315.2,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 36.4
     },
     {
       "date": "12:05",
@@ -19473,11 +19447,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.9000244140625,
       "close": 1315.9000244140625,
       "volume": 12897.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.36,
+      "ema20": 1315.27,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 43.9
     },
     {
       "date": "12:10",
@@ -19486,11 +19460,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1315.0999755859375,
       "close": 1316.0,
       "volume": 8818.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.42,
+      "ema20": 1315.34,
       "ema50": null,
-      "rsi": 46.2
+      "rsi": 44.2
     },
     {
       "date": "12:15",
@@ -19499,11 +19473,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1316.300048828125,
       "close": 1317.300048828125,
       "volume": 22542.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.6,
+      "ema20": 1315.52,
       "ema50": null,
-      "rsi": 49.9
+      "rsi": 48.1
     },
     {
       "date": "12:20",
@@ -19512,11 +19486,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1317.0,
       "close": 1318.4000244140625,
       "volume": 10619.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.87,
+      "ema20": 1315.8,
       "ema50": null,
-      "rsi": 52.9
+      "rsi": 51.2
     },
     {
       "date": "12:25",
@@ -19525,11 +19499,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1316.199951171875,
       "close": 1316.5,
       "volume": 8045.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.93,
+      "ema20": 1315.86,
       "ema50": null,
-      "rsi": 47.6
+      "rsi": 46.1
     },
     {
       "date": "12:30",
@@ -19538,11 +19512,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.0999755859375,
       "close": 1314.9000244140625,
       "volume": 28036.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.83,
+      "ema20": 1315.77,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 42.3
     },
     {
       "date": "12:35",
@@ -19551,11 +19525,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.4000244140625,
       "close": 1315.800048828125,
       "volume": 7697.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.83,
+      "ema20": 1315.77,
       "ema50": null,
-      "rsi": 46.4
+      "rsi": 45.0
     },
     {
       "date": "12:40",
@@ -19564,11 +19538,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.9000244140625,
       "close": 1315.199951171875,
       "volume": 12753.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.77,
+      "ema20": 1315.72,
       "ema50": null,
-      "rsi": 44.8
+      "rsi": 43.5
     },
     {
       "date": "12:45",
@@ -19577,11 +19551,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1314.699951171875,
       "close": 1314.800048828125,
       "volume": 17960.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.67,
+      "ema20": 1315.63,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 42.5
     },
     {
       "date": "12:50",
@@ -19590,53 +19564,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1312.699951171875,
       "close": 1314.5999755859375,
       "volume": 32961.0,
-      "supertrend": 1320.15,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.57,
+      "ema20": 1315.53,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 42.0
     },
     {
       "date": "12:55",
       "open": 1314.5,
       "high": 1315.0,
       "low": 1313.300048828125,
-      "close": 1314.0999755859375,
-      "volume": 9450.0,
-      "supertrend": 1320.15,
+      "close": 1314.300048828125,
+      "volume": 11074.0,
+      "supertrend": 1320.24,
       "st_dir": -1,
-      "ema20": 1315.43,
-      "ema50": 1317.91,
-      "rsi": 41.8
+      "ema20": 1315.42,
+      "ema50": null,
+      "rsi": 41.2
+    },
+    {
+      "date": "13:00",
+      "open": 1314.4000244140625,
+      "high": 1314.9000244140625,
+      "low": 1313.199951171875,
+      "close": 1314.199951171875,
+      "volume": 13671.0,
+      "supertrend": 1320.24,
+      "st_dir": -1,
+      "ema20": 1315.3,
+      "ema50": null,
+      "rsi": 40.9
+    },
+    {
+      "date": "13:05",
+      "open": 1313.800048828125,
+      "high": 1314.4000244140625,
+      "low": 1312.199951171875,
+      "close": 1312.199951171875,
+      "volume": 3179.0,
+      "supertrend": 1319.76,
+      "st_dir": -1,
+      "ema20": 1315.01,
+      "ema50": 1317.11,
+      "rsi": 35.6
     }
   ],
   "COALINDIA.NS": [
-    {
-      "date": "15:00",
-      "open": 391.25,
-      "high": 391.29998779296875,
-      "low": 390.5,
-      "close": 391.0,
-      "volume": 385679.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 390.79998779296875,
-      "high": 390.79998779296875,
-      "low": 390.20001220703125,
-      "close": 390.25,
-      "volume": 322019.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 390.3500061035156,
@@ -19735,8 +19709,8 @@ window.DASHBOARD_CHARTS = {
       "low": 389.1499938964844,
       "close": 389.54998779296875,
       "volume": 75910.0,
-      "supertrend": 392.59,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -19748,8 +19722,8 @@ window.DASHBOARD_CHARTS = {
       "low": 389.25,
       "close": 389.75,
       "volume": 66525.0,
-      "supertrend": 392.47,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -19761,7 +19735,7 @@ window.DASHBOARD_CHARTS = {
       "low": 389.29998779296875,
       "close": 389.45001220703125,
       "volume": 55879.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19774,7 +19748,7 @@ window.DASHBOARD_CHARTS = {
       "low": 389.1499938964844,
       "close": 389.6000061035156,
       "volume": 57343.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19787,7 +19761,7 @@ window.DASHBOARD_CHARTS = {
       "low": 389.54998779296875,
       "close": 390.54998779296875,
       "volume": 66064.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -19800,11 +19774,11 @@ window.DASHBOARD_CHARTS = {
       "low": 390.3999938964844,
       "close": 390.70001220703125,
       "volume": 54819.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -19813,11 +19787,11 @@ window.DASHBOARD_CHARTS = {
       "low": 390.0,
       "close": 390.29998779296875,
       "volume": 41426.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -19826,11 +19800,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.95001220703125,
       "close": 390.0,
       "volume": 33312.0,
-      "supertrend": 392.29,
+      "supertrend": 392.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 47.1
     },
     {
       "date": "10:15",
@@ -19839,11 +19813,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.8500061035156,
       "close": 389.1000061035156,
       "volume": 144786.0,
-      "supertrend": 392.17,
+      "supertrend": 392.24,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.8
+      "rsi": 41.3
     },
     {
       "date": "10:20",
@@ -19852,11 +19826,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.95001220703125,
       "close": 389.29998779296875,
       "volume": 35746.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 43.0
     },
     {
       "date": "10:25",
@@ -19865,11 +19839,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.0,
       "close": 389.3999938964844,
       "volume": 36697.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
-      "ema20": 390.24,
+      "ema20": null,
       "ema50": null,
-      "rsi": 40.5
+      "rsi": 43.8
     },
     {
       "date": "10:30",
@@ -19878,11 +19852,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.1499938964844,
       "close": 389.45001220703125,
       "volume": 33445.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
-      "ema20": 390.16,
+      "ema20": null,
       "ema50": null,
-      "rsi": 41.0
+      "rsi": 44.3
     },
     {
       "date": "10:35",
@@ -19891,11 +19865,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.3500061035156,
       "close": 389.75,
       "volume": 27432.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
-      "ema20": 390.12,
+      "ema20": 390.14,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 47.1
     },
     {
       "date": "10:40",
@@ -19904,11 +19878,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.25,
       "close": 389.70001220703125,
       "volume": 27948.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
-      "ema20": 390.08,
+      "ema20": 390.09,
       "ema50": null,
-      "rsi": 43.6
+      "rsi": 46.7
     },
     {
       "date": "10:45",
@@ -19917,11 +19891,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.54998779296875,
       "close": 389.8500061035156,
       "volume": 33505.0,
-      "supertrend": 391.8,
+      "supertrend": 391.86,
       "st_dir": -1,
-      "ema20": 390.06,
+      "ema20": 390.07,
       "ema50": null,
-      "rsi": 45.2
+      "rsi": 48.1
     },
     {
       "date": "10:50",
@@ -19930,11 +19904,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.25,
       "close": 389.54998779296875,
       "volume": 42237.0,
-      "supertrend": 391.79,
+      "supertrend": 391.82,
       "st_dir": -1,
-      "ema20": 390.01,
+      "ema20": 390.02,
       "ema50": null,
-      "rsi": 42.6
+      "rsi": 45.4
     },
     {
       "date": "10:55",
@@ -19943,11 +19917,11 @@ window.DASHBOARD_CHARTS = {
       "low": 389.1000061035156,
       "close": 389.3999938964844,
       "volume": 32384.0,
-      "supertrend": 391.71,
+      "supertrend": 391.74,
       "st_dir": -1,
-      "ema20": 389.95,
+      "ema20": 389.96,
       "ema50": null,
-      "rsi": 41.3
+      "rsi": 44.1
     },
     {
       "date": "11:00",
@@ -19956,11 +19930,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.70001220703125,
       "close": 388.75,
       "volume": 85567.0,
-      "supertrend": 391.33,
+      "supertrend": 391.36,
       "st_dir": -1,
-      "ema20": 389.84,
+      "ema20": 389.85,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 38.7
     },
     {
       "date": "11:05",
@@ -19969,11 +19943,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.29998779296875,
       "close": 387.45001220703125,
       "volume": 196091.0,
-      "supertrend": 390.59,
+      "supertrend": 390.61,
       "st_dir": -1,
-      "ema20": 389.61,
+      "ema20": 389.62,
       "ema50": null,
-      "rsi": 28.7
+      "rsi": 30.7
     },
     {
       "date": "11:10",
@@ -19982,11 +19956,11 @@ window.DASHBOARD_CHARTS = {
       "low": 386.70001220703125,
       "close": 387.04998779296875,
       "volume": 286462.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
       "ema20": 389.37,
       "ema50": null,
-      "rsi": 26.8
+      "rsi": 28.7
     },
     {
       "date": "11:15",
@@ -19995,11 +19969,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.0,
       "close": 387.79998779296875,
       "volume": 180796.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
       "ema20": 389.22,
       "ema50": null,
-      "rsi": 35.3
+      "rsi": 36.9
     },
     {
       "date": "11:20",
@@ -20008,11 +19982,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.6000061035156,
       "close": 387.8999938964844,
       "volume": 180087.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
-      "ema20": 389.09,
+      "ema20": 389.1,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 37.9
     },
     {
       "date": "11:25",
@@ -20021,11 +19995,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.5,
       "close": 387.6000061035156,
       "volume": 94847.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
       "ema20": 388.95,
       "ema50": null,
-      "rsi": 34.5
+      "rsi": 36.1
     },
     {
       "date": "11:30",
@@ -20034,11 +20008,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.29998779296875,
       "close": 387.6499938964844,
       "volume": 83445.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
       "ema20": 388.83,
       "ema50": null,
-      "rsi": 35.1
+      "rsi": 36.6
     },
     {
       "date": "11:35",
@@ -20047,11 +20021,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.3999938964844,
       "close": 387.5,
       "volume": 62110.0,
-      "supertrend": 389.54,
+      "supertrend": 389.56,
       "st_dir": -1,
       "ema20": 388.7,
       "ema50": null,
-      "rsi": 34.1
+      "rsi": 35.6
     },
     {
       "date": "11:40",
@@ -20060,11 +20034,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.3500061035156,
       "close": 387.45001220703125,
       "volume": 88572.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.58,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 35.3
     },
     {
       "date": "11:45",
@@ -20073,11 +20047,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.04998779296875,
       "close": 388.0,
       "volume": 91740.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.53,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 42.0
     },
     {
       "date": "11:50",
@@ -20086,11 +20060,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.5,
       "close": 387.8500061035156,
       "volume": 28527.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.46,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 40.8
     },
     {
       "date": "11:55",
@@ -20099,11 +20073,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.6499938964844,
       "close": 387.8500061035156,
       "volume": 32895.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
-      "ema20": 388.4,
+      "ema20": 388.41,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 40.8
     },
     {
       "date": "12:00",
@@ -20112,11 +20086,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.6000061035156,
       "close": 387.8999938964844,
       "volume": 36631.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.36,
       "ema50": null,
-      "rsi": 40.2
+      "rsi": 41.5
     },
     {
       "date": "12:05",
@@ -20125,11 +20099,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.79998779296875,
       "close": 388.5,
       "volume": 31864.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.37,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 49.0
     },
     {
       "date": "12:10",
@@ -20138,11 +20112,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.3999938964844,
       "close": 388.6499938964844,
       "volume": 31611.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.4,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 50.7
     },
     {
       "date": "12:15",
@@ -20151,11 +20125,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.5,
       "close": 388.79998779296875,
       "volume": 30357.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
-      "ema20": 388.43,
+      "ema20": 388.44,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 52.4
     },
     {
       "date": "12:20",
@@ -20164,11 +20138,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.6000061035156,
       "close": 388.70001220703125,
       "volume": 29725.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.46,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 51.1
     },
     {
       "date": "12:25",
@@ -20177,11 +20151,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.3999938964844,
       "close": 388.54998779296875,
       "volume": 35453.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.47,
       "ema50": null,
-      "rsi": 48.3
+      "rsi": 49.2
     },
     {
       "date": "12:30",
@@ -20190,11 +20164,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.20001220703125,
       "close": 388.6499938964844,
       "volume": 49503.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.49,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 50.5
     },
     {
       "date": "12:35",
@@ -20203,11 +20177,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.45001220703125,
       "close": 388.70001220703125,
       "volume": 21119.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.51,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 51.2
     },
     {
       "date": "12:40",
@@ -20216,11 +20190,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.3999938964844,
       "close": 388.70001220703125,
       "volume": 29983.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
-      "ema20": 388.52,
+      "ema20": 388.53,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 51.2
     },
     {
       "date": "12:45",
@@ -20229,11 +20203,11 @@ window.DASHBOARD_CHARTS = {
       "low": 388.5,
       "close": 388.70001220703125,
       "volume": 26612.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.54,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 51.2
     },
     {
       "date": "12:50",
@@ -20242,11 +20216,11 @@ window.DASHBOARD_CHARTS = {
       "low": 387.8500061035156,
       "close": 387.8999938964844,
       "volume": 78797.0,
-      "supertrend": 389.3,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.48,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 40.0
     },
     {
       "date": "12:55",
@@ -20254,41 +20228,41 @@ window.DASHBOARD_CHARTS = {
       "high": 388.25,
       "low": 387.8500061035156,
       "close": 388.25,
-      "volume": 20588.0,
-      "supertrend": 389.3,
+      "volume": 24745.0,
+      "supertrend": 389.31,
       "st_dir": -1,
       "ema20": 388.46,
-      "ema50": 389.15,
-      "rsi": 45.0
+      "ema50": null,
+      "rsi": 45.6
+    },
+    {
+      "date": "13:00",
+      "open": 387.95001220703125,
+      "high": 388.1000061035156,
+      "low": 387.8500061035156,
+      "close": 387.8500061035156,
+      "volume": 38176.0,
+      "supertrend": 389.31,
+      "st_dir": -1,
+      "ema20": 388.4,
+      "ema50": null,
+      "rsi": 40.9
+    },
+    {
+      "date": "13:05",
+      "open": 387.8999938964844,
+      "high": 387.95001220703125,
+      "low": 387.5,
+      "close": 387.5,
+      "volume": 17992.0,
+      "supertrend": 389.14,
+      "st_dir": -1,
+      "ema20": 388.32,
+      "ema50": 389.03,
+      "rsi": 37.3
     }
   ],
   "BAJAJFINSV.NS": [
-    {
-      "date": "14:55",
-      "open": 1864.800048828125,
-      "high": 1866.800048828125,
-      "low": 1864.800048828125,
-      "close": 1865.0,
-      "volume": 12862.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 1865.199951171875,
-      "high": 1865.300048828125,
-      "low": 1862.800048828125,
-      "close": 1865.0,
-      "volume": 17777.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 1865.0,
@@ -20387,8 +20361,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1841.800048828125,
       "close": 1842.5999755859375,
       "volume": 14103.0,
-      "supertrend": 1866.5,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -20400,8 +20374,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1841.4000244140625,
       "close": 1849.5,
       "volume": 27241.0,
-      "supertrend": 1866.5,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -20413,7 +20387,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1843.800048828125,
       "close": 1847.5999755859375,
       "volume": 12449.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -20426,7 +20400,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1844.5999755859375,
       "close": 1852.800048828125,
       "volume": 15720.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -20439,7 +20413,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1852.300048828125,
       "close": 1856.5999755859375,
       "volume": 12759.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -20452,11 +20426,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1855.5,
       "close": 1860.5,
       "volume": 17399.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -20465,11 +20439,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1855.0,
       "close": 1856.5,
       "volume": 13955.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -20478,11 +20452,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1849.300048828125,
       "close": 1851.0,
       "volume": 9606.0,
-      "supertrend": 1866.5,
+      "supertrend": 1874.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 40.2
     },
     {
       "date": "10:15",
@@ -20491,11 +20465,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1845.4000244140625,
       "close": 1847.0,
       "volume": 11010.0,
-      "supertrend": 1866.5,
+      "supertrend": 1872.72,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 38.0
     },
     {
       "date": "10:20",
@@ -20504,11 +20478,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1842.300048828125,
       "close": 1844.0,
       "volume": 6901.0,
-      "supertrend": 1866.5,
+      "supertrend": 1868.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 36.4
     },
     {
       "date": "10:25",
@@ -20517,11 +20491,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1842.9000244140625,
       "close": 1844.5999755859375,
       "volume": 5735.0,
-      "supertrend": 1866.5,
+      "supertrend": 1868.68,
       "st_dir": -1,
-      "ema20": 1853.16,
+      "ema20": null,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 37.0
     },
     {
       "date": "10:30",
@@ -20530,11 +20504,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1843.0,
       "close": 1845.199951171875,
       "volume": 4229.0,
-      "supertrend": 1864.95,
+      "supertrend": 1866.17,
       "st_dir": -1,
-      "ema20": 1852.4,
+      "ema20": null,
       "ema50": null,
-      "rsi": 37.0
+      "rsi": 37.6
     },
     {
       "date": "10:35",
@@ -20543,11 +20517,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1844.300048828125,
       "close": 1846.800048828125,
       "volume": 4019.0,
-      "supertrend": 1864.74,
+      "supertrend": 1865.83,
       "st_dir": -1,
-      "ema20": 1851.87,
+      "ema20": 1851.26,
       "ema50": null,
-      "rsi": 38.9
+      "rsi": 39.3
     },
     {
       "date": "10:40",
@@ -20556,11 +20530,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1843.5999755859375,
       "close": 1844.0999755859375,
       "volume": 8124.0,
-      "supertrend": 1864.03,
+      "supertrend": 1865.01,
       "st_dir": -1,
-      "ema20": 1851.13,
+      "ema20": 1850.58,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 37.4
     },
     {
       "date": "10:45",
@@ -20569,11 +20543,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1843.4000244140625,
       "close": 1844.199951171875,
       "volume": 9579.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1850.47,
+      "ema20": 1849.97,
       "ema50": null,
-      "rsi": 37.0
+      "rsi": 37.6
     },
     {
       "date": "10:50",
@@ -20582,11 +20556,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1842.800048828125,
       "close": 1847.300048828125,
       "volume": 30651.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1850.17,
+      "ema20": 1849.72,
       "ema50": null,
-      "rsi": 41.1
+      "rsi": 41.2
     },
     {
       "date": "10:55",
@@ -20595,11 +20569,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1845.5999755859375,
       "close": 1847.4000244140625,
       "volume": 9304.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.9,
+      "ema20": 1849.5,
       "ema50": null,
-      "rsi": 41.2
+      "rsi": 41.3
     },
     {
       "date": "11:00",
@@ -20608,11 +20582,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1847.800048828125,
       "close": 1848.9000244140625,
       "volume": 4713.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.81,
+      "ema20": 1849.44,
       "ema50": null,
-      "rsi": 43.3
+      "rsi": 43.2
     },
     {
       "date": "11:05",
@@ -20621,11 +20595,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.4000244140625,
       "close": 1849.199951171875,
       "volume": 5446.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.75,
+      "ema20": 1849.42,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 43.6
     },
     {
       "date": "11:10",
@@ -20634,11 +20608,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1847.199951171875,
       "close": 1847.5999755859375,
       "volume": 4625.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.55,
+      "ema20": 1849.24,
       "ema50": null,
-      "rsi": 41.9
+      "rsi": 42.0
     },
     {
       "date": "11:15",
@@ -20647,11 +20621,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1847.5,
       "close": 1850.5999755859375,
       "volume": 4975.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.65,
+      "ema20": 1849.37,
       "ema50": null,
-      "rsi": 46.4
+      "rsi": 46.1
     },
     {
       "date": "11:20",
@@ -20660,11 +20634,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.4000244140625,
       "close": 1848.9000244140625,
       "volume": 8014.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.57,
+      "ema20": 1849.33,
       "ema50": null,
-      "rsi": 44.3
+      "rsi": 44.2
     },
     {
       "date": "11:25",
@@ -20673,11 +20647,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.0,
       "close": 1852.0,
       "volume": 5245.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.81,
+      "ema20": 1849.58,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 48.4
     },
     {
       "date": "11:30",
@@ -20686,11 +20660,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.4000244140625,
       "close": 1851.4000244140625,
       "volume": 4174.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.96,
+      "ema20": 1849.76,
       "ema50": null,
-      "rsi": 48.0
+      "rsi": 47.6
     },
     {
       "date": "11:35",
@@ -20699,11 +20673,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1849.0999755859375,
       "close": 1849.5999755859375,
       "volume": 10020.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.95,
       "st_dir": -1,
-      "ema20": 1849.92,
+      "ema20": 1849.74,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 45.3
     },
     {
       "date": "11:40",
@@ -20712,11 +20686,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.699951171875,
       "close": 1849.800048828125,
       "volume": 4884.0,
-      "supertrend": 1862.07,
+      "supertrend": 1862.37,
       "st_dir": -1,
-      "ema20": 1849.91,
+      "ema20": 1849.75,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 45.7
     },
     {
       "date": "11:45",
@@ -20725,11 +20699,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.9000244140625,
       "close": 1850.699951171875,
       "volume": 4420.0,
-      "supertrend": 1861.12,
+      "supertrend": 1861.37,
       "st_dir": -1,
-      "ema20": 1849.99,
+      "ema20": 1849.84,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 47.1
     },
     {
       "date": "11:50",
@@ -20738,11 +20712,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.0,
       "close": 1848.4000244140625,
       "volume": 2942.0,
-      "supertrend": 1861.01,
+      "supertrend": 1861.23,
       "st_dir": -1,
-      "ema20": 1849.84,
+      "ema20": 1849.7,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 43.9
     },
     {
       "date": "11:55",
@@ -20751,11 +20725,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.800048828125,
       "close": 1848.4000244140625,
       "volume": 2766.0,
-      "supertrend": 1858.87,
+      "supertrend": 1859.07,
       "st_dir": -1,
-      "ema20": 1849.7,
+      "ema20": 1849.58,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 43.9
     },
     {
       "date": "12:00",
@@ -20764,11 +20738,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1847.5,
       "close": 1848.5,
       "volume": 12260.0,
-      "supertrend": 1858.87,
+      "supertrend": 1859.07,
       "st_dir": -1,
-      "ema20": 1849.58,
+      "ema20": 1849.47,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 44.1
     },
     {
       "date": "12:05",
@@ -20777,11 +20751,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1848.0,
       "close": 1848.4000244140625,
       "volume": 4186.0,
-      "supertrend": 1858.87,
+      "supertrend": 1859.07,
       "st_dir": -1,
-      "ema20": 1849.47,
+      "ema20": 1849.37,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 43.9
     },
     {
       "date": "12:10",
@@ -20790,9 +20764,9 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.699951171875,
       "close": 1847.300048828125,
       "volume": 2685.0,
-      "supertrend": 1857.55,
+      "supertrend": 1857.7,
       "st_dir": -1,
-      "ema20": 1849.27,
+      "ema20": 1849.17,
       "ema50": null,
       "rsi": 42.1
     },
@@ -20803,11 +20777,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.9000244140625,
       "close": 1846.9000244140625,
       "volume": 27685.0,
-      "supertrend": 1857.55,
+      "supertrend": 1857.7,
       "st_dir": -1,
-      "ema20": 1849.04,
+      "ema20": 1848.96,
       "ema50": null,
-      "rsi": 41.3
+      "rsi": 41.4
     },
     {
       "date": "12:20",
@@ -20816,11 +20790,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1845.0,
       "close": 1847.9000244140625,
       "volume": 8555.0,
-      "supertrend": 1856.43,
+      "supertrend": 1856.55,
       "st_dir": -1,
-      "ema20": 1848.93,
+      "ema20": 1848.86,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 43.8
     },
     {
       "date": "12:25",
@@ -20829,11 +20803,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1846.0,
       "close": 1846.0,
       "volume": 2891.0,
-      "supertrend": 1856.43,
+      "supertrend": 1856.55,
       "st_dir": -1,
-      "ema20": 1848.65,
+      "ema20": 1848.58,
       "ema50": null,
-      "rsi": 40.3
+      "rsi": 40.4
     },
     {
       "date": "12:30",
@@ -20842,11 +20816,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1844.0,
       "close": 1846.300048828125,
       "volume": 6517.0,
-      "supertrend": 1854.95,
+      "supertrend": 1855.05,
       "st_dir": -1,
-      "ema20": 1848.43,
+      "ema20": 1848.37,
       "ema50": null,
-      "rsi": 41.1
+      "rsi": 41.2
     },
     {
       "date": "12:35",
@@ -20855,11 +20829,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1844.199951171875,
       "close": 1846.199951171875,
       "volume": 10060.0,
-      "supertrend": 1854.79,
+      "supertrend": 1854.88,
       "st_dir": -1,
-      "ema20": 1848.22,
+      "ema20": 1848.16,
       "ema50": null,
-      "rsi": 40.9
+      "rsi": 41.0
     },
     {
       "date": "12:40",
@@ -20868,11 +20842,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1843.0999755859375,
       "close": 1844.199951171875,
       "volume": 2777.0,
-      "supertrend": 1854.1,
+      "supertrend": 1854.18,
       "st_dir": -1,
-      "ema20": 1847.83,
+      "ema20": 1847.78,
       "ema50": null,
-      "rsi": 37.0
+      "rsi": 37.2
     },
     {
       "date": "12:45",
@@ -20881,11 +20855,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1842.800048828125,
       "close": 1849.5999755859375,
       "volume": 68016.0,
-      "supertrend": 1854.1,
+      "supertrend": 1854.18,
       "st_dir": -1,
-      "ema20": 1848.0,
+      "ema20": 1847.96,
       "ema50": null,
-      "rsi": 50.7
+      "rsi": 50.5
     },
     {
       "date": "12:50",
@@ -20894,53 +20868,53 @@ window.DASHBOARD_CHARTS = {
       "low": 1849.4000244140625,
       "close": 1851.5,
       "volume": 8078.0,
-      "supertrend": 1854.1,
+      "supertrend": 1854.18,
       "st_dir": -1,
-      "ema20": 1848.33,
+      "ema20": 1848.29,
       "ema50": null,
-      "rsi": 54.5
+      "rsi": 54.1
     },
     {
       "date": "12:55",
       "open": 1851.5,
       "high": 1852.9000244140625,
-      "low": 1851.300048828125,
-      "close": 1851.300048828125,
-      "volume": 6572.0,
-      "supertrend": 1854.1,
+      "low": 1850.9000244140625,
+      "close": 1851.4000244140625,
+      "volume": 7617.0,
+      "supertrend": 1854.18,
       "st_dir": -1,
-      "ema20": 1848.62,
-      "ema50": 1850.16,
-      "rsi": 54.0
+      "ema20": 1848.59,
+      "ema50": null,
+      "rsi": 53.9
+    },
+    {
+      "date": "13:00",
+      "open": 1851.5999755859375,
+      "high": 1851.699951171875,
+      "low": 1850.0,
+      "close": 1850.4000244140625,
+      "volume": 8295.0,
+      "supertrend": 1854.18,
+      "st_dir": -1,
+      "ema20": 1848.76,
+      "ema50": null,
+      "rsi": 51.6
+    },
+    {
+      "date": "13:05",
+      "open": 1850.5,
+      "high": 1850.9000244140625,
+      "low": 1848.5999755859375,
+      "close": 1848.5999755859375,
+      "volume": 5094.0,
+      "supertrend": 1854.18,
+      "st_dir": -1,
+      "ema20": 1848.75,
+      "ema50": 1849.54,
+      "rsi": 47.6
     }
   ],
   "ASIANPAINT.NS": [
-    {
-      "date": "15:00",
-      "open": 2625.800048828125,
-      "high": 2625.89990234375,
-      "low": 2621.199951171875,
-      "close": 2622.800048828125,
-      "volume": 20512.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 2623.300048828125,
-      "high": 2623.39990234375,
-      "low": 2619.0,
-      "close": 2621.199951171875,
-      "volume": 48565.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 2619.800048828125,
@@ -21039,8 +21013,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2580.60009765625,
       "close": 2586.0,
       "volume": 18356.0,
-      "supertrend": 2610.03,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -21052,8 +21026,8 @@ window.DASHBOARD_CHARTS = {
       "low": 2578.0,
       "close": 2580.0,
       "volume": 10398.0,
-      "supertrend": 2607.43,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -21065,7 +21039,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2573.89990234375,
       "close": 2576.5,
       "volume": 11670.0,
-      "supertrend": 2601.98,
+      "supertrend": 2604.43,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21078,7 +21052,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2576.0,
       "close": 2582.0,
       "volume": 14933.0,
-      "supertrend": 2601.98,
+      "supertrend": 2604.43,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21091,7 +21065,7 @@ window.DASHBOARD_CHARTS = {
       "low": 2576.0,
       "close": 2576.0,
       "volume": 6553.0,
-      "supertrend": 2601.98,
+      "supertrend": 2604.43,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21104,11 +21078,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2573.5,
       "close": 2576.5,
       "volume": 10248.0,
-      "supertrend": 2600.08,
+      "supertrend": 2601.86,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.1
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -21117,11 +21091,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2574.300048828125,
       "close": 2577.60009765625,
       "volume": 7603.0,
-      "supertrend": 2599.05,
+      "supertrend": 2600.66,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -21130,11 +21104,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2576.0,
       "close": 2576.5,
       "volume": 8631.0,
-      "supertrend": 2599.05,
+      "supertrend": 2600.66,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.0
+      "rsi": 21.0
     },
     {
       "date": "10:15",
@@ -21143,11 +21117,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2572.10009765625,
       "close": 2575.300048828125,
       "volume": 13931.0,
-      "supertrend": 2595.21,
+      "supertrend": 2596.51,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.6
+      "rsi": 20.6
     },
     {
       "date": "10:20",
@@ -21156,11 +21130,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.199951171875,
       "close": 2572.0,
       "volume": 5975.0,
-      "supertrend": 2593.62,
+      "supertrend": 2594.79,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 18.6
+      "rsi": 19.6
     },
     {
       "date": "10:25",
@@ -21169,11 +21143,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.89990234375,
       "close": 2573.10009765625,
       "volume": 9056.0,
-      "supertrend": 2593.62,
+      "supertrend": 2594.79,
       "st_dir": -1,
-      "ema20": 2590.38,
+      "ema20": null,
       "ema50": null,
-      "rsi": 20.1
+      "rsi": 21.0
     },
     {
       "date": "10:30",
@@ -21182,11 +21156,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.5,
       "close": 2572.0,
       "volume": 5898.0,
-      "supertrend": 2591.77,
+      "supertrend": 2592.72,
       "st_dir": -1,
-      "ema20": 2588.63,
+      "ema20": null,
       "ema50": null,
-      "rsi": 19.7
+      "rsi": 20.6
     },
     {
       "date": "10:35",
@@ -21195,11 +21169,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.0,
       "close": 2573.60009765625,
       "volume": 3935.0,
-      "supertrend": 2590.21,
+      "supertrend": 2591.06,
       "st_dir": -1,
-      "ema20": 2587.2,
+      "ema20": 2585.46,
       "ema50": null,
-      "rsi": 22.1
+      "rsi": 22.8
     },
     {
       "date": "10:40",
@@ -21208,11 +21182,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.199951171875,
       "close": 2571.199951171875,
       "volume": 5872.0,
-      "supertrend": 2590.21,
+      "supertrend": 2591.06,
       "st_dir": -1,
-      "ema20": 2585.67,
+      "ema20": 2584.1,
       "ema50": null,
-      "rsi": 21.1
+      "rsi": 21.9
     },
     {
       "date": "10:45",
@@ -21221,11 +21195,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2569.5,
       "close": 2573.10009765625,
       "volume": 15931.0,
-      "supertrend": 2590.21,
+      "supertrend": 2591.06,
       "st_dir": -1,
-      "ema20": 2584.48,
+      "ema20": 2583.05,
       "ema50": null,
-      "rsi": 24.1
+      "rsi": 24.6
     },
     {
       "date": "10:50",
@@ -21234,11 +21208,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2572.0,
       "close": 2574.10009765625,
       "volume": 4803.0,
-      "supertrend": 2589.81,
+      "supertrend": 2590.43,
       "st_dir": -1,
-      "ema20": 2583.49,
+      "ema20": 2582.2,
       "ema50": null,
-      "rsi": 25.7
+      "rsi": 26.1
     },
     {
       "date": "10:55",
@@ -21247,11 +21221,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2568.5,
       "close": 2569.39990234375,
       "volume": 9082.0,
-      "supertrend": 2587.69,
+      "supertrend": 2588.24,
       "st_dir": -1,
-      "ema20": 2582.15,
+      "ema20": 2580.98,
       "ema50": null,
-      "rsi": 23.2
+      "rsi": 23.7
     },
     {
       "date": "11:00",
@@ -21260,11 +21234,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2568.800048828125,
       "close": 2569.699951171875,
       "volume": 4732.0,
-      "supertrend": 2586.21,
+      "supertrend": 2586.71,
       "st_dir": -1,
-      "ema20": 2580.96,
+      "ema20": 2579.91,
       "ema50": null,
-      "rsi": 23.7
+      "rsi": 24.2
     },
     {
       "date": "11:05",
@@ -21273,11 +21247,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2569.0,
       "close": 2571.0,
       "volume": 4604.0,
-      "supertrend": 2586.21,
+      "supertrend": 2586.71,
       "st_dir": -1,
-      "ema20": 2580.01,
+      "ema20": 2579.06,
       "ema50": null,
-      "rsi": 26.0
+      "rsi": 26.3
     },
     {
       "date": "11:10",
@@ -21286,11 +21260,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2570.39990234375,
       "close": 2571.10009765625,
       "volume": 4619.0,
-      "supertrend": 2586.21,
+      "supertrend": 2586.71,
       "st_dir": -1,
-      "ema20": 2579.16,
+      "ema20": 2578.3,
       "ema50": null,
-      "rsi": 26.2
+      "rsi": 26.5
     },
     {
       "date": "11:15",
@@ -21299,11 +21273,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2568.5,
       "close": 2569.10009765625,
       "volume": 8697.0,
-      "supertrend": 2584.97,
+      "supertrend": 2585.33,
       "st_dir": -1,
-      "ema20": 2578.21,
+      "ema20": 2577.42,
       "ema50": null,
-      "rsi": 24.9
+      "rsi": 25.2
     },
     {
       "date": "11:20",
@@ -21312,11 +21286,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2569.0,
       "close": 2571.5,
       "volume": 7263.0,
-      "supertrend": 2584.63,
+      "supertrend": 2584.96,
       "st_dir": -1,
-      "ema20": 2577.57,
+      "ema20": 2576.86,
       "ema50": null,
-      "rsi": 29.5
+      "rsi": 29.6
     },
     {
       "date": "11:25",
@@ -21325,11 +21299,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.300048828125,
       "close": 2574.800048828125,
       "volume": 4760.0,
-      "supertrend": 2584.63,
+      "supertrend": 2584.96,
       "st_dir": -1,
-      "ema20": 2577.3,
+      "ema20": 2576.66,
       "ema50": null,
-      "rsi": 35.3
+      "rsi": 35.1
     },
     {
       "date": "11:30",
@@ -21338,11 +21312,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2570.699951171875,
       "close": 2574.10009765625,
       "volume": 4126.0,
-      "supertrend": 2584.63,
+      "supertrend": 2584.96,
       "st_dir": -1,
-      "ema20": 2577.0,
+      "ema20": 2576.42,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 34.5
     },
     {
       "date": "11:35",
@@ -21351,11 +21325,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.0,
       "close": 2572.10009765625,
       "volume": 6090.0,
-      "supertrend": 2584.63,
+      "supertrend": 2584.96,
       "st_dir": -1,
-      "ema20": 2576.53,
+      "ema20": 2576.01,
       "ema50": null,
-      "rsi": 32.8
+      "rsi": 32.7
     },
     {
       "date": "11:40",
@@ -21364,9 +21338,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2570.0,
       "close": 2571.60009765625,
       "volume": 3423.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2576.06,
+      "ema20": 2575.59,
       "ema50": null,
       "rsi": 32.3
     },
@@ -21377,11 +21351,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2569.800048828125,
       "close": 2575.800048828125,
       "volume": 11922.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2576.04,
+      "ema20": 2575.61,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 39.7
     },
     {
       "date": "11:50",
@@ -21390,11 +21364,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2572.300048828125,
       "close": 2573.39990234375,
       "volume": 4069.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2575.79,
+      "ema20": 2575.4,
       "ema50": null,
-      "rsi": 37.5
+      "rsi": 37.2
     },
     {
       "date": "11:55",
@@ -21403,11 +21377,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2572.0,
       "close": 2574.39990234375,
       "volume": 30794.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2575.65,
+      "ema20": 2575.3,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 38.9
     },
     {
       "date": "12:00",
@@ -21416,11 +21390,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.0,
       "close": 2571.0,
       "volume": 5474.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2575.21,
+      "ema20": 2574.89,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 35.4
     },
     {
       "date": "12:05",
@@ -21429,11 +21403,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.0,
       "close": 2572.89990234375,
       "volume": 4204.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2574.99,
+      "ema20": 2574.7,
       "ema50": null,
-      "rsi": 39.0
+      "rsi": 38.8
     },
     {
       "date": "12:10",
@@ -21442,11 +21416,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2571.60009765625,
       "close": 2574.300048828125,
       "volume": 5236.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2574.92,
+      "ema20": 2574.67,
       "ema50": null,
-      "rsi": 41.5
+      "rsi": 41.2
     },
     {
       "date": "12:15",
@@ -21455,11 +21429,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2572.0,
       "close": 2572.0,
       "volume": 2654.0,
-      "supertrend": 2584.11,
+      "supertrend": 2584.33,
       "st_dir": -1,
-      "ema20": 2574.65,
+      "ema20": 2574.41,
       "ema50": null,
-      "rsi": 38.7
+      "rsi": 38.5
     },
     {
       "date": "12:20",
@@ -21468,11 +21442,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2570.89990234375,
       "close": 2570.89990234375,
       "volume": 4297.0,
-      "supertrend": 2584.03,
+      "supertrend": 2584.12,
       "st_dir": -1,
-      "ema20": 2574.29,
+      "ema20": 2574.08,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 37.2
     },
     {
       "date": "12:25",
@@ -21481,9 +21455,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2566.39990234375,
       "close": 2566.60009765625,
       "volume": 29390.0,
-      "supertrend": 2582.55,
+      "supertrend": 2582.64,
       "st_dir": -1,
-      "ema20": 2573.56,
+      "ema20": 2573.36,
       "ema50": null,
       "rsi": 32.7
     },
@@ -21494,9 +21468,9 @@ window.DASHBOARD_CHARTS = {
       "low": 2563.0,
       "close": 2564.89990234375,
       "volume": 7861.0,
-      "supertrend": 2577.69,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2572.73,
+      "ema20": 2572.56,
       "ema50": null,
       "rsi": 31.1
     },
@@ -21507,11 +21481,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2564.199951171875,
       "close": 2569.0,
       "volume": 10111.0,
-      "supertrend": 2577.69,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2572.38,
+      "ema20": 2572.22,
       "ema50": null,
-      "rsi": 39.1
+      "rsi": 38.9
     },
     {
       "date": "12:40",
@@ -21520,11 +21494,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2566.60009765625,
       "close": 2568.10009765625,
       "volume": 4501.0,
-      "supertrend": 2577.69,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2571.97,
+      "ema20": 2571.83,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 37.9
     },
     {
       "date": "12:45",
@@ -21533,11 +21507,11 @@ window.DASHBOARD_CHARTS = {
       "low": 2565.0,
       "close": 2566.800048828125,
       "volume": 4918.0,
-      "supertrend": 2577.69,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2571.48,
+      "ema20": 2571.35,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": 36.4
     },
     {
       "date": "12:50",
@@ -21546,53 +21520,53 @@ window.DASHBOARD_CHARTS = {
       "low": 2564.699951171875,
       "close": 2567.5,
       "volume": 3068.0,
-      "supertrend": 2577.69,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2571.1,
+      "ema20": 2570.98,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 37.8
     },
     {
       "date": "12:55",
       "open": 2567.699951171875,
       "high": 2568.199951171875,
       "low": 2566.199951171875,
-      "close": 2566.60009765625,
-      "volume": 3469.0,
-      "supertrend": 2577.69,
+      "close": 2566.300048828125,
+      "volume": 3867.0,
+      "supertrend": 2577.76,
       "st_dir": -1,
-      "ema20": 2570.67,
-      "ema50": 2578.8,
+      "ema20": 2570.54,
+      "ema50": null,
+      "rsi": 36.3
+    },
+    {
+      "date": "13:00",
+      "open": 2566.5,
+      "high": 2566.5,
+      "low": 2563.5,
+      "close": 2566.5,
+      "volume": 4605.0,
+      "supertrend": 2576.25,
+      "st_dir": -1,
+      "ema20": 2570.15,
+      "ema50": null,
       "rsi": 36.8
+    },
+    {
+      "date": "13:05",
+      "open": 2566.0,
+      "high": 2568.199951171875,
+      "low": 2565.199951171875,
+      "close": 2565.60009765625,
+      "volume": 872.0,
+      "supertrend": 2576.25,
+      "st_dir": -1,
+      "ema20": 2569.72,
+      "ema50": 2576.56,
+      "rsi": 35.6
     }
   ],
   "ULTRACEMCO.NS": [
-    {
-      "date": "15:00",
-      "open": 12291.0,
-      "high": 12294.0,
-      "low": 12282.0,
-      "close": 12288.0,
-      "volume": 7623.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 12290.0,
-      "high": 12290.0,
-      "low": 12271.0,
-      "close": 12278.0,
-      "volume": 8798.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 12269.0,
@@ -21691,8 +21665,8 @@ window.DASHBOARD_CHARTS = {
       "low": 12331.0,
       "close": 12331.0,
       "volume": 2963.0,
-      "supertrend": 12435.4,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -21704,8 +21678,8 @@ window.DASHBOARD_CHARTS = {
       "low": 12318.0,
       "close": 12337.0,
       "volume": 1691.0,
-      "supertrend": 12421.16,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -21717,7 +21691,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12312.0,
       "close": 12335.0,
       "volume": 2683.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21730,7 +21704,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12332.0,
       "close": 12352.0,
       "volume": 2984.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21743,7 +21717,7 @@ window.DASHBOARD_CHARTS = {
       "low": 12349.0,
       "close": 12361.0,
       "volume": 3349.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -21756,11 +21730,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12361.0,
       "close": 12381.0,
       "volume": 2877.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 77.8
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -21769,11 +21743,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12365.0,
       "close": 12375.0,
       "volume": 2435.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 74.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -21782,11 +21756,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12365.0,
       "close": 12381.0,
       "volume": 2187.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 75.9
+      "rsi": 79.0
     },
     {
       "date": "10:15",
@@ -21795,11 +21769,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12371.0,
       "close": 12377.0,
       "volume": 1517.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 73.9
+      "rsi": 76.9
     },
     {
       "date": "10:20",
@@ -21808,11 +21782,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12366.0,
       "close": 12371.0,
       "volume": 1941.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 70.8
+      "rsi": 73.7
     },
     {
       "date": "10:25",
@@ -21821,11 +21795,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12368.0,
       "close": 12379.0,
       "volume": 1990.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
-      "ema20": 12334.1,
+      "ema20": null,
       "ema50": null,
-      "rsi": 72.4
+      "rsi": 75.2
     },
     {
       "date": "10:30",
@@ -21834,11 +21808,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12352.0,
       "close": 12358.0,
       "volume": 3025.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
-      "ema20": 12336.38,
+      "ema20": null,
       "ema50": null,
-      "rsi": 62.5
+      "rsi": 64.9
     },
     {
       "date": "10:35",
@@ -21847,11 +21821,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12341.0,
       "close": 12348.0,
       "volume": 2203.0,
-      "supertrend": 12417.59,
+      "supertrend": 12426.6,
       "st_dir": -1,
-      "ema20": 12337.48,
+      "ema20": 12341.1,
       "ema50": null,
-      "rsi": 58.3
+      "rsi": 60.6
     },
     {
       "date": "10:40",
@@ -21860,11 +21834,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12332.0,
       "close": 12350.0,
       "volume": 3321.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12338.68,
+      "ema20": 12341.95,
       "ema50": null,
-      "rsi": 58.9
+      "rsi": 61.2
     },
     {
       "date": "10:45",
@@ -21873,11 +21847,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12340.0,
       "close": 12370.0,
       "volume": 3648.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12341.66,
+      "ema20": 12344.62,
       "ema50": null,
-      "rsi": 64.3
+      "rsi": 66.2
     },
     {
       "date": "10:50",
@@ -21886,11 +21860,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12363.0,
       "close": 12373.0,
       "volume": 2700.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12344.64,
+      "ema20": 12347.32,
       "ema50": null,
-      "rsi": 65.0
+      "rsi": 66.9
     },
     {
       "date": "10:55",
@@ -21899,11 +21873,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12364.0,
       "close": 12375.0,
       "volume": 2547.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12347.53,
+      "ema20": 12349.96,
       "ema50": null,
-      "rsi": 65.6
+      "rsi": 67.4
     },
     {
       "date": "11:00",
@@ -21912,11 +21886,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12365.0,
       "close": 12365.0,
       "volume": 2910.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12349.2,
+      "ema20": 12351.39,
       "ema50": null,
-      "rsi": 60.8
+      "rsi": 62.5
     },
     {
       "date": "11:05",
@@ -21925,11 +21899,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12363.0,
       "close": 12377.0,
       "volume": 3972.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12351.85,
+      "ema20": 12353.83,
       "ema50": null,
-      "rsi": 64.2
+      "rsi": 65.7
     },
     {
       "date": "11:10",
@@ -21938,11 +21912,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12372.0,
       "close": 12383.0,
       "volume": 1436.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12354.81,
+      "ema20": 12356.61,
       "ema50": null,
-      "rsi": 65.7
+      "rsi": 67.3
     },
     {
       "date": "11:15",
@@ -21951,11 +21925,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12378.0,
       "close": 12397.0,
       "volume": 3006.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12358.83,
+      "ema20": 12360.45,
       "ema50": null,
-      "rsi": 69.2
+      "rsi": 70.5
     },
     {
       "date": "11:20",
@@ -21964,11 +21938,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12386.0,
       "close": 12390.0,
       "volume": 4840.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12361.8,
+      "ema20": 12363.27,
       "ema50": null,
-      "rsi": 65.6
+      "rsi": 66.9
     },
     {
       "date": "11:25",
@@ -21977,11 +21951,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12383.0,
       "close": 12386.0,
       "volume": 926.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12364.1,
+      "ema20": 12365.43,
       "ema50": null,
-      "rsi": 63.6
+      "rsi": 64.9
     },
     {
       "date": "11:30",
@@ -21990,11 +21964,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12377.0,
       "close": 12386.0,
       "volume": 1172.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12366.19,
+      "ema20": 12367.39,
       "ema50": null,
-      "rsi": 63.6
+      "rsi": 64.9
     },
     {
       "date": "11:35",
@@ -22003,11 +21977,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12374.0,
       "close": 12374.0,
       "volume": 1182.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12366.93,
+      "ema20": 12368.02,
       "ema50": null,
-      "rsi": 57.5
+      "rsi": 58.7
     },
     {
       "date": "11:40",
@@ -22016,11 +21990,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12363.0,
       "close": 12371.0,
       "volume": 1279.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12367.32,
+      "ema20": 12368.31,
       "ema50": null,
-      "rsi": 56.0
+      "rsi": 57.2
     },
     {
       "date": "11:45",
@@ -22029,11 +22003,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12360.0,
       "close": 12381.0,
       "volume": 1485.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12368.62,
+      "ema20": 12369.51,
       "ema50": null,
-      "rsi": 59.7
+      "rsi": 60.7
     },
     {
       "date": "11:50",
@@ -22042,11 +22016,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12361.0,
       "close": 12361.0,
       "volume": 1463.0,
-      "supertrend": 12412.82,
+      "supertrend": 12415.64,
       "st_dir": -1,
-      "ema20": 12367.9,
+      "ema20": 12368.7,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 51.5
     },
     {
       "date": "11:55",
@@ -22055,11 +22029,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12355.0,
       "close": 12359.0,
       "volume": 1207.0,
-      "supertrend": 12410.32,
+      "supertrend": 12410.9,
       "st_dir": -1,
-      "ema20": 12367.05,
+      "ema20": 12367.78,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 50.7
     },
     {
       "date": "12:00",
@@ -22068,11 +22042,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12348.0,
       "close": 12352.0,
       "volume": 1816.0,
-      "supertrend": 12406.54,
+      "supertrend": 12407.06,
       "st_dir": -1,
-      "ema20": 12365.62,
+      "ema20": 12366.28,
       "ema50": null,
-      "rsi": 47.0
+      "rsi": 47.8
     },
     {
       "date": "12:05",
@@ -22081,11 +22055,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12352.0,
       "close": 12370.0,
       "volume": 898.0,
-      "supertrend": 12406.54,
+      "supertrend": 12407.06,
       "st_dir": -1,
-      "ema20": 12366.03,
+      "ema20": 12366.63,
       "ema50": null,
-      "rsi": 54.2
+      "rsi": 54.9
     },
     {
       "date": "12:10",
@@ -22094,11 +22068,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12363.0,
       "close": 12369.0,
       "volume": 1574.0,
-      "supertrend": 12406.54,
+      "supertrend": 12407.06,
       "st_dir": -1,
-      "ema20": 12366.32,
+      "ema20": 12366.86,
       "ema50": null,
-      "rsi": 53.8
+      "rsi": 54.5
     },
     {
       "date": "12:15",
@@ -22107,11 +22081,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12370.0,
       "close": 12376.0,
       "volume": 939.0,
-      "supertrend": 12406.54,
+      "supertrend": 12407.06,
       "st_dir": -1,
-      "ema20": 12367.24,
+      "ema20": 12367.73,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 57.1
     },
     {
       "date": "12:20",
@@ -22120,11 +22094,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12356.0,
       "close": 12365.0,
       "volume": 1552.0,
-      "supertrend": 12406.54,
+      "supertrend": 12407.06,
       "st_dir": -1,
-      "ema20": 12367.03,
+      "ema20": 12367.47,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 52.0
     },
     {
       "date": "12:25",
@@ -22133,11 +22107,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12324.0,
       "close": 12331.0,
       "volume": 4369.0,
-      "supertrend": 12402.13,
+      "supertrend": 12402.44,
       "st_dir": -1,
-      "ema20": 12363.59,
+      "ema20": 12363.99,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": 40.2
     },
     {
       "date": "12:30",
@@ -22146,11 +22120,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12324.0,
       "close": 12336.0,
       "volume": 2192.0,
-      "supertrend": 12388.22,
+      "supertrend": 12388.49,
       "st_dir": -1,
-      "ema20": 12360.97,
+      "ema20": 12361.33,
       "ema50": null,
-      "rsi": 41.8
+      "rsi": 42.3
     },
     {
       "date": "12:35",
@@ -22159,11 +22133,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12327.0,
       "close": 12344.0,
       "volume": 1230.0,
-      "supertrend": 12388.22,
+      "supertrend": 12388.49,
       "st_dir": -1,
-      "ema20": 12359.35,
+      "ema20": 12359.68,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": 45.5
     },
     {
       "date": "12:40",
@@ -22172,11 +22146,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12325.0,
       "close": 12330.0,
       "volume": 2940.0,
-      "supertrend": 12388.22,
+      "supertrend": 12388.49,
       "st_dir": -1,
-      "ema20": 12356.56,
+      "ema20": 12356.85,
       "ema50": null,
-      "rsi": 40.7
+      "rsi": 41.1
     },
     {
       "date": "12:45",
@@ -22185,11 +22159,11 @@ window.DASHBOARD_CHARTS = {
       "low": 12324.0,
       "close": 12328.0,
       "volume": 1232.0,
-      "supertrend": 12384.01,
+      "supertrend": 12384.21,
       "st_dir": -1,
-      "ema20": 12353.84,
+      "ema20": 12354.1,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 40.5
     },
     {
       "date": "12:50",
@@ -22198,53 +22172,53 @@ window.DASHBOARD_CHARTS = {
       "low": 12328.0,
       "close": 12342.0,
       "volume": 1229.0,
-      "supertrend": 12384.01,
+      "supertrend": 12384.21,
       "st_dir": -1,
-      "ema20": 12352.71,
+      "ema20": 12352.95,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 46.4
     },
     {
       "date": "12:55",
       "open": 12341.0,
-      "high": 12343.0,
+      "high": 12344.0,
       "low": 12335.0,
-      "close": 12342.0,
-      "volume": 910.0,
-      "supertrend": 12384.01,
+      "close": 12344.0,
+      "volume": 1008.0,
+      "supertrend": 12384.21,
       "st_dir": -1,
-      "ema20": 12351.69,
-      "ema50": 12351.42,
-      "rsi": 46.1
+      "ema20": 12352.1,
+      "ema50": null,
+      "rsi": 47.2
+    },
+    {
+      "date": "13:00",
+      "open": 12344.0,
+      "high": 12350.0,
+      "low": 12342.0,
+      "close": 12345.0,
+      "volume": 1957.0,
+      "supertrend": 12384.21,
+      "st_dir": -1,
+      "ema20": 12351.42,
+      "ema50": null,
+      "rsi": 47.7
+    },
+    {
+      "date": "13:05",
+      "open": 12346.0,
+      "high": 12352.0,
+      "low": 12337.0,
+      "close": 12337.0,
+      "volume": 819.0,
+      "supertrend": 12384.21,
+      "st_dir": -1,
+      "ema20": 12350.05,
+      "ema50": 12353.78,
+      "rsi": 44.6
     }
   ],
   "WIPRO.NS": [
-    {
-      "date": "15:00",
-      "open": 190.69000244140625,
-      "high": 190.8000030517578,
-      "low": 190.66000366210938,
-      "close": 190.74000549316406,
-      "volume": 134717.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 190.75,
-      "high": 190.7899932861328,
-      "low": 190.5800018310547,
-      "close": 190.66000366210938,
-      "volume": 289816.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 190.69000244140625,
@@ -22343,8 +22317,8 @@ window.DASHBOARD_CHARTS = {
       "low": 187.8300018310547,
       "close": 187.8300018310547,
       "volume": 90369.0,
-      "supertrend": 189.83,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -22356,8 +22330,8 @@ window.DASHBOARD_CHARTS = {
       "low": 187.42999267578125,
       "close": 187.42999267578125,
       "volume": 77375.0,
-      "supertrend": 189.36,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -22369,7 +22343,7 @@ window.DASHBOARD_CHARTS = {
       "low": 187.36000061035156,
       "close": 187.5399932861328,
       "volume": 53794.0,
-      "supertrend": 189.23,
+      "supertrend": 189.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -22382,7 +22356,7 @@ window.DASHBOARD_CHARTS = {
       "low": 187.4499969482422,
       "close": 187.77999877929688,
       "volume": 45939.0,
-      "supertrend": 189.23,
+      "supertrend": 189.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -22395,7 +22369,7 @@ window.DASHBOARD_CHARTS = {
       "low": 187.66000366210938,
       "close": 187.85000610351562,
       "volume": 53472.0,
-      "supertrend": 189.23,
+      "supertrend": 189.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -22408,11 +22382,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.64999389648438,
       "close": 187.91000366210938,
       "volume": 55708.0,
-      "supertrend": 189.23,
+      "supertrend": 189.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.9
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -22421,11 +22395,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.72999572753906,
       "close": 187.85000610351562,
       "volume": 42955.0,
-      "supertrend": 189.23,
+      "supertrend": 189.41,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 20.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -22434,11 +22408,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.6300048828125,
       "close": 187.6300048828125,
       "volume": 65928.0,
-      "supertrend": 189.2,
+      "supertrend": 189.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 19.7
+      "rsi": 20.9
     },
     {
       "date": "10:15",
@@ -22447,11 +22421,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.41000366210938,
       "close": 187.4600067138672,
       "volume": 60940.0,
-      "supertrend": 188.88,
+      "supertrend": 189.02,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 18.9
+      "rsi": 20.1
     },
     {
       "date": "10:20",
@@ -22460,11 +22434,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.3000030517578,
       "close": 187.39999389648438,
       "volume": 74994.0,
-      "supertrend": 188.69,
+      "supertrend": 188.81,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 18.6
+      "rsi": 19.8
     },
     {
       "date": "10:25",
@@ -22473,11 +22447,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.35000610351562,
       "close": 187.35000610351562,
       "volume": 54034.0,
-      "supertrend": 188.65,
+      "supertrend": 188.76,
       "st_dir": -1,
-      "ema20": 188.39,
+      "ema20": null,
       "ema50": null,
-      "rsi": 18.4
+      "rsi": 19.6
     },
     {
       "date": "10:30",
@@ -22486,11 +22460,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.24000549316406,
       "close": 187.3000030517578,
       "volume": 60521.0,
-      "supertrend": 188.49,
+      "supertrend": 188.59,
       "st_dir": -1,
-      "ema20": 188.28,
+      "ema20": null,
       "ema50": null,
-      "rsi": 18.1
+      "rsi": 19.3
     },
     {
       "date": "10:35",
@@ -22499,11 +22473,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.17999267578125,
       "close": 187.30999755859375,
       "volume": 45927.0,
-      "supertrend": 188.32,
+      "supertrend": 188.41,
       "st_dir": -1,
-      "ema20": 188.19,
+      "ema20": 188.05,
       "ema50": null,
-      "rsi": 18.4
+      "rsi": 19.6
     },
     {
       "date": "10:40",
@@ -22512,11 +22486,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.14999389648438,
       "close": 187.22999572753906,
       "volume": 56413.0,
-      "supertrend": 188.32,
+      "supertrend": 188.4,
       "st_dir": -1,
-      "ema20": 188.1,
+      "ema20": 187.97,
       "ema50": null,
-      "rsi": 17.9
+      "rsi": 19.1
     },
     {
       "date": "10:45",
@@ -22525,11 +22499,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.14999389648438,
       "close": 187.2100067138672,
       "volume": 25806.0,
-      "supertrend": 188.25,
+      "supertrend": 188.32,
       "st_dir": -1,
-      "ema20": 188.02,
+      "ema20": 187.9,
       "ema50": null,
-      "rsi": 17.8
+      "rsi": 19.0
     },
     {
       "date": "10:50",
@@ -22538,11 +22512,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.88999938964844,
       "close": 186.99000549316406,
       "volume": 103998.0,
-      "supertrend": 188.05,
+      "supertrend": 188.11,
       "st_dir": -1,
-      "ema20": 187.92,
+      "ema20": 187.81,
       "ema50": null,
-      "rsi": 16.5
+      "rsi": 17.7
     },
     {
       "date": "10:55",
@@ -22551,11 +22525,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.72999572753906,
       "close": 186.77000427246094,
       "volume": 72081.0,
-      "supertrend": 187.87,
+      "supertrend": 187.92,
       "st_dir": -1,
-      "ema20": 187.81,
+      "ema20": 187.71,
       "ema50": null,
-      "rsi": 15.3
+      "rsi": 16.5
     },
     {
       "date": "11:00",
@@ -22564,11 +22538,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.75999450683594,
       "close": 186.8699951171875,
       "volume": 81287.0,
-      "supertrend": 187.8,
+      "supertrend": 187.85,
       "st_dir": -1,
-      "ema20": 187.72,
+      "ema20": 187.63,
       "ema50": null,
-      "rsi": 18.2
+      "rsi": 19.2
     },
     {
       "date": "11:05",
@@ -22577,11 +22551,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.6999969482422,
       "close": 186.97000122070312,
       "volume": 61319.0,
-      "supertrend": 187.8,
+      "supertrend": 187.85,
       "st_dir": -1,
-      "ema20": 187.65,
+      "ema20": 187.57,
       "ema50": null,
-      "rsi": 21.1
+      "rsi": 21.9
     },
     {
       "date": "11:10",
@@ -22590,11 +22564,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.82000732421875,
       "close": 186.82000732421875,
       "volume": 52595.0,
-      "supertrend": 187.8,
+      "supertrend": 187.85,
       "st_dir": -1,
-      "ema20": 187.57,
+      "ema20": 187.5,
       "ema50": null,
-      "rsi": 20.0
+      "rsi": 20.8
     },
     {
       "date": "11:15",
@@ -22603,11 +22577,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.75,
       "close": 186.9499969482422,
       "volume": 47091.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.51,
+      "ema20": 187.45,
       "ema50": null,
-      "rsi": 23.9
+      "rsi": 24.4
     },
     {
       "date": "11:20",
@@ -22616,11 +22590,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.9499969482422,
       "close": 186.9600067138672,
       "volume": 136505.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.46,
+      "ema20": 187.4,
       "ema50": null,
-      "rsi": 24.2
+      "rsi": 24.7
     },
     {
       "date": "11:25",
@@ -22629,9 +22603,9 @@ window.DASHBOARD_CHARTS = {
       "low": 186.94000244140625,
       "close": 187.24000549316406,
       "volume": 46222.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.44,
+      "ema20": 187.38,
       "ema50": null,
       "rsi": 32.4
     },
@@ -22642,11 +22616,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.91000366210938,
       "close": 187.1699981689453,
       "volume": 89858.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.41,
+      "ema20": 187.36,
       "ema50": null,
-      "rsi": 31.5
+      "rsi": 31.6
     },
     {
       "date": "11:35",
@@ -22655,11 +22629,11 @@ window.DASHBOARD_CHARTS = {
       "low": 187.0500030517578,
       "close": 187.1199951171875,
       "volume": 31797.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.38,
+      "ema20": 187.34,
       "ema50": null,
-      "rsi": 30.8
+      "rsi": 30.9
     },
     {
       "date": "11:40",
@@ -22668,11 +22642,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.9499969482422,
       "close": 187.05999755859375,
       "volume": 38008.0,
-      "supertrend": 187.76,
+      "supertrend": 187.8,
       "st_dir": -1,
-      "ema20": 187.35,
+      "ema20": 187.31,
       "ema50": null,
-      "rsi": 30.0
+      "rsi": 30.1
     },
     {
       "date": "11:45",
@@ -22681,11 +22655,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.75999450683594,
       "close": 186.9499969482422,
       "volume": 26127.0,
-      "supertrend": 187.76,
+      "supertrend": 187.78,
       "st_dir": -1,
-      "ema20": 187.31,
+      "ema20": 187.28,
       "ema50": null,
-      "rsi": 28.5
+      "rsi": 28.7
     },
     {
       "date": "11:50",
@@ -22694,11 +22668,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.75999450683594,
       "close": 186.75999450683594,
       "volume": 44832.0,
-      "supertrend": 187.76,
+      "supertrend": 187.78,
       "st_dir": -1,
-      "ema20": 187.26,
+      "ema20": 187.23,
       "ema50": null,
-      "rsi": 26.0
+      "rsi": 26.3
     },
     {
       "date": "11:55",
@@ -22707,11 +22681,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.61000061035156,
       "close": 186.91000366210938,
       "volume": 71945.0,
-      "supertrend": 187.73,
+      "supertrend": 187.74,
       "st_dir": -1,
-      "ema20": 187.23,
+      "ema20": 187.2,
       "ema50": null,
-      "rsi": 31.0
+      "rsi": 31.1
     },
     {
       "date": "12:00",
@@ -22720,11 +22694,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.8000030517578,
       "close": 186.80999755859375,
       "volume": 42902.0,
-      "supertrend": 187.73,
+      "supertrend": 187.74,
       "st_dir": -1,
-      "ema20": 187.19,
+      "ema20": 187.16,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 29.7
     },
     {
       "date": "12:05",
@@ -22733,11 +22707,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.8000030517578,
       "close": 186.8000030517578,
       "volume": 30983.0,
-      "supertrend": 187.73,
+      "supertrend": 187.74,
       "st_dir": -1,
-      "ema20": 187.15,
+      "ema20": 187.13,
       "ema50": null,
-      "rsi": 29.4
+      "rsi": 29.6
     },
     {
       "date": "12:10",
@@ -22746,11 +22720,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.74000549316406,
       "close": 186.8800048828125,
       "volume": 39513.0,
-      "supertrend": 187.63,
+      "supertrend": 187.64,
       "st_dir": -1,
-      "ema20": 187.13,
+      "ema20": 187.1,
       "ema50": null,
-      "rsi": 32.3
+      "rsi": 32.4
     },
     {
       "date": "12:15",
@@ -22759,11 +22733,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.9499969482422,
       "close": 187.0500030517578,
       "volume": 90915.0,
-      "supertrend": 187.63,
+      "supertrend": 187.64,
       "st_dir": -1,
-      "ema20": 187.12,
+      "ema20": 187.1,
       "ema50": null,
-      "rsi": 38.1
+      "rsi": 38.0
     },
     {
       "date": "12:20",
@@ -22772,11 +22746,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.67999267578125,
       "close": 186.6999969482422,
       "volume": 79655.0,
-      "supertrend": 187.63,
+      "supertrend": 187.64,
       "st_dir": -1,
-      "ema20": 187.08,
+      "ema20": 187.06,
       "ema50": null,
-      "rsi": 32.0
+      "rsi": 32.1
     },
     {
       "date": "12:25",
@@ -22785,9 +22759,9 @@ window.DASHBOARD_CHARTS = {
       "low": 186.64999389648438,
       "close": 186.64999389648438,
       "volume": 38970.0,
-      "supertrend": 187.63,
+      "supertrend": 187.64,
       "st_dir": -1,
-      "ema20": 187.04,
+      "ema20": 187.02,
       "ema50": null,
       "rsi": 31.3
     },
@@ -22798,11 +22772,11 @@ window.DASHBOARD_CHARTS = {
       "low": 186.39999389648438,
       "close": 186.50999450683594,
       "volume": 84167.0,
-      "supertrend": 187.44,
+      "supertrend": 187.45,
       "st_dir": -1,
-      "ema20": 186.99,
+      "ema20": 186.97,
       "ema50": null,
-      "rsi": 29.2
+      "rsi": 29.3
     },
     {
       "date": "12:35",
@@ -22813,9 +22787,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 36331.0,
       "supertrend": 187.24,
       "st_dir": -1,
-      "ema20": 186.92,
+      "ema20": 186.91,
       "ema50": null,
-      "rsi": 26.3
+      "rsi": 26.5
     },
     {
       "date": "12:40",
@@ -22826,9 +22800,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 45137.0,
       "supertrend": 187.24,
       "st_dir": -1,
-      "ema20": 186.91,
+      "ema20": 186.9,
       "ema50": null,
-      "rsi": 41.1
+      "rsi": 41.0
     },
     {
       "date": "12:45",
@@ -22839,9 +22813,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 59308.0,
       "supertrend": 187.24,
       "st_dir": -1,
-      "ema20": 186.9,
+      "ema20": 186.88,
       "ema50": null,
-      "rsi": 40.3
+      "rsi": 40.2
     },
     {
       "date": "12:50",
@@ -22852,51 +22826,51 @@ window.DASHBOARD_CHARTS = {
       "volume": 55248.0,
       "supertrend": 187.24,
       "st_dir": -1,
-      "ema20": 186.9,
+      "ema20": 186.89,
       "ema50": null,
-      "rsi": 45.7
+      "rsi": 45.5
     },
     {
       "date": "12:55",
       "open": 186.94000244140625,
       "high": 187.13999938964844,
       "low": 186.85000610351562,
-      "close": 186.92999267578125,
-      "volume": 55195.0,
+      "close": 186.9199981689453,
+      "volume": 64432.0,
       "supertrend": 187.24,
       "st_dir": -1,
       "ema20": 186.9,
-      "ema50": 187.51,
-      "rsi": 44.9
+      "ema50": null,
+      "rsi": 44.6
+    },
+    {
+      "date": "13:00",
+      "open": 186.88999938964844,
+      "high": 186.89999389648438,
+      "low": 186.72999572753906,
+      "close": 186.82000732421875,
+      "volume": 50629.0,
+      "supertrend": 187.24,
+      "st_dir": -1,
+      "ema20": 186.89,
+      "ema50": null,
+      "rsi": 42.6
+    },
+    {
+      "date": "13:05",
+      "open": 186.8300018310547,
+      "high": 186.85000610351562,
+      "low": 186.66000366210938,
+      "close": 186.66000366210938,
+      "volume": 24710.0,
+      "supertrend": 187.24,
+      "st_dir": -1,
+      "ema20": 186.87,
+      "ema50": 187.35,
+      "rsi": 39.6
     }
   ],
   "TECHM.NS": [
-    {
-      "date": "15:00",
-      "open": 1758.9000244140625,
-      "high": 1760.0,
-      "low": 1758.0999755859375,
-      "close": 1759.9000244140625,
-      "volume": 52899.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1759.5999755859375,
-      "high": 1760.0,
-      "low": 1757.5999755859375,
-      "close": 1759.9000244140625,
-      "volume": 110594.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1759.5,
@@ -22995,8 +22969,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1758.199951171875,
       "close": 1760.4000244140625,
       "volume": 22098.0,
-      "supertrend": 1774.94,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -23008,8 +22982,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1755.199951171875,
       "close": 1755.4000244140625,
       "volume": 18918.0,
-      "supertrend": 1772.13,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -23021,7 +22995,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1755.199951171875,
       "close": 1758.0,
       "volume": 7562.0,
-      "supertrend": 1771.86,
+      "supertrend": 1773.42,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -23034,7 +23008,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1756.300048828125,
       "close": 1761.0,
       "volume": 9193.0,
-      "supertrend": 1771.86,
+      "supertrend": 1773.42,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -23047,7 +23021,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1759.699951171875,
       "close": 1760.9000244140625,
       "volume": 7813.0,
-      "supertrend": 1771.86,
+      "supertrend": 1773.42,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -23060,11 +23034,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1760.4000244140625,
       "close": 1762.5999755859375,
       "volume": 5944.0,
-      "supertrend": 1771.86,
+      "supertrend": 1773.42,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 55.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -23073,11 +23047,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1758.9000244140625,
       "close": 1759.800048828125,
       "volume": 5179.0,
-      "supertrend": 1771.86,
+      "supertrend": 1773.42,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -23086,11 +23060,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1756.0999755859375,
       "close": 1756.0999755859375,
       "volume": 8129.0,
-      "supertrend": 1771.18,
+      "supertrend": 1772.1,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 40.6
     },
     {
       "date": "10:15",
@@ -23099,11 +23073,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.4000244140625,
       "close": 1753.699951171875,
       "volume": 10444.0,
-      "supertrend": 1768.13,
+      "supertrend": 1768.96,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 37.4
     },
     {
       "date": "10:20",
@@ -23112,11 +23086,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1750.0,
       "close": 1751.5999755859375,
       "volume": 14020.0,
-      "supertrend": 1765.51,
+      "supertrend": 1766.26,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 34.8
     },
     {
       "date": "10:25",
@@ -23125,11 +23099,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1750.0,
       "close": 1750.0999755859375,
       "volume": 5285.0,
-      "supertrend": 1763.92,
+      "supertrend": 1764.59,
       "st_dir": -1,
-      "ema20": 1758.61,
+      "ema20": null,
       "ema50": null,
-      "rsi": 34.4
+      "rsi": 33.0
     },
     {
       "date": "10:30",
@@ -23138,11 +23112,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1748.0,
       "close": 1749.300048828125,
       "volume": 10698.0,
-      "supertrend": 1761.47,
+      "supertrend": 1762.08,
       "st_dir": -1,
-      "ema20": 1757.73,
+      "ema20": null,
       "ema50": null,
-      "rsi": 33.4
+      "rsi": 32.0
     },
     {
       "date": "10:35",
@@ -23151,11 +23125,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1747.5,
       "close": 1748.0,
       "volume": 7201.0,
-      "supertrend": 1760.09,
+      "supertrend": 1760.63,
       "st_dir": -1,
-      "ema20": 1756.8,
+      "ema20": 1757.49,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 30.5
     },
     {
       "date": "10:40",
@@ -23164,11 +23138,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1745.699951171875,
       "close": 1745.699951171875,
       "volume": 11548.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1755.74,
+      "ema20": 1756.37,
       "ema50": null,
-      "rsi": 29.0
+      "rsi": 28.0
     },
     {
       "date": "10:45",
@@ -23177,11 +23151,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1745.4000244140625,
       "close": 1748.300048828125,
       "volume": 4232.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1755.04,
+      "ema20": 1755.6,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 34.6
     },
     {
       "date": "10:50",
@@ -23190,11 +23164,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1748.199951171875,
       "close": 1751.699951171875,
       "volume": 6559.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.72,
+      "ema20": 1755.23,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": 42.1
     },
     {
       "date": "10:55",
@@ -23203,11 +23177,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1749.800048828125,
       "close": 1750.5999755859375,
       "volume": 4482.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.33,
+      "ema20": 1754.79,
       "ema50": null,
-      "rsi": 41.6
+      "rsi": 40.5
     },
     {
       "date": "11:00",
@@ -23216,11 +23190,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1750.0999755859375,
       "close": 1750.5999755859375,
       "volume": 4665.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1753.97,
+      "ema20": 1754.39,
       "ema50": null,
-      "rsi": 41.6
+      "rsi": 40.5
     },
     {
       "date": "11:05",
@@ -23229,11 +23203,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1749.0999755859375,
       "close": 1754.0,
       "volume": 10550.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1753.97,
+      "ema20": 1754.35,
       "ema50": null,
-      "rsi": 48.9
+      "rsi": 47.7
     },
     {
       "date": "11:10",
@@ -23242,11 +23216,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.4000244140625,
       "close": 1753.800048828125,
       "volume": 16990.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1753.96,
+      "ema20": 1754.3,
       "ema50": null,
-      "rsi": 48.5
+      "rsi": 47.3
     },
     {
       "date": "11:15",
@@ -23255,11 +23229,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.0,
       "close": 1755.300048828125,
       "volume": 17730.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.08,
+      "ema20": 1754.39,
       "ema50": null,
-      "rsi": 51.6
+      "rsi": 50.3
     },
     {
       "date": "11:20",
@@ -23268,11 +23242,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1755.0,
       "close": 1755.699951171875,
       "volume": 13748.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.24,
+      "ema20": 1754.52,
       "ema50": null,
-      "rsi": 52.4
+      "rsi": 51.2
     },
     {
       "date": "11:25",
@@ -23281,11 +23255,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1755.699951171875,
       "close": 1755.9000244140625,
       "volume": 8732.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.4,
+      "ema20": 1754.65,
       "ema50": null,
-      "rsi": 52.8
+      "rsi": 51.6
     },
     {
       "date": "11:30",
@@ -23294,11 +23268,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.4000244140625,
       "close": 1755.0,
       "volume": 5421.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.45,
+      "ema20": 1754.68,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 49.5
     },
     {
       "date": "11:35",
@@ -23307,11 +23281,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1754.0999755859375,
       "close": 1754.800048828125,
       "volume": 3157.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.49,
+      "ema20": 1754.69,
       "ema50": null,
-      "rsi": 50.1
+      "rsi": 49.0
     },
     {
       "date": "11:40",
@@ -23320,11 +23294,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.0,
       "close": 1754.800048828125,
       "volume": 3467.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.52,
+      "ema20": 1754.7,
       "ema50": null,
-      "rsi": 50.1
+      "rsi": 49.0
     },
     {
       "date": "11:45",
@@ -23333,11 +23307,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1752.300048828125,
       "close": 1753.9000244140625,
       "volume": 4722.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.46,
+      "ema20": 1754.63,
       "ema50": null,
-      "rsi": 47.7
+      "rsi": 46.7
     },
     {
       "date": "11:50",
@@ -23346,11 +23320,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1752.0,
       "close": 1752.4000244140625,
       "volume": 10518.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.26,
+      "ema20": 1754.42,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 43.0
     },
     {
       "date": "11:55",
@@ -23359,11 +23333,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1751.4000244140625,
       "close": 1753.199951171875,
       "volume": 10105.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.16,
+      "ema20": 1754.3,
       "ema50": null,
-      "rsi": 46.3
+      "rsi": 45.5
     },
     {
       "date": "12:00",
@@ -23372,11 +23346,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1752.699951171875,
       "close": 1752.800048828125,
       "volume": 5631.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.03,
+      "ema20": 1754.16,
       "ema50": null,
-      "rsi": 45.2
+      "rsi": 44.4
     },
     {
       "date": "12:05",
@@ -23385,11 +23359,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1752.699951171875,
       "close": 1753.699951171875,
       "volume": 3368.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.0,
+      "ema20": 1754.11,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 47.3
     },
     {
       "date": "12:10",
@@ -23398,11 +23372,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.4000244140625,
       "close": 1754.4000244140625,
       "volume": 2165.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.04,
+      "ema20": 1754.14,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 49.5
     },
     {
       "date": "12:15",
@@ -23411,11 +23385,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1753.699951171875,
       "close": 1754.0,
       "volume": 8744.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1754.03,
+      "ema20": 1754.13,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 48.3
     },
     {
       "date": "12:20",
@@ -23424,11 +23398,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1749.199951171875,
       "close": 1749.199951171875,
       "volume": 7001.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1753.57,
+      "ema20": 1753.66,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 36.4
     },
     {
       "date": "12:25",
@@ -23437,11 +23411,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1748.5,
       "close": 1750.0,
       "volume": 5892.0,
-      "supertrend": 1758.4,
+      "supertrend": 1758.89,
       "st_dir": -1,
-      "ema20": 1753.23,
+      "ema20": 1753.31,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 39.1
     },
     {
       "date": "12:30",
@@ -23450,11 +23424,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1748.5,
       "close": 1748.699951171875,
       "volume": 8821.0,
-      "supertrend": 1757.47,
+      "supertrend": 1757.52,
       "st_dir": -1,
-      "ema20": 1752.8,
+      "ema20": 1752.87,
       "ema50": null,
-      "rsi": 36.8
+      "rsi": 36.4
     },
     {
       "date": "12:35",
@@ -23463,11 +23437,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1745.5,
       "close": 1745.5,
       "volume": 5936.0,
-      "supertrend": 1755.46,
+      "supertrend": 1755.5,
       "st_dir": -1,
-      "ema20": 1752.11,
+      "ema20": 1752.17,
       "ema50": null,
-      "rsi": 31.1
+      "rsi": 30.8
     },
     {
       "date": "12:40",
@@ -23476,11 +23450,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1745.0999755859375,
       "close": 1747.5,
       "volume": 13216.0,
-      "supertrend": 1754.95,
+      "supertrend": 1754.98,
       "st_dir": -1,
-      "ema20": 1751.67,
+      "ema20": 1751.72,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 37.3
     },
     {
       "date": "12:45",
@@ -23489,11 +23463,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1747.5,
       "close": 1747.699951171875,
       "volume": 3640.0,
-      "supertrend": 1754.95,
+      "supertrend": 1754.98,
       "st_dir": -1,
-      "ema20": 1751.29,
+      "ema20": 1751.34,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 37.9
     },
     {
       "date": "12:50",
@@ -23502,11 +23476,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1745.5,
       "close": 1746.5999755859375,
       "volume": 8002.0,
-      "supertrend": 1754.44,
+      "supertrend": 1754.47,
       "st_dir": -1,
-      "ema20": 1750.84,
+      "ema20": 1750.89,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 35.8
     },
     {
       "date": "12:55",
@@ -23514,17 +23488,43 @@ window.DASHBOARD_CHARTS = {
       "high": 1747.4000244140625,
       "low": 1746.4000244140625,
       "close": 1746.5,
-      "volume": 3385.0,
-      "supertrend": 1754.21,
+      "volume": 4509.0,
+      "supertrend": 1754.24,
       "st_dir": -1,
-      "ema20": 1750.43,
-      "ema50": 1754.24,
-      "rsi": 35.9
+      "ema20": 1750.47,
+      "ema50": null,
+      "rsi": 35.6
+    },
+    {
+      "date": "13:00",
+      "open": 1746.4000244140625,
+      "high": 1746.4000244140625,
+      "low": 1744.5999755859375,
+      "close": 1745.0999755859375,
+      "volume": 10254.0,
+      "supertrend": 1752.67,
+      "st_dir": -1,
+      "ema20": 1749.96,
+      "ema50": null,
+      "rsi": 32.9
+    },
+    {
+      "date": "13:05",
+      "open": 1745.0999755859375,
+      "high": 1745.5999755859375,
+      "low": 1743.300048828125,
+      "close": 1743.300048828125,
+      "volume": 2818.0,
+      "supertrend": 1751.6,
+      "st_dir": -1,
+      "ema20": 1749.33,
+      "ema50": 1753.61,
+      "rsi": 29.8
     }
   ],
   "LTIM.NS": [
     {
-      "date": "08:54",
+      "date": "09:02",
       "open": 5354.82,
       "high": 5359.94,
       "low": 5330.19,
@@ -23537,7 +23537,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "08:59",
+      "date": "09:07",
       "open": 5333.54,
       "high": 5360.0,
       "low": 5301.47,
@@ -23550,7 +23550,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:04",
+      "date": "09:12",
       "open": 5301.39,
       "high": 5309.66,
       "low": 5295.31,
@@ -23563,7 +23563,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:09",
+      "date": "09:17",
       "open": 5265.19,
       "high": 5285.0,
       "low": 5249.11,
@@ -23576,7 +23576,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:14",
+      "date": "09:22",
       "open": 5317.26,
       "high": 5319.08,
       "low": 5297.02,
@@ -23589,7 +23589,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:19",
+      "date": "09:27",
       "open": 5316.9,
       "high": 5336.08,
       "low": 5281.44,
@@ -23602,7 +23602,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:24",
+      "date": "09:32",
       "open": 5339.86,
       "high": 5353.62,
       "low": 5317.62,
@@ -23615,7 +23615,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:29",
+      "date": "09:37",
       "open": 5343.97,
       "high": 5354.1,
       "low": 5336.96,
@@ -23628,7 +23628,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:34",
+      "date": "09:42",
       "open": 5349.76,
       "high": 5375.48,
       "low": 5342.36,
@@ -23641,7 +23641,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:39",
+      "date": "09:47",
       "open": 5380.88,
       "high": 5419.04,
       "low": 5345.79,
@@ -23654,7 +23654,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:44",
+      "date": "09:52",
       "open": 5359.62,
       "high": 5365.74,
       "low": 5358.82,
@@ -23667,7 +23667,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:49",
+      "date": "09:57",
       "open": 5415.5,
       "high": 5433.95,
       "low": 5399.01,
@@ -23680,7 +23680,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:54",
+      "date": "10:02",
       "open": 5432.61,
       "high": 5450.93,
       "low": 5423.62,
@@ -23693,7 +23693,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "09:59",
+      "date": "10:07",
       "open": 5444.78,
       "high": 5464.38,
       "low": 5433.55,
@@ -23706,7 +23706,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": null
     },
     {
-      "date": "10:04",
+      "date": "10:12",
       "open": 5424.15,
       "high": 5452.82,
       "low": 5414.61,
@@ -23719,7 +23719,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 67.3
     },
     {
-      "date": "10:09",
+      "date": "10:17",
       "open": 5511.04,
       "high": 5537.55,
       "low": 5502.53,
@@ -23732,7 +23732,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.2
     },
     {
-      "date": "10:14",
+      "date": "10:22",
       "open": 5468.53,
       "high": 5469.73,
       "low": 5448.09,
@@ -23745,7 +23745,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 65.5
     },
     {
-      "date": "10:19",
+      "date": "10:27",
       "open": 5487.04,
       "high": 5505.97,
       "low": 5476.95,
@@ -23758,7 +23758,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 68.6
     },
     {
-      "date": "10:24",
+      "date": "10:32",
       "open": 5540.63,
       "high": 5549.14,
       "low": 5498.38,
@@ -23771,7 +23771,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 72.3
     },
     {
-      "date": "10:29",
+      "date": "10:37",
       "open": 5609.89,
       "high": 5623.37,
       "low": 5591.47,
@@ -23784,7 +23784,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.5
     },
     {
-      "date": "10:34",
+      "date": "10:42",
       "open": 5657.58,
       "high": 5704.82,
       "low": 5624.24,
@@ -23797,7 +23797,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 79.6
     },
     {
-      "date": "10:39",
+      "date": "10:47",
       "open": 5642.12,
       "high": 5661.71,
       "low": 5610.47,
@@ -23810,7 +23810,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.9
     },
     {
-      "date": "10:44",
+      "date": "10:52",
       "open": 5657.18,
       "high": 5681.21,
       "low": 5621.06,
@@ -23823,7 +23823,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.8
     },
     {
-      "date": "10:49",
+      "date": "10:57",
       "open": 5660.88,
       "high": 5678.16,
       "low": 5638.82,
@@ -23836,7 +23836,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.4
     },
     {
-      "date": "10:54",
+      "date": "11:02",
       "open": 5689.2,
       "high": 5699.2,
       "low": 5677.0,
@@ -23849,7 +23849,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.5
     },
     {
-      "date": "10:59",
+      "date": "11:07",
       "open": 5687.07,
       "high": 5738.35,
       "low": 5675.73,
@@ -23862,7 +23862,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.0
     },
     {
-      "date": "11:04",
+      "date": "11:12",
       "open": 5733.46,
       "high": 5758.7,
       "low": 5702.54,
@@ -23875,7 +23875,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.1
     },
     {
-      "date": "11:09",
+      "date": "11:17",
       "open": 5710.47,
       "high": 5739.76,
       "low": 5694.65,
@@ -23888,7 +23888,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.0
     },
     {
-      "date": "11:14",
+      "date": "11:22",
       "open": 5721.41,
       "high": 5737.41,
       "low": 5694.79,
@@ -23901,7 +23901,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 73.6
     },
     {
-      "date": "11:19",
+      "date": "11:27",
       "open": 5728.49,
       "high": 5762.02,
       "low": 5728.06,
@@ -23914,7 +23914,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.1
     },
     {
-      "date": "11:24",
+      "date": "11:32",
       "open": 5750.95,
       "high": 5769.92,
       "low": 5716.97,
@@ -23927,7 +23927,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 76.6
     },
     {
-      "date": "11:29",
+      "date": "11:37",
       "open": 5795.92,
       "high": 5803.94,
       "low": 5784.46,
@@ -23940,7 +23940,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.9
     },
     {
-      "date": "11:34",
+      "date": "11:42",
       "open": 5869.65,
       "high": 5882.27,
       "low": 5860.82,
@@ -23953,7 +23953,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 82.5
     },
     {
-      "date": "11:39",
+      "date": "11:47",
       "open": 5809.44,
       "high": 5837.2,
       "low": 5797.04,
@@ -23966,7 +23966,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.5
     },
     {
-      "date": "11:44",
+      "date": "11:52",
       "open": 5817.87,
       "high": 5844.57,
       "low": 5795.37,
@@ -23979,7 +23979,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 75.7
     },
     {
-      "date": "11:49",
+      "date": "11:57",
       "open": 5775.38,
       "high": 5786.3,
       "low": 5765.28,
@@ -23992,7 +23992,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 64.4
     },
     {
-      "date": "11:54",
+      "date": "12:02",
       "open": 5800.9,
       "high": 5805.06,
       "low": 5751.0,
@@ -24005,7 +24005,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 66.5
     },
     {
-      "date": "11:59",
+      "date": "12:07",
       "open": 5839.12,
       "high": 5873.27,
       "low": 5826.81,
@@ -24018,7 +24018,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 71.1
     },
     {
-      "date": "12:04",
+      "date": "12:12",
       "open": 5867.77,
       "high": 5881.21,
       "low": 5865.45,
@@ -24031,7 +24031,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 71.6
     },
     {
-      "date": "12:09",
+      "date": "12:17",
       "open": 5922.36,
       "high": 5925.95,
       "low": 5909.1,
@@ -24044,7 +24044,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 74.6
     },
     {
-      "date": "12:14",
+      "date": "12:22",
       "open": 5981.87,
       "high": 6031.81,
       "low": 5976.48,
@@ -24057,7 +24057,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 78.8
     },
     {
-      "date": "12:19",
+      "date": "12:27",
       "open": 6016.21,
       "high": 6061.47,
       "low": 5987.82,
@@ -24070,7 +24070,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 79.6
     },
     {
-      "date": "12:24",
+      "date": "12:32",
       "open": 6061.31,
       "high": 6073.3,
       "low": 6047.06,
@@ -24083,7 +24083,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 81.2
     },
     {
-      "date": "12:29",
+      "date": "12:37",
       "open": 6107.64,
       "high": 6111.91,
       "low": 6088.84,
@@ -24096,7 +24096,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 82.7
     },
     {
-      "date": "12:34",
+      "date": "12:42",
       "open": 6063.79,
       "high": 6091.86,
       "low": 6056.11,
@@ -24109,7 +24109,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 77.6
     },
     {
-      "date": "12:39",
+      "date": "12:47",
       "open": 6028.44,
       "high": 6049.05,
       "low": 6009.32,
@@ -24122,7 +24122,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 70.0
     },
     {
-      "date": "12:44",
+      "date": "12:52",
       "open": 6004.28,
       "high": 6006.09,
       "low": 6004.17,
@@ -24135,7 +24135,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 67.8
     },
     {
-      "date": "12:49",
+      "date": "12:57",
       "open": 5951.24,
       "high": 5971.75,
       "low": 5927.79,
@@ -24148,7 +24148,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 62.9
     },
     {
-      "date": "12:54",
+      "date": "13:02",
       "open": 5984.73,
       "high": 6015.53,
       "low": 5970.27,
@@ -24161,7 +24161,7 @@ window.DASHBOARD_CHARTS = {
       "rsi": 64.9
     },
     {
-      "date": "12:59",
+      "date": "13:07",
       "open": 5891.95,
       "high": 5902.23,
       "low": 5884.33,
@@ -24175,32 +24175,6 @@ window.DASHBOARD_CHARTS = {
     }
   ],
   "NESTLEIND.NS": [
-    {
-      "date": "15:00",
-      "open": 1289.0,
-      "high": 1291.699951171875,
-      "low": 1288.199951171875,
-      "close": 1291.0,
-      "volume": 29997.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1291.0,
-      "high": 1291.9000244140625,
-      "low": 1290.4000244140625,
-      "close": 1291.9000244140625,
-      "volume": 24639.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1291.9000244140625,
@@ -24299,8 +24273,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1279.5,
       "close": 1281.9000244140625,
       "volume": 14954.0,
-      "supertrend": 1293.69,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -24312,8 +24286,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1278.199951171875,
       "close": 1279.0999755859375,
       "volume": 7415.0,
-      "supertrend": 1292.03,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -24325,7 +24299,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1274.199951171875,
       "close": 1276.300048828125,
       "volume": 8549.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -24338,7 +24312,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1274.300048828125,
       "close": 1278.5,
       "volume": 10221.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -24351,7 +24325,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1278.300048828125,
       "close": 1278.300048828125,
       "volume": 2645.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -24364,11 +24338,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1278.0,
       "close": 1279.5,
       "volume": 11765.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -24377,11 +24351,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1278.5,
       "close": 1284.9000244140625,
       "volume": 6744.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -24390,11 +24364,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1284.300048828125,
       "close": 1285.4000244140625,
       "volume": 7334.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 39.2
     },
     {
       "date": "10:15",
@@ -24403,11 +24377,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1282.800048828125,
       "close": 1283.4000244140625,
       "volume": 2386.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 37.2
     },
     {
       "date": "10:20",
@@ -24416,11 +24390,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1282.0,
       "close": 1283.0,
       "volume": 3203.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.3
+      "rsi": 36.8
     },
     {
       "date": "10:25",
@@ -24429,11 +24403,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1282.0,
       "close": 1282.9000244140625,
       "volume": 1883.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.21,
+      "ema20": null,
       "ema50": null,
-      "rsi": 41.1
+      "rsi": 36.7
     },
     {
       "date": "10:30",
@@ -24442,11 +24416,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1280.199951171875,
       "close": 1280.9000244140625,
       "volume": 2953.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1283.89,
+      "ema20": null,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 34.6
     },
     {
       "date": "10:35",
@@ -24455,11 +24429,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1280.9000244140625,
       "close": 1281.5999755859375,
       "volume": 1974.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1283.68,
+      "ema20": 1283.19,
       "ema50": null,
-      "rsi": 40.0
+      "rsi": 36.0
     },
     {
       "date": "10:40",
@@ -24468,11 +24442,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1280.800048828125,
       "close": 1285.5,
       "volume": 12049.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1283.85,
+      "ema20": 1283.41,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 43.4
     },
     {
       "date": "10:45",
@@ -24481,11 +24455,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1285.199951171875,
       "close": 1287.0,
       "volume": 3773.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.15,
+      "ema20": 1283.75,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 46.0
     },
     {
       "date": "10:50",
@@ -24494,11 +24468,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1286.0,
       "close": 1286.9000244140625,
       "volume": 2454.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.41,
+      "ema20": 1284.05,
       "ema50": null,
-      "rsi": 49.6
+      "rsi": 45.8
     },
     {
       "date": "10:55",
@@ -24507,11 +24481,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1284.0,
       "close": 1284.800048828125,
       "volume": 1956.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.45,
+      "ema20": 1284.12,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 42.7
     },
     {
       "date": "11:00",
@@ -24520,11 +24494,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1283.699951171875,
       "close": 1285.5,
       "volume": 6623.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.55,
+      "ema20": 1284.25,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 44.1
     },
     {
       "date": "11:05",
@@ -24533,11 +24507,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1284.5,
       "close": 1287.5,
       "volume": 6381.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1284.83,
+      "ema20": 1284.56,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 47.9
     },
     {
       "date": "11:10",
@@ -24546,11 +24520,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.0999755859375,
       "close": 1287.0999755859375,
       "volume": 5827.0,
-      "supertrend": 1288.93,
+      "supertrend": 1289.87,
       "st_dir": -1,
-      "ema20": 1285.05,
+      "ema20": 1284.8,
       "ema50": null,
-      "rsi": 50.4
+      "rsi": 47.2
     },
     {
       "date": "11:15",
@@ -24559,11 +24533,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.0,
       "close": 1289.5999755859375,
       "volume": 12935.0,
-      "supertrend": 1279.26,
-      "st_dir": 1,
-      "ema20": 1285.48,
+      "supertrend": 1289.87,
+      "st_dir": -1,
+      "ema20": 1285.26,
       "ema50": null,
-      "rsi": 55.0
+      "rsi": 52.0
     },
     {
       "date": "11:20",
@@ -24572,11 +24546,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1288.800048828125,
       "close": 1289.4000244140625,
       "volume": 5632.0,
-      "supertrend": 1280.79,
-      "st_dir": 1,
-      "ema20": 1285.85,
+      "supertrend": 1289.87,
+      "st_dir": -1,
+      "ema20": 1285.66,
       "ema50": null,
-      "rsi": 54.6
+      "rsi": 51.6
     },
     {
       "date": "11:25",
@@ -24585,11 +24559,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1289.0,
       "close": 1291.199951171875,
       "volume": 8361.0,
-      "supertrend": 1281.9,
+      "supertrend": 1281.78,
       "st_dir": 1,
-      "ema20": 1286.36,
+      "ema20": 1286.18,
       "ema50": null,
-      "rsi": 57.8
+      "rsi": 54.9
     },
     {
       "date": "11:30",
@@ -24598,11 +24572,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1289.5,
       "close": 1291.5999755859375,
       "volume": 9356.0,
-      "supertrend": 1282.26,
+      "supertrend": 1282.16,
       "st_dir": 1,
-      "ema20": 1286.86,
+      "ema20": 1286.7,
       "ema50": null,
-      "rsi": 58.6
+      "rsi": 55.7
     },
     {
       "date": "11:35",
@@ -24611,11 +24585,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1290.0,
       "close": 1292.699951171875,
       "volume": 18654.0,
-      "supertrend": 1283.02,
+      "supertrend": 1282.93,
       "st_dir": 1,
-      "ema20": 1287.42,
+      "ema20": 1287.27,
       "ema50": null,
-      "rsi": 60.5
+      "rsi": 57.7
     },
     {
       "date": "11:40",
@@ -24624,11 +24598,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1291.199951171875,
       "close": 1291.5999755859375,
       "volume": 4267.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1287.82,
+      "ema20": 1287.68,
       "ema50": null,
-      "rsi": 57.6
+      "rsi": 55.0
     },
     {
       "date": "11:45",
@@ -24637,11 +24611,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1290.0,
       "close": 1290.0,
       "volume": 6267.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.02,
+      "ema20": 1287.9,
       "ema50": null,
-      "rsi": 53.5
+      "rsi": 51.2
     },
     {
       "date": "11:50",
@@ -24650,11 +24624,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1288.300048828125,
       "close": 1290.0,
       "volume": 20134.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.21,
+      "ema20": 1288.1,
       "ema50": null,
-      "rsi": 53.5
+      "rsi": 51.2
     },
     {
       "date": "11:55",
@@ -24663,11 +24637,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1288.800048828125,
       "close": 1290.5999755859375,
       "volume": 1830.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.44,
+      "ema20": 1288.34,
       "ema50": null,
-      "rsi": 54.9
+      "rsi": 52.6
     },
     {
       "date": "12:00",
@@ -24676,11 +24650,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.9000244140625,
       "close": 1288.4000244140625,
       "volume": 3641.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.44,
+      "ema20": 1288.35,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 47.2
     },
     {
       "date": "12:05",
@@ -24689,11 +24663,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.800048828125,
       "close": 1290.0,
       "volume": 7328.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.58,
+      "ema20": 1288.5,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": 51.1
     },
     {
       "date": "12:10",
@@ -24702,11 +24676,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1288.0999755859375,
       "close": 1289.5999755859375,
       "volume": 12564.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.68,
+      "ema20": 1288.61,
       "ema50": null,
-      "rsi": 51.9
+      "rsi": 50.1
     },
     {
       "date": "12:15",
@@ -24715,11 +24689,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1289.0,
       "close": 1289.199951171875,
       "volume": 2084.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.73,
+      "ema20": 1288.66,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 49.1
     },
     {
       "date": "12:20",
@@ -24728,11 +24702,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.5,
       "close": 1287.9000244140625,
       "volume": 5892.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.65,
+      "ema20": 1288.59,
       "ema50": null,
-      "rsi": 47.3
+      "rsi": 45.7
     },
     {
       "date": "12:25",
@@ -24741,11 +24715,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1287.9000244140625,
       "close": 1288.199951171875,
       "volume": 2442.0,
-      "supertrend": 1283.87,
+      "supertrend": 1283.79,
       "st_dir": 1,
-      "ema20": 1288.61,
+      "ema20": 1288.55,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 46.6
     },
     {
       "date": "12:30",
@@ -24754,11 +24728,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1282.5999755859375,
       "close": 1283.300048828125,
       "volume": 7189.0,
-      "supertrend": 1293.72,
+      "supertrend": 1293.75,
       "st_dir": -1,
-      "ema20": 1288.1,
+      "ema20": 1288.05,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 36.1
     },
     {
       "date": "12:35",
@@ -24767,11 +24741,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1282.199951171875,
       "close": 1282.699951171875,
       "volume": 43680.0,
-      "supertrend": 1290.53,
+      "supertrend": 1290.56,
       "st_dir": -1,
-      "ema20": 1287.59,
+      "ema20": 1287.54,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 35.1
     },
     {
       "date": "12:40",
@@ -24780,11 +24754,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1281.699951171875,
       "close": 1282.0,
       "volume": 22406.0,
-      "supertrend": 1290.41,
+      "supertrend": 1290.43,
       "st_dir": -1,
-      "ema20": 1287.06,
+      "ema20": 1287.02,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 33.8
     },
     {
       "date": "12:45",
@@ -24793,11 +24767,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1281.5999755859375,
       "close": 1283.0,
       "volume": 9379.0,
-      "supertrend": 1289.77,
+      "supertrend": 1289.79,
       "st_dir": -1,
-      "ema20": 1286.67,
+      "ema20": 1286.63,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 37.2
     },
     {
       "date": "12:50",
@@ -24806,11 +24780,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1283.0,
       "close": 1283.4000244140625,
       "volume": 5418.0,
-      "supertrend": 1289.77,
+      "supertrend": 1289.79,
       "st_dir": -1,
-      "ema20": 1286.36,
+      "ema20": 1286.33,
       "ema50": null,
-      "rsi": 39.5
+      "rsi": 38.6
     },
     {
       "date": "12:55",
@@ -24818,41 +24792,41 @@ window.DASHBOARD_CHARTS = {
       "high": 1284.699951171875,
       "low": 1283.0999755859375,
       "close": 1283.4000244140625,
-      "volume": 3663.0,
-      "supertrend": 1289.77,
+      "volume": 4403.0,
+      "supertrend": 1289.79,
       "st_dir": -1,
-      "ema20": 1286.08,
-      "ema50": 1285.98,
-      "rsi": 39.5
+      "ema20": 1286.05,
+      "ema50": null,
+      "rsi": 38.6
+    },
+    {
+      "date": "13:00",
+      "open": 1283.9000244140625,
+      "high": 1283.9000244140625,
+      "low": 1281.699951171875,
+      "close": 1281.9000244140625,
+      "volume": 10953.0,
+      "supertrend": 1289.6,
+      "st_dir": -1,
+      "ema20": 1285.65,
+      "ema50": null,
+      "rsi": 35.3
+    },
+    {
+      "date": "13:05",
+      "open": 1281.800048828125,
+      "high": 1282.800048828125,
+      "low": 1278.9000244140625,
+      "close": 1278.9000244140625,
+      "volume": 9556.0,
+      "supertrend": 1288.14,
+      "st_dir": -1,
+      "ema20": 1285.01,
+      "ema50": 1285.53,
+      "rsi": 29.8
     }
   ],
   "BRITANNIA.NS": [
-    {
-      "date": "14:55",
-      "open": 4695.5,
-      "high": 4698.0,
-      "low": 4694.60009765625,
-      "close": 4696.2001953125,
-      "volume": 2433.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 4699.7001953125,
-      "high": 4707.89990234375,
-      "low": 4697.2001953125,
-      "close": 4699.10009765625,
-      "volume": 6020.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 4699.0,
@@ -24951,8 +24925,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4690.60009765625,
       "close": 4690.60009765625,
       "volume": 785.0,
-      "supertrend": 4732.33,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -24964,8 +24938,8 @@ window.DASHBOARD_CHARTS = {
       "low": 4686.0,
       "close": 4687.7001953125,
       "volume": 863.0,
-      "supertrend": 4723.74,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -24977,7 +24951,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4685.0,
       "close": 4698.0,
       "volume": 1160.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -24990,7 +24964,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4696.7001953125,
       "close": 4710.7998046875,
       "volume": 2064.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -25003,7 +24977,7 @@ window.DASHBOARD_CHARTS = {
       "low": 4706.10009765625,
       "close": 4709.2998046875,
       "volume": 759.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -25016,11 +24990,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4704.7001953125,
       "close": 4715.60009765625,
       "volume": 2304.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 60.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -25029,11 +25003,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4711.0,
       "close": 4719.39990234375,
       "volume": 2472.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 62.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -25042,11 +25016,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4713.2001953125,
       "close": 4716.10009765625,
       "volume": 2260.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 60.0
+      "rsi": 58.1
     },
     {
       "date": "10:15",
@@ -25055,11 +25029,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4712.0,
       "close": 4720.7001953125,
       "volume": 1078.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 62.2
+      "rsi": 60.2
     },
     {
       "date": "10:20",
@@ -25068,11 +25042,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4694.39990234375,
       "close": 4696.7998046875,
       "volume": 3345.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 47.5
+      "rsi": 47.0
     },
     {
       "date": "10:25",
@@ -25081,11 +25055,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4688.7001953125,
       "close": 4690.0,
       "volume": 1005.0,
-      "supertrend": 4723.74,
+      "supertrend": 4730.6,
       "st_dir": -1,
-      "ema20": 4702.18,
+      "ema20": null,
       "ema50": null,
-      "rsi": 44.3
+      "rsi": 44.0
     },
     {
       "date": "10:30",
@@ -25094,11 +25068,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4685.60009765625,
       "close": 4686.10009765625,
       "volume": 1303.0,
-      "supertrend": 4723.74,
+      "supertrend": 4727.11,
       "st_dir": -1,
-      "ema20": 4700.65,
+      "ema20": null,
       "ema50": null,
-      "rsi": 42.6
+      "rsi": 42.3
     },
     {
       "date": "10:35",
@@ -25107,11 +25081,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.10009765625,
       "close": 4687.0,
       "volume": 1040.0,
-      "supertrend": 4720.69,
+      "supertrend": 4721.48,
       "st_dir": -1,
-      "ema20": 4699.35,
+      "ema20": 4701.07,
       "ema50": null,
-      "rsi": 43.1
+      "rsi": 42.9
     },
     {
       "date": "10:40",
@@ -25120,11 +25094,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4680.10009765625,
       "close": 4682.0,
       "volume": 1317.0,
-      "supertrend": 4718.4,
+      "supertrend": 4719.1,
       "st_dir": -1,
-      "ema20": 4697.7,
+      "ema20": 4699.25,
       "ema50": null,
-      "rsi": 40.7
+      "rsi": 40.6
     },
     {
       "date": "10:45",
@@ -25133,9 +25107,9 @@ window.DASHBOARD_CHARTS = {
       "low": 4673.2001953125,
       "close": 4676.10009765625,
       "volume": 3567.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4695.64,
+      "ema20": 4697.05,
       "ema50": null,
       "rsi": 38.1
     },
@@ -25146,11 +25120,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4678.39990234375,
       "close": 4687.5,
       "volume": 687.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4694.86,
+      "ema20": 4696.14,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 45.2
     },
     {
       "date": "10:55",
@@ -25159,11 +25133,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.0,
       "close": 4686.7998046875,
       "volume": 1280.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4694.1,
+      "ema20": 4695.25,
       "ema50": null,
-      "rsi": 45.2
+      "rsi": 44.9
     },
     {
       "date": "11:00",
@@ -25172,11 +25146,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.0,
       "close": 4688.0,
       "volume": 5216.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4693.52,
+      "ema20": 4694.56,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 45.6
     },
     {
       "date": "11:05",
@@ -25185,11 +25159,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4684.89990234375,
       "close": 4689.0,
       "volume": 1949.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4693.09,
+      "ema20": 4694.03,
       "ema50": null,
-      "rsi": 46.6
+      "rsi": 46.3
     },
     {
       "date": "11:10",
@@ -25198,11 +25172,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4687.0,
       "close": 4691.7998046875,
       "volume": 2102.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4692.96,
+      "ema20": 4693.82,
       "ema50": null,
-      "rsi": 48.6
+      "rsi": 48.2
     },
     {
       "date": "11:15",
@@ -25211,11 +25185,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4688.60009765625,
       "close": 4693.0,
       "volume": 4065.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4692.97,
+      "ema20": 4693.74,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 49.0
     },
     {
       "date": "11:20",
@@ -25224,11 +25198,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4686.5,
       "close": 4689.2998046875,
       "volume": 862.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4692.62,
+      "ema20": 4693.32,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 46.5
     },
     {
       "date": "11:25",
@@ -25237,11 +25211,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4686.7998046875,
       "close": 4690.7001953125,
       "volume": 344.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4692.43,
+      "ema20": 4693.07,
       "ema50": null,
-      "rsi": 48.0
+      "rsi": 47.6
     },
     {
       "date": "11:30",
@@ -25250,11 +25224,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4690.0,
       "close": 4695.5,
       "volume": 646.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4692.73,
+      "ema20": 4693.3,
       "ema50": null,
-      "rsi": 51.7
+      "rsi": 51.3
     },
     {
       "date": "11:35",
@@ -25263,11 +25237,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4696.0,
       "close": 4696.0,
       "volume": 4552.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4693.04,
+      "ema20": 4693.56,
       "ema50": null,
-      "rsi": 52.1
+      "rsi": 51.6
     },
     {
       "date": "11:40",
@@ -25276,11 +25250,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4694.7998046875,
       "close": 4697.5,
       "volume": 4884.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4693.46,
+      "ema20": 4693.93,
       "ema50": null,
-      "rsi": 53.3
+      "rsi": 52.8
     },
     {
       "date": "11:45",
@@ -25289,11 +25263,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4696.0,
       "close": 4696.2998046875,
       "volume": 11135.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4693.73,
+      "ema20": 4694.16,
       "ema50": null,
-      "rsi": 52.2
+      "rsi": 51.7
     },
     {
       "date": "11:50",
@@ -25302,11 +25276,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4696.2001953125,
       "close": 4700.0,
       "volume": 11244.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4694.33,
+      "ema20": 4694.71,
       "ema50": null,
-      "rsi": 55.4
+      "rsi": 54.8
     },
     {
       "date": "11:55",
@@ -25315,11 +25289,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4695.2998046875,
       "close": 4695.2998046875,
       "volume": 1712.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4694.42,
+      "ema20": 4694.77,
       "ema50": null,
-      "rsi": 50.8
+      "rsi": 50.4
     },
     {
       "date": "12:00",
@@ -25328,11 +25302,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4689.10009765625,
       "close": 4691.2998046875,
       "volume": 496.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.3,
       "st_dir": -1,
-      "ema20": 4694.13,
+      "ema20": 4694.44,
       "ema50": null,
-      "rsi": 47.2
+      "rsi": 46.9
     },
     {
       "date": "12:05",
@@ -25341,11 +25315,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4690.7998046875,
       "close": 4696.2998046875,
       "volume": 467.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4694.33,
+      "ema20": 4694.62,
       "ema50": null,
-      "rsi": 51.8
+      "rsi": 51.4
     },
     {
       "date": "12:10",
@@ -25354,11 +25328,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4694.0,
       "close": 4700.0,
       "volume": 1506.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4694.87,
+      "ema20": 4695.13,
       "ema50": null,
-      "rsi": 54.9
+      "rsi": 54.5
     },
     {
       "date": "12:15",
@@ -25367,11 +25341,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4698.0,
       "close": 4703.2001953125,
       "volume": 5042.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4695.67,
+      "ema20": 4695.9,
       "ema50": null,
-      "rsi": 57.5
+      "rsi": 57.0
     },
     {
       "date": "12:20",
@@ -25380,11 +25354,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4703.0,
       "close": 4707.2001953125,
       "volume": 3653.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4696.76,
+      "ema20": 4696.97,
       "ema50": null,
-      "rsi": 60.5
+      "rsi": 60.0
     },
     {
       "date": "12:25",
@@ -25393,11 +25367,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4700.7998046875,
       "close": 4702.5,
       "volume": 5387.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4697.31,
+      "ema20": 4697.5,
       "ema50": null,
-      "rsi": 55.5
+      "rsi": 55.2
     },
     {
       "date": "12:30",
@@ -25406,11 +25380,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4695.7001953125,
       "close": 4699.0,
       "volume": 3796.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4697.47,
+      "ema20": 4697.64,
       "ema50": null,
-      "rsi": 52.0
+      "rsi": 51.8
     },
     {
       "date": "12:35",
@@ -25419,11 +25393,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4699.0,
       "close": 4700.0,
       "volume": 3595.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4697.71,
+      "ema20": 4697.87,
       "ema50": null,
-      "rsi": 52.9
+      "rsi": 52.7
     },
     {
       "date": "12:40",
@@ -25432,11 +25406,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4693.2998046875,
       "close": 4693.89990234375,
       "volume": 2220.0,
-      "supertrend": 4715.66,
+      "supertrend": 4716.04,
       "st_dir": -1,
-      "ema20": 4697.35,
+      "ema20": 4697.49,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 47.0
     },
     {
       "date": "12:45",
@@ -25445,11 +25419,11 @@ window.DASHBOARD_CHARTS = {
       "low": 4692.2998046875,
       "close": 4694.0,
       "volume": 538.0,
-      "supertrend": 4715.66,
+      "supertrend": 4715.96,
       "st_dir": -1,
-      "ema20": 4697.03,
+      "ema20": 4697.16,
       "ema50": null,
-      "rsi": 47.2
+      "rsi": 47.1
     },
     {
       "date": "12:50",
@@ -25458,53 +25432,53 @@ window.DASHBOARD_CHARTS = {
       "low": 4694.0,
       "close": 4699.89990234375,
       "volume": 458.0,
-      "supertrend": 4715.66,
+      "supertrend": 4715.96,
       "st_dir": -1,
-      "ema20": 4697.3,
+      "ema20": 4697.42,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": 52.8
     },
     {
       "date": "12:55",
       "open": 4699.89990234375,
-      "high": 4699.89990234375,
+      "high": 4700.0,
       "low": 4696.0,
       "close": 4696.5,
-      "volume": 1035.0,
-      "supertrend": 4715.66,
+      "volume": 2814.0,
+      "supertrend": 4715.96,
       "st_dir": -1,
-      "ema20": 4697.23,
-      "ema50": 4697.11,
-      "rsi": 49.6
+      "ema20": 4697.33,
+      "ema50": null,
+      "rsi": 49.5
+    },
+    {
+      "date": "13:00",
+      "open": 4699.5,
+      "high": 4699.5,
+      "low": 4693.2998046875,
+      "close": 4695.2998046875,
+      "volume": 2839.0,
+      "supertrend": 4715.96,
+      "st_dir": -1,
+      "ema20": 4697.14,
+      "ema50": null,
+      "rsi": 48.3
+    },
+    {
+      "date": "13:05",
+      "open": 4693.2998046875,
+      "high": 4695.39990234375,
+      "low": 4688.60009765625,
+      "close": 4691.7998046875,
+      "volume": 1947.0,
+      "supertrend": 4711.82,
+      "st_dir": -1,
+      "ema20": 4696.63,
+      "ema50": 4696.94,
+      "rsi": 45.0
     }
   ],
   "TATACONSUM.NS": [
-    {
-      "date": "15:00",
-      "open": 1108.0,
-      "high": 1109.300048828125,
-      "low": 1108.0,
-      "close": 1109.199951171875,
-      "volume": 6947.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1110.4000244140625,
-      "high": 1112.199951171875,
-      "low": 1109.699951171875,
-      "close": 1112.199951171875,
-      "volume": 35965.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1111.300048828125,
@@ -25603,8 +25577,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1104.0,
       "close": 1110.9000244140625,
       "volume": 51398.0,
-      "supertrend": 1120.81,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -25616,8 +25590,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1108.800048828125,
       "close": 1110.199951171875,
       "volume": 37096.0,
-      "supertrend": 1120.81,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -25629,7 +25603,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1106.800048828125,
       "close": 1108.199951171875,
       "volume": 6164.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -25642,7 +25616,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1107.0,
       "close": 1109.5,
       "volume": 9043.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -25655,7 +25629,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1108.699951171875,
       "close": 1108.9000244140625,
       "volume": 4658.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -25668,11 +25642,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1108.4000244140625,
       "close": 1111.199951171875,
       "volume": 11603.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -25681,11 +25655,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.0,
       "close": 1113.5999755859375,
       "volume": 10552.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.4
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -25694,11 +25668,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.199951171875,
       "close": 1110.199951171875,
       "volume": 7160.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 48.7
     },
     {
       "date": "10:15",
@@ -25707,11 +25681,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1109.199951171875,
       "close": 1110.800048828125,
       "volume": 22656.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 52.0
+      "rsi": 49.7
     },
     {
       "date": "10:20",
@@ -25720,11 +25694,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.5,
       "close": 1111.5,
       "volume": 4388.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.2
+      "rsi": 51.1
     },
     {
       "date": "10:25",
@@ -25733,11 +25707,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.5,
       "close": 1111.0,
       "volume": 3734.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
-      "ema20": 1109.64,
+      "ema20": null,
       "ema50": null,
-      "rsi": 52.2
+      "rsi": 50.1
     },
     {
       "date": "10:30",
@@ -25746,11 +25720,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.0999755859375,
       "close": 1111.5,
       "volume": 4273.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
-      "ema20": 1109.82,
+      "ema20": null,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 51.1
     },
     {
       "date": "10:35",
@@ -25759,11 +25733,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.199951171875,
       "close": 1111.199951171875,
       "volume": 3550.0,
-      "supertrend": 1119.06,
+      "supertrend": 1120.0,
       "st_dir": -1,
-      "ema20": 1109.95,
+      "ema20": 1109.71,
       "ema50": null,
-      "rsi": 52.5
+      "rsi": 50.4
     },
     {
       "date": "10:40",
@@ -25772,11 +25746,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1110.5999755859375,
       "close": 1111.0999755859375,
       "volume": 5177.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1110.06,
+      "ema20": 1109.84,
       "ema50": null,
-      "rsi": 52.2
+      "rsi": 50.2
     },
     {
       "date": "10:45",
@@ -25785,11 +25759,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1111.0999755859375,
       "close": 1113.0,
       "volume": 79707.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1110.34,
+      "ema20": 1110.14,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 54.6
     },
     {
       "date": "10:50",
@@ -25798,11 +25772,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.800048828125,
       "close": 1115.800048828125,
       "volume": 14781.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1110.86,
+      "ema20": 1110.68,
       "ema50": null,
-      "rsi": 61.7
+      "rsi": 60.1
     },
     {
       "date": "10:55",
@@ -25811,11 +25785,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.5,
       "close": 1114.0,
       "volume": 13551.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1111.16,
+      "ema20": 1111.0,
       "ema50": null,
-      "rsi": 56.9
+      "rsi": 55.4
     },
     {
       "date": "11:00",
@@ -25824,11 +25798,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.199951171875,
       "close": 1113.9000244140625,
       "volume": 13099.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1111.42,
+      "ema20": 1111.27,
       "ema50": null,
-      "rsi": 56.6
+      "rsi": 55.2
     },
     {
       "date": "11:05",
@@ -25837,11 +25811,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.800048828125,
       "close": 1112.800048828125,
       "volume": 7857.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1111.55,
+      "ema20": 1111.42,
       "ema50": null,
-      "rsi": 53.7
+      "rsi": 52.3
     },
     {
       "date": "11:10",
@@ -25850,11 +25824,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.5999755859375,
       "close": 1113.800048828125,
       "volume": 7610.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1111.77,
+      "ema20": 1111.65,
       "ema50": null,
-      "rsi": 55.9
+      "rsi": 54.6
     },
     {
       "date": "11:15",
@@ -25863,11 +25837,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.699951171875,
       "close": 1113.5,
       "volume": 5185.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1111.93,
+      "ema20": 1111.82,
       "ema50": null,
-      "rsi": 55.1
+      "rsi": 53.8
     },
     {
       "date": "11:20",
@@ -25876,11 +25850,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.0999755859375,
       "close": 1112.699951171875,
       "volume": 8607.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1112.01,
+      "ema20": 1111.91,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 51.5
     },
     {
       "date": "11:25",
@@ -25889,11 +25863,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1112.699951171875,
       "close": 1114.300048828125,
       "volume": 7696.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1112.22,
+      "ema20": 1112.13,
       "ema50": null,
-      "rsi": 56.7
+      "rsi": 55.5
     },
     {
       "date": "11:30",
@@ -25902,11 +25876,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.5999755859375,
       "close": 1114.9000244140625,
       "volume": 3730.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1112.48,
+      "ema20": 1112.4,
       "ema50": null,
-      "rsi": 58.1
+      "rsi": 57.0
     },
     {
       "date": "11:35",
@@ -25915,11 +25889,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1113.5,
       "close": 1116.5,
       "volume": 36486.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1112.86,
+      "ema20": 1112.79,
       "ema50": null,
-      "rsi": 61.7
+      "rsi": 60.7
     },
     {
       "date": "11:40",
@@ -25928,11 +25902,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.5,
       "close": 1116.0,
       "volume": 4448.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1113.16,
+      "ema20": 1113.09,
       "ema50": null,
-      "rsi": 60.0
+      "rsi": 59.0
     },
     {
       "date": "11:45",
@@ -25941,11 +25915,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.300048828125,
       "close": 1117.0,
       "volume": 9727.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1113.53,
+      "ema20": 1113.47,
       "ema50": null,
-      "rsi": 62.3
+      "rsi": 61.3
     },
     {
       "date": "11:50",
@@ -25954,11 +25928,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1115.199951171875,
       "close": 1116.300048828125,
       "volume": 4430.0,
-      "supertrend": 1119.06,
+      "supertrend": 1119.35,
       "st_dir": -1,
-      "ema20": 1113.79,
+      "ema20": 1113.74,
       "ema50": null,
-      "rsi": 59.7
+      "rsi": 58.8
     },
     {
       "date": "11:55",
@@ -25967,11 +25941,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1116.199951171875,
       "close": 1120.4000244140625,
       "volume": 20019.0,
-      "supertrend": 1111.56,
+      "supertrend": 1111.5,
       "st_dir": 1,
-      "ema20": 1114.42,
+      "ema20": 1114.37,
       "ema50": null,
-      "rsi": 68.0
+      "rsi": 67.3
     },
     {
       "date": "12:00",
@@ -25980,11 +25954,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1120.0999755859375,
       "close": 1122.0,
       "volume": 25494.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1115.14,
+      "ema20": 1115.1,
       "ema50": null,
-      "rsi": 70.6
+      "rsi": 69.9
     },
     {
       "date": "12:05",
@@ -25993,11 +25967,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.5999755859375,
       "close": 1120.5,
       "volume": 19198.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1115.65,
+      "ema20": 1115.61,
       "ema50": null,
-      "rsi": 65.3
+      "rsi": 64.7
     },
     {
       "date": "12:10",
@@ -26006,11 +25980,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.0,
       "close": 1120.199951171875,
       "volume": 8793.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1116.09,
+      "ema20": 1116.05,
       "ema50": null,
-      "rsi": 64.3
+      "rsi": 63.7
     },
     {
       "date": "12:15",
@@ -26019,11 +25993,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.4000244140625,
       "close": 1120.5999755859375,
       "volume": 5330.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1116.52,
+      "ema20": 1116.48,
       "ema50": null,
-      "rsi": 65.1
+      "rsi": 64.5
     },
     {
       "date": "12:20",
@@ -26032,11 +26006,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.0999755859375,
       "close": 1119.9000244140625,
       "volume": 6404.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1116.84,
+      "ema20": 1116.81,
       "ema50": null,
-      "rsi": 62.4
+      "rsi": 61.9
     },
     {
       "date": "12:25",
@@ -26045,11 +26019,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.199951171875,
       "close": 1119.5999755859375,
       "volume": 4128.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1117.1,
+      "ema20": 1117.07,
       "ema50": null,
-      "rsi": 61.3
+      "rsi": 60.8
     },
     {
       "date": "12:30",
@@ -26058,11 +26032,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1117.300048828125,
       "close": 1120.0999755859375,
       "volume": 8262.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1117.39,
+      "ema20": 1117.36,
       "ema50": null,
-      "rsi": 62.5
+      "rsi": 62.0
     },
     {
       "date": "12:35",
@@ -26071,11 +26045,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.800048828125,
       "close": 1119.0,
       "volume": 5201.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1117.54,
+      "ema20": 1117.52,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": 57.7
     },
     {
       "date": "12:40",
@@ -26084,11 +26058,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.9000244140625,
       "close": 1120.0,
       "volume": 5566.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1117.77,
+      "ema20": 1117.75,
       "ema50": null,
-      "rsi": 60.8
+      "rsi": 60.4
     },
     {
       "date": "12:45",
@@ -26097,11 +26071,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1119.5,
       "close": 1119.5999755859375,
       "volume": 4201.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1117.95,
+      "ema20": 1117.93,
       "ema50": null,
-      "rsi": 59.2
+      "rsi": 58.8
     },
     {
       "date": "12:50",
@@ -26110,11 +26084,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1118.5,
       "close": 1120.4000244140625,
       "volume": 6231.0,
-      "supertrend": 1114.59,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1118.18,
+      "ema20": 1118.17,
       "ema50": null,
-      "rsi": 61.4
+      "rsi": 61.0
     },
     {
       "date": "12:55",
@@ -26122,41 +26096,41 @@ window.DASHBOARD_CHARTS = {
       "high": 1120.9000244140625,
       "low": 1119.699951171875,
       "close": 1119.699951171875,
-      "volume": 5632.0,
-      "supertrend": 1114.59,
+      "volume": 6462.0,
+      "supertrend": 1114.54,
       "st_dir": 1,
-      "ema20": 1118.33,
-      "ema50": 1113.86,
-      "rsi": 58.4
+      "ema20": 1118.31,
+      "ema50": null,
+      "rsi": 58.0
+    },
+    {
+      "date": "13:00",
+      "open": 1119.5999755859375,
+      "high": 1120.800048828125,
+      "low": 1119.0,
+      "close": 1120.699951171875,
+      "volume": 218458.0,
+      "supertrend": 1114.54,
+      "st_dir": 1,
+      "ema20": 1118.54,
+      "ema50": null,
+      "rsi": 61.0
+    },
+    {
+      "date": "13:05",
+      "open": 1120.300048828125,
+      "high": 1120.699951171875,
+      "low": 1119.9000244140625,
+      "close": 1120.0,
+      "volume": 2826.0,
+      "supertrend": 1114.77,
+      "st_dir": 1,
+      "ema20": 1118.68,
+      "ema50": 1114.25,
+      "rsi": 57.9
     }
   ],
   "CIPLA.NS": [
-    {
-      "date": "15:00",
-      "open": 1388.9000244140625,
-      "high": 1389.0999755859375,
-      "low": 1387.300048828125,
-      "close": 1388.4000244140625,
-      "volume": 29177.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1387.800048828125,
-      "high": 1387.800048828125,
-      "low": 1385.4000244140625,
-      "close": 1386.5,
-      "volume": 42464.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1386.4000244140625,
@@ -26255,8 +26229,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1384.4000244140625,
       "close": 1386.4000244140625,
       "volume": 6156.0,
-      "supertrend": 1398.87,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -26268,8 +26242,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1383.5,
       "close": 1386.5999755859375,
       "volume": 6420.0,
-      "supertrend": 1397.88,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -26281,7 +26255,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1386.199951171875,
       "close": 1389.199951171875,
       "volume": 6601.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26294,7 +26268,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.800048828125,
       "close": 1390.9000244140625,
       "volume": 15888.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26307,7 +26281,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1390.4000244140625,
       "close": 1394.0,
       "volume": 9932.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26320,11 +26294,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1390.699951171875,
       "close": 1390.699951171875,
       "volume": 10814.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -26333,11 +26307,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1388.4000244140625,
       "close": 1390.800048828125,
       "volume": 8014.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.2
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -26346,11 +26320,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.5,
       "close": 1389.5999755859375,
       "volume": 82137.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 51.3
+      "rsi": 49.6
     },
     {
       "date": "10:15",
@@ -26359,11 +26333,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.5999755859375,
       "close": 1392.699951171875,
       "volume": 9042.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 55.6
+      "rsi": 54.1
     },
     {
       "date": "10:20",
@@ -26372,11 +26346,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1391.199951171875,
       "close": 1391.5,
       "volume": 2994.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 53.6
+      "rsi": 52.1
     },
     {
       "date": "10:25",
@@ -26385,11 +26359,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.0999755859375,
       "close": 1389.9000244140625,
       "volume": 6199.0,
-      "supertrend": 1397.88,
+      "supertrend": 1401.48,
       "st_dir": -1,
-      "ema20": 1388.28,
+      "ema20": null,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 49.6
     },
     {
       "date": "10:30",
@@ -26398,11 +26372,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.0,
       "close": 1387.5999755859375,
       "volume": 7608.0,
-      "supertrend": 1397.88,
+      "supertrend": 1400.73,
       "st_dir": -1,
-      "ema20": 1388.22,
+      "ema20": null,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 46.1
     },
     {
       "date": "10:35",
@@ -26411,11 +26385,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1386.0999755859375,
       "close": 1386.5999755859375,
       "volume": 6626.0,
-      "supertrend": 1397.88,
+      "supertrend": 1398.55,
       "st_dir": -1,
-      "ema20": 1388.06,
+      "ema20": 1388.24,
       "ema50": null,
-      "rsi": 45.9
+      "rsi": 44.6
     },
     {
       "date": "10:40",
@@ -26424,11 +26398,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1386.0999755859375,
       "close": 1387.699951171875,
       "volume": 4644.0,
-      "supertrend": 1397.56,
+      "supertrend": 1397.91,
       "st_dir": -1,
-      "ema20": 1388.03,
+      "ema20": 1388.19,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 46.6
     },
     {
       "date": "10:45",
@@ -26437,11 +26411,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.0999755859375,
       "close": 1390.0999755859375,
       "volume": 6576.0,
-      "supertrend": 1397.56,
+      "supertrend": 1397.91,
       "st_dir": -1,
-      "ema20": 1388.22,
+      "ema20": 1388.37,
       "ema50": null,
-      "rsi": 52.0
+      "rsi": 50.8
     },
     {
       "date": "10:50",
@@ -26450,11 +26424,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1390.0,
       "close": 1390.4000244140625,
       "volume": 51050.0,
-      "supertrend": 1397.56,
+      "supertrend": 1397.91,
       "st_dir": -1,
-      "ema20": 1388.43,
+      "ema20": 1388.57,
       "ema50": null,
-      "rsi": 52.5
+      "rsi": 51.4
     },
     {
       "date": "10:55",
@@ -26463,11 +26437,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1391.0999755859375,
       "close": 1394.0999755859375,
       "volume": 64831.0,
-      "supertrend": 1397.56,
+      "supertrend": 1397.91,
       "st_dir": -1,
-      "ema20": 1388.97,
+      "ema20": 1389.09,
       "ema50": null,
-      "rsi": 58.3
+      "rsi": 57.3
     },
     {
       "date": "11:00",
@@ -26476,11 +26450,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1394.300048828125,
       "close": 1402.0999755859375,
       "volume": 32218.0,
-      "supertrend": 1386.09,
+      "supertrend": 1385.86,
       "st_dir": 1,
-      "ema20": 1390.22,
+      "ema20": 1390.33,
       "ema50": null,
-      "rsi": 67.6
+      "rsi": 66.8
     },
     {
       "date": "11:05",
@@ -26489,11 +26463,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1402.0999755859375,
       "close": 1414.9000244140625,
       "volume": 155579.0,
-      "supertrend": 1394.38,
+      "supertrend": 1394.17,
       "st_dir": 1,
-      "ema20": 1392.57,
+      "ema20": 1392.67,
       "ema50": null,
-      "rsi": 76.6
+      "rsi": 76.0
     },
     {
       "date": "11:10",
@@ -26502,11 +26476,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1414.0,
       "close": 1418.5,
       "volume": 233606.0,
-      "supertrend": 1402.08,
+      "supertrend": 1401.89,
       "st_dir": 1,
-      "ema20": 1395.04,
+      "ema20": 1395.13,
       "ema50": null,
-      "rsi": 78.4
+      "rsi": 77.9
     },
     {
       "date": "11:15",
@@ -26515,11 +26489,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1414.5,
       "close": 1421.300048828125,
       "volume": 171116.0,
-      "supertrend": 1402.08,
+      "supertrend": 1401.89,
       "st_dir": 1,
-      "ema20": 1397.54,
+      "ema20": 1397.62,
       "ema50": null,
-      "rsi": 79.7
+      "rsi": 79.2
     },
     {
       "date": "11:20",
@@ -26528,11 +26502,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1418.699951171875,
       "close": 1421.5,
       "volume": 51026.0,
-      "supertrend": 1403.15,
+      "supertrend": 1403.0,
       "st_dir": 1,
-      "ema20": 1399.82,
+      "ema20": 1399.9,
       "ema50": null,
-      "rsi": 79.8
+      "rsi": 79.3
     },
     {
       "date": "11:25",
@@ -26541,11 +26515,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1417.9000244140625,
       "close": 1425.0999755859375,
       "volume": 156933.0,
-      "supertrend": 1404.28,
+      "supertrend": 1404.15,
       "st_dir": 1,
-      "ema20": 1402.23,
+      "ema20": 1402.3,
       "ema50": null,
-      "rsi": 81.5
+      "rsi": 81.0
     },
     {
       "date": "11:30",
@@ -26554,11 +26528,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1424.5999755859375,
       "close": 1432.4000244140625,
       "volume": 139511.0,
-      "supertrend": 1409.98,
+      "supertrend": 1409.86,
       "st_dir": 1,
-      "ema20": 1405.1,
+      "ema20": 1405.17,
       "ema50": null,
-      "rsi": 84.3
+      "rsi": 83.9
     },
     {
       "date": "11:35",
@@ -26567,11 +26541,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1429.5999755859375,
       "close": 1430.4000244140625,
       "volume": 109737.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1407.51,
+      "ema20": 1407.57,
       "ema50": null,
-      "rsi": 80.7
+      "rsi": 80.3
     },
     {
       "date": "11:40",
@@ -26580,11 +26554,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1427.5999755859375,
       "close": 1428.9000244140625,
       "volume": 63776.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1409.55,
+      "ema20": 1409.6,
       "ema50": null,
-      "rsi": 77.9
+      "rsi": 77.6
     },
     {
       "date": "11:45",
@@ -26593,11 +26567,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1426.0,
       "close": 1426.4000244140625,
       "volume": 50595.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1411.16,
+      "ema20": 1411.2,
       "ema50": null,
-      "rsi": 73.5
+      "rsi": 73.2
     },
     {
       "date": "11:50",
@@ -26606,11 +26580,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1423.699951171875,
       "close": 1424.5,
       "volume": 61890.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1412.43,
+      "ema20": 1412.47,
       "ema50": null,
-      "rsi": 70.2
+      "rsi": 69.9
     },
     {
       "date": "11:55",
@@ -26619,11 +26593,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1423.800048828125,
       "close": 1425.5,
       "volume": 29615.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1413.67,
+      "ema20": 1413.71,
       "ema50": null,
-      "rsi": 70.9
+      "rsi": 70.6
     },
     {
       "date": "12:00",
@@ -26632,11 +26606,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1422.0,
       "close": 1424.699951171875,
       "volume": 54811.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1414.72,
+      "ema20": 1414.75,
       "ema50": null,
-      "rsi": 69.5
+      "rsi": 69.2
     },
     {
       "date": "12:05",
@@ -26645,11 +26619,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1423.4000244140625,
       "close": 1425.0,
       "volume": 24328.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1415.7,
+      "ema20": 1415.73,
       "ema50": null,
-      "rsi": 69.7
+      "rsi": 69.4
     },
     {
       "date": "12:10",
@@ -26658,11 +26632,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1424.300048828125,
       "close": 1424.300048828125,
       "volume": 15061.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1416.52,
+      "ema20": 1416.55,
       "ema50": null,
-      "rsi": 68.3
+      "rsi": 68.0
     },
     {
       "date": "12:15",
@@ -26671,11 +26645,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1424.0,
       "close": 1424.699951171875,
       "volume": 12245.0,
-      "supertrend": 1413.43,
+      "supertrend": 1413.32,
       "st_dir": 1,
-      "ema20": 1417.3,
+      "ema20": 1417.32,
       "ema50": null,
-      "rsi": 68.7
+      "rsi": 68.4
     },
     {
       "date": "12:20",
@@ -26684,11 +26658,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1424.5999755859375,
       "close": 1428.0999755859375,
       "volume": 27101.0,
-      "supertrend": 1413.94,
+      "supertrend": 1413.9,
       "st_dir": 1,
-      "ema20": 1418.33,
+      "ema20": 1418.35,
       "ema50": null,
-      "rsi": 71.9
+      "rsi": 71.6
     },
     {
       "date": "12:25",
@@ -26697,11 +26671,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1425.0,
       "close": 1425.0,
       "volume": 32004.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1418.96,
+      "ema20": 1418.98,
       "ema50": null,
-      "rsi": 65.3
+      "rsi": 65.1
     },
     {
       "date": "12:30",
@@ -26710,11 +26684,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1422.300048828125,
       "close": 1423.199951171875,
       "volume": 24240.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1419.37,
+      "ema20": 1419.38,
       "ema50": null,
-      "rsi": 61.8
+      "rsi": 61.6
     },
     {
       "date": "12:35",
@@ -26723,11 +26697,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1422.0,
       "close": 1422.199951171875,
       "volume": 16261.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1419.64,
+      "ema20": 1419.65,
       "ema50": null,
-      "rsi": 59.8
+      "rsi": 59.6
     },
     {
       "date": "12:40",
@@ -26736,11 +26710,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1422.0,
       "close": 1432.4000244140625,
       "volume": 113815.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1420.85,
+      "ema20": 1420.87,
       "ema50": null,
-      "rsi": 70.1
+      "rsi": 70.0
     },
     {
       "date": "12:45",
@@ -26749,11 +26723,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1425.0,
       "close": 1426.5999755859375,
       "volume": 46354.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1421.4,
+      "ema20": 1421.41,
       "ema50": null,
-      "rsi": 60.6
+      "rsi": 60.5
     },
     {
       "date": "12:50",
@@ -26762,11 +26736,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1425.9000244140625,
       "close": 1426.5,
       "volume": 18662.0,
-      "supertrend": 1414.57,
+      "supertrend": 1414.53,
       "st_dir": 1,
-      "ema20": 1421.88,
+      "ema20": 1421.9,
       "ema50": null,
-      "rsi": 60.5
+      "rsi": 60.3
     },
     {
       "date": "12:55",
@@ -26774,41 +26748,41 @@ window.DASHBOARD_CHARTS = {
       "high": 1431.9000244140625,
       "low": 1426.9000244140625,
       "close": 1428.9000244140625,
-      "volume": 60819.0,
-      "supertrend": 1415.32,
+      "volume": 65554.0,
+      "supertrend": 1415.3,
       "st_dir": 1,
-      "ema20": 1422.55,
-      "ema50": 1405.7,
-      "rsi": 62.9
+      "ema20": 1422.56,
+      "ema50": null,
+      "rsi": 62.8
+    },
+    {
+      "date": "13:00",
+      "open": 1429.0,
+      "high": 1429.300048828125,
+      "low": 1427.4000244140625,
+      "close": 1427.5,
+      "volume": 22520.0,
+      "supertrend": 1415.3,
+      "st_dir": 1,
+      "ema20": 1423.03,
+      "ema50": null,
+      "rsi": 60.4
+    },
+    {
+      "date": "13:05",
+      "open": 1428.0,
+      "high": 1429.0,
+      "low": 1427.199951171875,
+      "close": 1428.0999755859375,
+      "volume": 15297.0,
+      "supertrend": 1415.63,
+      "st_dir": 1,
+      "ema20": 1423.52,
+      "ema50": 1407.32,
+      "rsi": 61.1
     }
   ],
   "DRREDDY.NS": [
-    {
-      "date": "15:00",
-      "open": 1385.0,
-      "high": 1385.5999755859375,
-      "low": 1383.5999755859375,
-      "close": 1384.5999755859375,
-      "volume": 13168.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 1384.5999755859375,
-      "high": 1384.5999755859375,
-      "low": 1382.300048828125,
-      "close": 1382.800048828125,
-      "volume": 38263.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 1382.9000244140625,
@@ -26907,8 +26881,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.800048828125,
       "close": 1380.800048828125,
       "volume": 4231.0,
-      "supertrend": 1389.98,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -26920,8 +26894,8 @@ window.DASHBOARD_CHARTS = {
       "low": 1377.699951171875,
       "close": 1379.5,
       "volume": 6144.0,
-      "supertrend": 1387.67,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -26933,7 +26907,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1378.300048828125,
       "close": 1381.0,
       "volume": 4400.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26946,7 +26920,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.5999755859375,
       "close": 1382.800048828125,
       "volume": 6388.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26959,7 +26933,7 @@ window.DASHBOARD_CHARTS = {
       "low": 1382.5999755859375,
       "close": 1383.0999755859375,
       "volume": 3731.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -26972,11 +26946,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1382.5999755859375,
       "close": 1382.699951171875,
       "volume": 2639.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -26985,11 +26959,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.300048828125,
       "close": 1381.699951171875,
       "volume": 2634.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -26998,11 +26972,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.300048828125,
       "close": 1380.5999755859375,
       "volume": 2078.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.14,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 32.6
     },
     {
       "date": "10:15",
@@ -27011,11 +26985,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1379.199951171875,
       "close": 1382.5999755859375,
       "volume": 8952.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.14,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.6
+      "rsi": 40.1
     },
     {
       "date": "10:20",
@@ -27024,11 +26998,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1381.699951171875,
       "close": 1382.0,
       "volume": 1258.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.14,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": 38.7
     },
     {
       "date": "10:25",
@@ -27037,11 +27011,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.0999755859375,
       "close": 1380.5,
       "volume": 2087.0,
-      "supertrend": 1387.67,
+      "supertrend": 1389.14,
       "st_dir": -1,
-      "ema20": 1382.78,
+      "ema20": null,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 35.4
     },
     {
       "date": "10:30",
@@ -27050,11 +27024,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1378.0999755859375,
       "close": 1378.699951171875,
       "volume": 4232.0,
-      "supertrend": 1387.33,
+      "supertrend": 1387.47,
       "st_dir": -1,
-      "ema20": 1382.39,
+      "ema20": null,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 31.9
     },
     {
       "date": "10:35",
@@ -27063,11 +27037,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1377.300048828125,
       "close": 1377.5,
       "volume": 3988.0,
-      "supertrend": 1386.0,
+      "supertrend": 1386.13,
       "st_dir": -1,
-      "ema20": 1381.93,
+      "ema20": 1382.22,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 29.7
     },
     {
       "date": "10:40",
@@ -27076,11 +27050,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1377.0,
       "close": 1377.300048828125,
       "volume": 3489.0,
-      "supertrend": 1384.94,
+      "supertrend": 1385.05,
       "st_dir": -1,
-      "ema20": 1381.49,
+      "ema20": 1381.75,
       "ema50": null,
-      "rsi": 35.3
+      "rsi": 29.4
     },
     {
       "date": "10:45",
@@ -27089,11 +27063,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.0999755859375,
       "close": 1381.199951171875,
       "volume": 93309.0,
-      "supertrend": 1384.94,
+      "supertrend": 1385.05,
       "st_dir": -1,
-      "ema20": 1381.46,
+      "ema20": 1381.7,
       "ema50": null,
-      "rsi": 47.2
+      "rsi": 43.4
     },
     {
       "date": "10:50",
@@ -27102,11 +27076,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1380.5999755859375,
       "close": 1383.300048828125,
       "volume": 2842.0,
-      "supertrend": 1384.94,
+      "supertrend": 1385.05,
       "st_dir": -1,
-      "ema20": 1381.63,
+      "ema20": 1381.85,
       "ema50": null,
-      "rsi": 52.3
+      "rsi": 49.3
     },
     {
       "date": "10:55",
@@ -27115,11 +27089,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1382.199951171875,
       "close": 1382.5,
       "volume": 4661.0,
-      "supertrend": 1384.94,
+      "supertrend": 1385.05,
       "st_dir": -1,
-      "ema20": 1381.72,
+      "ema20": 1381.91,
       "ema50": null,
-      "rsi": 50.3
+      "rsi": 47.3
     },
     {
       "date": "11:00",
@@ -27128,11 +27102,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1383.0999755859375,
       "close": 1384.0999755859375,
       "volume": 2691.0,
-      "supertrend": 1384.94,
+      "supertrend": 1385.05,
       "st_dir": -1,
-      "ema20": 1381.94,
+      "ema20": 1382.12,
       "ema50": null,
-      "rsi": 54.1
+      "rsi": 51.5
     },
     {
       "date": "11:05",
@@ -27141,11 +27115,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1383.699951171875,
       "close": 1386.5999755859375,
       "volume": 6646.0,
-      "supertrend": 1377.2,
+      "supertrend": 1377.13,
       "st_dir": 1,
-      "ema20": 1382.39,
+      "ema20": 1382.55,
       "ema50": null,
-      "rsi": 59.2
+      "rsi": 57.3
     },
     {
       "date": "11:10",
@@ -27154,11 +27128,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1386.5,
       "close": 1388.0,
       "volume": 21605.0,
-      "supertrend": 1379.98,
+      "supertrend": 1379.92,
       "st_dir": 1,
-      "ema20": 1382.92,
+      "ema20": 1383.07,
       "ema50": null,
-      "rsi": 61.8
+      "rsi": 60.2
     },
     {
       "date": "11:15",
@@ -27167,11 +27141,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.0,
       "close": 1388.300048828125,
       "volume": 3369.0,
-      "supertrend": 1380.02,
+      "supertrend": 1379.96,
       "st_dir": 1,
-      "ema20": 1383.43,
+      "ema20": 1383.57,
       "ema50": null,
-      "rsi": 62.4
+      "rsi": 60.8
     },
     {
       "date": "11:20",
@@ -27180,11 +27154,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1388.199951171875,
       "close": 1390.0,
       "volume": 17025.0,
-      "supertrend": 1381.67,
+      "supertrend": 1381.62,
       "st_dir": 1,
-      "ema20": 1384.06,
+      "ema20": 1384.18,
       "ema50": null,
-      "rsi": 65.5
+      "rsi": 64.1
     },
     {
       "date": "11:25",
@@ -27193,11 +27167,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.199951171875,
       "close": 1392.0999755859375,
       "volume": 8640.0,
-      "supertrend": 1382.97,
+      "supertrend": 1382.92,
       "st_dir": 1,
-      "ema20": 1384.82,
+      "ema20": 1384.93,
       "ema50": null,
-      "rsi": 68.8
+      "rsi": 67.8
     },
     {
       "date": "11:30",
@@ -27206,11 +27180,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1390.0999755859375,
       "close": 1392.0,
       "volume": 9305.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1385.51,
+      "ema20": 1385.61,
       "ema50": null,
-      "rsi": 68.5
+      "rsi": 67.4
     },
     {
       "date": "11:35",
@@ -27219,11 +27193,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1388.0,
       "close": 1388.0,
       "volume": 12765.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1385.75,
+      "ema20": 1385.83,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 55.1
     },
     {
       "date": "11:40",
@@ -27232,11 +27206,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.0999755859375,
       "close": 1388.699951171875,
       "volume": 10574.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.03,
+      "ema20": 1386.11,
       "ema50": null,
-      "rsi": 57.8
+      "rsi": 56.6
     },
     {
       "date": "11:45",
@@ -27245,11 +27219,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.199951171875,
       "close": 1388.199951171875,
       "volume": 3264.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.23,
+      "ema20": 1386.31,
       "ema50": null,
-      "rsi": 56.4
+      "rsi": 55.2
     },
     {
       "date": "11:50",
@@ -27258,11 +27232,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1385.0999755859375,
       "close": 1385.699951171875,
       "volume": 9077.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.18,
+      "ema20": 1386.25,
       "ema50": null,
-      "rsi": 49.9
+      "rsi": 48.6
     },
     {
       "date": "11:55",
@@ -27271,11 +27245,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1384.300048828125,
       "close": 1385.0999755859375,
       "volume": 5840.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.08,
+      "ema20": 1386.14,
       "ema50": null,
-      "rsi": 48.5
+      "rsi": 47.2
     },
     {
       "date": "12:00",
@@ -27284,11 +27258,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1385.0999755859375,
       "close": 1386.300048828125,
       "volume": 33196.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.1,
+      "ema20": 1386.15,
       "ema50": null,
-      "rsi": 51.5
+      "rsi": 50.4
     },
     {
       "date": "12:05",
@@ -27297,11 +27271,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1385.699951171875,
       "close": 1388.9000244140625,
       "volume": 7285.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.37,
+      "ema20": 1386.42,
       "ema50": null,
-      "rsi": 57.3
+      "rsi": 56.5
     },
     {
       "date": "12:10",
@@ -27310,11 +27284,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.800048828125,
       "close": 1388.5,
       "volume": 8614.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1386.57,
+      "ema20": 1386.61,
       "ema50": null,
-      "rsi": 56.2
+      "rsi": 55.4
     },
     {
       "date": "12:15",
@@ -27323,11 +27297,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1388.5,
       "close": 1396.800048828125,
       "volume": 47629.0,
-      "supertrend": 1383.35,
+      "supertrend": 1383.31,
       "st_dir": 1,
-      "ema20": 1387.54,
+      "ema20": 1387.58,
       "ema50": null,
-      "rsi": 69.5
+      "rsi": 69.1
     },
     {
       "date": "12:20",
@@ -27336,11 +27310,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1394.9000244140625,
       "close": 1395.0,
       "volume": 21540.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1388.25,
+      "ema20": 1388.29,
       "ema50": null,
-      "rsi": 64.9
+      "rsi": 64.5
     },
     {
       "date": "12:25",
@@ -27349,11 +27323,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1393.699951171875,
       "close": 1393.699951171875,
       "volume": 22008.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1388.77,
+      "ema20": 1388.81,
       "ema50": null,
-      "rsi": 61.7
+      "rsi": 61.3
     },
     {
       "date": "12:30",
@@ -27362,11 +27336,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1391.0,
       "close": 1391.5999755859375,
       "volume": 13398.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.04,
+      "ema20": 1389.07,
       "ema50": null,
-      "rsi": 56.9
+      "rsi": 56.4
     },
     {
       "date": "12:35",
@@ -27375,11 +27349,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.199951171875,
       "close": 1389.699951171875,
       "volume": 5749.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.11,
+      "ema20": 1389.13,
       "ema50": null,
-      "rsi": 52.8
+      "rsi": 52.3
     },
     {
       "date": "12:40",
@@ -27388,11 +27362,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.199951171875,
       "close": 1391.0999755859375,
       "volume": 5293.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.3,
+      "ema20": 1389.32,
       "ema50": null,
-      "rsi": 55.3
+      "rsi": 54.9
     },
     {
       "date": "12:45",
@@ -27401,11 +27375,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1389.0,
       "close": 1389.0,
       "volume": 3240.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.27,
+      "ema20": 1389.29,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 50.5
     },
     {
       "date": "12:50",
@@ -27414,11 +27388,11 @@ window.DASHBOARD_CHARTS = {
       "low": 1387.5999755859375,
       "close": 1389.0,
       "volume": 6400.0,
-      "supertrend": 1386.4,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.24,
+      "ema20": 1389.26,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 50.5
     },
     {
       "date": "12:55",
@@ -27426,41 +27400,41 @@ window.DASHBOARD_CHARTS = {
       "high": 1389.5,
       "low": 1388.5,
       "close": 1388.5,
-      "volume": 1229.0,
-      "supertrend": 1386.4,
+      "volume": 1742.0,
+      "supertrend": 1386.38,
       "st_dir": 1,
-      "ema20": 1389.17,
-      "ema50": 1385.62,
-      "rsi": 49.9
+      "ema20": 1389.19,
+      "ema50": null,
+      "rsi": 49.4
+    },
+    {
+      "date": "13:00",
+      "open": 1388.5,
+      "high": 1388.9000244140625,
+      "low": 1387.0999755859375,
+      "close": 1387.5999755859375,
+      "volume": 7533.0,
+      "supertrend": 1386.38,
+      "st_dir": 1,
+      "ema20": 1389.04,
+      "ema50": null,
+      "rsi": 47.4
+    },
+    {
+      "date": "13:05",
+      "open": 1387.5999755859375,
+      "high": 1390.0999755859375,
+      "low": 1387.199951171875,
+      "close": 1390.0999755859375,
+      "volume": 3947.0,
+      "supertrend": 1386.38,
+      "st_dir": 1,
+      "ema20": 1389.14,
+      "ema50": 1385.83,
+      "rsi": 53.1
     }
   ],
   "APOLLOHOSP.NS": [
-    {
-      "date": "14:55",
-      "open": 8755.0,
-      "high": 8756.5,
-      "low": 8751.5,
-      "close": 8751.5,
-      "volume": 4787.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 8754.5,
-      "high": 8760.0,
-      "low": 8754.5,
-      "close": 8758.0,
-      "volume": 7029.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 8758.0,
@@ -27559,8 +27533,8 @@ window.DASHBOARD_CHARTS = {
       "low": 8786.5,
       "close": 8794.0,
       "volume": 7102.0,
-      "supertrend": 8932.85,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -27572,8 +27546,8 @@ window.DASHBOARD_CHARTS = {
       "low": 8760.5,
       "close": 8772.0,
       "volume": 10346.0,
-      "supertrend": 8910.94,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -27585,7 +27559,7 @@ window.DASHBOARD_CHARTS = {
       "low": 8766.5,
       "close": 8793.5,
       "volume": 7406.0,
-      "supertrend": 8910.94,
+      "supertrend": 8934.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -27598,7 +27572,7 @@ window.DASHBOARD_CHARTS = {
       "low": 8785.0,
       "close": 8801.0,
       "volume": 7138.0,
-      "supertrend": 8910.94,
+      "supertrend": 8934.7,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -27611,7 +27585,7 @@ window.DASHBOARD_CHARTS = {
       "low": 8760.5,
       "close": 8773.5,
       "volume": 9938.0,
-      "supertrend": 8903.76,
+      "supertrend": 8922.21,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -27624,11 +27598,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8758.0,
       "close": 8762.0,
       "volume": 7482.0,
-      "supertrend": 8883.33,
+      "supertrend": 8899.94,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 51.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -27637,11 +27611,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8748.0,
       "close": 8763.0,
       "volume": 6040.0,
-      "supertrend": 8864.7,
+      "supertrend": 8879.64,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 51.8
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -27650,11 +27624,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8757.0,
       "close": 8769.0,
       "volume": 6620.0,
-      "supertrend": 8864.7,
+      "supertrend": 8878.33,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 52.8
+      "rsi": 51.2
     },
     {
       "date": "10:15",
@@ -27663,11 +27637,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8748.5,
       "close": 8752.0,
       "volume": 4804.0,
-      "supertrend": 8857.39,
+      "supertrend": 8869.5,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 49.6
+      "rsi": 48.5
     },
     {
       "date": "10:20",
@@ -27676,11 +27650,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8731.5,
       "close": 8733.0,
       "volume": 7366.0,
-      "supertrend": 8840.63,
+      "supertrend": 8851.52,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.3
+      "rsi": 45.5
     },
     {
       "date": "10:25",
@@ -27689,11 +27663,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8731.0,
       "close": 8750.0,
       "volume": 4041.0,
-      "supertrend": 8833.11,
+      "supertrend": 8842.92,
       "st_dir": -1,
-      "ema20": 8772.6,
+      "ema20": null,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 48.5
     },
     {
       "date": "10:30",
@@ -27702,11 +27676,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8731.5,
       "close": 8736.0,
       "volume": 5053.0,
-      "supertrend": 8833.11,
+      "supertrend": 8842.92,
       "st_dir": -1,
-      "ema20": 8769.11,
+      "ema20": null,
       "ema50": null,
-      "rsi": 47.0
+      "rsi": 46.3
     },
     {
       "date": "10:35",
@@ -27715,9 +27689,9 @@ window.DASHBOARD_CHARTS = {
       "low": 8685.0,
       "close": 8685.0,
       "volume": 17245.0,
-      "supertrend": 8811.11,
+      "supertrend": 8819.05,
       "st_dir": -1,
-      "ema20": 8761.1,
+      "ema20": 8768.17,
       "ema50": null,
       "rsi": 39.1
     },
@@ -27728,11 +27702,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8675.0,
       "close": 8704.5,
       "volume": 8595.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8755.71,
+      "ema20": 8762.11,
       "ema50": null,
-      "rsi": 43.0
+      "rsi": 42.7
     },
     {
       "date": "10:45",
@@ -27741,11 +27715,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8703.5,
       "close": 8720.0,
       "volume": 4400.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8752.31,
+      "ema20": 8758.1,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 45.5
     },
     {
       "date": "10:50",
@@ -27754,11 +27728,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8707.0,
       "close": 8724.5,
       "volume": 3880.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8749.66,
+      "ema20": 8754.9,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 46.4
     },
     {
       "date": "10:55",
@@ -27767,11 +27741,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8722.5,
       "close": 8732.5,
       "volume": 3674.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8748.03,
+      "ema20": 8752.77,
       "ema50": null,
-      "rsi": 48.5
+      "rsi": 47.9
     },
     {
       "date": "11:00",
@@ -27780,11 +27754,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8726.5,
       "close": 8730.5,
       "volume": 3147.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8746.36,
+      "ema20": 8750.65,
       "ema50": null,
-      "rsi": 48.1
+      "rsi": 47.5
     },
     {
       "date": "11:05",
@@ -27793,11 +27767,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8726.0,
       "close": 8744.0,
       "volume": 5376.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8746.13,
+      "ema20": 8750.01,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 50.2
     },
     {
       "date": "11:10",
@@ -27806,11 +27780,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8739.0,
       "close": 8740.5,
       "volume": 3922.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8745.6,
+      "ema20": 8749.11,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 49.5
     },
     {
       "date": "11:15",
@@ -27819,11 +27793,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8740.5,
       "close": 8750.0,
       "volume": 5856.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8746.02,
+      "ema20": 8749.19,
       "ema50": null,
-      "rsi": 52.3
+      "rsi": 51.5
     },
     {
       "date": "11:20",
@@ -27832,11 +27806,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8749.0,
       "close": 8755.0,
       "volume": 2593.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8746.87,
+      "ema20": 8749.75,
       "ema50": null,
-      "rsi": 53.4
+      "rsi": 52.6
     },
     {
       "date": "11:25",
@@ -27845,11 +27819,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8750.0,
       "close": 8762.5,
       "volume": 2154.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8748.36,
+      "ema20": 8750.96,
       "ema50": null,
-      "rsi": 55.1
+      "rsi": 54.2
     },
     {
       "date": "11:30",
@@ -27858,11 +27832,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8748.5,
       "close": 8763.0,
       "volume": 4253.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8749.75,
+      "ema20": 8752.11,
       "ema50": null,
-      "rsi": 55.2
+      "rsi": 54.3
     },
     {
       "date": "11:35",
@@ -27871,11 +27845,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8756.0,
       "close": 8756.0,
       "volume": 2257.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8750.35,
+      "ema20": 8752.48,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 52.4
     },
     {
       "date": "11:40",
@@ -27884,11 +27858,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8744.5,
       "close": 8762.0,
       "volume": 2542.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8751.46,
+      "ema20": 8753.38,
       "ema50": null,
-      "rsi": 54.7
+      "rsi": 53.9
     },
     {
       "date": "11:45",
@@ -27897,11 +27871,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8755.0,
       "close": 8760.0,
       "volume": 2863.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8752.27,
+      "ema20": 8754.01,
       "ema50": null,
-      "rsi": 54.1
+      "rsi": 53.3
     },
     {
       "date": "11:50",
@@ -27910,11 +27884,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8749.5,
       "close": 8749.5,
       "volume": 3276.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8752.01,
+      "ema20": 8753.58,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 50.1
     },
     {
       "date": "11:55",
@@ -27923,11 +27897,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8746.5,
       "close": 8751.5,
       "volume": 2348.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8751.96,
+      "ema20": 8753.39,
       "ema50": null,
-      "rsi": 51.3
+      "rsi": 50.7
     },
     {
       "date": "12:00",
@@ -27936,11 +27910,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8735.0,
       "close": 8741.0,
       "volume": 3618.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8750.92,
+      "ema20": 8752.21,
       "ema50": null,
-      "rsi": 47.8
+      "rsi": 47.4
     },
     {
       "date": "12:05",
@@ -27949,11 +27923,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8741.0,
       "close": 8751.0,
       "volume": 2079.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8750.92,
+      "ema20": 8752.09,
       "ema50": null,
-      "rsi": 51.2
+      "rsi": 50.7
     },
     {
       "date": "12:10",
@@ -27962,11 +27936,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8745.0,
       "close": 8749.0,
       "volume": 2353.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8750.74,
+      "ema20": 8751.8,
       "ema50": null,
-      "rsi": 50.5
+      "rsi": 50.0
     },
     {
       "date": "12:15",
@@ -27975,11 +27949,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8741.5,
       "close": 8744.0,
       "volume": 3781.0,
-      "supertrend": 8788.94,
+      "supertrend": 8796.09,
       "st_dir": -1,
-      "ema20": 8750.1,
+      "ema20": 8751.05,
       "ema50": null,
-      "rsi": 48.7
+      "rsi": 48.3
     },
     {
       "date": "12:20",
@@ -27988,11 +27962,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8741.5,
       "close": 8747.0,
       "volume": 1812.0,
-      "supertrend": 8788.94,
+      "supertrend": 8795.66,
       "st_dir": -1,
-      "ema20": 8749.8,
+      "ema20": 8750.67,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 49.4
     },
     {
       "date": "12:25",
@@ -28001,11 +27975,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8746.0,
       "close": 8749.0,
       "volume": 2316.0,
-      "supertrend": 8788.94,
+      "supertrend": 8795.66,
       "st_dir": -1,
-      "ema20": 8749.73,
+      "ema20": 8750.51,
       "ema50": null,
-      "rsi": 50.6
+      "rsi": 50.2
     },
     {
       "date": "12:30",
@@ -28014,11 +27988,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8739.5,
       "close": 8744.5,
       "volume": 3473.0,
-      "supertrend": 8788.94,
+      "supertrend": 8793.03,
       "st_dir": -1,
-      "ema20": 8749.23,
+      "ema20": 8749.94,
       "ema50": null,
-      "rsi": 48.8
+      "rsi": 48.4
     },
     {
       "date": "12:35",
@@ -28027,11 +28001,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8740.0,
       "close": 8740.0,
       "volume": 2188.0,
-      "supertrend": 8788.94,
+      "supertrend": 8791.35,
       "st_dir": -1,
-      "ema20": 8748.35,
+      "ema20": 8748.99,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 46.6
     },
     {
       "date": "12:40",
@@ -28040,11 +28014,11 @@ window.DASHBOARD_CHARTS = {
       "low": 8722.0,
       "close": 8733.5,
       "volume": 3379.0,
-      "supertrend": 8779.9,
+      "supertrend": 8780.47,
       "st_dir": -1,
-      "ema20": 8746.94,
+      "ema20": 8747.52,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 44.0
     },
     {
       "date": "12:45",
@@ -28053,9 +28027,9 @@ window.DASHBOARD_CHARTS = {
       "low": 8720.0,
       "close": 8720.0,
       "volume": 3038.0,
-      "supertrend": 8774.83,
+      "supertrend": 8775.35,
       "st_dir": -1,
-      "ema20": 8744.37,
+      "ema20": 8744.89,
       "ema50": null,
       "rsi": 39.2
     },
@@ -28066,9 +28040,9 @@ window.DASHBOARD_CHARTS = {
       "low": 8714.0,
       "close": 8722.0,
       "volume": 4625.0,
-      "supertrend": 8765.57,
+      "supertrend": 8766.04,
       "st_dir": -1,
-      "ema20": 8742.24,
+      "ema20": 8742.71,
       "ema50": null,
       "rsi": 40.3
     },
@@ -28078,41 +28052,41 @@ window.DASHBOARD_CHARTS = {
       "high": 8734.0,
       "low": 8721.5,
       "close": 8725.0,
-      "volume": 1881.0,
-      "supertrend": 8765.57,
+      "volume": 3385.0,
+      "supertrend": 8766.04,
       "st_dir": -1,
-      "ema20": 8740.6,
-      "ema50": 8752.9,
-      "rsi": 42.0
+      "ema20": 8741.03,
+      "ema50": null,
+      "rsi": 41.9
+    },
+    {
+      "date": "13:00",
+      "open": 8726.5,
+      "high": 8726.5,
+      "low": 8719.0,
+      "close": 8722.0,
+      "volume": 1755.0,
+      "supertrend": 8765.87,
+      "st_dir": -1,
+      "ema20": 8739.22,
+      "ema50": null,
+      "rsi": 40.7
+    },
+    {
+      "date": "13:05",
+      "open": 8722.0,
+      "high": 8725.5,
+      "low": 8718.0,
+      "close": 8718.0,
+      "volume": 896.0,
+      "supertrend": 8762.81,
+      "st_dir": -1,
+      "ema20": 8737.19,
+      "ema50": 8751.51,
+      "rsi": 39.1
     }
   ],
   "DIVISLAB.NS": [
-    {
-      "date": "14:55",
-      "open": 11128.5,
-      "high": 11134.0,
-      "low": 11124.0,
-      "close": 11128.0,
-      "volume": 13439.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 11129.5,
-      "high": 11141.0,
-      "low": 11125.0,
-      "close": 11130.0,
-      "volume": 13899.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 11130.0,
@@ -28211,8 +28185,8 @@ window.DASHBOARD_CHARTS = {
       "low": 11212.0,
       "close": 11212.5,
       "volume": 8634.0,
-      "supertrend": 11306.85,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -28224,8 +28198,8 @@ window.DASHBOARD_CHARTS = {
       "low": 11166.5,
       "close": 11184.5,
       "volume": 9329.0,
-      "supertrend": 11279.29,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -28237,7 +28211,7 @@ window.DASHBOARD_CHARTS = {
       "low": 11168.5,
       "close": 11173.0,
       "volume": 13728.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28250,7 +28224,7 @@ window.DASHBOARD_CHARTS = {
       "low": 11165.0,
       "close": 11189.0,
       "volume": 26699.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28263,7 +28237,7 @@ window.DASHBOARD_CHARTS = {
       "low": 11184.5,
       "close": 11208.0,
       "volume": 9611.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28276,11 +28250,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11198.0,
       "close": 11198.0,
       "volume": 5667.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 67.0
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -28289,11 +28263,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11183.0,
       "close": 11195.5,
       "volume": 3058.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 66.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -28302,11 +28276,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11195.5,
       "close": 11196.5,
       "volume": 1919.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 66.3
+      "rsi": 67.0
     },
     {
       "date": "10:15",
@@ -28315,11 +28289,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11194.0,
       "close": 11218.5,
       "volume": 2510.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 70.2
+      "rsi": 70.4
     },
     {
       "date": "10:20",
@@ -28328,11 +28302,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11207.5,
       "close": 11212.5,
       "volume": 3002.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 67.9
+      "rsi": 68.3
     },
     {
       "date": "10:25",
@@ -28341,11 +28315,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11194.0,
       "close": 11204.0,
       "volume": 2939.0,
-      "supertrend": 11269.84,
+      "supertrend": 11279.25,
       "st_dir": -1,
-      "ema20": 11186.55,
+      "ema20": null,
       "ema50": null,
-      "rsi": 64.7
+      "rsi": 65.4
     },
     {
       "date": "10:30",
@@ -28354,11 +28328,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11180.0,
       "close": 11180.0,
       "volume": 3743.0,
-      "supertrend": 11269.84,
+      "supertrend": 11278.45,
       "st_dir": -1,
-      "ema20": 11185.93,
+      "ema20": null,
       "ema50": null,
-      "rsi": 56.5
+      "rsi": 57.8
     },
     {
       "date": "10:35",
@@ -28367,11 +28341,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11167.5,
       "close": 11181.5,
       "volume": 9410.0,
-      "supertrend": 11256.22,
+      "supertrend": 11259.5,
       "st_dir": -1,
-      "ema20": 11185.5,
+      "ema20": 11191.73,
       "ema50": null,
-      "rsi": 56.8
+      "rsi": 58.1
     },
     {
       "date": "10:40",
@@ -28380,11 +28354,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11169.0,
       "close": 11176.0,
       "volume": 4058.0,
-      "supertrend": 11250.25,
+      "supertrend": 11253.2,
       "st_dir": -1,
-      "ema20": 11184.6,
+      "ema20": 11190.23,
       "ema50": null,
-      "rsi": 55.0
+      "rsi": 56.4
     },
     {
       "date": "10:45",
@@ -28393,11 +28367,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11173.0,
       "close": 11188.5,
       "volume": 6927.0,
-      "supertrend": 11250.25,
+      "supertrend": 11253.2,
       "st_dir": -1,
-      "ema20": 11184.97,
+      "ema20": 11190.06,
       "ema50": null,
-      "rsi": 58.3
+      "rsi": 59.3
     },
     {
       "date": "10:50",
@@ -28406,11 +28380,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11174.0,
       "close": 11189.0,
       "volume": 2401.0,
-      "supertrend": 11250.25,
+      "supertrend": 11253.2,
       "st_dir": -1,
-      "ema20": 11185.35,
+      "ema20": 11189.96,
       "ema50": null,
-      "rsi": 58.4
+      "rsi": 59.5
     },
     {
       "date": "10:55",
@@ -28419,11 +28393,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11174.5,
       "close": 11180.0,
       "volume": 3175.0,
-      "supertrend": 11250.25,
+      "supertrend": 11253.2,
       "st_dir": -1,
-      "ema20": 11184.84,
+      "ema20": 11189.01,
       "ema50": null,
-      "rsi": 55.1
+      "rsi": 56.3
     },
     {
       "date": "11:00",
@@ -28432,11 +28406,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11159.0,
       "close": 11162.5,
       "volume": 4812.0,
-      "supertrend": 11248.76,
+      "supertrend": 11250.7,
       "st_dir": -1,
-      "ema20": 11182.72,
+      "ema20": 11186.49,
       "ema50": null,
-      "rsi": 49.1
+      "rsi": 50.6
     },
     {
       "date": "11:05",
@@ -28445,11 +28419,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11161.0,
       "close": 11168.0,
       "volume": 4552.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11181.32,
+      "ema20": 11184.73,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 52.3
     },
     {
       "date": "11:10",
@@ -28458,11 +28432,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11162.0,
       "close": 11171.0,
       "volume": 10881.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11180.33,
+      "ema20": 11183.42,
       "ema50": null,
-      "rsi": 51.9
+      "rsi": 53.2
     },
     {
       "date": "11:15",
@@ -28471,11 +28445,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11165.0,
       "close": 11182.5,
       "volume": 6462.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11180.54,
+      "ema20": 11183.33,
       "ema50": null,
-      "rsi": 55.6
+      "rsi": 56.6
     },
     {
       "date": "11:20",
@@ -28484,11 +28458,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11175.0,
       "close": 11193.5,
       "volume": 12789.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11181.77,
+      "ema20": 11184.3,
       "ema50": null,
-      "rsi": 58.9
+      "rsi": 59.6
     },
     {
       "date": "11:25",
@@ -28497,11 +28471,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11184.0,
       "close": 11200.0,
       "volume": 23879.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11183.51,
+      "ema20": 11185.8,
       "ema50": null,
-      "rsi": 60.7
+      "rsi": 61.3
     },
     {
       "date": "11:30",
@@ -28510,11 +28484,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11162.5,
       "close": 11174.0,
       "volume": 7525.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11182.6,
+      "ema20": 11184.67,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 51.8
     },
     {
       "date": "11:35",
@@ -28523,11 +28497,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11159.0,
       "close": 11164.5,
       "volume": 5447.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11180.88,
+      "ema20": 11182.75,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 48.9
     },
     {
       "date": "11:40",
@@ -28536,11 +28510,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11159.0,
       "close": 11165.5,
       "volume": 4853.0,
-      "supertrend": 11234.94,
+      "supertrend": 11236.68,
       "st_dir": -1,
-      "ema20": 11179.41,
+      "ema20": 11181.11,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 49.2
     },
     {
       "date": "11:45",
@@ -28549,11 +28523,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11159.5,
       "close": 11170.0,
       "volume": 4420.0,
-      "supertrend": 11233.51,
+      "supertrend": 11234.27,
       "st_dir": -1,
-      "ema20": 11178.52,
+      "ema20": 11180.05,
       "ema50": null,
-      "rsi": 49.9
+      "rsi": 50.7
     },
     {
       "date": "11:50",
@@ -28562,11 +28536,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11163.0,
       "close": 11163.0,
       "volume": 2449.0,
-      "supertrend": 11231.69,
+      "supertrend": 11232.36,
       "st_dir": -1,
-      "ema20": 11177.04,
+      "ema20": 11178.43,
       "ema50": null,
-      "rsi": 47.4
+      "rsi": 48.3
     },
     {
       "date": "11:55",
@@ -28575,11 +28549,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11153.0,
       "close": 11153.0,
       "volume": 4974.0,
-      "supertrend": 11220.99,
+      "supertrend": 11221.6,
       "st_dir": -1,
-      "ema20": 11174.75,
+      "ema20": 11176.0,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 44.9
     },
     {
       "date": "12:00",
@@ -28588,11 +28562,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11119.5,
       "close": 11133.5,
       "volume": 9013.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11170.82,
+      "ema20": 11171.96,
       "ema50": null,
-      "rsi": 38.2
+      "rsi": 39.2
     },
     {
       "date": "12:05",
@@ -28601,11 +28575,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11134.0,
       "close": 11147.5,
       "volume": 2907.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11168.6,
+      "ema20": 11169.63,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 44.7
     },
     {
       "date": "12:10",
@@ -28614,11 +28588,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11141.0,
       "close": 11147.0,
       "volume": 3085.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11166.54,
+      "ema20": 11167.47,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 44.5
     },
     {
       "date": "12:15",
@@ -28627,11 +28601,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11147.0,
       "close": 11162.0,
       "volume": 5855.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11166.11,
+      "ema20": 11166.95,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 50.0
     },
     {
       "date": "12:20",
@@ -28640,11 +28614,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11149.0,
       "close": 11150.0,
       "volume": 2075.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11164.58,
+      "ema20": 11165.34,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 46.1
     },
     {
       "date": "12:25",
@@ -28653,11 +28627,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11147.0,
       "close": 11148.5,
       "volume": 2862.0,
-      "supertrend": 11202.27,
+      "supertrend": 11202.82,
       "st_dir": -1,
-      "ema20": 11163.05,
+      "ema20": 11163.73,
       "ema50": null,
-      "rsi": 45.0
+      "rsi": 45.6
     },
     {
       "date": "12:30",
@@ -28666,11 +28640,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11131.0,
       "close": 11134.5,
       "volume": 2937.0,
-      "supertrend": 11196.48,
+      "supertrend": 11196.77,
       "st_dir": -1,
-      "ema20": 11160.33,
+      "ema20": 11160.95,
       "ema50": null,
-      "rsi": 40.6
+      "rsi": 41.2
     },
     {
       "date": "12:35",
@@ -28679,11 +28653,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11131.0,
       "close": 11138.0,
       "volume": 1828.0,
-      "supertrend": 11195.26,
+      "supertrend": 11195.52,
       "st_dir": -1,
-      "ema20": 11158.2,
+      "ema20": 11158.76,
       "ema50": null,
-      "rsi": 42.1
+      "rsi": 42.7
     },
     {
       "date": "12:40",
@@ -28692,11 +28666,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11127.5,
       "close": 11131.5,
       "volume": 1994.0,
-      "supertrend": 11189.51,
+      "supertrend": 11189.74,
       "st_dir": -1,
-      "ema20": 11155.66,
+      "ema20": 11156.17,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 40.7
     },
     {
       "date": "12:45",
@@ -28705,11 +28679,11 @@ window.DASHBOARD_CHARTS = {
       "low": 11120.0,
       "close": 11120.0,
       "volume": 2107.0,
-      "supertrend": 11178.48,
+      "supertrend": 11178.69,
       "st_dir": -1,
-      "ema20": 11152.26,
+      "ema20": 11152.72,
       "ema50": null,
-      "rsi": 36.7
+      "rsi": 37.3
     },
     {
       "date": "12:50",
@@ -28718,53 +28692,53 @@ window.DASHBOARD_CHARTS = {
       "low": 11118.5,
       "close": 11126.5,
       "volume": 1888.0,
-      "supertrend": 11175.16,
+      "supertrend": 11175.35,
       "st_dir": -1,
-      "ema20": 11149.81,
+      "ema20": 11150.23,
       "ema50": null,
-      "rsi": 39.8
+      "rsi": 40.3
     },
     {
       "date": "12:55",
       "open": 11126.5,
-      "high": 11141.0,
+      "high": 11146.0,
       "low": 11126.5,
       "close": 11139.5,
-      "volume": 1626.0,
-      "supertrend": 11175.16,
+      "volume": 4142.0,
+      "supertrend": 11175.35,
       "st_dir": -1,
-      "ema20": 11148.83,
-      "ema50": 11171.44,
-      "rsi": 45.5
+      "ema20": 11149.2,
+      "ema50": null,
+      "rsi": 45.9
+    },
+    {
+      "date": "13:00",
+      "open": 11138.5,
+      "high": 11139.5,
+      "low": 11129.0,
+      "close": 11131.5,
+      "volume": 1271.0,
+      "supertrend": 11175.35,
+      "st_dir": -1,
+      "ema20": 11147.52,
+      "ema50": null,
+      "rsi": 43.2
+    },
+    {
+      "date": "13:05",
+      "open": 11131.5,
+      "high": 11135.5,
+      "low": 11122.0,
+      "close": 11122.0,
+      "volume": 802.0,
+      "supertrend": 11175.35,
+      "st_dir": -1,
+      "ema20": 11145.09,
+      "ema50": 11171.35,
+      "rsi": 40.2
     }
   ],
   "EICHERMOT.NS": [
-    {
-      "date": "15:00",
-      "open": 7784.5,
-      "high": 7788.5,
-      "low": 7780.0,
-      "close": 7788.5,
-      "volume": 22469.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 7788.0,
-      "high": 7797.5,
-      "low": 7787.0,
-      "close": 7797.0,
-      "volume": 24019.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 7796.0,
@@ -28863,8 +28837,8 @@ window.DASHBOARD_CHARTS = {
       "low": 7730.0,
       "close": 7730.0,
       "volume": 5878.0,
-      "supertrend": 7817.6,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -28876,8 +28850,8 @@ window.DASHBOARD_CHARTS = {
       "low": 7711.5,
       "close": 7713.5,
       "volume": 8625.0,
-      "supertrend": 7801.64,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -28889,7 +28863,7 @@ window.DASHBOARD_CHARTS = {
       "low": 7705.0,
       "close": 7733.0,
       "volume": 6461.0,
-      "supertrend": 7795.78,
+      "supertrend": 7804.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28902,7 +28876,7 @@ window.DASHBOARD_CHARTS = {
       "low": 7722.5,
       "close": 7735.0,
       "volume": 6160.0,
-      "supertrend": 7795.78,
+      "supertrend": 7804.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28915,7 +28889,7 @@ window.DASHBOARD_CHARTS = {
       "low": 7719.5,
       "close": 7721.5,
       "volume": 4543.0,
-      "supertrend": 7795.78,
+      "supertrend": 7804.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -28928,11 +28902,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7706.5,
       "close": 7712.0,
       "volume": 5644.0,
-      "supertrend": 7793.78,
+      "supertrend": 7800.36,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.5
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -28941,11 +28915,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7701.5,
       "close": 7720.0,
       "volume": 6892.0,
-      "supertrend": 7788.1,
+      "supertrend": 7794.02,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -28954,11 +28928,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7714.5,
       "close": 7718.0,
       "volume": 2709.0,
-      "supertrend": 7788.1,
+      "supertrend": 7794.02,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 32.3
     },
     {
       "date": "10:15",
@@ -28967,11 +28941,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7711.5,
       "close": 7725.5,
       "volume": 2647.0,
-      "supertrend": 7788.1,
+      "supertrend": 7794.02,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 34.6
     },
     {
       "date": "10:20",
@@ -28980,11 +28954,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7721.5,
       "close": 7725.5,
       "volume": 2779.0,
-      "supertrend": 7788.1,
+      "supertrend": 7794.02,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 37.9
+      "rsi": 34.6
     },
     {
       "date": "10:25",
@@ -28993,11 +28967,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7705.0,
       "close": 7708.5,
       "volume": 3227.0,
-      "supertrend": 7788.1,
+      "supertrend": 7792.98,
       "st_dir": -1,
-      "ema20": 7749.93,
+      "ema20": null,
       "ema50": null,
-      "rsi": 34.5
+      "rsi": 31.8
     },
     {
       "date": "10:30",
@@ -29006,11 +28980,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7709.5,
       "close": 7711.5,
       "volume": 2405.0,
-      "supertrend": 7785.06,
+      "supertrend": 7788.56,
       "st_dir": -1,
-      "ema20": 7746.27,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.6
+      "rsi": 32.8
     },
     {
       "date": "10:35",
@@ -29019,11 +28993,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7682.0,
       "close": 7690.5,
       "volume": 7386.0,
-      "supertrend": 7769.43,
+      "supertrend": 7772.58,
       "st_dir": -1,
-      "ema20": 7740.95,
+      "ema20": 7740.75,
       "ema50": null,
-      "rsi": 31.7
+      "rsi": 29.4
     },
     {
       "date": "10:40",
@@ -29032,11 +29006,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7681.0,
       "close": 7682.0,
       "volume": 8322.0,
-      "supertrend": 7760.84,
+      "supertrend": 7763.67,
       "st_dir": -1,
-      "ema20": 7735.34,
+      "ema20": 7735.15,
       "ema50": null,
-      "rsi": 30.2
+      "rsi": 28.2
     },
     {
       "date": "10:45",
@@ -29045,11 +29019,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7682.5,
       "close": 7685.0,
       "volume": 9023.0,
-      "supertrend": 7754.3,
+      "supertrend": 7756.85,
       "st_dir": -1,
-      "ema20": 7730.55,
+      "ema20": 7730.38,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 29.3
     },
     {
       "date": "10:50",
@@ -29058,11 +29032,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7678.0,
       "close": 7683.0,
       "volume": 6146.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7726.02,
+      "ema20": 7725.87,
       "ema50": null,
-      "rsi": 31.0
+      "rsi": 29.0
     },
     {
       "date": "10:55",
@@ -29071,11 +29045,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7679.0,
       "close": 7687.0,
       "volume": 4756.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7722.3,
+      "ema20": 7722.16,
       "ema50": null,
-      "rsi": 32.8
+      "rsi": 30.7
     },
     {
       "date": "11:00",
@@ -29084,11 +29058,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7685.0,
       "close": 7685.5,
       "volume": 4510.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7718.8,
+      "ema20": 7718.67,
       "ema50": null,
-      "rsi": 32.5
+      "rsi": 30.4
     },
     {
       "date": "11:05",
@@ -29097,11 +29071,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7685.0,
       "close": 7704.5,
       "volume": 8298.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7717.43,
+      "ema20": 7717.32,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 38.5
     },
     {
       "date": "11:10",
@@ -29110,11 +29084,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7701.0,
       "close": 7709.5,
       "volume": 5037.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7716.68,
+      "ema20": 7716.58,
       "ema50": null,
-      "rsi": 42.8
+      "rsi": 40.4
     },
     {
       "date": "11:15",
@@ -29123,11 +29097,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7702.0,
       "close": 7706.0,
       "volume": 8729.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7715.66,
+      "ema20": 7715.57,
       "ema50": null,
-      "rsi": 41.7
+      "rsi": 39.5
     },
     {
       "date": "11:20",
@@ -29136,11 +29110,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7704.5,
       "close": 7711.5,
       "volume": 4576.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7715.27,
+      "ema20": 7715.18,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 41.8
     },
     {
       "date": "11:25",
@@ -29149,11 +29123,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7708.0,
       "close": 7716.5,
       "volume": 6077.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7715.38,
+      "ema20": 7715.31,
       "ema50": null,
-      "rsi": 46.2
+      "rsi": 43.9
     },
     {
       "date": "11:30",
@@ -29162,11 +29136,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7715.0,
       "close": 7723.0,
       "volume": 3508.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7716.11,
+      "ema20": 7716.04,
       "ema50": null,
-      "rsi": 48.9
+      "rsi": 46.6
     },
     {
       "date": "11:35",
@@ -29175,11 +29149,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7713.5,
       "close": 7716.0,
       "volume": 6908.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7716.1,
+      "ema20": 7716.04,
       "ema50": null,
-      "rsi": 46.2
+      "rsi": 44.1
     },
     {
       "date": "11:40",
@@ -29188,11 +29162,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7710.5,
       "close": 7715.0,
       "volume": 2674.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7715.99,
+      "ema20": 7715.94,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 43.8
     },
     {
       "date": "11:45",
@@ -29201,11 +29175,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7715.0,
       "close": 7719.5,
       "volume": 3259.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7716.33,
+      "ema20": 7716.28,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 45.9
     },
     {
       "date": "11:50",
@@ -29214,11 +29188,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7694.5,
       "close": 7694.5,
       "volume": 10165.0,
-      "supertrend": 7744.87,
+      "supertrend": 7747.17,
       "st_dir": -1,
-      "ema20": 7714.25,
+      "ema20": 7714.2,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 37.5
     },
     {
       "date": "11:55",
@@ -29227,11 +29201,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7684.5,
       "close": 7691.0,
       "volume": 4319.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7712.03,
+      "ema20": 7711.99,
       "ema50": null,
-      "rsi": 37.7
+      "rsi": 36.5
     },
     {
       "date": "12:00",
@@ -29240,11 +29214,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7684.0,
       "close": 7695.5,
       "volume": 19102.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7710.46,
+      "ema20": 7710.42,
       "ema50": null,
-      "rsi": 40.0
+      "rsi": 38.7
     },
     {
       "date": "12:05",
@@ -29253,11 +29227,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7696.0,
       "close": 7710.5,
       "volume": 4628.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7710.46,
+      "ema20": 7710.43,
       "ema50": null,
-      "rsi": 47.1
+      "rsi": 45.7
     },
     {
       "date": "12:10",
@@ -29266,11 +29240,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7708.0,
       "close": 7713.0,
       "volume": 3236.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7710.71,
+      "ema20": 7710.67,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": 46.8
     },
     {
       "date": "12:15",
@@ -29279,11 +29253,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7708.5,
       "close": 7710.0,
       "volume": 6325.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7710.64,
+      "ema20": 7710.61,
       "ema50": null,
-      "rsi": 46.9
+      "rsi": 45.6
     },
     {
       "date": "12:20",
@@ -29292,11 +29266,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7701.5,
       "close": 7706.5,
       "volume": 10728.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7710.24,
+      "ema20": 7710.22,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 44.2
     },
     {
       "date": "12:25",
@@ -29305,11 +29279,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7692.0,
       "close": 7695.0,
       "volume": 7085.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7708.79,
+      "ema20": 7708.77,
       "ema50": null,
-      "rsi": 40.9
+      "rsi": 39.9
     },
     {
       "date": "12:30",
@@ -29318,11 +29292,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7688.5,
       "close": 7700.5,
       "volume": 12282.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7708.0,
+      "ema20": 7707.98,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 42.8
     },
     {
       "date": "12:35",
@@ -29331,11 +29305,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7697.0,
       "close": 7700.0,
       "volume": 5114.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7707.24,
+      "ema20": 7707.22,
       "ema50": null,
-      "rsi": 43.6
+      "rsi": 42.6
     },
     {
       "date": "12:40",
@@ -29344,11 +29318,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7688.0,
       "close": 7689.5,
       "volume": 9433.0,
-      "supertrend": 7735.04,
+      "supertrend": 7735.62,
       "st_dir": -1,
-      "ema20": 7705.55,
+      "ema20": 7705.53,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 38.5
     },
     {
       "date": "12:45",
@@ -29357,11 +29331,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7686.0,
       "close": 7692.0,
       "volume": 14713.0,
-      "supertrend": 7730.11,
+      "supertrend": 7730.31,
       "st_dir": -1,
-      "ema20": 7704.26,
+      "ema20": 7704.25,
       "ema50": null,
-      "rsi": 40.8
+      "rsi": 40.0
     },
     {
       "date": "12:50",
@@ -29370,11 +29344,11 @@ window.DASHBOARD_CHARTS = {
       "low": 7689.0,
       "close": 7700.0,
       "volume": 5347.0,
-      "supertrend": 7730.11,
+      "supertrend": 7730.31,
       "st_dir": -1,
-      "ema20": 7703.85,
+      "ema20": 7703.84,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": 44.6
     },
     {
       "date": "12:55",
@@ -29383,40 +29357,40 @@ window.DASHBOARD_CHARTS = {
       "low": 7691.5,
       "close": 7691.5,
       "volume": 10854.0,
-      "supertrend": 7730.11,
+      "supertrend": 7730.31,
       "st_dir": -1,
-      "ema20": 7702.68,
-      "ema50": 7720.68,
-      "rsi": 41.7
+      "ema20": 7702.67,
+      "ema50": null,
+      "rsi": 41.0
+    },
+    {
+      "date": "13:00",
+      "open": 7694.0,
+      "high": 7696.0,
+      "low": 7686.0,
+      "close": 7687.5,
+      "volume": 6238.0,
+      "supertrend": 7728.7,
+      "st_dir": -1,
+      "ema20": 7701.22,
+      "ema50": null,
+      "rsi": 39.4
+    },
+    {
+      "date": "13:05",
+      "open": 7688.0,
+      "high": 7688.0,
+      "low": 7674.0,
+      "close": 7674.0,
+      "volume": 1942.0,
+      "supertrend": 7719.13,
+      "st_dir": -1,
+      "ema20": 7698.63,
+      "ema50": 7716.2,
+      "rsi": 34.5
     }
   ],
   "BAJAJ-AUTO.NS": [
-    {
-      "date": "15:00",
-      "open": 10785.0,
-      "high": 10786.0,
-      "low": 10780.0,
-      "close": 10784.0,
-      "volume": 11736.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 10784.0,
-      "high": 10788.0,
-      "low": 10771.0,
-      "close": 10775.0,
-      "volume": 15537.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 10776.0,
@@ -29515,8 +29489,8 @@ window.DASHBOARD_CHARTS = {
       "low": 10650.0,
       "close": 10656.0,
       "volume": 5405.0,
-      "supertrend": 10772.3,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -29528,8 +29502,8 @@ window.DASHBOARD_CHARTS = {
       "low": 10635.0,
       "close": 10647.0,
       "volume": 10582.0,
-      "supertrend": 10760.77,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -29541,7 +29515,7 @@ window.DASHBOARD_CHARTS = {
       "low": 10636.0,
       "close": 10660.0,
       "volume": 4949.0,
-      "supertrend": 10758.79,
+      "supertrend": 10774.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -29554,7 +29528,7 @@ window.DASHBOARD_CHARTS = {
       "low": 10639.0,
       "close": 10658.0,
       "volume": 4372.0,
-      "supertrend": 10758.79,
+      "supertrend": 10774.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -29567,7 +29541,7 @@ window.DASHBOARD_CHARTS = {
       "low": 10649.0,
       "close": 10651.0,
       "volume": 5459.0,
-      "supertrend": 10758.79,
+      "supertrend": 10774.0,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -29580,11 +29554,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10635.0,
       "close": 10653.0,
       "volume": 3703.0,
-      "supertrend": 10746.71,
+      "supertrend": 10757.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 22.1
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -29593,11 +29567,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10640.0,
       "close": 10664.0,
       "volume": 8039.0,
-      "supertrend": 10746.71,
+      "supertrend": 10757.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 25.9
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -29606,11 +29580,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10656.0,
       "close": 10658.0,
       "volume": 3825.0,
-      "supertrend": 10746.71,
+      "supertrend": 10757.8,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 25.2
+      "rsi": 29.2
     },
     {
       "date": "10:15",
@@ -29619,11 +29593,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10644.0,
       "close": 10651.0,
       "volume": 3280.0,
-      "supertrend": 10737.46,
+      "supertrend": 10745.54,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 24.3
+      "rsi": 28.2
     },
     {
       "date": "10:20",
@@ -29632,11 +29606,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10647.0,
       "close": 10666.0,
       "volume": 2663.0,
-      "supertrend": 10737.46,
+      "supertrend": 10745.54,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 29.7
+      "rsi": 33.4
     },
     {
       "date": "10:25",
@@ -29645,11 +29619,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10655.0,
       "close": 10665.0,
       "volume": 2617.0,
-      "supertrend": 10737.46,
+      "supertrend": 10745.54,
       "st_dir": -1,
-      "ema20": 10686.85,
+      "ema20": null,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 33.2
     },
     {
       "date": "10:30",
@@ -29658,11 +29632,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10665.0,
       "close": 10667.0,
       "volume": 1569.0,
-      "supertrend": 10737.46,
+      "supertrend": 10745.54,
       "st_dir": -1,
-      "ema20": 10684.96,
+      "ema20": null,
       "ema50": null,
-      "rsi": 30.3
+      "rsi": 33.9
     },
     {
       "date": "10:35",
@@ -29671,11 +29645,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10626.0,
       "close": 10635.0,
       "volume": 3932.0,
-      "supertrend": 10733.52,
+      "supertrend": 10738.82,
       "st_dir": -1,
-      "ema20": 10680.2,
+      "ema20": 10674.0,
       "ema50": null,
-      "rsi": 25.6
+      "rsi": 28.5
     },
     {
       "date": "10:40",
@@ -29684,11 +29658,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10608.0,
       "close": 10609.0,
       "volume": 6653.0,
-      "supertrend": 10711.71,
+      "supertrend": 10716.49,
       "st_dir": -1,
-      "ema20": 10673.42,
+      "ema20": 10667.81,
       "ema50": null,
-      "rsi": 22.5
+      "rsi": 25.0
     },
     {
       "date": "10:45",
@@ -29697,11 +29671,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10611.0,
       "close": 10616.0,
       "volume": 3779.0,
-      "supertrend": 10696.84,
+      "supertrend": 10701.14,
       "st_dir": -1,
-      "ema20": 10667.95,
+      "ema20": 10662.88,
       "ema50": null,
-      "rsi": 25.1
+      "rsi": 27.6
     },
     {
       "date": "10:50",
@@ -29710,11 +29684,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10603.0,
       "close": 10620.0,
       "volume": 2170.0,
-      "supertrend": 10689.81,
+      "supertrend": 10693.67,
       "st_dir": -1,
-      "ema20": 10663.38,
+      "ema20": 10658.79,
       "ema50": null,
-      "rsi": 26.6
+      "rsi": 29.1
     },
     {
       "date": "10:55",
@@ -29723,11 +29697,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10611.0,
       "close": 10617.0,
       "volume": 23489.0,
-      "supertrend": 10689.81,
+      "supertrend": 10693.67,
       "st_dir": -1,
-      "ema20": 10658.97,
+      "ema20": 10654.81,
       "ema50": null,
-      "rsi": 26.2
+      "rsi": 28.6
     },
     {
       "date": "11:00",
@@ -29736,11 +29710,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10615.0,
       "close": 10623.0,
       "volume": 1666.0,
-      "supertrend": 10689.81,
+      "supertrend": 10693.67,
       "st_dir": -1,
-      "ema20": 10655.54,
+      "ema20": 10651.78,
       "ema50": null,
-      "rsi": 28.7
+      "rsi": 31.1
     },
     {
       "date": "11:05",
@@ -29749,11 +29723,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10610.0,
       "close": 10630.0,
       "volume": 3690.0,
-      "supertrend": 10689.81,
+      "supertrend": 10693.67,
       "st_dir": -1,
-      "ema20": 10653.11,
+      "ema20": 10649.71,
       "ema50": null,
-      "rsi": 31.6
+      "rsi": 33.9
     },
     {
       "date": "11:10",
@@ -29762,11 +29736,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10610.0,
       "close": 10620.0,
       "volume": 2181.0,
-      "supertrend": 10689.81,
+      "supertrend": 10693.67,
       "st_dir": -1,
-      "ema20": 10649.96,
+      "ema20": 10646.88,
       "ema50": null,
-      "rsi": 29.7
+      "rsi": 31.9
     },
     {
       "date": "11:15",
@@ -29775,11 +29749,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10610.0,
       "close": 10617.0,
       "volume": 2317.0,
-      "supertrend": 10682.96,
+      "supertrend": 10685.24,
       "st_dir": -1,
-      "ema20": 10646.82,
+      "ema20": 10644.03,
       "ema50": null,
-      "rsi": 29.2
+      "rsi": 31.3
     },
     {
       "date": "11:20",
@@ -29788,11 +29762,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10587.0,
       "close": 10587.0,
       "volume": 6543.0,
-      "supertrend": 10674.56,
+      "supertrend": 10676.62,
       "st_dir": -1,
-      "ema20": 10641.12,
+      "ema20": 10638.6,
       "ema50": null,
-      "rsi": 24.3
+      "rsi": 26.0
     },
     {
       "date": "11:25",
@@ -29801,11 +29775,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10580.0,
       "close": 10600.0,
       "volume": 2696.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10637.2,
+      "ema20": 10634.92,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 31.4
     },
     {
       "date": "11:30",
@@ -29814,11 +29788,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10597.0,
       "close": 10610.0,
       "volume": 7717.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10634.61,
+      "ema20": 10632.55,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 35.3
     },
     {
       "date": "11:35",
@@ -29827,11 +29801,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10608.0,
       "close": 10615.0,
       "volume": 5080.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10632.75,
+      "ema20": 10630.88,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 37.2
     },
     {
       "date": "11:40",
@@ -29840,11 +29814,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10606.0,
       "close": 10632.0,
       "volume": 10990.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10632.67,
+      "ema20": 10630.99,
       "ema50": null,
-      "rsi": 42.0
+      "rsi": 43.4
     },
     {
       "date": "11:45",
@@ -29853,11 +29827,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10624.0,
       "close": 10631.0,
       "volume": 2804.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10632.51,
+      "ema20": 10630.99,
       "ema50": null,
-      "rsi": 41.8
+      "rsi": 43.1
     },
     {
       "date": "11:50",
@@ -29866,11 +29840,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10621.0,
       "close": 10625.0,
       "volume": 2143.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10631.8,
+      "ema20": 10630.42,
       "ema50": null,
-      "rsi": 40.2
+      "rsi": 41.5
     },
     {
       "date": "11:55",
@@ -29879,11 +29853,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10610.0,
       "close": 10610.0,
       "volume": 2981.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10629.72,
+      "ema20": 10628.47,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 37.6
     },
     {
       "date": "12:00",
@@ -29892,11 +29866,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10593.0,
       "close": 10594.0,
       "volume": 3590.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10626.32,
+      "ema20": 10625.19,
       "ema50": null,
-      "rsi": 32.9
+      "rsi": 33.9
     },
     {
       "date": "12:05",
@@ -29905,11 +29879,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10595.0,
       "close": 10607.0,
       "volume": 4236.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10624.48,
+      "ema20": 10623.46,
       "ema50": null,
-      "rsi": 38.1
+      "rsi": 39.1
     },
     {
       "date": "12:10",
@@ -29918,11 +29892,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10608.0,
       "close": 10629.0,
       "volume": 10172.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10624.91,
+      "ema20": 10623.99,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 46.7
     },
     {
       "date": "12:15",
@@ -29931,11 +29905,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10622.0,
       "close": 10629.0,
       "volume": 7302.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10625.3,
+      "ema20": 10624.46,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 46.7
     },
     {
       "date": "12:20",
@@ -29944,11 +29918,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10623.0,
       "close": 10637.0,
       "volume": 1052.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10626.41,
+      "ema20": 10625.66,
       "ema50": null,
-      "rsi": 48.5
+      "rsi": 49.4
     },
     {
       "date": "12:25",
@@ -29957,11 +29931,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10632.0,
       "close": 10640.0,
       "volume": 1771.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10627.71,
+      "ema20": 10627.02,
       "ema50": null,
-      "rsi": 49.6
+      "rsi": 50.4
     },
     {
       "date": "12:30",
@@ -29970,11 +29944,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10635.0,
       "close": 10653.0,
       "volume": 1953.0,
-      "supertrend": 10659.96,
+      "supertrend": 10661.81,
       "st_dir": -1,
-      "ema20": 10630.12,
+      "ema20": 10629.5,
       "ema50": null,
-      "rsi": 53.8
+      "rsi": 54.6
     },
     {
       "date": "12:35",
@@ -29983,11 +29957,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10653.0,
       "close": 10663.0,
       "volume": 2291.0,
-      "supertrend": 10608.03,
+      "supertrend": 10607.61,
       "st_dir": 1,
-      "ema20": 10633.25,
+      "ema20": 10632.69,
       "ema50": null,
-      "rsi": 56.9
+      "rsi": 57.6
     },
     {
       "date": "12:40",
@@ -29996,11 +29970,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10658.0,
       "close": 10660.0,
       "volume": 1351.0,
-      "supertrend": 10610.03,
+      "supertrend": 10609.65,
       "st_dir": 1,
-      "ema20": 10635.8,
+      "ema20": 10635.29,
       "ema50": null,
-      "rsi": 55.7
+      "rsi": 56.4
     },
     {
       "date": "12:45",
@@ -30009,11 +29983,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10608.0,
       "close": 10608.0,
       "volume": 2304.0,
-      "supertrend": 10698.98,
+      "supertrend": 10699.32,
       "st_dir": -1,
-      "ema20": 10633.15,
+      "ema20": 10632.69,
       "ema50": null,
-      "rsi": 40.2
+      "rsi": 40.6
     },
     {
       "date": "12:50",
@@ -30022,11 +29996,11 @@ window.DASHBOARD_CHARTS = {
       "low": 10581.0,
       "close": 10591.0,
       "volume": 17324.0,
-      "supertrend": 10668.63,
+      "supertrend": 10668.94,
       "st_dir": -1,
-      "ema20": 10629.14,
+      "ema20": 10628.72,
       "ema50": null,
-      "rsi": 36.6
+      "rsi": 37.0
     },
     {
       "date": "12:55",
@@ -30034,41 +30008,41 @@ window.DASHBOARD_CHARTS = {
       "high": 10608.0,
       "low": 10594.0,
       "close": 10600.0,
-      "volume": 15395.0,
-      "supertrend": 10668.32,
+      "volume": 16129.0,
+      "supertrend": 10668.59,
       "st_dir": -1,
-      "ema20": 10626.36,
-      "ema50": 10648.24,
-      "rsi": 39.6
+      "ema20": 10625.98,
+      "ema50": null,
+      "rsi": 40.1
+    },
+    {
+      "date": "13:00",
+      "open": 10599.0,
+      "high": 10599.0,
+      "low": 10579.0,
+      "close": 10580.0,
+      "volume": 10659.0,
+      "supertrend": 10656.13,
+      "st_dir": -1,
+      "ema20": 10621.6,
+      "ema50": null,
+      "rsi": 35.9
+    },
+    {
+      "date": "13:05",
+      "open": 10580.0,
+      "high": 10585.0,
+      "low": 10563.0,
+      "close": 10563.0,
+      "volume": 2854.0,
+      "supertrend": 10641.02,
+      "st_dir": -1,
+      "ema20": 10616.02,
+      "ema50": 10639.92,
+      "rsi": 32.8
     }
   ],
   "HEROMOTOCO.NS": [
-    {
-      "date": "14:55",
-      "open": 5355.0,
-      "high": 5357.0,
-      "low": 5350.0,
-      "close": 5351.0,
-      "volume": 6826.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:00",
-      "open": 5351.0,
-      "high": 5354.0,
-      "low": 5350.0,
-      "close": 5352.5,
-      "volume": 11437.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 5352.5,
@@ -30167,8 +30141,8 @@ window.DASHBOARD_CHARTS = {
       "low": 5260.0,
       "close": 5260.0,
       "volume": 10621.0,
-      "supertrend": 5319.8,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -30180,8 +30154,8 @@ window.DASHBOARD_CHARTS = {
       "low": 5253.0,
       "close": 5258.5,
       "volume": 5264.0,
-      "supertrend": 5306.77,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -30193,7 +30167,7 @@ window.DASHBOARD_CHARTS = {
       "low": 5253.0,
       "close": 5260.0,
       "volume": 7323.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30206,7 +30180,7 @@ window.DASHBOARD_CHARTS = {
       "low": 5262.0,
       "close": 5269.0,
       "volume": 5009.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30219,7 +30193,7 @@ window.DASHBOARD_CHARTS = {
       "low": 5264.0,
       "close": 5265.0,
       "volume": 3279.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30232,11 +30206,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5254.0,
       "close": 5260.5,
       "volume": 10177.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 21.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -30245,11 +30219,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5255.0,
       "close": 5266.5,
       "volume": 8713.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 24.7
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -30258,11 +30232,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5268.0,
       "close": 5276.5,
       "volume": 6461.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 29.6
+      "rsi": 28.9
     },
     {
       "date": "10:15",
@@ -30271,11 +30245,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5270.0,
       "close": 5272.0,
       "volume": 3265.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 28.7
+      "rsi": 28.1
     },
     {
       "date": "10:20",
@@ -30284,11 +30258,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5259.5,
       "close": 5268.0,
       "volume": 3538.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 27.9
+      "rsi": 27.4
     },
     {
       "date": "10:25",
@@ -30297,11 +30271,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5263.0,
       "close": 5263.0,
       "volume": 2619.0,
-      "supertrend": 5304.72,
+      "supertrend": 5311.45,
       "st_dir": -1,
-      "ema20": 5290.77,
+      "ema20": null,
       "ema50": null,
-      "rsi": 26.8
+      "rsi": 26.5
     },
     {
       "date": "10:30",
@@ -30310,11 +30284,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5255.5,
       "close": 5261.5,
       "volume": 5690.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.7,
       "st_dir": -1,
-      "ema20": 5287.99,
+      "ema20": null,
       "ema50": null,
-      "rsi": 26.5
+      "rsi": 26.2
     },
     {
       "date": "10:35",
@@ -30323,11 +30297,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5258.0,
       "close": 5268.0,
       "volume": 11720.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.7,
       "st_dir": -1,
-      "ema20": 5286.08,
+      "ema20": 5282.07,
       "ema50": null,
-      "rsi": 30.4
+      "rsi": 29.7
     },
     {
       "date": "10:40",
@@ -30336,11 +30310,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5259.0,
       "close": 5266.0,
       "volume": 7322.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.7,
       "st_dir": -1,
-      "ema20": 5284.17,
+      "ema20": 5280.54,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 29.2
     },
     {
       "date": "10:45",
@@ -30349,11 +30323,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5263.5,
       "close": 5266.0,
       "volume": 9643.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.7,
       "st_dir": -1,
-      "ema20": 5282.44,
+      "ema20": 5279.16,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 29.2
     },
     {
       "date": "10:50",
@@ -30362,11 +30336,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5261.0,
       "close": 5267.0,
       "volume": 7050.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.26,
       "st_dir": -1,
-      "ema20": 5280.97,
+      "ema20": 5278.0,
       "ema50": null,
-      "rsi": 30.5
+      "rsi": 29.9
     },
     {
       "date": "10:55",
@@ -30375,11 +30349,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5264.5,
       "close": 5265.0,
       "volume": 4608.0,
-      "supertrend": 5302.09,
+      "supertrend": 5304.26,
       "st_dir": -1,
-      "ema20": 5279.45,
+      "ema20": 5276.76,
       "ema50": null,
-      "rsi": 29.9
+      "rsi": 29.3
     },
     {
       "date": "11:00",
@@ -30388,11 +30362,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5262.5,
       "close": 5268.0,
       "volume": 3778.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5278.36,
+      "ema20": 5275.93,
       "ema50": null,
-      "rsi": 32.2
+      "rsi": 31.4
     },
     {
       "date": "11:05",
@@ -30401,11 +30375,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5265.5,
       "close": 5272.5,
       "volume": 6719.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.8,
+      "ema20": 5275.6,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 34.6
     },
     {
       "date": "11:10",
@@ -30414,11 +30388,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5266.0,
       "close": 5271.0,
       "volume": 1672.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.15,
+      "ema20": 5275.16,
       "ema50": null,
-      "rsi": 34.9
+      "rsi": 34.0
     },
     {
       "date": "11:15",
@@ -30427,11 +30401,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5271.0,
       "close": 5274.5,
       "volume": 8090.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5276.9,
+      "ema20": 5275.1,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 36.6
     },
     {
       "date": "11:20",
@@ -30440,11 +30414,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5273.0,
       "close": 5273.5,
       "volume": 9062.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5276.58,
+      "ema20": 5274.95,
       "ema50": null,
-      "rsi": 37.2
+      "rsi": 36.1
     },
     {
       "date": "11:25",
@@ -30453,11 +30427,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5267.0,
       "close": 5276.5,
       "volume": 2672.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5276.57,
+      "ema20": 5275.1,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 38.5
     },
     {
       "date": "11:30",
@@ -30466,11 +30440,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5270.0,
       "close": 5283.0,
       "volume": 9874.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.18,
+      "ema20": 5275.85,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 43.4
     },
     {
       "date": "11:35",
@@ -30479,11 +30453,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5280.0,
       "close": 5281.0,
       "volume": 6557.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.55,
+      "ema20": 5276.34,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 42.3
     },
     {
       "date": "11:40",
@@ -30492,11 +30466,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5276.0,
       "close": 5281.0,
       "volume": 5758.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.87,
+      "ema20": 5276.78,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 42.3
     },
     {
       "date": "11:45",
@@ -30505,11 +30479,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5268.5,
       "close": 5275.5,
       "volume": 2140.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.65,
+      "ema20": 5276.66,
       "ema50": null,
-      "rsi": 40.0
+      "rsi": 39.1
     },
     {
       "date": "11:50",
@@ -30518,11 +30492,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5275.0,
       "close": 5275.0,
       "volume": 2016.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.4,
+      "ema20": 5276.5,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": 38.8
     },
     {
       "date": "11:55",
@@ -30531,11 +30505,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5270.0,
       "close": 5277.5,
       "volume": 5104.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.41,
+      "ema20": 5276.6,
       "ema50": null,
-      "rsi": 42.2
+      "rsi": 41.1
     },
     {
       "date": "12:00",
@@ -30544,11 +30518,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5270.0,
       "close": 5273.0,
       "volume": 2074.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5276.99,
+      "ema20": 5276.25,
       "ema50": null,
-      "rsi": 39.1
+      "rsi": 38.3
     },
     {
       "date": "12:05",
@@ -30557,11 +30531,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5273.0,
       "close": 5279.5,
       "volume": 3925.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5277.23,
+      "ema20": 5276.56,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 44.2
     },
     {
       "date": "12:10",
@@ -30570,11 +30544,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5279.5,
       "close": 5287.0,
       "volume": 9610.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5278.16,
+      "ema20": 5277.56,
       "ema50": null,
-      "rsi": 51.4
+      "rsi": 50.2
     },
     {
       "date": "12:15",
@@ -30583,11 +30557,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5286.5,
       "close": 5294.0,
       "volume": 11517.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5279.67,
+      "ema20": 5279.12,
       "ema50": null,
-      "rsi": 56.3
+      "rsi": 55.1
     },
     {
       "date": "12:20",
@@ -30596,11 +30570,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5285.5,
       "close": 5291.0,
       "volume": 8580.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5280.74,
+      "ema20": 5280.25,
       "ema50": null,
-      "rsi": 53.8
+      "rsi": 52.7
     },
     {
       "date": "12:25",
@@ -30609,11 +30583,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5286.0,
       "close": 5286.5,
       "volume": 2620.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5281.29,
+      "ema20": 5280.85,
       "ema50": null,
-      "rsi": 50.2
+      "rsi": 49.3
     },
     {
       "date": "12:30",
@@ -30622,11 +30596,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5283.0,
       "close": 5290.5,
       "volume": 6772.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5282.17,
+      "ema20": 5281.77,
       "ema50": null,
-      "rsi": 53.2
+      "rsi": 52.2
     },
     {
       "date": "12:35",
@@ -30635,11 +30609,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5285.0,
       "close": 5289.0,
       "volume": 5773.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5282.82,
+      "ema20": 5282.46,
       "ema50": null,
-      "rsi": 51.9
+      "rsi": 51.0
     },
     {
       "date": "12:40",
@@ -30648,11 +30622,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5284.5,
       "close": 5290.0,
       "volume": 3230.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5283.5,
+      "ema20": 5283.18,
       "ema50": null,
-      "rsi": 52.7
+      "rsi": 51.8
     },
     {
       "date": "12:45",
@@ -30661,11 +30635,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5283.5,
       "close": 5284.5,
       "volume": 6031.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5283.6,
+      "ema20": 5283.3,
       "ema50": null,
-      "rsi": 47.9
+      "rsi": 47.3
     },
     {
       "date": "12:50",
@@ -30674,11 +30648,11 @@ window.DASHBOARD_CHARTS = {
       "low": 5280.0,
       "close": 5286.5,
       "volume": 2596.0,
-      "supertrend": 5301.82,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5283.88,
+      "ema20": 5283.61,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 49.0
     },
     {
       "date": "12:55",
@@ -30686,41 +30660,41 @@ window.DASHBOARD_CHARTS = {
       "high": 5290.0,
       "low": 5285.5,
       "close": 5287.0,
-      "volume": 1592.0,
-      "supertrend": 5301.82,
+      "volume": 2170.0,
+      "supertrend": 5303.2,
       "st_dir": -1,
-      "ema20": 5284.17,
-      "ema50": 5283.13,
-      "rsi": 50.2
+      "ema20": 5283.93,
+      "ema50": null,
+      "rsi": 49.5
+    },
+    {
+      "date": "13:00",
+      "open": 5285.0,
+      "high": 5289.0,
+      "low": 5285.0,
+      "close": 5286.0,
+      "volume": 3439.0,
+      "supertrend": 5303.2,
+      "st_dir": -1,
+      "ema20": 5284.13,
+      "ema50": null,
+      "rsi": 48.6
+    },
+    {
+      "date": "13:05",
+      "open": 5286.5,
+      "high": 5286.5,
+      "low": 5280.5,
+      "close": 5280.5,
+      "volume": 648.0,
+      "supertrend": 5303.2,
+      "st_dir": -1,
+      "ema20": 5283.78,
+      "ema50": 5280.39,
+      "rsi": 43.7
     }
   ],
   "BPCL.NS": [
-    {
-      "date": "15:00",
-      "open": 305.3500061035156,
-      "high": 305.45001220703125,
-      "low": 304.79998779296875,
-      "close": 305.1000061035156,
-      "volume": 104426.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 305.04998779296875,
-      "high": 305.20001220703125,
-      "low": 304.79998779296875,
-      "close": 304.79998779296875,
-      "volume": 193967.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 305.0,
@@ -30819,8 +30793,8 @@ window.DASHBOARD_CHARTS = {
       "low": 303.75,
       "close": 303.79998779296875,
       "volume": 34065.0,
-      "supertrend": 307.34,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -30832,8 +30806,8 @@ window.DASHBOARD_CHARTS = {
       "low": 303.3500061035156,
       "close": 303.6499938964844,
       "volume": 24686.0,
-      "supertrend": 306.81,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -30845,7 +30819,7 @@ window.DASHBOARD_CHARTS = {
       "low": 303.29998779296875,
       "close": 303.75,
       "volume": 43377.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30858,7 +30832,7 @@ window.DASHBOARD_CHARTS = {
       "low": 303.29998779296875,
       "close": 303.8500061035156,
       "volume": 33040.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30871,7 +30845,7 @@ window.DASHBOARD_CHARTS = {
       "low": 303.70001220703125,
       "close": 304.1499938964844,
       "volume": 20115.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -30884,11 +30858,11 @@ window.DASHBOARD_CHARTS = {
       "low": 304.1499938964844,
       "close": 305.3999938964844,
       "volume": 65083.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 51.7
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -30897,11 +30871,11 @@ window.DASHBOARD_CHARTS = {
       "low": 304.45001220703125,
       "close": 304.79998779296875,
       "volume": 38307.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 48.2
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -30910,11 +30884,11 @@ window.DASHBOARD_CHARTS = {
       "low": 304.45001220703125,
       "close": 304.45001220703125,
       "volume": 13285.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.3
+      "rsi": 50.3
     },
     {
       "date": "10:15",
@@ -30923,11 +30897,11 @@ window.DASHBOARD_CHARTS = {
       "low": 303.8999938964844,
       "close": 304.5,
       "volume": 24781.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 46.6
+      "rsi": 50.6
     },
     {
       "date": "10:20",
@@ -30936,11 +30910,11 @@ window.DASHBOARD_CHARTS = {
       "low": 304.04998779296875,
       "close": 304.29998779296875,
       "volume": 13389.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": 49.3
     },
     {
       "date": "10:25",
@@ -30949,11 +30923,11 @@ window.DASHBOARD_CHARTS = {
       "low": 303.8999938964844,
       "close": 304.29998779296875,
       "volume": 21224.0,
-      "supertrend": 306.64,
+      "supertrend": 306.97,
       "st_dir": -1,
-      "ema20": 304.43,
+      "ema20": null,
       "ema50": null,
-      "rsi": 45.4
+      "rsi": 49.3
     },
     {
       "date": "10:30",
@@ -30962,11 +30936,11 @@ window.DASHBOARD_CHARTS = {
       "low": 302.29998779296875,
       "close": 302.5,
       "volume": 429905.0,
-      "supertrend": 306.37,
+      "supertrend": 306.49,
       "st_dir": -1,
-      "ema20": 304.25,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 39.3
     },
     {
       "date": "10:35",
@@ -30975,11 +30949,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.6499938964844,
       "close": 301.8999938964844,
       "volume": 46031.0,
-      "supertrend": 305.27,
+      "supertrend": 305.38,
       "st_dir": -1,
-      "ema20": 304.02,
+      "ema20": 304.16,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": 36.7
     },
     {
       "date": "10:40",
@@ -30988,11 +30962,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.6000061035156,
       "close": 301.8999938964844,
       "volume": 126488.0,
-      "supertrend": 304.68,
+      "supertrend": 304.78,
       "st_dir": -1,
-      "ema20": 303.82,
+      "ema20": 303.94,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": 36.7
     },
     {
       "date": "10:45",
@@ -31001,11 +30975,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.79998779296875,
       "close": 302.0,
       "volume": 272793.0,
-      "supertrend": 304.55,
+      "supertrend": 304.65,
       "st_dir": -1,
-      "ema20": 303.65,
+      "ema20": 303.76,
       "ema50": null,
-      "rsi": 34.1
+      "rsi": 37.5
     },
     {
       "date": "10:50",
@@ -31014,11 +30988,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.75,
       "close": 302.25,
       "volume": 28406.0,
-      "supertrend": 304.55,
+      "supertrend": 304.65,
       "st_dir": -1,
-      "ema20": 303.52,
+      "ema20": 303.61,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 39.6
     },
     {
       "date": "10:55",
@@ -31027,11 +31001,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.95001220703125,
       "close": 301.95001220703125,
       "volume": 154802.0,
-      "supertrend": 304.55,
+      "supertrend": 304.65,
       "st_dir": -1,
-      "ema20": 303.37,
+      "ema20": 303.46,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 37.9
     },
     {
       "date": "11:00",
@@ -31040,11 +31014,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.8500061035156,
       "close": 301.8500061035156,
       "volume": 21996.0,
-      "supertrend": 304.55,
+      "supertrend": 304.65,
       "st_dir": -1,
-      "ema20": 303.22,
+      "ema20": 303.3,
       "ema50": null,
-      "rsi": 34.3
+      "rsi": 37.4
     },
     {
       "date": "11:05",
@@ -31053,11 +31027,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.75,
       "close": 302.04998779296875,
       "volume": 22481.0,
-      "supertrend": 304.37,
+      "supertrend": 304.44,
       "st_dir": -1,
-      "ema20": 303.11,
+      "ema20": 303.18,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 39.3
     },
     {
       "date": "11:10",
@@ -31066,11 +31040,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.70001220703125,
       "close": 301.75,
       "volume": 23576.0,
-      "supertrend": 304.22,
+      "supertrend": 304.27,
       "st_dir": -1,
-      "ema20": 302.98,
+      "ema20": 303.05,
       "ema50": null,
-      "rsi": 34.6
+      "rsi": 37.5
     },
     {
       "date": "11:15",
@@ -31079,11 +31053,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.75,
       "close": 301.8999938964844,
       "volume": 9768.0,
-      "supertrend": 304.02,
+      "supertrend": 304.06,
       "st_dir": -1,
-      "ema20": 302.88,
+      "ema20": 302.94,
       "ema50": null,
-      "rsi": 36.3
+      "rsi": 39.0
     },
     {
       "date": "11:20",
@@ -31092,11 +31066,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.5,
       "close": 301.5,
       "volume": 37573.0,
-      "supertrend": 303.91,
+      "supertrend": 303.95,
       "st_dir": -1,
-      "ema20": 302.75,
+      "ema20": 302.8,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 36.4
     },
     {
       "date": "11:25",
@@ -31105,11 +31079,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.3500061035156,
       "close": 301.6000061035156,
       "volume": 32632.0,
-      "supertrend": 303.69,
+      "supertrend": 303.73,
       "st_dir": -1,
-      "ema20": 302.64,
+      "ema20": 302.69,
       "ema50": null,
-      "rsi": 35.0
+      "rsi": 37.5
     },
     {
       "date": "11:30",
@@ -31118,11 +31092,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.1499938964844,
       "close": 301.1499938964844,
       "volume": 26243.0,
-      "supertrend": 303.44,
+      "supertrend": 303.48,
       "st_dir": -1,
-      "ema20": 302.5,
+      "ema20": 302.54,
       "ema50": null,
-      "rsi": 32.2
+      "rsi": 34.6
     },
     {
       "date": "11:35",
@@ -31131,11 +31105,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.75,
       "close": 300.8500061035156,
       "volume": 59779.0,
-      "supertrend": 302.97,
+      "supertrend": 303.0,
       "st_dir": -1,
-      "ema20": 302.34,
+      "ema20": 302.38,
       "ema50": null,
-      "rsi": 30.4
+      "rsi": 32.7
     },
     {
       "date": "11:40",
@@ -31144,11 +31118,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.75,
       "close": 300.75,
       "volume": 23933.0,
-      "supertrend": 302.68,
+      "supertrend": 302.71,
       "st_dir": -1,
-      "ema20": 302.19,
+      "ema20": 302.22,
       "ema50": null,
-      "rsi": 29.8
+      "rsi": 32.1
     },
     {
       "date": "11:45",
@@ -31157,11 +31131,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.25,
       "close": 300.6000061035156,
       "volume": 48298.0,
-      "supertrend": 302.34,
+      "supertrend": 302.36,
       "st_dir": -1,
-      "ema20": 302.04,
+      "ema20": 302.07,
       "ema50": null,
-      "rsi": 28.9
+      "rsi": 31.2
     },
     {
       "date": "11:50",
@@ -31170,11 +31144,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.3999938964844,
       "close": 300.5,
       "volume": 21161.0,
-      "supertrend": 302.34,
+      "supertrend": 302.36,
       "st_dir": -1,
-      "ema20": 301.89,
+      "ema20": 301.92,
       "ema50": null,
-      "rsi": 28.3
+      "rsi": 30.5
     },
     {
       "date": "11:55",
@@ -31183,11 +31157,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.3500061035156,
       "close": 300.54998779296875,
       "volume": 10632.0,
-      "supertrend": 302.13,
+      "supertrend": 302.15,
       "st_dir": -1,
-      "ema20": 301.76,
+      "ema20": 301.79,
       "ema50": null,
-      "rsi": 29.1
+      "rsi": 31.3
     },
     {
       "date": "12:00",
@@ -31196,11 +31170,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.1499938964844,
       "close": 300.3999938964844,
       "volume": 35708.0,
-      "supertrend": 302.04,
+      "supertrend": 302.06,
       "st_dir": -1,
-      "ema20": 301.63,
+      "ema20": 301.66,
       "ema50": null,
-      "rsi": 28.1
+      "rsi": 30.2
     },
     {
       "date": "12:05",
@@ -31209,11 +31183,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.3999938964844,
       "close": 300.70001220703125,
       "volume": 11564.0,
-      "supertrend": 302.04,
+      "supertrend": 302.06,
       "st_dir": -1,
-      "ema20": 301.54,
+      "ema20": 301.57,
       "ema50": null,
-      "rsi": 33.2
+      "rsi": 35.0
     },
     {
       "date": "12:10",
@@ -31222,11 +31196,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.25,
       "close": 300.75,
       "volume": 61470.0,
-      "supertrend": 302.04,
+      "supertrend": 302.06,
       "st_dir": -1,
-      "ema20": 301.47,
+      "ema20": 301.49,
       "ema50": null,
-      "rsi": 34.0
+      "rsi": 35.8
     },
     {
       "date": "12:15",
@@ -31235,11 +31209,11 @@ window.DASHBOARD_CHARTS = {
       "low": 300.54998779296875,
       "close": 301.5,
       "volume": 646220.0,
-      "supertrend": 302.04,
+      "supertrend": 302.06,
       "st_dir": -1,
-      "ema20": 301.47,
+      "ema20": 301.49,
       "ema50": null,
-      "rsi": 45.1
+      "rsi": 46.4
     },
     {
       "date": "12:20",
@@ -31248,11 +31222,11 @@ window.DASHBOARD_CHARTS = {
       "low": 301.45001220703125,
       "close": 302.8999938964844,
       "volume": 464656.0,
-      "supertrend": 300.05,
+      "supertrend": 300.03,
       "st_dir": 1,
-      "ema20": 301.61,
+      "ema20": 301.62,
       "ema50": null,
-      "rsi": 59.0
+      "rsi": 59.8
     },
     {
       "date": "12:25",
@@ -31261,11 +31235,11 @@ window.DASHBOARD_CHARTS = {
       "low": 302.54998779296875,
       "close": 302.8999938964844,
       "volume": 222714.0,
-      "supertrend": 300.8,
+      "supertrend": 300.78,
       "st_dir": 1,
-      "ema20": 301.73,
+      "ema20": 301.75,
       "ema50": null,
-      "rsi": 59.0
+      "rsi": 59.8
     },
     {
       "date": "12:30",
@@ -31274,11 +31248,11 @@ window.DASHBOARD_CHARTS = {
       "low": 302.5,
       "close": 302.6499938964844,
       "volume": 35513.0,
-      "supertrend": 300.8,
+      "supertrend": 300.78,
       "st_dir": 1,
-      "ema20": 301.82,
+      "ema20": 301.83,
       "ema50": null,
-      "rsi": 56.1
+      "rsi": 56.9
     },
     {
       "date": "12:35",
@@ -31287,11 +31261,11 @@ window.DASHBOARD_CHARTS = {
       "low": 302.6499938964844,
       "close": 302.75,
       "volume": 27529.0,
-      "supertrend": 300.81,
+      "supertrend": 300.8,
       "st_dir": 1,
-      "ema20": 301.91,
+      "ema20": 301.92,
       "ema50": null,
-      "rsi": 57.0
+      "rsi": 57.7
     },
     {
       "date": "12:40",
@@ -31302,9 +31276,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 90168.0,
       "supertrend": 300.85,
       "st_dir": 1,
-      "ema20": 302.01,
+      "ema20": 302.02,
       "ema50": null,
-      "rsi": 59.3
+      "rsi": 60.0
     },
     {
       "date": "12:45",
@@ -31315,9 +31289,9 @@ window.DASHBOARD_CHARTS = {
       "volume": 62807.0,
       "supertrend": 300.94,
       "st_dir": 1,
-      "ema20": 302.07,
+      "ema20": 302.08,
       "ema50": null,
-      "rsi": 54.9
+      "rsi": 55.6
     },
     {
       "date": "12:50",
@@ -31326,53 +31300,53 @@ window.DASHBOARD_CHARTS = {
       "low": 302.54998779296875,
       "close": 303.0,
       "volume": 22611.0,
-      "supertrend": 300.97,
+      "supertrend": 300.96,
       "st_dir": 1,
-      "ema20": 302.16,
+      "ema20": 302.17,
       "ema50": null,
-      "rsi": 58.2
+      "rsi": 58.8
     },
     {
       "date": "12:55",
       "open": 302.95001220703125,
-      "high": 303.0,
+      "high": 303.1000061035156,
       "low": 302.8500061035156,
       "close": 302.8999938964844,
-      "volume": 47664.0,
-      "supertrend": 301.25,
+      "volume": 56265.0,
+      "supertrend": 301.27,
       "st_dir": 1,
-      "ema20": 302.23,
-      "ema50": 302.85,
+      "ema20": 302.24,
+      "ema50": null,
+      "rsi": 57.5
+    },
+    {
+      "date": "13:00",
+      "open": 302.95001220703125,
+      "high": 303.75,
+      "low": 302.95001220703125,
+      "close": 303.20001220703125,
+      "volume": 129676.0,
+      "supertrend": 301.56,
+      "st_dir": 1,
+      "ema20": 302.33,
+      "ema50": null,
+      "rsi": 60.4
+    },
+    {
+      "date": "13:05",
+      "open": 303.20001220703125,
+      "high": 303.3500061035156,
+      "low": 302.95001220703125,
+      "close": 302.95001220703125,
+      "volume": 7407.0,
+      "supertrend": 301.56,
+      "st_dir": 1,
+      "ema20": 302.39,
+      "ema50": 302.77,
       "rsi": 56.9
     }
   ],
   "GRASIM.NS": [
-    {
-      "date": "15:00",
-      "open": 3065.10009765625,
-      "high": 3069.199951171875,
-      "low": 3061.300048828125,
-      "close": 3062.300048828125,
-      "volume": 12713.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 3061.60009765625,
-      "high": 3068.300048828125,
-      "low": 3056.89990234375,
-      "close": 3067.10009765625,
-      "volume": 23073.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 3068.0,
@@ -31471,8 +31445,8 @@ window.DASHBOARD_CHARTS = {
       "low": 3043.0,
       "close": 3043.800048828125,
       "volume": 3226.0,
-      "supertrend": 3075.43,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -31484,8 +31458,8 @@ window.DASHBOARD_CHARTS = {
       "low": 3039.0,
       "close": 3043.800048828125,
       "volume": 3187.0,
-      "supertrend": 3071.4,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -31497,7 +31471,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3039.39990234375,
       "close": 3042.0,
       "volume": 2717.0,
-      "supertrend": 3069.1,
+      "supertrend": 3068.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -31510,7 +31484,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3041.10009765625,
       "close": 3047.5,
       "volume": 2569.0,
-      "supertrend": 3069.1,
+      "supertrend": 3068.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -31523,7 +31497,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.10009765625,
       "close": 3045.699951171875,
       "volume": 13444.0,
-      "supertrend": 3069.1,
+      "supertrend": 3068.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -31536,11 +31510,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3044.60009765625,
       "close": 3047.699951171875,
       "volume": 1166.0,
-      "supertrend": 3069.1,
+      "supertrend": 3068.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.4
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -31549,11 +31523,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3042.800048828125,
       "close": 3045.5,
       "volume": 1183.0,
-      "supertrend": 3069.1,
+      "supertrend": 3068.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -31562,11 +31536,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3042.89990234375,
       "close": 3046.699951171875,
       "volume": 1871.0,
-      "supertrend": 3067.67,
+      "supertrend": 3067.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 29.4
     },
     {
       "date": "10:15",
@@ -31575,11 +31549,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.0,
       "close": 3046.699951171875,
       "volume": 728.0,
-      "supertrend": 3067.67,
+      "supertrend": 3067.6,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 35.5
+      "rsi": 29.4
     },
     {
       "date": "10:20",
@@ -31588,11 +31562,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3043.300048828125,
       "close": 3045.800048828125,
       "volume": 2141.0,
-      "supertrend": 3066.37,
+      "supertrend": 3066.31,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 34.7
+      "rsi": 28.7
     },
     {
       "date": "10:25",
@@ -31601,11 +31575,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.800048828125,
       "close": 3047.10009765625,
       "volume": 949.0,
-      "supertrend": 3066.37,
+      "supertrend": 3066.31,
       "st_dir": -1,
-      "ema20": 3050.87,
+      "ema20": null,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 31.0
     },
     {
       "date": "10:30",
@@ -31614,11 +31588,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3044.10009765625,
       "close": 3045.800048828125,
       "volume": 943.0,
-      "supertrend": 3064.95,
+      "supertrend": 3064.9,
       "st_dir": -1,
-      "ema20": 3050.38,
+      "ema20": null,
       "ema50": null,
-      "rsi": 35.6
+      "rsi": 30.0
     },
     {
       "date": "10:35",
@@ -31627,11 +31601,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3044.10009765625,
       "close": 3046.800048828125,
       "volume": 836.0,
-      "supertrend": 3064.72,
+      "supertrend": 3064.68,
       "st_dir": -1,
-      "ema20": 3050.04,
+      "ema20": 3049.03,
       "ema50": null,
-      "rsi": 37.4
+      "rsi": 31.9
     },
     {
       "date": "10:40",
@@ -31640,11 +31614,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.300048828125,
       "close": 3047.10009765625,
       "volume": 732.0,
-      "supertrend": 3063.64,
+      "supertrend": 3063.6,
       "st_dir": -1,
-      "ema20": 3049.76,
+      "ema20": 3048.84,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 32.5
     },
     {
       "date": "10:45",
@@ -31653,11 +31627,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.60009765625,
       "close": 3045.800048828125,
       "volume": 519.0,
-      "supertrend": 3062.87,
+      "supertrend": 3062.84,
       "st_dir": -1,
-      "ema20": 3049.38,
+      "ema20": 3048.55,
       "ema50": null,
-      "rsi": 36.5
+      "rsi": 31.2
     },
     {
       "date": "10:50",
@@ -31666,11 +31640,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3045.699951171875,
       "close": 3046.89990234375,
       "volume": 443.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3049.15,
+      "ema20": 3048.39,
       "ema50": null,
-      "rsi": 38.7
+      "rsi": 33.6
     },
     {
       "date": "10:55",
@@ -31679,11 +31653,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3044.199951171875,
       "close": 3046.800048828125,
       "volume": 4958.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3048.92,
+      "ema20": 3048.24,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 33.4
     },
     {
       "date": "11:00",
@@ -31692,11 +31666,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3046.800048828125,
       "close": 3049.60009765625,
       "volume": 36770.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3048.99,
+      "ema20": 3048.37,
       "ema50": null,
-      "rsi": 44.3
+      "rsi": 39.5
     },
     {
       "date": "11:05",
@@ -31705,11 +31679,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3047.199951171875,
       "close": 3052.10009765625,
       "volume": 374.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3049.28,
+      "ema20": 3048.73,
       "ema50": null,
-      "rsi": 48.9
+      "rsi": 44.4
     },
     {
       "date": "11:10",
@@ -31718,11 +31692,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3049.10009765625,
       "close": 3055.60009765625,
       "volume": 4145.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3049.89,
+      "ema20": 3049.38,
       "ema50": null,
-      "rsi": 54.5
+      "rsi": 50.4
     },
     {
       "date": "11:15",
@@ -31731,11 +31705,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3054.5,
       "close": 3056.60009765625,
       "volume": 1959.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3050.53,
+      "ema20": 3050.07,
       "ema50": null,
-      "rsi": 56.0
+      "rsi": 52.0
     },
     {
       "date": "11:20",
@@ -31744,11 +31718,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.0,
       "close": 3055.0,
       "volume": 18655.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3050.95,
+      "ema20": 3050.54,
       "ema50": null,
-      "rsi": 53.0
+      "rsi": 49.2
     },
     {
       "date": "11:25",
@@ -31757,11 +31731,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.0,
       "close": 3056.5,
       "volume": 1428.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3051.48,
+      "ema20": 3051.11,
       "ema50": null,
-      "rsi": 55.4
+      "rsi": 51.8
     },
     {
       "date": "11:30",
@@ -31770,11 +31744,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.89990234375,
       "close": 3057.89990234375,
       "volume": 1228.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3052.09,
+      "ema20": 3051.75,
       "ema50": null,
-      "rsi": 57.6
+      "rsi": 54.1
     },
     {
       "date": "11:35",
@@ -31783,11 +31757,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3056.699951171875,
       "close": 3058.10009765625,
       "volume": 553.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3052.66,
+      "ema20": 3052.36,
       "ema50": null,
-      "rsi": 57.9
+      "rsi": 54.5
     },
     {
       "date": "11:40",
@@ -31796,11 +31770,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3056.699951171875,
       "close": 3056.699951171875,
       "volume": 718.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.05,
+      "ema20": 3052.77,
       "ema50": null,
-      "rsi": 54.8
+      "rsi": 51.6
     },
     {
       "date": "11:45",
@@ -31809,11 +31783,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.699951171875,
       "close": 3057.800048828125,
       "volume": 2018.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.5,
+      "ema20": 3053.25,
       "ema50": null,
-      "rsi": 56.8
+      "rsi": 53.7
     },
     {
       "date": "11:50",
@@ -31822,11 +31796,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.10009765625,
       "close": 3055.800048828125,
       "volume": 597.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.72,
+      "ema20": 3053.49,
       "ema50": null,
-      "rsi": 52.4
+      "rsi": 49.5
     },
     {
       "date": "11:55",
@@ -31835,11 +31809,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3055.0,
       "close": 3056.300048828125,
       "volume": 1400.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.97,
+      "ema20": 3053.76,
       "ema50": null,
-      "rsi": 53.3
+      "rsi": 50.6
     },
     {
       "date": "12:00",
@@ -31848,11 +31822,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3049.10009765625,
       "close": 3049.5,
       "volume": 6874.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.54,
+      "ema20": 3053.35,
       "ema50": null,
-      "rsi": 41.0
+      "rsi": 39.0
     },
     {
       "date": "12:05",
@@ -31861,11 +31835,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3049.5,
       "close": 3051.39990234375,
       "volume": 1204.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.34,
+      "ema20": 3053.17,
       "ema50": null,
-      "rsi": 44.8
+      "rsi": 42.9
     },
     {
       "date": "12:10",
@@ -31874,11 +31848,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3051.0,
       "close": 3054.60009765625,
       "volume": 2898.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.46,
+      "ema20": 3053.3,
       "ema50": null,
-      "rsi": 50.7
+      "rsi": 48.9
     },
     {
       "date": "12:15",
@@ -31887,11 +31861,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3054.0,
       "close": 3054.800048828125,
       "volume": 1713.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.58,
+      "ema20": 3053.45,
       "ema50": null,
-      "rsi": 51.0
+      "rsi": 49.2
     },
     {
       "date": "12:20",
@@ -31900,11 +31874,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3053.0,
       "close": 3054.0,
       "volume": 11629.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.62,
+      "ema20": 3053.5,
       "ema50": null,
-      "rsi": 49.5
+      "rsi": 47.8
     },
     {
       "date": "12:25",
@@ -31913,11 +31887,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3049.800048828125,
       "close": 3051.800048828125,
       "volume": 11207.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.45,
+      "ema20": 3053.34,
       "ema50": null,
-      "rsi": 45.5
+      "rsi": 44.0
     },
     {
       "date": "12:30",
@@ -31926,11 +31900,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3050.5,
       "close": 3052.39990234375,
       "volume": 10883.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.35,
+      "ema20": 3053.25,
       "ema50": null,
-      "rsi": 46.8
+      "rsi": 45.3
     },
     {
       "date": "12:35",
@@ -31939,11 +31913,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3050.89990234375,
       "close": 3051.0,
       "volume": 3045.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.13,
+      "ema20": 3053.03,
       "ema50": null,
-      "rsi": 44.2
+      "rsi": 42.8
     },
     {
       "date": "12:40",
@@ -31952,11 +31926,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3051.0,
       "close": 3053.0,
       "volume": 2428.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.11,
+      "ema20": 3053.03,
       "ema50": null,
-      "rsi": 48.5
+      "rsi": 47.2
     },
     {
       "date": "12:45",
@@ -31965,11 +31939,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3051.0,
       "close": 3051.699951171875,
       "volume": 1003.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3052.98,
+      "ema20": 3052.9,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 44.8
     },
     {
       "date": "12:50",
@@ -31978,11 +31952,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3051.699951171875,
       "close": 3054.0,
       "volume": 803.0,
-      "supertrend": 3061.22,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.08,
+      "ema20": 3053.01,
       "ema50": null,
-      "rsi": 50.9
+      "rsi": 49.7
     },
     {
       "date": "12:55",
@@ -31990,41 +31964,41 @@ window.DASHBOARD_CHARTS = {
       "high": 3056.5,
       "low": 3053.699951171875,
       "close": 3056.5,
-      "volume": 517.0,
-      "supertrend": 3061.22,
+      "volume": 4463.0,
+      "supertrend": 3061.19,
       "st_dir": -1,
-      "ema20": 3053.4,
-      "ema50": 3051.98,
-      "rsi": 55.5
+      "ema20": 3053.34,
+      "ema50": null,
+      "rsi": 54.5
+    },
+    {
+      "date": "13:00",
+      "open": 3056.5,
+      "high": 3056.800048828125,
+      "low": 3050.0,
+      "close": 3050.0,
+      "volume": 14258.0,
+      "supertrend": 3061.19,
+      "st_dir": -1,
+      "ema20": 3053.02,
+      "ema50": null,
+      "rsi": 43.1
+    },
+    {
+      "date": "13:05",
+      "open": 3051.0,
+      "high": 3051.0,
+      "low": 3043.300048828125,
+      "close": 3047.0,
+      "volume": 10730.0,
+      "supertrend": 3059.64,
+      "st_dir": -1,
+      "ema20": 3052.45,
+      "ema50": 3051.34,
+      "rsi": 39.0
     }
   ],
   "HINDALCO.NS": [
-    {
-      "date": "15:00",
-      "open": 932.5999755859375,
-      "high": 932.5999755859375,
-      "low": 931.5499877929688,
-      "close": 931.6500244140625,
-      "volume": 107652.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
-    {
-      "date": "15:05",
-      "open": 931.25,
-      "high": 931.7999877929688,
-      "low": 930.4000244140625,
-      "close": 931.5,
-      "volume": 171257.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 931.4000244140625,
@@ -32123,8 +32097,8 @@ window.DASHBOARD_CHARTS = {
       "low": 908.2000122070312,
       "close": 908.8499755859375,
       "volume": 107515.0,
-      "supertrend": 921.62,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -32136,8 +32110,8 @@ window.DASHBOARD_CHARTS = {
       "low": 908.25,
       "close": 908.6500244140625,
       "volume": 99303.0,
-      "supertrend": 921.24,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -32149,7 +32123,7 @@ window.DASHBOARD_CHARTS = {
       "low": 907.5999755859375,
       "close": 907.5999755859375,
       "volume": 61969.0,
-      "supertrend": 920.27,
+      "supertrend": 921.98,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32162,7 +32136,7 @@ window.DASHBOARD_CHARTS = {
       "low": 906.5999755859375,
       "close": 908.5,
       "volume": 63712.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32175,7 +32149,7 @@ window.DASHBOARD_CHARTS = {
       "low": 908.25,
       "close": 908.9500122070312,
       "volume": 61969.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32188,11 +32162,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.6500244140625,
       "close": 910.2000122070312,
       "volume": 144557.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 10.6
+      "rsi": null
     },
     {
       "date": "10:05",
@@ -32201,11 +32175,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.0,
       "close": 910.5999755859375,
       "volume": 70452.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 12.0
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -32214,11 +32188,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.5999755859375,
       "close": 909.7000122070312,
       "volume": 39178.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 11.6
+      "rsi": 12.4
     },
     {
       "date": "10:15",
@@ -32227,11 +32201,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.0999755859375,
       "close": 910.9500122070312,
       "volume": 39876.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 16.2
+      "rsi": 16.6
     },
     {
       "date": "10:20",
@@ -32240,11 +32214,11 @@ window.DASHBOARD_CHARTS = {
       "low": 910.3499755859375,
       "close": 911.0499877929688,
       "volume": 90444.0,
-      "supertrend": 918.8,
+      "supertrend": 920.35,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 16.5
+      "rsi": 16.9
     },
     {
       "date": "10:25",
@@ -32253,11 +32227,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.2999877929688,
       "close": 909.3499755859375,
       "volume": 28143.0,
-      "supertrend": 918.8,
+      "supertrend": 919.91,
       "st_dir": -1,
-      "ema20": 914.78,
+      "ema20": null,
       "ema50": null,
-      "rsi": 15.3
+      "rsi": 15.8
     },
     {
       "date": "10:30",
@@ -32266,11 +32240,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.0,
       "close": 908.4000244140625,
       "volume": 51238.0,
-      "supertrend": 917.32,
+      "supertrend": 917.99,
       "st_dir": -1,
-      "ema20": 914.18,
+      "ema20": null,
       "ema50": null,
-      "rsi": 14.6
+      "rsi": 15.1
     },
     {
       "date": "10:35",
@@ -32279,11 +32253,11 @@ window.DASHBOARD_CHARTS = {
       "low": 907.5999755859375,
       "close": 909.1500244140625,
       "volume": 91718.0,
-      "supertrend": 916.57,
+      "supertrend": 917.17,
       "st_dir": -1,
-      "ema20": 913.7,
+      "ema20": 912.5,
       "ema50": null,
-      "rsi": 17.6
+      "rsi": 17.9
     },
     {
       "date": "10:40",
@@ -32292,11 +32266,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.3499755859375,
       "close": 908.6500244140625,
       "volume": 68960.0,
-      "supertrend": 916.57,
+      "supertrend": 917.17,
       "st_dir": -1,
-      "ema20": 913.22,
+      "ema20": 912.14,
       "ema50": null,
-      "rsi": 17.2
+      "rsi": 17.5
     },
     {
       "date": "10:45",
@@ -32305,11 +32279,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.5499877929688,
       "close": 909.5499877929688,
       "volume": 65160.0,
-      "supertrend": 916.57,
+      "supertrend": 917.06,
       "st_dir": -1,
-      "ema20": 912.87,
+      "ema20": 911.89,
       "ema50": null,
-      "rsi": 21.0
+      "rsi": 21.1
     },
     {
       "date": "10:50",
@@ -32318,9 +32292,9 @@ window.DASHBOARD_CHARTS = {
       "low": 909.25,
       "close": 910.0,
       "volume": 189928.0,
-      "supertrend": 916.57,
+      "supertrend": 917.06,
       "st_dir": -1,
-      "ema20": 912.59,
+      "ema20": 911.71,
       "ema50": null,
       "rsi": 22.9
     },
@@ -32331,11 +32305,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.5,
       "close": 908.7999877929688,
       "volume": 107869.0,
-      "supertrend": 916.11,
+      "supertrend": 916.51,
       "st_dir": -1,
-      "ema20": 912.23,
+      "ema20": 911.43,
       "ema50": null,
-      "rsi": 21.4
+      "rsi": 21.5
     },
     {
       "date": "11:00",
@@ -32344,11 +32318,11 @@ window.DASHBOARD_CHARTS = {
       "low": 907.2000122070312,
       "close": 907.7999877929688,
       "volume": 110360.0,
-      "supertrend": 915.07,
+      "supertrend": 915.42,
       "st_dir": -1,
-      "ema20": 911.81,
+      "ema20": 911.09,
       "ema50": null,
-      "rsi": 20.2
+      "rsi": 20.4
     },
     {
       "date": "11:05",
@@ -32357,11 +32331,11 @@ window.DASHBOARD_CHARTS = {
       "low": 907.7000122070312,
       "close": 909.2000122070312,
       "volume": 36133.0,
-      "supertrend": 915.03,
+      "supertrend": 915.35,
       "st_dir": -1,
-      "ema20": 911.56,
+      "ema20": 910.91,
       "ema50": null,
-      "rsi": 26.3
+      "rsi": 26.2
     },
     {
       "date": "11:10",
@@ -32370,11 +32344,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.9500122070312,
       "close": 909.7000122070312,
       "volume": 26519.0,
-      "supertrend": 915.03,
+      "supertrend": 915.35,
       "st_dir": -1,
-      "ema20": 911.39,
+      "ema20": 910.79,
       "ema50": null,
-      "rsi": 28.4
+      "rsi": 28.2
     },
     {
       "date": "11:15",
@@ -32383,11 +32357,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.3499755859375,
       "close": 910.9500122070312,
       "volume": 52425.0,
-      "supertrend": 915.03,
+      "supertrend": 915.35,
       "st_dir": -1,
-      "ema20": 911.34,
+      "ema20": 910.81,
       "ema50": null,
-      "rsi": 33.5
+      "rsi": 33.1
     },
     {
       "date": "11:20",
@@ -32396,11 +32370,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.8499755859375,
       "close": 909.8499755859375,
       "volume": 94753.0,
-      "supertrend": 915.03,
+      "supertrend": 915.35,
       "st_dir": -1,
-      "ema20": 911.2,
+      "ema20": 910.72,
       "ema50": null,
-      "rsi": 31.4
+      "rsi": 31.1
     },
     {
       "date": "11:25",
@@ -32409,11 +32383,11 @@ window.DASHBOARD_CHARTS = {
       "low": 909.0,
       "close": 910.25,
       "volume": 96763.0,
-      "supertrend": 915.03,
+      "supertrend": 915.35,
       "st_dir": -1,
-      "ema20": 911.11,
+      "ema20": 910.67,
       "ema50": null,
-      "rsi": 33.1
+      "rsi": 32.7
     },
     {
       "date": "11:30",
@@ -32422,11 +32396,11 @@ window.DASHBOARD_CHARTS = {
       "low": 908.0,
       "close": 908.0999755859375,
       "volume": 206072.0,
-      "supertrend": 915.03,
+      "supertrend": 915.22,
       "st_dir": -1,
-      "ema20": 910.82,
+      "ema20": 910.43,
       "ema50": null,
-      "rsi": 29.0
+      "rsi": 28.8
     },
     {
       "date": "11:35",
@@ -32435,11 +32409,11 @@ window.DASHBOARD_CHARTS = {
       "low": 906.6500244140625,
       "close": 906.6500244140625,
       "volume": 138400.0,
-      "supertrend": 913.12,
+      "supertrend": 913.29,
       "st_dir": -1,
-      "ema20": 910.43,
+      "ema20": 910.07,
       "ema50": null,
-      "rsi": 26.6
+      "rsi": 26.5
     },
     {
       "date": "11:40",
@@ -32448,11 +32422,11 @@ window.DASHBOARD_CHARTS = {
       "low": 906.0,
       "close": 906.2999877929688,
       "volume": 48844.0,
-      "supertrend": 911.89,
+      "supertrend": 912.05,
       "st_dir": -1,
-      "ema20": 910.03,
+      "ema20": 909.71,
       "ema50": null,
-      "rsi": 26.1
+      "rsi": 26.0
     },
     {
       "date": "11:45",
@@ -32461,11 +32435,11 @@ window.DASHBOARD_CHARTS = {
       "low": 905.6500244140625,
       "close": 906.2999877929688,
       "volume": 111799.0,
-      "supertrend": 911.79,
+      "supertrend": 911.93,
       "st_dir": -1,
-      "ema20": 909.68,
+      "ema20": 909.38,
       "ema50": null,
-      "rsi": 26.1
+      "rsi": 26.0
     },
     {
       "date": "11:50",
@@ -32474,9 +32448,9 @@ window.DASHBOARD_CHARTS = {
       "low": 905.0999755859375,
       "close": 905.0999755859375,
       "volume": 48342.0,
-      "supertrend": 910.81,
+      "supertrend": 910.94,
       "st_dir": -1,
-      "ema20": 909.24,
+      "ema20": 908.98,
       "ema50": null,
       "rsi": 24.1
     },
@@ -32487,11 +32461,11 @@ window.DASHBOARD_CHARTS = {
       "low": 904.5999755859375,
       "close": 906.3499755859375,
       "volume": 588303.0,
-      "supertrend": 910.81,
+      "supertrend": 910.94,
       "st_dir": -1,
-      "ema20": 908.97,
+      "ema20": 908.73,
       "ema50": null,
-      "rsi": 30.1
+      "rsi": 29.9
     },
     {
       "date": "12:00",
@@ -32500,11 +32474,11 @@ window.DASHBOARD_CHARTS = {
       "low": 905.5999755859375,
       "close": 905.8499755859375,
       "volume": 68667.0,
-      "supertrend": 910.81,
+      "supertrend": 910.94,
       "st_dir": -1,
-      "ema20": 908.67,
+      "ema20": 908.45,
       "ema50": null,
-      "rsi": 29.1
+      "rsi": 28.9
     },
     {
       "date": "12:05",
@@ -32513,11 +32487,11 @@ window.DASHBOARD_CHARTS = {
       "low": 905.6500244140625,
       "close": 905.75,
       "volume": 34982.0,
-      "supertrend": 910.59,
+      "supertrend": 910.68,
       "st_dir": -1,
-      "ema20": 908.39,
+      "ema20": 908.19,
       "ema50": null,
-      "rsi": 28.9
+      "rsi": 28.7
     },
     {
       "date": "12:10",
@@ -32526,11 +32500,11 @@ window.DASHBOARD_CHARTS = {
       "low": 905.6500244140625,
       "close": 905.6500244140625,
       "volume": 47358.0,
-      "supertrend": 910.17,
+      "supertrend": 910.25,
       "st_dir": -1,
-      "ema20": 908.13,
+      "ema20": 907.95,
       "ema50": null,
-      "rsi": 28.7
+      "rsi": 28.5
     },
     {
       "date": "12:15",
@@ -32539,11 +32513,11 @@ window.DASHBOARD_CHARTS = {
       "low": 905.6500244140625,
       "close": 906.0,
       "volume": 100216.0,
-      "supertrend": 910.17,
+      "supertrend": 910.25,
       "st_dir": -1,
-      "ema20": 907.93,
+      "ema20": 907.77,
       "ema50": null,
-      "rsi": 30.6
+      "rsi": 30.5
     },
     {
       "date": "12:20",
@@ -32552,11 +32526,11 @@ window.DASHBOARD_CHARTS = {
       "low": 904.25,
       "close": 904.7000122070312,
       "volume": 257084.0,
-      "supertrend": 909.44,
+      "supertrend": 909.51,
       "st_dir": -1,
-      "ema20": 907.62,
+      "ema20": 907.47,
       "ema50": null,
-      "rsi": 27.6
+      "rsi": 27.5
     },
     {
       "date": "12:25",
@@ -32565,11 +32539,11 @@ window.DASHBOARD_CHARTS = {
       "low": 903.2000122070312,
       "close": 904.5,
       "volume": 47918.0,
-      "supertrend": 908.46,
+      "supertrend": 908.52,
       "st_dir": -1,
-      "ema20": 907.32,
+      "ema20": 907.19,
       "ema50": null,
-      "rsi": 27.2
+      "rsi": 27.1
     },
     {
       "date": "12:30",
@@ -32578,11 +32552,11 @@ window.DASHBOARD_CHARTS = {
       "low": 902.7000122070312,
       "close": 904.25,
       "volume": 36595.0,
-      "supertrend": 908.01,
+      "supertrend": 908.07,
       "st_dir": -1,
-      "ema20": 907.03,
+      "ema20": 906.91,
       "ema50": null,
-      "rsi": 26.6
+      "rsi": 26.5
     },
     {
       "date": "12:35",
@@ -32591,9 +32565,9 @@ window.DASHBOARD_CHARTS = {
       "low": 903.5499877929688,
       "close": 903.7999877929688,
       "volume": 20698.0,
-      "supertrend": 908.01,
+      "supertrend": 908.07,
       "st_dir": -1,
-      "ema20": 906.72,
+      "ema20": 906.61,
       "ema50": null,
       "rsi": 25.5
     },
@@ -32604,9 +32578,9 @@ window.DASHBOARD_CHARTS = {
       "low": 903.7999877929688,
       "close": 904.0499877929688,
       "volume": 25695.0,
-      "supertrend": 908.01,
+      "supertrend": 908.07,
       "st_dir": -1,
-      "ema20": 906.47,
+      "ema20": 906.37,
       "ema50": null,
       "rsi": 27.2
     },
@@ -32617,11 +32591,11 @@ window.DASHBOARD_CHARTS = {
       "low": 903.5499877929688,
       "close": 903.7999877929688,
       "volume": 34756.0,
-      "supertrend": 907.8,
+      "supertrend": 907.84,
       "st_dir": -1,
-      "ema20": 906.21,
+      "ema20": 906.13,
       "ema50": null,
-      "rsi": 26.6
+      "rsi": 26.5
     },
     {
       "date": "12:50",
@@ -32630,11 +32604,11 @@ window.DASHBOARD_CHARTS = {
       "low": 903.1500244140625,
       "close": 903.6500244140625,
       "volume": 23794.0,
-      "supertrend": 907.32,
+      "supertrend": 907.36,
       "st_dir": -1,
-      "ema20": 905.97,
+      "ema20": 905.89,
       "ema50": null,
-      "rsi": 26.2
+      "rsi": 26.1
     },
     {
       "date": "12:55",
@@ -32643,27 +32617,40 @@ window.DASHBOARD_CHARTS = {
       "low": 902.1500244140625,
       "close": 902.1500244140625,
       "volume": 26848.0,
-      "supertrend": 906.96,
+      "supertrend": 906.99,
       "st_dir": -1,
-      "ema20": 905.61,
-      "ema50": 910.02,
+      "ema20": 905.53,
+      "ema50": null,
       "rsi": 22.4
+    },
+    {
+      "date": "13:00",
+      "open": 901.75,
+      "high": 901.75,
+      "low": 899.5999755859375,
+      "close": 900.0999755859375,
+      "volume": 122135.0,
+      "supertrend": 904.99,
+      "st_dir": -1,
+      "ema20": 905.02,
+      "ema50": null,
+      "rsi": 18.6
+    },
+    {
+      "date": "13:05",
+      "open": 900.2000122070312,
+      "high": 900.5,
+      "low": 898.7000122070312,
+      "close": 899.5499877929688,
+      "volume": 47853.0,
+      "supertrend": 904.02,
+      "st_dir": -1,
+      "ema20": 904.5,
+      "ema50": 908.75,
+      "rsi": 17.7
     }
   ],
   "INDUSINDBK.NS": [
-    {
-      "date": "15:00",
-      "open": 926.4000244140625,
-      "high": 927.2000122070312,
-      "low": 924.2999877929688,
-      "close": 924.7999877929688,
-      "volume": 53656.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:05",
       "open": 924.9000244140625,
@@ -32775,8 +32762,8 @@ window.DASHBOARD_CHARTS = {
       "low": 912.0499877929688,
       "close": 912.0499877929688,
       "volume": 154820.0,
-      "supertrend": 929.0,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -32788,7 +32775,7 @@ window.DASHBOARD_CHARTS = {
       "low": 909.0499877929688,
       "close": 913.7000122070312,
       "volume": 97430.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32801,7 +32788,7 @@ window.DASHBOARD_CHARTS = {
       "low": 912.9000244140625,
       "close": 915.0,
       "volume": 42985.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32814,7 +32801,7 @@ window.DASHBOARD_CHARTS = {
       "low": 914.25,
       "close": 915.5999755859375,
       "volume": 24755.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32827,7 +32814,7 @@ window.DASHBOARD_CHARTS = {
       "low": 915.0,
       "close": 919.0499877929688,
       "volume": 96236.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -32840,11 +32827,11 @@ window.DASHBOARD_CHARTS = {
       "low": 917.4000244140625,
       "close": 917.75,
       "volume": 79771.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -32853,11 +32840,11 @@ window.DASHBOARD_CHARTS = {
       "low": 917.5999755859375,
       "close": 919.4000244140625,
       "volume": 17927.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.6
+      "rsi": 41.6
     },
     {
       "date": "10:15",
@@ -32866,11 +32853,11 @@ window.DASHBOARD_CHARTS = {
       "low": 917.8499755859375,
       "close": 918.9000244140625,
       "volume": 20286.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 41.9
+      "rsi": 41.0
     },
     {
       "date": "10:20",
@@ -32879,11 +32866,11 @@ window.DASHBOARD_CHARTS = {
       "low": 918.0,
       "close": 920.0,
       "volume": 21097.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 44.0
+      "rsi": 43.0
     },
     {
       "date": "10:25",
@@ -32892,11 +32879,11 @@ window.DASHBOARD_CHARTS = {
       "low": 918.2999877929688,
       "close": 918.9000244140625,
       "volume": 15620.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 42.4
+      "rsi": 41.5
     },
     {
       "date": "10:30",
@@ -32905,11 +32892,11 @@ window.DASHBOARD_CHARTS = {
       "low": 918.6500244140625,
       "close": 918.7999877929688,
       "volume": 16376.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
-      "ema20": 920.29,
+      "ema20": null,
       "ema50": null,
-      "rsi": 42.2
+      "rsi": 41.4
     },
     {
       "date": "10:35",
@@ -32918,11 +32905,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.0999755859375,
       "close": 916.2999877929688,
       "volume": 21787.0,
-      "supertrend": 925.69,
+      "supertrend": 926.11,
       "st_dir": -1,
-      "ema20": 919.91,
+      "ema20": 919.87,
       "ema50": null,
-      "rsi": 38.4
+      "rsi": 37.8
     },
     {
       "date": "10:40",
@@ -32931,11 +32918,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.6500244140625,
       "close": 914.9000244140625,
       "volume": 12804.0,
-      "supertrend": 924.29,
+      "supertrend": 924.43,
       "st_dir": -1,
-      "ema20": 919.43,
+      "ema20": 919.39,
       "ema50": null,
-      "rsi": 36.4
+      "rsi": 35.9
     },
     {
       "date": "10:45",
@@ -32944,11 +32931,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.0,
       "close": 915.75,
       "volume": 18238.0,
-      "supertrend": 924.08,
+      "supertrend": 924.2,
       "st_dir": -1,
-      "ema20": 919.08,
+      "ema20": 919.05,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 37.9
     },
     {
       "date": "10:50",
@@ -32957,11 +32944,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.6500244140625,
       "close": 915.9500122070312,
       "volume": 31624.0,
-      "supertrend": 923.45,
+      "supertrend": 923.56,
       "st_dir": -1,
-      "ema20": 918.79,
+      "ema20": 918.75,
       "ema50": null,
-      "rsi": 39.0
+      "rsi": 38.4
     },
     {
       "date": "10:55",
@@ -32970,11 +32957,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.9000244140625,
       "close": 915.1500244140625,
       "volume": 14737.0,
-      "supertrend": 923.34,
+      "supertrend": 923.44,
       "st_dir": -1,
-      "ema20": 918.44,
+      "ema20": 918.41,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 37.1
     },
     {
       "date": "11:00",
@@ -32983,11 +32970,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.25,
       "close": 914.25,
       "volume": 13546.0,
-      "supertrend": 922.11,
+      "supertrend": 922.2,
       "st_dir": -1,
-      "ema20": 918.04,
+      "ema20": 918.01,
       "ema50": null,
-      "rsi": 36.1
+      "rsi": 35.7
     },
     {
       "date": "11:05",
@@ -32996,11 +32983,11 @@ window.DASHBOARD_CHARTS = {
       "low": 913.9000244140625,
       "close": 915.1500244140625,
       "volume": 28206.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.77,
+      "ema20": 917.74,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 38.3
     },
     {
       "date": "11:10",
@@ -33009,11 +32996,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.5999755859375,
       "close": 916.0499877929688,
       "volume": 7295.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.6,
+      "ema20": 917.58,
       "ema50": null,
-      "rsi": 41.4
+      "rsi": 40.8
     },
     {
       "date": "11:15",
@@ -33022,11 +33009,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.5499877929688,
       "close": 916.4500122070312,
       "volume": 12176.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.49,
+      "ema20": 917.47,
       "ema50": null,
-      "rsi": 42.5
+      "rsi": 41.9
     },
     {
       "date": "11:20",
@@ -33035,11 +33022,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.1500244140625,
       "close": 917.2999877929688,
       "volume": 13822.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.47,
+      "ema20": 917.46,
       "ema50": null,
-      "rsi": 45.0
+      "rsi": 44.4
     },
     {
       "date": "11:25",
@@ -33048,11 +33035,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.5,
       "close": 917.5499877929688,
       "volume": 6369.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.48,
+      "ema20": 917.46,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 45.1
     },
     {
       "date": "11:30",
@@ -33061,11 +33048,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.5499877929688,
       "close": 917.5499877929688,
       "volume": 4869.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.49,
+      "ema20": 917.47,
       "ema50": null,
-      "rsi": 45.8
+      "rsi": 45.1
     },
     {
       "date": "11:35",
@@ -33074,11 +33061,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.4500122070312,
       "close": 916.5999755859375,
       "volume": 6393.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.4,
+      "ema20": 917.39,
       "ema50": null,
-      "rsi": 43.2
+      "rsi": 42.6
     },
     {
       "date": "11:40",
@@ -33087,11 +33074,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.8499755859375,
       "close": 916.8499755859375,
       "volume": 5942.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.35,
+      "ema20": 917.34,
       "ema50": null,
-      "rsi": 44.1
+      "rsi": 43.5
     },
     {
       "date": "11:45",
@@ -33100,11 +33087,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.5499877929688,
       "close": 917.4000244140625,
       "volume": 11385.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.36,
+      "ema20": 917.34,
       "ema50": null,
-      "rsi": 46.1
+      "rsi": 45.5
     },
     {
       "date": "11:50",
@@ -33113,11 +33100,11 @@ window.DASHBOARD_CHARTS = {
       "low": 916.2000122070312,
       "close": 916.3499755859375,
       "volume": 20004.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.26,
+      "ema20": 917.25,
       "ema50": null,
-      "rsi": 42.9
+      "rsi": 42.4
     },
     {
       "date": "11:55",
@@ -33126,11 +33113,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.7999877929688,
       "close": 916.75,
       "volume": 17659.0,
-      "supertrend": 921.63,
+      "supertrend": 921.71,
       "st_dir": -1,
-      "ema20": 917.21,
+      "ema20": 917.2,
       "ema50": null,
-      "rsi": 44.5
+      "rsi": 44.0
     },
     {
       "date": "12:00",
@@ -33139,11 +33126,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.0999755859375,
       "close": 915.0999755859375,
       "volume": 3946.0,
-      "supertrend": 921.4,
+      "supertrend": 921.43,
       "st_dir": -1,
-      "ema20": 917.01,
+      "ema20": 917.0,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 39.3
     },
     {
       "date": "12:05",
@@ -33152,11 +33139,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.1500244140625,
       "close": 916.0999755859375,
       "volume": 6230.0,
-      "supertrend": 920.94,
+      "supertrend": 920.96,
       "st_dir": -1,
       "ema20": 916.92,
       "ema50": null,
-      "rsi": 43.7
+      "rsi": 43.2
     },
     {
       "date": "12:10",
@@ -33165,11 +33152,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.6500244140625,
       "close": 915.5499877929688,
       "volume": 9930.0,
-      "supertrend": 920.64,
+      "supertrend": 920.66,
       "st_dir": -1,
       "ema20": 916.79,
       "ema50": null,
-      "rsi": 42.0
+      "rsi": 41.6
     },
     {
       "date": "12:15",
@@ -33178,11 +33165,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.3499755859375,
       "close": 916.2000122070312,
       "volume": 11684.0,
-      "supertrend": 920.64,
+      "supertrend": 920.66,
       "st_dir": -1,
-      "ema20": 916.74,
+      "ema20": 916.73,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 44.3
     },
     {
       "date": "12:20",
@@ -33191,11 +33178,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.0,
       "close": 916.2000122070312,
       "volume": 13771.0,
-      "supertrend": 920.64,
+      "supertrend": 920.66,
       "st_dir": -1,
       "ema20": 916.68,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 44.3
     },
     {
       "date": "12:25",
@@ -33204,11 +33191,11 @@ window.DASHBOARD_CHARTS = {
       "low": 915.6500244140625,
       "close": 915.9500122070312,
       "volume": 8156.0,
-      "supertrend": 920.64,
+      "supertrend": 920.66,
       "st_dir": -1,
       "ema20": 916.61,
       "ema50": null,
-      "rsi": 43.8
+      "rsi": 43.4
     },
     {
       "date": "12:30",
@@ -33217,11 +33204,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.1500244140625,
       "close": 915.2999877929688,
       "volume": 14825.0,
-      "supertrend": 919.96,
+      "supertrend": 919.97,
       "st_dir": -1,
       "ema20": 916.49,
       "ema50": null,
-      "rsi": 41.4
+      "rsi": 41.1
     },
     {
       "date": "12:35",
@@ -33230,11 +33217,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.2999877929688,
       "close": 914.7999877929688,
       "volume": 12223.0,
-      "supertrend": 919.96,
+      "supertrend": 919.97,
       "st_dir": -1,
-      "ema20": 916.33,
+      "ema20": 916.32,
       "ema50": null,
-      "rsi": 39.7
+      "rsi": 39.4
     },
     {
       "date": "12:40",
@@ -33243,11 +33230,11 @@ window.DASHBOARD_CHARTS = {
       "low": 914.2999877929688,
       "close": 914.7000122070312,
       "volume": 10841.0,
-      "supertrend": 919.77,
+      "supertrend": 919.79,
       "st_dir": -1,
       "ema20": 916.17,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 39.1
     },
     {
       "date": "12:45",
@@ -33256,11 +33243,11 @@ window.DASHBOARD_CHARTS = {
       "low": 913.5,
       "close": 913.7999877929688,
       "volume": 11367.0,
-      "supertrend": 918.89,
+      "supertrend": 918.9,
       "st_dir": -1,
-      "ema20": 915.95,
+      "ema20": 915.94,
       "ema50": null,
-      "rsi": 36.2
+      "rsi": 36.0
     },
     {
       "date": "12:50",
@@ -33273,7 +33260,7 @@ window.DASHBOARD_CHARTS = {
       "st_dir": -1,
       "ema20": 915.78,
       "ema50": null,
-      "rsi": 38.5
+      "rsi": 38.3
     },
     {
       "date": "12:55",
@@ -33286,36 +33273,36 @@ window.DASHBOARD_CHARTS = {
       "st_dir": -1,
       "ema20": 915.66,
       "ema50": null,
-      "rsi": 40.6
+      "rsi": 40.4
     },
     {
       "date": "13:00",
       "open": 914.5999755859375,
-      "high": 914.5999755859375,
-      "low": 914.5999755859375,
-      "close": 914.5999755859375,
-      "volume": 0.0,
+      "high": 914.7999877929688,
+      "low": 913.7999877929688,
+      "close": 914.25,
+      "volume": 8984.0,
       "supertrend": 918.51,
       "st_dir": -1,
-      "ema20": 915.56,
-      "ema50": 917.58,
-      "rsi": 40.9
+      "ema20": 915.53,
+      "ema50": null,
+      "rsi": 39.2
+    },
+    {
+      "date": "13:05",
+      "open": 914.25,
+      "high": 914.5999755859375,
+      "low": 912.7000122070312,
+      "close": 913.5,
+      "volume": 9983.0,
+      "supertrend": 918.32,
+      "st_dir": -1,
+      "ema20": 915.33,
+      "ema50": 917.35,
+      "rsi": 36.3
     }
   ],
   "SHRIRAMFIN.NS": [
-    {
-      "date": "15:05",
-      "open": 984.5,
-      "high": 986.0499877929688,
-      "low": 984.0,
-      "close": 985.4000244140625,
-      "volume": 119966.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 985.7000122070312,
@@ -33427,8 +33414,8 @@ window.DASHBOARD_CHARTS = {
       "low": 971.5,
       "close": 973.6500244140625,
       "volume": 40312.0,
-      "supertrend": 983.72,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -33440,7 +33427,7 @@ window.DASHBOARD_CHARTS = {
       "low": 973.0999755859375,
       "close": 974.0,
       "volume": 40170.0,
-      "supertrend": 983.72,
+      "supertrend": 985.85,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -33453,7 +33440,7 @@ window.DASHBOARD_CHARTS = {
       "low": 969.5,
       "close": 973.1500244140625,
       "volume": 141225.0,
-      "supertrend": 983.19,
+      "supertrend": 983.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -33466,7 +33453,7 @@ window.DASHBOARD_CHARTS = {
       "low": 972.9000244140625,
       "close": 974.2000122070312,
       "volume": 36589.0,
-      "supertrend": 983.19,
+      "supertrend": 983.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -33479,7 +33466,7 @@ window.DASHBOARD_CHARTS = {
       "low": 973.0999755859375,
       "close": 975.9500122070312,
       "volume": 38399.0,
-      "supertrend": 983.19,
+      "supertrend": 983.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -33492,11 +33479,11 @@ window.DASHBOARD_CHARTS = {
       "low": 974.3499755859375,
       "close": 975.4000244140625,
       "volume": 19884.0,
-      "supertrend": 983.19,
+      "supertrend": 983.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 24.6
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -33505,11 +33492,11 @@ window.DASHBOARD_CHARTS = {
       "low": 974.5,
       "close": 974.5,
       "volume": 23911.0,
-      "supertrend": 983.19,
+      "supertrend": 983.63,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 23.5
+      "rsi": 24.6
     },
     {
       "date": "10:15",
@@ -33518,11 +33505,11 @@ window.DASHBOARD_CHARTS = {
       "low": 972.5499877929688,
       "close": 973.25,
       "volume": 21454.0,
-      "supertrend": 982.96,
+      "supertrend": 983.22,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 21.9
+      "rsi": 23.0
     },
     {
       "date": "10:20",
@@ -33531,11 +33518,11 @@ window.DASHBOARD_CHARTS = {
       "low": 972.75,
       "close": 973.2999877929688,
       "volume": 19207.0,
-      "supertrend": 982.76,
+      "supertrend": 982.99,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 22.1
+      "rsi": 23.3
     },
     {
       "date": "10:25",
@@ -33544,11 +33531,11 @@ window.DASHBOARD_CHARTS = {
       "low": 973.1500244140625,
       "close": 974.6500244140625,
       "volume": 19929.0,
-      "supertrend": 982.76,
+      "supertrend": 982.99,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 28.0
+      "rsi": 28.9
     },
     {
       "date": "10:30",
@@ -33557,11 +33544,11 @@ window.DASHBOARD_CHARTS = {
       "low": 973.6500244140625,
       "close": 974.0999755859375,
       "volume": 19706.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 977.55,
+      "ema20": null,
       "ema50": null,
-      "rsi": 27.1
+      "rsi": 28.0
     },
     {
       "date": "10:35",
@@ -33570,11 +33557,11 @@ window.DASHBOARD_CHARTS = {
       "low": 973.5499877929688,
       "close": 977.6500244140625,
       "volume": 34696.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 977.56,
+      "ema20": 977.16,
       "ema50": null,
-      "rsi": 40.4
+      "rsi": 40.9
     },
     {
       "date": "10:40",
@@ -33583,11 +33570,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.9000244140625,
       "close": 976.5,
       "volume": 29322.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 977.46,
+      "ema20": 977.1,
       "ema50": null,
-      "rsi": 38.0
+      "rsi": 38.5
     },
     {
       "date": "10:45",
@@ -33596,11 +33583,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0499877929688,
       "volume": 88422.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 977.23,
+      "ema20": 976.9,
       "ema50": null,
-      "rsi": 35.2
+      "rsi": 35.7
     },
     {
       "date": "10:50",
@@ -33609,11 +33596,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.5499877929688,
       "volume": 92657.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 977.07,
+      "ema20": 976.77,
       "ema50": null,
-      "rsi": 36.9
+      "rsi": 37.4
     },
     {
       "date": "10:55",
@@ -33622,11 +33609,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0999755859375,
       "volume": 57727.0,
-      "supertrend": 982.68,
+      "supertrend": 982.87,
       "st_dir": -1,
-      "ema20": 976.88,
+      "ema20": 976.61,
       "ema50": null,
-      "rsi": 36.0
+      "rsi": 36.4
     },
     {
       "date": "11:00",
@@ -33635,11 +33622,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0,
       "volume": 33480.0,
-      "supertrend": 982.44,
+      "supertrend": 982.54,
       "st_dir": -1,
-      "ema20": 976.7,
+      "ema20": 976.46,
       "ema50": null,
-      "rsi": 35.8
+      "rsi": 36.2
     },
     {
       "date": "11:05",
@@ -33648,11 +33635,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 976.2000122070312,
       "volume": 28521.0,
-      "supertrend": 982.44,
+      "supertrend": 982.54,
       "st_dir": -1,
-      "ema20": 976.65,
+      "ema20": 976.44,
       "ema50": null,
-      "rsi": 40.5
+      "rsi": 40.8
     },
     {
       "date": "11:10",
@@ -33661,11 +33648,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.5499877929688,
       "volume": 20215.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.55,
+      "ema20": 976.35,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 39.2
     },
     {
       "date": "11:15",
@@ -33674,11 +33661,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.2999877929688,
       "close": 977.2999877929688,
       "volume": 22160.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.62,
+      "ema20": 976.44,
       "ema50": null,
-      "rsi": 45.3
+      "rsi": 45.6
     },
     {
       "date": "11:20",
@@ -33687,11 +33674,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.9500122070312,
       "close": 977.0999755859375,
       "volume": 29825.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.67,
+      "ema20": 976.5,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 45.0
     },
     {
       "date": "11:25",
@@ -33700,11 +33687,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.5499877929688,
       "close": 978.5499877929688,
       "volume": 18820.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.85,
+      "ema20": 976.7,
       "ema50": null,
-      "rsi": 49.8
+      "rsi": 49.9
     },
     {
       "date": "11:30",
@@ -33713,11 +33700,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.6500244140625,
       "close": 977.9500122070312,
       "volume": 14940.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.95,
+      "ema20": 976.82,
       "ema50": null,
-      "rsi": 47.8
+      "rsi": 48.0
     },
     {
       "date": "11:35",
@@ -33726,11 +33713,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.1500244140625,
       "close": 976.9500122070312,
       "volume": 28008.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.95,
+      "ema20": 976.83,
       "ema50": null,
-      "rsi": 44.7
+      "rsi": 44.9
     },
     {
       "date": "11:40",
@@ -33739,11 +33726,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.5499877929688,
       "close": 976.8499755859375,
       "volume": 16999.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.94,
+      "ema20": 976.83,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 44.6
     },
     {
       "date": "11:45",
@@ -33752,11 +33739,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.2999877929688,
       "close": 977.0499877929688,
       "volume": 32316.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.95,
+      "ema20": 976.85,
       "ema50": null,
-      "rsi": 45.2
+      "rsi": 45.4
     },
     {
       "date": "11:50",
@@ -33765,11 +33752,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0,
       "volume": 67378.0,
-      "supertrend": 982.11,
+      "supertrend": 982.19,
       "st_dir": -1,
-      "ema20": 976.77,
+      "ema20": 976.68,
       "ema50": null,
-      "rsi": 38.8
+      "rsi": 39.0
     },
     {
       "date": "11:55",
@@ -33778,11 +33765,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.8499755859375,
       "volume": 35404.0,
-      "supertrend": 981.88,
+      "supertrend": 981.91,
       "st_dir": -1,
-      "ema20": 976.68,
+      "ema20": 976.6,
       "ema50": null,
-      "rsi": 42.4
+      "rsi": 42.6
     },
     {
       "date": "12:00",
@@ -33791,11 +33778,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0,
       "volume": 34549.0,
-      "supertrend": 981.88,
+      "supertrend": 981.91,
       "st_dir": -1,
-      "ema20": 976.52,
+      "ema20": 976.45,
       "ema50": null,
-      "rsi": 39.9
+      "rsi": 40.1
     },
     {
       "date": "12:05",
@@ -33804,11 +33791,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 975.0499877929688,
       "volume": 21052.0,
-      "supertrend": 981.34,
+      "supertrend": 981.37,
       "st_dir": -1,
-      "ema20": 976.38,
+      "ema20": 976.31,
       "ema50": null,
-      "rsi": 40.1
+      "rsi": 40.3
     },
     {
       "date": "12:10",
@@ -33817,11 +33804,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.0,
       "close": 976.0,
       "volume": 70796.0,
-      "supertrend": 981.06,
+      "supertrend": 981.08,
       "st_dir": -1,
-      "ema20": 976.34,
+      "ema20": 976.28,
       "ema50": null,
-      "rsi": 44.4
+      "rsi": 44.6
     },
     {
       "date": "12:15",
@@ -33830,11 +33817,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.1500244140625,
       "close": 977.7999877929688,
       "volume": 32859.0,
-      "supertrend": 981.06,
+      "supertrend": 981.08,
       "st_dir": -1,
-      "ema20": 976.48,
+      "ema20": 976.43,
       "ema50": null,
-      "rsi": 51.5
+      "rsi": 51.6
     },
     {
       "date": "12:20",
@@ -33843,11 +33830,11 @@ window.DASHBOARD_CHARTS = {
       "low": 976.7999877929688,
       "close": 977.2000122070312,
       "volume": 15889.0,
-      "supertrend": 981.06,
+      "supertrend": 981.08,
       "st_dir": -1,
-      "ema20": 976.55,
+      "ema20": 976.5,
       "ema50": null,
-      "rsi": 49.3
+      "rsi": 49.4
     },
     {
       "date": "12:25",
@@ -33856,11 +33843,11 @@ window.DASHBOARD_CHARTS = {
       "low": 975.6500244140625,
       "close": 975.6500244140625,
       "volume": 46084.0,
-      "supertrend": 981.06,
+      "supertrend": 981.08,
       "st_dir": -1,
-      "ema20": 976.46,
+      "ema20": 976.42,
       "ema50": null,
-      "rsi": 43.9
+      "rsi": 44.0
     },
     {
       "date": "12:30",
@@ -33869,11 +33856,11 @@ window.DASHBOARD_CHARTS = {
       "low": 974.0,
       "close": 974.0,
       "volume": 253996.0,
-      "supertrend": 980.9,
+      "supertrend": 980.91,
       "st_dir": -1,
-      "ema20": 976.23,
+      "ema20": 976.19,
       "ema50": null,
-      "rsi": 39.0
+      "rsi": 39.2
     },
     {
       "date": "12:35",
@@ -33882,11 +33869,11 @@ window.DASHBOARD_CHARTS = {
       "low": 973.2000122070312,
       "close": 973.5,
       "volume": 23842.0,
-      "supertrend": 979.25,
+      "supertrend": 979.26,
       "st_dir": -1,
-      "ema20": 975.97,
+      "ema20": 975.93,
       "ema50": null,
-      "rsi": 37.7
+      "rsi": 37.8
     },
     {
       "date": "12:40",
@@ -33895,11 +33882,11 @@ window.DASHBOARD_CHARTS = {
       "low": 970.9000244140625,
       "close": 972.0,
       "volume": 62307.0,
-      "supertrend": 978.23,
+      "supertrend": 978.24,
       "st_dir": -1,
-      "ema20": 975.59,
+      "ema20": 975.56,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 34.0
     },
     {
       "date": "12:45",
@@ -33908,11 +33895,11 @@ window.DASHBOARD_CHARTS = {
       "low": 970.9500122070312,
       "close": 971.2999877929688,
       "volume": 24632.0,
-      "supertrend": 977.35,
+      "supertrend": 977.37,
       "st_dir": -1,
-      "ema20": 975.18,
+      "ema20": 975.15,
       "ema50": null,
-      "rsi": 32.2
+      "rsi": 32.3
     },
     {
       "date": "12:50",
@@ -33921,11 +33908,11 @@ window.DASHBOARD_CHARTS = {
       "low": 970.7000122070312,
       "close": 972.3499755859375,
       "volume": 33555.0,
-      "supertrend": 977.13,
+      "supertrend": 977.14,
       "st_dir": -1,
-      "ema20": 974.91,
+      "ema20": 974.89,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 37.2
     },
     {
       "date": "12:55",
@@ -33934,40 +33921,40 @@ window.DASHBOARD_CHARTS = {
       "low": 972.0499877929688,
       "close": 972.7000122070312,
       "volume": 25004.0,
-      "supertrend": 977.13,
+      "supertrend": 977.14,
       "st_dir": -1,
-      "ema20": 974.7,
+      "ema20": 974.68,
       "ema50": null,
-      "rsi": 38.7
+      "rsi": 38.8
     },
     {
       "date": "13:00",
-      "open": 973.0,
+      "open": 972.75,
       "high": 973.0,
-      "low": 973.0,
-      "close": 973.0,
-      "volume": 0.0,
+      "low": 971.6500244140625,
+      "close": 972.1500244140625,
+      "volume": 13825.0,
+      "supertrend": 977.14,
+      "st_dir": -1,
+      "ema20": 974.44,
+      "ema50": null,
+      "rsi": 37.2
+    },
+    {
+      "date": "13:05",
+      "open": 972.0999755859375,
+      "high": 972.5,
+      "low": 971.2999877929688,
+      "close": 971.2999877929688,
+      "volume": 4910.0,
       "supertrend": 977.13,
       "st_dir": -1,
-      "ema20": 974.54,
-      "ema50": 976.31,
-      "rsi": 40.1
+      "ema20": 974.14,
+      "ema50": 976.01,
+      "rsi": 34.8
     }
   ],
   "BEL.NS": [
-    {
-      "date": "15:05",
-      "open": 399.29998779296875,
-      "high": 399.3500061035156,
-      "low": 399.0,
-      "close": 399.1499938964844,
-      "volume": 326911.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 399.20001220703125,
@@ -34079,8 +34066,8 @@ window.DASHBOARD_CHARTS = {
       "low": 393.8500061035156,
       "close": 394.04998779296875,
       "volume": 119843.0,
-      "supertrend": 397.28,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -34092,7 +34079,7 @@ window.DASHBOARD_CHARTS = {
       "low": 393.8500061035156,
       "close": 394.6000061035156,
       "volume": 53423.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34105,7 +34092,7 @@ window.DASHBOARD_CHARTS = {
       "low": 394.20001220703125,
       "close": 394.95001220703125,
       "volume": 59016.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34118,7 +34105,7 @@ window.DASHBOARD_CHARTS = {
       "low": 394.6000061035156,
       "close": 395.25,
       "volume": 41024.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34131,7 +34118,7 @@ window.DASHBOARD_CHARTS = {
       "low": 394.8500061035156,
       "close": 395.54998779296875,
       "volume": 48396.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34144,11 +34131,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.1000061035156,
       "close": 395.6000061035156,
       "volume": 47846.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 27.1
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -34157,11 +34144,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.5,
       "close": 395.95001220703125,
       "volume": 50351.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.5
+      "rsi": 28.5
     },
     {
       "date": "10:15",
@@ -34170,11 +34157,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.54998779296875,
       "close": 395.95001220703125,
       "volume": 69494.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 30.5
+      "rsi": 28.5
     },
     {
       "date": "10:20",
@@ -34183,11 +34170,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.1499938964844,
       "close": 395.3999938964844,
       "volume": 38952.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 28.1
+      "rsi": 26.4
     },
     {
       "date": "10:25",
@@ -34196,11 +34183,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.5,
       "close": 394.5,
       "volume": 46175.0,
-      "supertrend": 397.28,
+      "supertrend": 397.77,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 24.7
+      "rsi": 23.3
     },
     {
       "date": "10:30",
@@ -34209,11 +34196,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.70001220703125,
       "close": 393.75,
       "volume": 82014.0,
-      "supertrend": 396.99,
+      "supertrend": 397.07,
       "st_dir": -1,
-      "ema20": 396.16,
+      "ema20": null,
       "ema50": null,
-      "rsi": 22.3
+      "rsi": 21.1
     },
     {
       "date": "10:35",
@@ -34222,11 +34209,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.75,
       "close": 394.5,
       "volume": 35447.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 396.0,
+      "ema20": 395.93,
       "ema50": null,
-      "rsi": 29.7
+      "rsi": 28.4
     },
     {
       "date": "10:40",
@@ -34235,11 +34222,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.79998779296875,
       "close": 393.95001220703125,
       "volume": 57235.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 395.8,
+      "ema20": 395.74,
       "ema50": null,
-      "rsi": 27.6
+      "rsi": 26.4
     },
     {
       "date": "10:45",
@@ -34248,11 +34235,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.0,
       "close": 394.75,
       "volume": 52468.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 395.7,
+      "ema20": 395.64,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 33.5
     },
     {
       "date": "10:50",
@@ -34261,11 +34248,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.5,
       "close": 395.04998779296875,
       "volume": 80511.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 395.64,
+      "ema20": 395.59,
       "ema50": null,
-      "rsi": 37.3
+      "rsi": 36.0
     },
     {
       "date": "10:55",
@@ -34274,11 +34261,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.3500061035156,
       "close": 394.3999938964844,
       "volume": 73227.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 395.52,
+      "ema20": 395.47,
       "ema50": null,
-      "rsi": 34.2
+      "rsi": 33.1
     },
     {
       "date": "11:00",
@@ -34287,11 +34274,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.3500061035156,
       "close": 394.3999938964844,
       "volume": 162884.0,
-      "supertrend": 396.91,
+      "supertrend": 396.98,
       "st_dir": -1,
-      "ema20": 395.42,
+      "ema20": 395.37,
       "ema50": null,
-      "rsi": 34.2
+      "rsi": 33.1
     },
     {
       "date": "11:05",
@@ -34300,11 +34287,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.1499938964844,
       "close": 394.5,
       "volume": 31217.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.33,
+      "ema20": 395.29,
       "ema50": null,
-      "rsi": 35.2
+      "rsi": 34.1
     },
     {
       "date": "11:10",
@@ -34313,11 +34300,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.3500061035156,
       "close": 394.75,
       "volume": 29044.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.27,
+      "ema20": 395.24,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 36.5
     },
     {
       "date": "11:15",
@@ -34326,11 +34313,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.6000061035156,
       "close": 395.20001220703125,
       "volume": 29833.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.27,
+      "ema20": 395.23,
       "ema50": null,
-      "rsi": 41.8
+      "rsi": 40.7
     },
     {
       "date": "11:20",
@@ -34339,11 +34326,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.20001220703125,
       "close": 395.5,
       "volume": 133360.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.29,
+      "ema20": 395.26,
       "ema50": null,
-      "rsi": 44.5
+      "rsi": 43.4
     },
     {
       "date": "11:25",
@@ -34352,11 +34339,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.20001220703125,
       "close": 396.04998779296875,
       "volume": 66961.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.36,
+      "ema20": 395.33,
       "ema50": null,
-      "rsi": 49.2
+      "rsi": 48.1
     },
     {
       "date": "11:30",
@@ -34365,11 +34352,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.70001220703125,
       "close": 395.25,
       "volume": 134337.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.35,
+      "ema20": 395.33,
       "ema50": null,
-      "rsi": 43.5
+      "rsi": 42.6
     },
     {
       "date": "11:35",
@@ -34378,11 +34365,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.8999938964844,
       "close": 395.6499938964844,
       "volume": 206339.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.38,
+      "ema20": 395.36,
       "ema50": null,
-      "rsi": 46.8
+      "rsi": 45.9
     },
     {
       "date": "11:40",
@@ -34391,11 +34378,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.0,
       "close": 395.6000061035156,
       "volume": 150428.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.4,
+      "ema20": 395.38,
       "ema50": null,
-      "rsi": 46.4
+      "rsi": 45.5
     },
     {
       "date": "11:45",
@@ -34404,11 +34391,11 @@ window.DASHBOARD_CHARTS = {
       "low": 395.0,
       "close": 395.54998779296875,
       "volume": 128796.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.41,
+      "ema20": 395.4,
       "ema50": null,
-      "rsi": 46.0
+      "rsi": 45.2
     },
     {
       "date": "11:50",
@@ -34417,11 +34404,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.6000061035156,
       "close": 394.6499938964844,
       "volume": 135859.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.34,
+      "ema20": 395.33,
       "ema50": null,
-      "rsi": 39.6
+      "rsi": 38.9
     },
     {
       "date": "11:55",
@@ -34430,11 +34417,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.45001220703125,
       "close": 394.5,
       "volume": 51722.0,
-      "supertrend": 396.91,
+      "supertrend": 396.96,
       "st_dir": -1,
-      "ema20": 395.26,
+      "ema20": 395.25,
       "ema50": null,
-      "rsi": 38.6
+      "rsi": 38.0
     },
     {
       "date": "12:00",
@@ -34443,11 +34430,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.1000061035156,
       "close": 394.3500061035156,
       "volume": 45450.0,
-      "supertrend": 396.62,
+      "supertrend": 396.63,
       "st_dir": -1,
-      "ema20": 395.17,
+      "ema20": 395.16,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 37.0
     },
     {
       "date": "12:05",
@@ -34456,11 +34443,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.1000061035156,
       "close": 394.3500061035156,
       "volume": 26050.0,
-      "supertrend": 396.49,
+      "supertrend": 396.5,
       "st_dir": -1,
-      "ema20": 395.1,
+      "ema20": 395.08,
       "ema50": null,
-      "rsi": 37.6
+      "rsi": 37.0
     },
     {
       "date": "12:10",
@@ -34469,11 +34456,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.04998779296875,
       "close": 394.1499938964844,
       "volume": 25905.0,
-      "supertrend": 396.38,
+      "supertrend": 396.39,
       "st_dir": -1,
-      "ema20": 395.01,
+      "ema20": 395.0,
       "ema50": null,
-      "rsi": 36.2
+      "rsi": 35.6
     },
     {
       "date": "12:15",
@@ -34482,11 +34469,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.95001220703125,
       "close": 393.95001220703125,
       "volume": 52314.0,
-      "supertrend": 396.2,
+      "supertrend": 396.21,
       "st_dir": -1,
-      "ema20": 394.91,
+      "ema20": 394.9,
       "ema50": null,
-      "rsi": 34.8
+      "rsi": 34.2
     },
     {
       "date": "12:20",
@@ -34495,11 +34482,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.5,
       "close": 394.29998779296875,
       "volume": 73358.0,
-      "supertrend": 395.96,
+      "supertrend": 395.97,
       "st_dir": -1,
-      "ema20": 394.85,
+      "ema20": 394.84,
       "ema50": null,
-      "rsi": 39.3
+      "rsi": 38.7
     },
     {
       "date": "12:25",
@@ -34508,11 +34495,11 @@ window.DASHBOARD_CHARTS = {
       "low": 394.0,
       "close": 394.04998779296875,
       "volume": 29856.0,
-      "supertrend": 395.96,
+      "supertrend": 395.97,
       "st_dir": -1,
-      "ema20": 394.77,
+      "ema20": 394.76,
       "ema50": null,
-      "rsi": 37.3
+      "rsi": 36.8
     },
     {
       "date": "12:30",
@@ -34525,7 +34512,7 @@ window.DASHBOARD_CHARTS = {
       "st_dir": -1,
       "ema20": 394.68,
       "ema50": null,
-      "rsi": 35.7
+      "rsi": 35.3
     },
     {
       "date": "12:35",
@@ -34534,11 +34521,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.54998779296875,
       "close": 393.6000061035156,
       "volume": 30626.0,
-      "supertrend": 395.63,
+      "supertrend": 395.64,
       "st_dir": -1,
-      "ema20": 394.58,
+      "ema20": 394.57,
       "ema50": null,
-      "rsi": 33.8
+      "rsi": 33.4
     },
     {
       "date": "12:40",
@@ -34547,11 +34534,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.25,
       "close": 393.3500061035156,
       "volume": 73711.0,
-      "supertrend": 395.38,
+      "supertrend": 395.39,
       "st_dir": -1,
       "ema20": 394.46,
       "ema50": null,
-      "rsi": 32.0
+      "rsi": 31.6
     },
     {
       "date": "12:45",
@@ -34560,11 +34547,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.1000061035156,
       "close": 393.29998779296875,
       "volume": 45992.0,
-      "supertrend": 395.09,
+      "supertrend": 395.1,
       "st_dir": -1,
       "ema20": 394.35,
       "ema50": null,
-      "rsi": 31.6
+      "rsi": 31.3
     },
     {
       "date": "12:50",
@@ -34573,11 +34560,11 @@ window.DASHBOARD_CHARTS = {
       "low": 393.04998779296875,
       "close": 393.6499938964844,
       "volume": 46286.0,
-      "supertrend": 395.09,
+      "supertrend": 395.1,
       "st_dir": -1,
-      "ema20": 394.29,
+      "ema20": 394.28,
       "ema50": null,
-      "rsi": 37.1
+      "rsi": 36.7
     },
     {
       "date": "12:55",
@@ -34586,40 +34573,40 @@ window.DASHBOARD_CHARTS = {
       "low": 393.3999938964844,
       "close": 393.45001220703125,
       "volume": 39581.0,
-      "supertrend": 395.09,
+      "supertrend": 395.1,
       "st_dir": -1,
-      "ema20": 394.21,
+      "ema20": 394.2,
       "ema50": null,
-      "rsi": 35.4
+      "rsi": 35.0
     },
     {
       "date": "13:00",
       "open": 393.45001220703125,
-      "high": 393.45001220703125,
-      "low": 393.45001220703125,
-      "close": 393.45001220703125,
-      "volume": 0.0,
-      "supertrend": 395.06,
+      "high": 393.6499938964844,
+      "low": 393.25,
+      "close": 393.29998779296875,
+      "volume": 29241.0,
+      "supertrend": 395.1,
       "st_dir": -1,
-      "ema20": 394.13,
-      "ema50": 395.14,
-      "rsi": 35.4
+      "ema20": 394.12,
+      "ema50": null,
+      "rsi": 33.7
+    },
+    {
+      "date": "13:05",
+      "open": 393.29998779296875,
+      "high": 393.3999938964844,
+      "low": 392.70001220703125,
+      "close": 393.0,
+      "volume": 59184.0,
+      "supertrend": 394.82,
+      "st_dir": -1,
+      "ema20": 394.01,
+      "ema50": 395.02,
+      "rsi": 31.3
     }
   ],
   "TRENT.NS": [
-    {
-      "date": "15:05",
-      "open": 3168.0,
-      "high": 3168.0,
-      "low": 3155.39990234375,
-      "close": 3159.39990234375,
-      "volume": 24253.0,
-      "supertrend": null,
-      "st_dir": null,
-      "ema20": null,
-      "ema50": null,
-      "rsi": null
-    },
     {
       "date": "15:10",
       "open": 3158.60009765625,
@@ -34731,8 +34718,8 @@ window.DASHBOARD_CHARTS = {
       "low": 3153.60009765625,
       "close": 3159.199951171875,
       "volume": 3843.0,
-      "supertrend": 3190.93,
-      "st_dir": -1,
+      "supertrend": null,
+      "st_dir": null,
       "ema20": null,
       "ema50": null,
       "rsi": null
@@ -34744,7 +34731,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3157.10009765625,
       "close": 3162.5,
       "volume": 2952.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34757,7 +34744,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3158.199951171875,
       "close": 3164.10009765625,
       "volume": 8909.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34770,7 +34757,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3161.699951171875,
       "close": 3169.199951171875,
       "volume": 4323.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34783,7 +34770,7 @@ window.DASHBOARD_CHARTS = {
       "low": 3167.0,
       "close": 3175.60009765625,
       "volume": 5329.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
@@ -34796,11 +34783,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3166.800048828125,
       "close": 3170.199951171875,
       "volume": 2739.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 56.3
+      "rsi": null
     },
     {
       "date": "10:10",
@@ -34809,11 +34796,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3165.5,
       "close": 3172.800048828125,
       "volume": 6227.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.6
+      "rsi": 51.8
     },
     {
       "date": "10:15",
@@ -34822,11 +34809,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3166.199951171875,
       "close": 3179.300048828125,
       "volume": 4172.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 60.9
+      "rsi": 55.8
     },
     {
       "date": "10:20",
@@ -34835,11 +34822,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3166.800048828125,
       "close": 3174.10009765625,
       "volume": 9669.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.1
+      "rsi": 52.1
     },
     {
       "date": "10:25",
@@ -34848,11 +34835,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3173.10009765625,
       "close": 3174.89990234375,
       "volume": 3282.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
       "ema20": null,
       "ema50": null,
-      "rsi": 57.5
+      "rsi": 52.6
     },
     {
       "date": "10:30",
@@ -34861,11 +34848,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3173.10009765625,
       "close": 3177.699951171875,
       "volume": 3836.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3166.69,
+      "ema20": null,
       "ema50": null,
-      "rsi": 59.1
+      "rsi": 54.4
     },
     {
       "date": "10:35",
@@ -34874,11 +34861,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3171.0,
       "close": 3178.89990234375,
       "volume": 7484.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3167.85,
+      "ema20": 3167.67,
       "ema50": null,
-      "rsi": 59.8
+      "rsi": 55.3
     },
     {
       "date": "10:40",
@@ -34887,11 +34874,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3166.10009765625,
       "close": 3168.89990234375,
       "volume": 43193.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3167.95,
+      "ema20": 3167.78,
       "ema50": null,
-      "rsi": 51.9
+      "rsi": 47.6
     },
     {
       "date": "10:45",
@@ -34900,11 +34887,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3168.10009765625,
       "close": 3174.699951171875,
       "volume": 5523.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3168.6,
+      "ema20": 3168.44,
       "ema50": null,
-      "rsi": 55.6
+      "rsi": 51.8
     },
     {
       "date": "10:50",
@@ -34913,11 +34900,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3172.5,
       "close": 3179.0,
       "volume": 28550.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3169.59,
+      "ema20": 3169.45,
       "ema50": null,
-      "rsi": 58.1
+      "rsi": 54.7
     },
     {
       "date": "10:55",
@@ -34926,11 +34913,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3179.0,
       "close": 3184.800048828125,
       "volume": 8249.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3171.04,
+      "ema20": 3170.91,
       "ema50": null,
-      "rsi": 61.4
+      "rsi": 58.3
     },
     {
       "date": "11:00",
@@ -34939,11 +34926,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3182.10009765625,
       "close": 3183.5,
       "volume": 4936.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3172.22,
+      "ema20": 3172.11,
       "ema50": null,
-      "rsi": 60.2
+      "rsi": 57.2
     },
     {
       "date": "11:05",
@@ -34952,11 +34939,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3180.199951171875,
       "close": 3185.300048828125,
       "volume": 1406.0,
-      "supertrend": 3190.93,
+      "supertrend": 3193.07,
       "st_dir": -1,
-      "ema20": 3173.47,
+      "ema20": 3173.36,
       "ema50": null,
-      "rsi": 61.3
+      "rsi": 58.3
     },
     {
       "date": "11:10",
@@ -34965,11 +34952,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3185.199951171875,
       "close": 3191.699951171875,
       "volume": 14528.0,
-      "supertrend": 3161.89,
-      "st_dir": 1,
-      "ema20": 3175.2,
+      "supertrend": 3193.07,
+      "st_dir": -1,
+      "ema20": 3175.11,
       "ema50": null,
-      "rsi": 64.9
+      "rsi": 62.3
     },
     {
       "date": "11:15",
@@ -34978,11 +34965,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3191.10009765625,
       "close": 3197.0,
       "volume": 2458.0,
-      "supertrend": 3166.62,
+      "supertrend": 3166.68,
       "st_dir": 1,
-      "ema20": 3177.28,
+      "ema20": 3177.2,
       "ema50": null,
-      "rsi": 67.5
+      "rsi": 65.2
     },
     {
       "date": "11:20",
@@ -34991,11 +34978,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3196.89990234375,
       "close": 3204.800048828125,
       "volume": 9092.0,
-      "supertrend": 3173.79,
+      "supertrend": 3173.84,
       "st_dir": 1,
-      "ema20": 3179.9,
+      "ema20": 3179.82,
       "ema50": null,
-      "rsi": 71.0
+      "rsi": 69.0
     },
     {
       "date": "11:25",
@@ -35004,11 +34991,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3201.10009765625,
       "close": 3210.89990234375,
       "volume": 13886.0,
-      "supertrend": 3179.19,
+      "supertrend": 3179.23,
       "st_dir": 1,
-      "ema20": 3182.85,
+      "ema20": 3182.78,
       "ema50": null,
-      "rsi": 73.4
+      "rsi": 71.7
     },
     {
       "date": "11:30",
@@ -35017,11 +35004,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3204.0,
       "close": 3210.5,
       "volume": 8326.0,
-      "supertrend": 3180.19,
+      "supertrend": 3180.23,
       "st_dir": 1,
-      "ema20": 3185.49,
+      "ema20": 3185.42,
       "ema50": null,
-      "rsi": 73.0
+      "rsi": 71.2
     },
     {
       "date": "11:35",
@@ -35030,11 +35017,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3205.699951171875,
       "close": 3210.300048828125,
       "volume": 4866.0,
-      "supertrend": 3182.28,
+      "supertrend": 3182.32,
       "st_dir": 1,
-      "ema20": 3187.85,
+      "ema20": 3187.79,
       "ema50": null,
-      "rsi": 72.8
+      "rsi": 71.0
     },
     {
       "date": "11:40",
@@ -35043,11 +35030,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3202.0,
       "close": 3208.39990234375,
       "volume": 115412.0,
-      "supertrend": 3182.28,
+      "supertrend": 3182.32,
       "st_dir": 1,
-      "ema20": 3189.81,
+      "ema20": 3189.76,
       "ema50": null,
-      "rsi": 70.5
+      "rsi": 68.8
     },
     {
       "date": "11:45",
@@ -35056,11 +35043,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3204.199951171875,
       "close": 3215.300048828125,
       "volume": 51877.0,
-      "supertrend": 3182.58,
+      "supertrend": 3182.61,
       "st_dir": 1,
-      "ema20": 3192.23,
+      "ema20": 3192.19,
       "ema50": null,
-      "rsi": 73.7
+      "rsi": 72.2
     },
     {
       "date": "11:50",
@@ -35069,11 +35056,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3203.800048828125,
       "close": 3203.800048828125,
       "volume": 19958.0,
-      "supertrend": 3182.58,
+      "supertrend": 3182.61,
       "st_dir": 1,
-      "ema20": 3193.34,
+      "ema20": 3193.29,
       "ema50": null,
-      "rsi": 61.7
+      "rsi": 60.3
     },
     {
       "date": "11:55",
@@ -35082,11 +35069,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3203.0,
       "close": 3213.199951171875,
       "volume": 33316.0,
-      "supertrend": 3182.58,
+      "supertrend": 3182.61,
       "st_dir": 1,
-      "ema20": 3195.23,
+      "ema20": 3195.19,
       "ema50": null,
-      "rsi": 66.5
+      "rsi": 65.3
     },
     {
       "date": "12:00",
@@ -35095,11 +35082,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3209.10009765625,
       "close": 3216.89990234375,
       "volume": 9867.0,
-      "supertrend": 3183.5,
+      "supertrend": 3183.52,
       "st_dir": 1,
-      "ema20": 3197.29,
+      "ema20": 3197.26,
       "ema50": null,
-      "rsi": 68.2
+      "rsi": 67.1
     },
     {
       "date": "12:05",
@@ -35108,11 +35095,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3216.0,
       "close": 3230.199951171875,
       "volume": 23261.0,
-      "supertrend": 3192.38,
+      "supertrend": 3192.4,
       "st_dir": 1,
-      "ema20": 3200.43,
+      "ema20": 3200.39,
       "ema50": null,
-      "rsi": 73.4
+      "rsi": 72.5
     },
     {
       "date": "12:10",
@@ -35121,11 +35108,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3225.0,
       "close": 3232.89990234375,
       "volume": 48179.0,
-      "supertrend": 3198.83,
+      "supertrend": 3198.84,
       "st_dir": 1,
-      "ema20": 3203.52,
+      "ema20": 3203.49,
       "ema50": null,
-      "rsi": 74.3
+      "rsi": 73.5
     },
     {
       "date": "12:15",
@@ -35134,11 +35121,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3230.10009765625,
       "close": 3231.0,
       "volume": 14963.0,
-      "supertrend": 3203.67,
+      "supertrend": 3203.69,
       "st_dir": 1,
-      "ema20": 3206.14,
+      "ema20": 3206.11,
       "ema50": null,
-      "rsi": 72.4
+      "rsi": 71.6
     },
     {
       "date": "12:20",
@@ -35147,11 +35134,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3225.0,
       "close": 3235.0,
       "volume": 16446.0,
-      "supertrend": 3203.67,
+      "supertrend": 3203.69,
       "st_dir": 1,
-      "ema20": 3208.88,
+      "ema20": 3208.86,
       "ema50": null,
-      "rsi": 73.9
+      "rsi": 73.2
     },
     {
       "date": "12:25",
@@ -35160,11 +35147,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3235.0,
       "close": 3239.89990234375,
       "volume": 69667.0,
-      "supertrend": 3211.34,
+      "supertrend": 3211.35,
       "st_dir": 1,
-      "ema20": 3211.84,
+      "ema20": 3211.82,
       "ema50": null,
-      "rsi": 75.7
+      "rsi": 75.0
     },
     {
       "date": "12:30",
@@ -35173,11 +35160,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3210.699951171875,
       "close": 3211.0,
       "volume": 47640.0,
-      "supertrend": 3259.84,
+      "supertrend": 3259.83,
       "st_dir": -1,
-      "ema20": 3211.76,
+      "ema20": 3211.74,
       "ema50": null,
-      "rsi": 53.1
+      "rsi": 52.4
     },
     {
       "date": "12:35",
@@ -35186,11 +35173,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3203.0,
       "close": 3215.800048828125,
       "volume": 32596.0,
-      "supertrend": 3248.9,
+      "supertrend": 3248.89,
       "st_dir": -1,
-      "ema20": 3212.14,
+      "ema20": 3212.13,
       "ema50": null,
-      "rsi": 55.4
+      "rsi": 54.9
     },
     {
       "date": "12:40",
@@ -35199,11 +35186,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3205.10009765625,
       "close": 3210.199951171875,
       "volume": 22314.0,
-      "supertrend": 3248.9,
+      "supertrend": 3248.89,
       "st_dir": -1,
-      "ema20": 3211.96,
+      "ema20": 3211.94,
       "ema50": null,
-      "rsi": 52.1
+      "rsi": 51.6
     },
     {
       "date": "12:45",
@@ -35212,11 +35199,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3204.89990234375,
       "close": 3205.89990234375,
       "volume": 47215.0,
-      "supertrend": 3243.7,
+      "supertrend": 3243.69,
       "st_dir": -1,
-      "ema20": 3211.38,
+      "ema20": 3211.37,
       "ema50": null,
-      "rsi": 49.7
+      "rsi": 49.1
     },
     {
       "date": "12:50",
@@ -35225,11 +35212,11 @@ window.DASHBOARD_CHARTS = {
       "low": 3204.0,
       "close": 3215.800048828125,
       "volume": 8475.0,
-      "supertrend": 3243.7,
+      "supertrend": 3243.69,
       "st_dir": -1,
-      "ema20": 3211.8,
+      "ema20": 3211.79,
       "ema50": null,
-      "rsi": 54.9
+      "rsi": 54.5
     },
     {
       "date": "12:55",
@@ -35238,24 +35225,37 @@ window.DASHBOARD_CHARTS = {
       "low": 3204.0,
       "close": 3205.0,
       "volume": 22322.0,
-      "supertrend": 3243.7,
+      "supertrend": 3243.69,
       "st_dir": -1,
-      "ema20": 3211.15,
+      "ema20": 3211.14,
       "ema50": null,
-      "rsi": 48.9
+      "rsi": 48.5
     },
     {
       "date": "13:00",
-      "open": 3207.10009765625,
+      "open": 3206.89990234375,
       "high": 3207.10009765625,
-      "low": 3207.10009765625,
-      "close": 3207.10009765625,
-      "volume": 0.0,
-      "supertrend": 3241.63,
+      "low": 3203.699951171875,
+      "close": 3205.199951171875,
+      "volume": 9502.0,
+      "supertrend": 3240.31,
       "st_dir": -1,
-      "ema20": 3210.77,
-      "ema50": 3190.23,
-      "rsi": 50.1
+      "ema20": 3210.58,
+      "ema50": null,
+      "rsi": 48.6
+    },
+    {
+      "date": "13:05",
+      "open": 3205.199951171875,
+      "high": 3205.5,
+      "low": 3196.60009765625,
+      "close": 3197.0,
+      "volume": 11878.0,
+      "supertrend": 3235.14,
+      "st_dir": -1,
+      "ema20": 3209.28,
+      "ema50": 3190.94,
+      "rsi": 44.3
     }
   ]
 };
